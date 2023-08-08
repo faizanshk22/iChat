@@ -2871,3 +2871,1955 @@ Processing by Users::SessionsController#new as HTML
 Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 7980)
 
 
+Started GET "/users/sign_in" for ::1 at 2023-08-08 10:37:02 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 4.6ms | Allocations: 2292)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 16.4ms | Allocations: 6536)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 6620)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 2.9ms | Allocations: 36377)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%- if controller_name != 'sessions' %>
+  <%= link_to "Log in", new_session_path(resource_name) %><br />
+<% end %>
+
+<%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+  <%= link_to "Sign up", new_registration_path(resource_name) %><br />
+<% end %>
+
+<%- if devise_mapping.recoverable? && controller_name != 'passwords' && controller_name != 'registrations' %>
+  <%= link_to "Forgot your password?", new_password_path(resource_name) %><br />
+<% end %>
+
+<%- if devise_mapping.confirmable? && controller_name != 'confirmations' %>
+  <%= link_to "Didn't receive confirmation instructions?", new_confirmation_path(resource_name) %><br />
+<% end %>
+
+<%- if devise_mapping.lockable? && resource_class.unlock_strategy_enabled?(:email) && controller_name != 'unlocks' %>
+  <%= link_to "Didn't receive unlock instructions?", new_unlock_path(resource_name) %><br />
+<% end %>
+
+<%- if devise_mapping.omniauthable? %>
+  <%- resource_class.omniauth_providers.each do |provider| %>
+    <%= form_for "Login",
+      url: omniauth_authorize_path(resource_name, provider),
+      method: :post,
+      data: {turbo: "false"} do |f| %>
+        <%= f.submit "Login", type: "image", src: url_for("/assets/btn_google_signin_dark_normal_web.png") %>
+    <% end %>  
+  <% end %>
+  <% end %>
+<% end %>
+
+):
+1:    <%- if controller_name != 'sessions' %>
+2:      <%= link_to "Log in", new_session_path(resource_name) %><br />
+3:    <% end %>
+4:    
+5:    <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+6:      <%= link_to "Sign up", new_registration_path(resource_name) %><br />
+7:    <% end %>
+8:    
+9:    <%- if devise_mapping.recoverable? && controller_name != 'passwords' && controller_name != 'registrations' %>
+10:      <%= link_to "Forgot your password?", new_password_path(resource_name) %><br />
+11:    <% end %>
+12:    
+13:    <%- if devise_mapping.confirmable? && controller_name != 'confirmations' %>
+14:      <%= link_to "Didn't receive confirmation instructions?", new_confirmation_path(resource_name) %><br />
+15:    <% end %>
+16:    
+17:    <%- if devise_mapping.lockable? && resource_class.unlock_strategy_enabled?(:email) && controller_name != 'unlocks' %>
+18:      <%= link_to "Didn't receive unlock instructions?", new_unlock_path(resource_name) %><br />
+19:    <% end %>
+20:    
+21:    <%- if devise_mapping.omniauthable? %>
+22:      <%- resource_class.omniauth_providers.each do |provider| %>
+23:        <%= form_for "Login",
+24:          url: omniauth_authorize_path(resource_name, provider),
+25:          method: :post,
+26:          data: {turbo: "false"} do |f| %>
+27:            <%= f.submit "Login", type: "image", src: url_for("/assets/btn_google_signin_dark_normal_web.png") %>
+28:        <% end %>  
+29:      <% end %>
+30:      <% end %>
+31:    <% end %>
+  
+app/views/users/shared/_links.html.erb:33: syntax error, unexpected `end', expecting end-of-input
+app/views/users/shared/_links.html.erb:33: syntax error, unexpected `end', expecting end-of-input
+app/views/users/shared/_links.html.erb:33: syntax error, unexpected `end', expecting end-of-input
+app/views/users/shared/_links.html.erb:33: syntax error, unexpected `end', expecting end-of-input
+app/views/users/shared/_links.html.erb:33: syntax error, unexpected `end', expecting end-of-input
+app/views/users/shared/_links.html.erb:33: syntax error, unexpected `end', expecting end-of-input
+app/views/users/sessions/new.html.erb:27
+Started GET "/users/sign_in" for ::1 at 2023-08-08 10:37:51 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 7.4ms | Allocations: 1633)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 16.1ms | Allocations: 3219)
+  Rendered layout layouts/application.html.erb (Duration: 6653.4ms | Allocations: 91507)
+Completed 200 OK in 6667ms (Views: 6663.1ms | ActiveRecord: 0.0ms | Allocations: 93254)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 10:41:03 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 11.3ms | Allocations: 5483)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 15.8ms | Allocations: 7074)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 7147)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 8824)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `size' for #<ActionView::Base:0x0000000000e588>):
+    24:       url: omniauth_authorize_path(resource_name, provider),
+    25:       method: :post,
+    26:       data: {turbo: "false"} do |f| %>
+    27:         <%= f.submit "Login", type: "image", src: url_for("/assets/btn_google_signin_dark_normal_web.png"), class: size %>
+    28:     <% end %>  
+    29:   <% end %>
+    30: <% end %>
+  
+app/views/users/shared/_links.html.erb:27
+app/views/users/shared/_links.html.erb:23
+app/views/users/shared/_links.html.erb:22:in `each'
+app/views/users/shared/_links.html.erb:22
+app/views/users/sessions/new.html.erb:27
+Started GET "/" for ::1 at 2023-08-08 10:42:35 +0500
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 391)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 10:42:35 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 5.2ms | Allocations: 1018)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 12.8ms | Allocations: 2603)
+  Rendered layout layouts/application.html.erb (Duration: 32.3ms | Allocations: 8774)
+Completed 200 OK in 43ms (Views: 40.5ms | ActiveRecord: 0.0ms | Allocations: 10464)
+
+
+Started POST "/users/auth/google_oauth2" for ::1 at 2023-08-08 10:42:48 +0500
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:17:33 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.1ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1575)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 7297)
+Completed 200 OK in 26ms (Views: 21.0ms | Allocations: 8048)
+
+
+Started POST "/users/auth/google_oauth2" for ::1 at 2023-08-08 11:17:37 +0500
+Started GET "/users/auth/google_oauth2/callback?state=c4403de9bf26f9fe7d6f0c14339623d0735c51211bb927d2&code=4%2F0Adeu5BVKOYzFmL4wNuyn4GOUe57Q9YUObNZfxf9D05dURcSpRD_EYOcah8qxpvVi0GHGkQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for ::1 at 2023-08-08 11:18:49 +0500
+Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+  Parameters: {"state"=>"c4403de9bf26f9fe7d6f0c14339623d0735c51211bb927d2", "code"=>"4/0Adeu5BVKOYzFmL4wNuyn4GOUe57Q9YUObNZfxf9D05dURcSpRD_EYOcah8qxpvVi0GHGkQ", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["provider", "google_oauth2"], ["uid", "101799276661109909653"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:8:in `from_omniauth'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:8:in `from_omniauth'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "faizantanveer5597@gmail.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:8:in `from_omniauth'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "full_name", "uid", "avatar_url", "provider", "reset_password_token", "reset_password_sent_at", "remember_created_at", "confirmation_token", "confirmed_at", "confirmation_sent_at", "unconfirmed_email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15) RETURNING "id"[0m  [["email", "faizantanveer5597@gmail.com"], ["encrypted_password", "[FILTERED]"], ["full_name", "Faizan Tanveer"], ["uid", "101799276661109909653"], ["avatar_url", "https://lh3.googleusercontent.com/a/AAcHTteRdnIVBCxLh0pZ71z6o7Pozfm7Vou-ZaZ94XrTX1RG=s96-c"], ["provider", "google_oauth2"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["confirmation_token", "[FILTERED]"], ["confirmed_at", nil], ["confirmation_sent_at", "2023-08-08 06:18:50.968450"], ["unconfirmed_email", nil], ["created_at", "2023-08-08 06:18:50.968258"], ["updated_at", "2023-08-08 06:18:50.968258"]]
+  ↳ app/models/user.rb:8:in `from_omniauth'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:8:in `from_omniauth'
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 1.5ms | Allocations: 416)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 14.0ms
+Delivered mail 64d1de4b11f0d_21d4427c53c1@faizanlinux-Latitude-7490.mail (46.1ms)
+Date: Tue, 08 Aug 2023 11:18:51 +0500
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: faizantanveer5597@gmail.com
+Message-ID: <64d1de4b11f0d_21d4427c53c1@faizanlinux-Latitude-7490.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome faizantanveer5597@gmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=HNNm6zSMUP3yiGRXbXUK">Confirm my account</a></p>
+
+Completed 401 Unauthorized in 407ms (ActiveRecord: 13.5ms | Allocations: 83637)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:18:51 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1581)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 7306)
+Completed 200 OK in 27ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 8068)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:21:13 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.7ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1575)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 7297)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms | Allocations: 8056)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:22:07 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.0ms | Allocations: 1614)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3201)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3274)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 4952)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%- if controller_name != 'sessions' %>
+  <%= link_to "Log in", new_session_path(resource_name) %><br />
+<% end %>
+
+<%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+  <%= link_to "Sign up", new_registration_path(resource_name), class: btn btn-primary %><br />
+<% end %>
+
+<%- if devise_mapping.recoverable? && controller_name != 'passwords' && controller_name != 'registrations' %>
+  <%= link_to "Forgot your password?", new_password_path(resource_name) %><br />
+<% end %>
+
+<%- if devise_mapping.confirmable? && controller_name != 'confirmations' %>
+  <%= link_to "Didn't receive confirmation instructions?", new_confirmation_path(resource_name) %><br />
+<% end %>
+
+<%- if devise_mapping.lockable? && resource_class.unlock_strategy_enabled?(:email) && controller_name != 'unlocks' %>
+  <%= link_to "Didn't receive unlock instructions?", new_unlock_path(resource_name) %><br />
+<% end %>
+
+<%- if devise_mapping.omniauthable? %>
+  <%- resource_class.omniauth_providers.each do |provider| %>
+    <%= form_for "Login",
+      url: omniauth_authorize_path(resource_name, provider),
+      method: :post,
+      data: {turbo: "false"} do |f| %>
+        <%= f.submit "", type: "image", src: url_for("/assets/btn_google_signin_dark_normal_web.png"), style: "width: 200px;" %>
+    <% end %>  
+  <% end %>
+<% end %>
+
+
+):
+1:    <%- if controller_name != 'sessions' %>
+2:      <%= link_to "Log in", new_session_path(resource_name) %><br />
+3:    <% end %>
+4:    
+5:    <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+6:      <%= link_to "Sign up", new_registration_path(resource_name), class: btn btn-primary %><br />
+7:    <% end %>
+8:    
+9:    <%- if devise_mapping.recoverable? && controller_name != 'passwords' && controller_name != 'registrations' %>
+10:      <%= link_to "Forgot your password?", new_password_path(resource_name) %><br />
+11:    <% end %>
+12:    
+13:    <%- if devise_mapping.confirmable? && controller_name != 'confirmations' %>
+14:      <%= link_to "Didn't receive confirmation instructions?", new_confirmation_path(resource_name) %><br />
+15:    <% end %>
+16:    
+17:    <%- if devise_mapping.lockable? && resource_class.unlock_strategy_enabled?(:email) && controller_name != 'unlocks' %>
+18:      <%= link_to "Didn't receive unlock instructions?", new_unlock_path(resource_name) %><br />
+19:    <% end %>
+20:    
+21:    <%- if devise_mapping.omniauthable? %>
+22:      <%- resource_class.omniauth_providers.each do |provider| %>
+23:        <%= form_for "Login",
+24:          url: omniauth_authorize_path(resource_name, provider),
+25:          method: :post,
+26:          data: {turbo: "false"} do |f| %>
+27:            <%= f.submit "", type: "image", src: url_for("/assets/btn_google_signin_dark_normal_web.png"), style: "width: 200px;" %>
+28:        <% end %>  
+29:      <% end %>
+30:    <% end %>
+  
+app/views/users/shared/_links.html.erb:6: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/users/shared/_links.html.erb:6: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/users/shared/_links.html.erb:6: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/users/shared/_links.html.erb:6: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/users/shared/_links.html.erb:6: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/users/shared/_links.html.erb:6: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/users/sessions/new.html.erb:27
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:22:18 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 4.3ms | Allocations: 1033)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 11.3ms | Allocations: 2618)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 8836)
+Completed 200 OK in 32ms (Views: 27.1ms | ActiveRecord: 0.0ms | Allocations: 10552)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:22:52 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 3.4ms | Allocations: 1020)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 10.4ms | Allocations: 2605)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 8720)
+Completed 200 OK in 33ms (Views: 30.1ms | ActiveRecord: 0.0ms | Allocations: 10420)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:23:05 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 3.3ms | Allocations: 1020)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2605)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 8720)
+Completed 200 OK in 28ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 10420)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:23:45 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 3.7ms | Allocations: 1020)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 9.9ms | Allocations: 2605)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 8720)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 10440)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:24:08 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 3.5ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 11.1ms | Allocations: 2602)
+  Rendered layout layouts/application.html.erb (Duration: 28.9ms | Allocations: 8717)
+Completed 200 OK in 40ms (Views: 36.9ms | Allocations: 10401)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:24:48 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 4.6ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 10.5ms | Allocations: 2617)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 8732)
+Completed 200 OK in 30ms (Views: 27.2ms | Allocations: 10440)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:25:09 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 3.2ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 10.6ms | Allocations: 2617)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 8732)
+Completed 200 OK in 35ms (Views: 31.5ms | Allocations: 10432)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-08-08 11:25:14 +0500
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/shared/_error_messages.html.erb (Duration: 1.5ms | Allocations: 253)
+  Rendered users/shared/_links.html.erb (Duration: 0.9ms | Allocations: 595)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2762)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 8568)
+Completed 200 OK in 16ms (Views: 14.7ms | Allocations: 10010)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-08-08 11:26:03 +0500
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/shared/_error_messages.html.erb (Duration: 1.4ms | Allocations: 246)
+  Rendered users/shared/_links.html.erb (Duration: 3.5ms | Allocations: 961)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 13.8ms | Allocations: 2992)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 9116)
+Completed 200 OK in 36ms (Views: 32.8ms | Allocations: 10759)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-08-08 11:26:11 +0500
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/shared/_error_messages.html.erb (Duration: 2.0ms | Allocations: 246)
+  Rendered users/shared/_links.html.erb (Duration: 2.3ms | Allocations: 961)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 13.9ms | Allocations: 2993)
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 9216)
+Completed 200 OK in 49ms (Views: 43.9ms | Allocations: 10861)
+
+
+Started GET "/" for ::1 at 2023-08-08 11:26:20 +0500
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 2ms (Allocations: 347)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:26:20 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.5ms | Allocations: 494)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2041)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 7841)
+Completed 200 OK in 21ms (Views: 19.8ms | Allocations: 9186)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:26:34 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 3.5ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 2617)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 8732)
+Completed 200 OK in 27ms (Views: 24.5ms | Allocations: 10389)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 11:26:41 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizanshk20@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 256ms (ActiveRecord: 10.8ms | Allocations: 7265)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.7ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1585)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 7266)
+Completed 200 OK in 236ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 7918)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 11:26:47 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"hafeezmalik@isoftstudios.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "hafeezmalik@isoftstudios.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.9ms | Allocations: 1420)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"hafeezmalik@isoftstudios.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.4ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 7264)
+Completed 200 OK in 237ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 7884)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-08-08 11:26:55 +0500
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/shared/_error_messages.html.erb (Duration: 1.7ms | Allocations: 246)
+  Rendered users/shared/_links.html.erb (Duration: 0.7ms | Allocations: 438)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 10.5ms | Allocations: 2413)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 8219)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms | Allocations: 9494)
+
+
+Started POST "/users" for ::1 at 2023-08-08 11:27:03 +0500
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"hafeezmalik@isoftstudios.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "hafeezmalik@isoftstudios.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "full_name", "uid", "avatar_url", "provider", "reset_password_token", "reset_password_sent_at", "remember_created_at", "confirmation_token", "confirmed_at", "confirmation_sent_at", "unconfirmed_email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15) RETURNING "id"[0m  [["email", "hafeezmalik@isoftstudios.com"], ["encrypted_password", "[FILTERED]"], ["full_name", nil], ["uid", nil], ["avatar_url", nil], ["provider", nil], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["confirmation_token", "[FILTERED]"], ["confirmed_at", nil], ["confirmation_sent_at", "2023-08-08 06:27:03.486956"], ["unconfirmed_email", nil], ["created_at", "2023-08-08 06:27:03.486848"], ["updated_at", "2023-08-08 06:27:03.486848"]]
+  [1m[36mTRANSACTION (4.2ms)[0m  [1m[35mCOMMIT[0m
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 1.3ms | Allocations: 250)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 8.7ms
+Delivered mail 64d1e0377bf45_21d4427c54b3@faizanlinux-Latitude-7490.mail (17.1ms)
+Date: Tue, 08 Aug 2023 11:27:03 +0500
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: hafeezmalik@isoftstudios.com
+Message-ID: <64d1e0377bf45_21d4427c54b3@faizanlinux-Latitude-7490.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome hafeezmalik@isoftstudios.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=8BaUidenQsEu7HTvE36C">Confirm my account</a></p>
+
+Redirected to http://localhost:3000/
+Completed 303 See Other in 274ms (ActiveRecord: 5.2ms | Allocations: 13993)
+
+
+Started GET "/" for ::1 at 2023-08-08 11:27:03 +0500
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 318)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:27:03 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.7ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1587)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 7311)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 8043)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 11:27:03 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 423)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1578)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 7273)
+Completed 200 OK in 30ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 7859)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 11:55:39 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 7ms (Allocations: 424)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 7.5ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 33.0ms | Allocations: 4771)
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 4843)
+Completed 500 Internal Server Error in 47ms (Allocations: 6343)
+
+
+  
+ActionView::Template::Error (The asset "Chatpic.png" is not present in the asset pipeline.
+):
+    28: <%= render "users/shared/links" %>
+    29: </div>
+    30:  <div>
+    31:     <%= image_tag 'Chatpic.png', alt: "Chat Picture", width: "200px" %>
+    32:   </div>
+    33: </div>
+  
+app/views/users/sessions/new.html.erb:31
+Started POST "/users/sign_in" for ::1 at 2023-08-08 11:56:16 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 3ms (Allocations: 424)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.5ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 5568.6ms | Allocations: 65132)
+  Rendered layout layouts/application.html.erb (Duration: 5580.5ms | Allocations: 71072)
+Completed 200 OK in 5586ms (Views: 5582.8ms | Allocations: 71656)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 11:57:34 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 3ms (Allocations: 416)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 3.8ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 11.9ms | Allocations: 3274)
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 9212)
+Completed 200 OK in 35ms (Views: 31.8ms | Allocations: 10732)
+
+
+Started GET "/users/confirmation/new" for ::1 at 2023-08-08 11:57:50 +0500
+Processing by Users::ConfirmationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/confirmations/new.html.erb within layouts/application
+  Rendered users/shared/_error_messages.html.erb (Duration: 1.3ms | Allocations: 246)
+  Rendered users/shared/_links.html.erb (Duration: 2.3ms | Allocations: 501)
+  Rendered users/confirmations/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 2121)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 7958)
+Completed 200 OK in 24ms (Views: 22.5ms | Allocations: 9081)
+
+
+Started POST "/users/confirmation" for ::1 at 2023-08-08 11:57:54 +0500
+Processing by Users::ConfirmationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"hafeezmalik@isoftstudios.com"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."unconfirmed_email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["unconfirmed_email", "hafeezmalik@isoftstudios.com"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "hafeezmalik@isoftstudios.com"], ["LIMIT", 1]]
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 1.6ms | Allocations: 250)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 5.3ms
+Delivered mail 64d1e772d7595_21d442905557@faizanlinux-Latitude-7490.mail (23.5ms)
+Date: Tue, 08 Aug 2023 11:57:54 +0500
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: hafeezmalik@isoftstudios.com
+Message-ID: <64d1e772d7595_21d442905557@faizanlinux-Latitude-7490.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome hafeezmalik@isoftstudios.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=8BaUidenQsEu7HTvE36C">Confirm my account</a></p>
+
+Redirected to http://localhost:3000/users/sign_in
+Completed 303 See Other in 87ms (ActiveRecord: 20.9ms | Allocations: 14776)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:57:54 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.9ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 9.3ms | Allocations: 2178)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 7780)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 8515)
+
+
+Started GET "/users/confirmation?confirmation_token=[FILTERED]" for ::1 at 2023-08-08 11:57:57 +0500
+Processing by Users::ConfirmationsController#show as HTML
+  Parameters: {"confirmation_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."confirmation_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["confirmation_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (3.7ms)[0m  [1m[33mUPDATE "users" SET "confirmed_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["confirmed_at", "2023-08-08 06:57:57.462414"], ["updated_at", "2023-08-08 06:57:57.463012"], ["id", 3]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 28ms (ActiveRecord: 6.2ms | Allocations: 4432)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:57:57 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.7ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2178)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 7780)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 8511)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 11:58:02 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"hafeezmalik@isoftstudios.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "hafeezmalik@isoftstudios.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 303 See Other in 245ms (ActiveRecord: 1.1ms | Allocations: 2587)
+
+
+Started GET "/" for ::1 at 2023-08-08 11:58:02 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 6175)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 8251)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2023-08-08 11:58:06 +0500
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 303 See Other in 9ms (ActiveRecord: 0.3ms | Allocations: 1828)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:58:06 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.0ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 8.8ms | Allocations: 2183)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 7785)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 8515)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:58:14 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.9ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2178)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 7778)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 8501)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:58:38 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.4ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 10.6ms | Allocations: 3281)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 9246)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 10892)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:58:47 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 3.8ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 11.7ms | Allocations: 3281)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 9246)
+Completed 200 OK in 31ms (Views: 28.2ms | ActiveRecord: 0.0ms | Allocations: 10915)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:59:08 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 4.5ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 12.9ms | Allocations: 3281)
+  Rendered layout layouts/application.html.erb (Duration: 34.7ms | Allocations: 9246)
+Completed 200 OK in 45ms (Views: 42.4ms | ActiveRecord: 0.0ms | Allocations: 10909)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:59:17 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 6.4ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 20.1ms | Allocations: 3285)
+  Rendered layout layouts/application.html.erb (Duration: 31.0ms | Allocations: 9253)
+Completed 200 OK in 43ms (Views: 38.0ms | ActiveRecord: 0.0ms | Allocations: 10917)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 11:59:44 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 3.0ms | Allocations: 1018)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 11.3ms | Allocations: 2618)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 8738)
+Completed 200 OK in 38ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 10394)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 12:24:40 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.9ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 2617)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 8738)
+Completed 200 OK in 21ms (Views: 19.6ms | Allocations: 10394)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-08-08 12:24:42 +0500
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 246)
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 438)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 2413)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 8224)
+Completed 200 OK in 28ms (Views: 24.4ms | Allocations: 9492)
+
+
+Started POST "/users/auth/google_oauth2" for ::1 at 2023-08-08 12:24:48 +0500
+Started GET "/users/auth/google_oauth2/callback?state=7ca14b45e826b1875cedd79dddb756d88dbfd31610968112&code=4%2F0Adeu5BXnx2rDKnGcTGMxocgK83r9-Obv1YdLYsjxWnoh3T00siw1Mvz-YmW2klM_VvvAHw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for ::1 at 2023-08-08 12:24:53 +0500
+Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+  Parameters: {"state"=>"7ca14b45e826b1875cedd79dddb756d88dbfd31610968112", "code"=>"4/0Adeu5BXnx2rDKnGcTGMxocgK83r9-Obv1YdLYsjxWnoh3T00siw1Mvz-YmW2klM_VvvAHw", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["provider", "google_oauth2"], ["uid", "101799276661109909653"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:8:in `from_omniauth'
+Completed 401 Unauthorized in 46ms (ActiveRecord: 20.2ms | Allocations: 3912)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 12:24:57 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.7ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1591)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 7320)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 8122)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 12:26:49 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizanshk20@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 239ms (ActiveRecord: 1.2ms | Allocations: 1511)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.4ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 7265)
+Completed 200 OK in 212ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 7881)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 12:26:54 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizanshk20@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 230ms (ActiveRecord: 0.5ms | Allocations: 1503)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 7265)
+Completed 200 OK in 214ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 7881)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 12:26:57 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizanshk20@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 220ms (ActiveRecord: 0.4ms | Allocations: 1497)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.6ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 7265)
+Completed 200 OK in 214ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 7881)
+
+
+Started GET "/users/confirmation/new" for ::1 at 2023-08-08 12:27:04 +0500
+Processing by Users::ConfirmationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/confirmations/new.html.erb within layouts/application
+  Rendered users/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/shared/_links.html.erb (Duration: 1.5ms | Allocations: 494)
+  Rendered users/confirmations/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1717)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 7554)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.0ms | Allocations: 8592)
+
+
+Started POST "/users/confirmation" for ::1 at 2023-08-08 12:27:08 +0500
+Processing by Users::ConfirmationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."unconfirmed_email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["unconfirmed_email", "faizanshk20@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizanshk20@gmail.com"], ["LIMIT", 1]]
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 1.2ms | Allocations: 250)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 5.8ms
+Delivered mail 64d1ee4c1f2de_21d442b856d5@faizanlinux-Latitude-7490.mail (20.9ms)
+Date: Tue, 08 Aug 2023 12:27:08 +0500
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: faizanshk20@gmail.com
+Message-ID: <64d1ee4c1f2de_21d442b856d5@faizanlinux-Latitude-7490.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome faizanshk20@gmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=xVoJc4YqRQbUR-Gc1Cyi">Confirm my account</a></p>
+
+Redirected to http://localhost:3000/users/sign_in
+Completed 303 See Other in 40ms (ActiveRecord: 0.7ms | Allocations: 11855)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 12:27:08 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 7316)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 8110)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 12:28:10 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.6ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 7313)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 8082)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 12:28:32 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer1155@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizantanveer1155@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.5ms | Allocations: 1483)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer1155@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.4ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 7269)
+Completed 200 OK in 221ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 7889)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 12:28:36 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer1155@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizantanveer1155@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.9ms | Allocations: 1461)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer1155@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.7ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 7269)
+Completed 200 OK in 226ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 7888)
+
+
+Started GET "/users/confirmation/new" for ::1 at 2023-08-08 12:28:39 +0500
+Processing by Users::ConfirmationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/confirmations/new.html.erb within layouts/application
+  Rendered users/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered users/shared/_links.html.erb (Duration: 0.9ms | Allocations: 479)
+  Rendered users/confirmations/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1369)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 7130)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 7546)
+
+
+Started POST "/users/confirmation" for ::1 at 2023-08-08 12:28:45 +0500
+Processing by Users::ConfirmationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."unconfirmed_email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["unconfirmed_email", "faizanshk20@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizanshk20@gmail.com"], ["LIMIT", 1]]
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 0.3ms | Allocations: 85)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 2.7ms
+Delivered mail 64d1eeadaad3e_21d442905761@faizanlinux-Latitude-7490.mail (20.4ms)
+Date: Tue, 08 Aug 2023 12:28:45 +0500
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: faizanshk20@gmail.com
+Message-ID: <64d1eeadaad3e_21d442905761@faizanlinux-Latitude-7490.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome faizanshk20@gmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=xVoJc4YqRQbUR-Gc1Cyi">Confirm my account</a></p>
+
+Redirected to http://localhost:3000/users/sign_in
+Completed 303 See Other in 38ms (ActiveRecord: 0.7ms | Allocations: 10494)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 12:28:45 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.7ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 7315)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 8099)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 2]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 3]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/users/sign_in" for ::1 at 2023-08-08 12:42:03 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.0ms | Allocations: 1656)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 10.7ms | Allocations: 5915)
+  Rendered layout layouts/application.html.erb (Duration: 65.8ms | Allocations: 50134)
+Completed 200 OK in 108ms (Views: 75.8ms | ActiveRecord: 3.9ms | Allocations: 79939)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 14:01:37 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.3ms | Allocations: 1656)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 10.5ms | Allocations: 5915)
+  Rendered layout layouts/application.html.erb (Duration: 67.2ms | Allocations: 50368)
+Completed 200 OK in 108ms (Views: 74.0ms | ActiveRecord: 4.8ms | Allocations: 80170)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-08-08 14:01:41 +0500
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 254)
+  Rendered users/shared/_links.html.erb (Duration: 2.2ms | Allocations: 597)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 2781)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 8593)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 10050)
+
+
+Started POST "/users" for ::1 at 2023-08-08 14:01:52 +0500
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"hafeezmalik@isoftstudios.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "hafeezmalik@isoftstudios.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "full_name", "uid", "avatar_url", "provider", "reset_password_token", "reset_password_sent_at", "remember_created_at", "confirmation_token", "confirmed_at", "confirmation_sent_at", "unconfirmed_email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15) RETURNING "id"[0m  [["email", "hafeezmalik@isoftstudios.com"], ["encrypted_password", "[FILTERED]"], ["full_name", nil], ["uid", nil], ["avatar_url", nil], ["provider", nil], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["confirmation_token", "[FILTERED]"], ["confirmed_at", nil], ["confirmation_sent_at", "2023-08-08 09:01:52.542358"], ["unconfirmed_email", nil], ["created_at", "2023-08-08 09:01:52.542248"], ["updated_at", "2023-08-08 09:01:52.542248"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 2.1ms | Allocations: 429)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 10.1ms
+Delivered mail 64d20480975ab_552942a4726eb@faizanlinux-Latitude-7490.mail (24.7ms)
+Date: Tue, 08 Aug 2023 14:01:52 +0500
+From: support@ichat
+Reply-To: support@ichat
+To: hafeezmalik@isoftstudios.com
+Message-ID: <64d20480975ab_552942a4726eb@faizanlinux-Latitude-7490.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome hafeezmalik@isoftstudios.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=Nn6UypDDEXmGywzPtuFL">Confirm my account</a></p>
+
+Redirected to http://localhost:3000/
+Completed 303 See Other in 338ms (ActiveRecord: 3.0ms | Allocations: 82147)
+
+
+Started GET "/" for ::1 at 2023-08-08 14:01:52 +0500
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 424)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 14:01:52 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.7ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 7315)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 8074)
+
+
+Started GET "/users/confirmation?confirmation_token=[FILTERED]" for ::1 at 2023-08-08 14:01:57 +0500
+Processing by Users::ConfirmationsController#show as HTML
+  Parameters: {"confirmation_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."confirmation_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["confirmation_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (1.0ms)[0m  [1m[33mUPDATE "users" SET "confirmed_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["confirmed_at", "2023-08-08 09:01:57.357792"], ["updated_at", "2023-08-08 09:01:57.358251"], ["id", 4]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 20ms (ActiveRecord: 3.0ms | Allocations: 5253)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 14:01:57 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.6ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 7316)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 8044)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 14:02:03 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"hafeezmalik@isoftstudios.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "hafeezmalik@isoftstudios.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 303 See Other in 225ms (ActiveRecord: 0.4ms | Allocations: 2672)
+
+
+Started GET "/" for ::1 at 2023-08-08 14:02:03 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 6291)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.3ms | Allocations: 8389)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2023-08-08 14:02:09 +0500
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 303 See Other in 28ms (ActiveRecord: 0.8ms | Allocations: 5009)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 14:02:09 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.9ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1591)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 7320)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 8053)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:52:03 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.2ms | Allocations: 1656)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 9.6ms | Allocations: 5941)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 8618)
+Completed 200 OK in 52ms (Views: 20.2ms | ActiveRecord: 3.6ms | Allocations: 41106)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:53:14 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.2ms | Allocations: 1656)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 5915)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 8592)
+Completed 200 OK in 58ms (Views: 19.2ms | ActiveRecord: 7.3ms | Allocations: 38342)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:53:15 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.0ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1587)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2253)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 2978)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:53:16 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 3.5ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 10.1ms | Allocations: 1587)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 2253)
+Completed 200 OK in 19ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 2982)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:53:16 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.8ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1588)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 2254)
+Completed 200 OK in 15ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 2992)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:53:16 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.0ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2251)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2975)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:53:17 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.0ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2251)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 2971)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:54:05 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 3.6ms | Allocations: 1656)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 11.2ms | Allocations: 5915)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 8592)
+Completed 200 OK in 61ms (Views: 20.9ms | ActiveRecord: 7.0ms | Allocations: 38352)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:54:58 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 4.0ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 11.5ms | Allocations: 2618)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 3677)
+Completed 200 OK in 28ms (Views: 23.9ms | ActiveRecord: 0.0ms | Allocations: 5352)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:54:59 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.6ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2251)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2970)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:54:59 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 3.3ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 9.4ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 2251)
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 2977)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:54:59 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.3ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2251)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 2971)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:55:37 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.8ms | Allocations: 1017)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2618)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3677)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 5336)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 16:55:52 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizanshk20@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.9ms | Allocations: 3632)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.4ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1587)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2216)
+Completed 200 OK in 217ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 3833)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 16:56:09 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizanshk5597@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.4ms | Allocations: 1402)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2207)
+Completed 200 OK in 220ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2827)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 16:56:17 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizanshk5597@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.4ms | Allocations: 1430)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.4ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2208)
+Completed 200 OK in 220ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2831)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 16:56:25 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizanshk5597@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.3ms | Allocations: 1428)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.4ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2207)
+Completed 200 OK in 216ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2828)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 16:56:30 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizanshk5597@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.4ms | Allocations: 1408)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.2ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2207)
+Completed 200 OK in 242ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2827)
+
+
+Started GET "/users/password/new" for ::1 at 2023-08-08 16:56:33 +0500
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/passwords/new.html.erb within layouts/application
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_error_messages.html.erb (Duration: 1.0ms | Allocations: 254)
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_links.html.erb (Duration: 2.8ms | Allocations: 1070)
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/passwords/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 2614)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3354)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 4757)
+
+
+Started GET "/users/password/edit?reset_password_token=[FILTERED]" for ::1 at 2023-08-08 16:56:45 +0500
+Processing by Devise::PasswordsController#edit as HTML
+  Parameters: {"reset_password_token"=>"[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/passwords/edit.html.erb within layouts/application
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 423)
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/passwords/edit.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1775)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2432)
+Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 3130)
+
+
+Started PUT "/users/password" for ::1 at 2023-08-08 16:56:52 +0500
+Processing by Devise::PasswordsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"reset_password_token"=>"[FILTERED]", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Change my password"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."reset_password_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["reset_password_token", "[FILTERED]"], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/passwords/edit.html.erb within layouts/application
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 534)
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 423)
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/passwords/edit.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1771)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2428)
+Completed 422 Unprocessable Entity in 118ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 5806)
+
+
+Started PUT "/users/password" for ::1 at 2023-08-08 16:57:12 +0500
+Processing by Devise::PasswordsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"reset_password_token"=>"[FILTERED]", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Change my password"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."reset_password_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["reset_password_token", "[FILTERED]"], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/passwords/edit.html.erb within layouts/application
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 414)
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 423)
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/passwords/edit.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1650)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2307)
+Completed 422 Unprocessable Entity in 8ms (Views: 3.5ms | ActiveRecord: 0.3ms | Allocations: 4613)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/" for ::1 at 2023-08-08 16:57:48 +0500
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 352)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 16:57:48 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2254)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 2995)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 16:57:55 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"hafeezmalik@isoftstudios.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "hafeezmalik@isoftstudios.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 226ms (ActiveRecord: 0.8ms | Allocations: 1514)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"hafeezmalik@isoftstudios.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.4ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2203)
+Completed 200 OK in 253ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2819)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 16:58:00 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"hafeezmalik@isoftstudios.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "hafeezmalik@isoftstudios.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 303 See Other in 221ms (ActiveRecord: 0.3ms | Allocations: 2884)
+
+
+Started GET "/" for ::1 at 2023-08-08 16:58:00 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1164)
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 0.2ms | Allocations: 3256)
+
+
+Started GET "/..." for ::1 at 2023-08-08 16:58:00 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+Started GET "/" for ::1 at 2023-08-08 16:58:35 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1461)
+Completed 200 OK in 21ms (Views: 7.8ms | ActiveRecord: 0.9ms | Allocations: 3752)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 16:58:35 +0500
+Started GET "/..." for ::1 at 2023-08-08 16:58:35 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 16:58:36 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 901)
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 2424)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 16:58:36 +0500
+Started GET "/..." for ::1 at 2023-08-08 16:58:36 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:43 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 1485)
+Completed 200 OK in 26ms (Views: 13.9ms | ActiveRecord: 1.0ms | Allocations: 3799)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:44 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:44 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 901)
+Completed 200 OK in 8ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 2437)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:44 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:44 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 901)
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 2424)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:44 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:44 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 901)
+Completed 200 OK in 11ms (Views: 4.1ms | ActiveRecord: 0.5ms | Allocations: 2426)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:45 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:45 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 901)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 0.2ms | Allocations: 2418)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:45 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:45 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 901)
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 0.2ms | Allocations: 2419)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:45 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:45 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 901)
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 2414)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:45 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:45 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 901)
+Completed 200 OK in 14ms (Views: 6.3ms | ActiveRecord: 0.7ms | Allocations: 2434)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:45 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:45 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 901)
+Completed 200 OK in 12ms (Views: 3.8ms | ActiveRecord: 0.8ms | Allocations: 2424)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:45 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:45 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 901)
+Completed 200 OK in 11ms (Views: 5.3ms | ActiveRecord: 0.2ms | Allocations: 2422)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:45 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:46 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 901)
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 2419)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:46 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:46 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 901)
+Completed 200 OK in 10ms (Views: 3.2ms | ActiveRecord: 0.4ms | Allocations: 2427)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:46 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:46 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 901)
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.2ms | Allocations: 2433)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:46 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:00:46 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 901)
+Completed 200 OK in 9ms (Views: 3.4ms | ActiveRecord: 0.4ms | Allocations: 2434)
+
+
+Started GET "/Chatpic.png" for ::1 at 2023-08-08 17:00:46 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/Chatpic.png"):
+  
+Started GET "/" for ::1 at 2023-08-08 17:01:46 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 1485)
+Completed 200 OK in 25ms (Views: 11.8ms | ActiveRecord: 0.6ms | Allocations: 3783)
+
+
+Started GET "/" for ::1 at 2023-08-08 17:03:16 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 1485)
+Completed 200 OK in 24ms (Views: 12.9ms | ActiveRecord: 0.6ms | Allocations: 3784)
+
+
+Started GET "/" for ::1 at 2023-08-08 17:04:07 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1485)
+Completed 200 OK in 8ms (Views: 4.9ms | ActiveRecord: 0.2ms | Allocations: 3782)
+
+
+Started GET "/" for ::1 at 2023-08-08 17:04:52 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 1485)
+Completed 200 OK in 33ms (Views: 17.3ms | ActiveRecord: 0.7ms | Allocations: 3786)
+
+
+Started GET "/" for ::1 at 2023-08-08 17:04:53 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 901)
+Completed 200 OK in 18ms (Views: 6.1ms | ActiveRecord: 0.7ms | Allocations: 2413)
+
+
+Started GET "/" for ::1 at 2023-08-08 17:04:53 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 901)
+Completed 200 OK in 17ms (Views: 6.4ms | ActiveRecord: 0.9ms | Allocations: 2426)
+
+
+Started GET "/" for ::1 at 2023-08-08 17:04:53 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 901)
+Completed 200 OK in 16ms (Views: 5.8ms | ActiveRecord: 0.8ms | Allocations: 2430)
+
+
+Started GET "/" for ::1 at 2023-08-08 17:04:53 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 901)
+Completed 200 OK in 11ms (Views: 3.0ms | ActiveRecord: 0.7ms | Allocations: 2426)
+
+
+Started GET "/" for ::1 at 2023-08-08 17:05:29 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 1485)
+Completed 200 OK in 24ms (Views: 13.1ms | ActiveRecord: 0.6ms | Allocations: 3783)
+
+
+Started GET "/" for ::1 at 2023-08-08 17:05:30 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 901)
+Completed 200 OK in 14ms (Views: 5.9ms | ActiveRecord: 0.7ms | Allocations: 2419)
+
+
+Started GET "/" for ::1 at 2023-08-08 17:05:30 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 901)
+Completed 200 OK in 9ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 2426)
+
+
+Started GET "/" for ::1 at 2023-08-08 17:05:30 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 901)
+Completed 200 OK in 17ms (Views: 8.0ms | ActiveRecord: 0.9ms | Allocations: 2422)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2023-08-08 17:05:35 +0500
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 303 See Other in 33ms (ActiveRecord: 0.5ms | Allocations: 5336)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 17:05:35 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.9ms | Allocations: 1018)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2624)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3367)
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 4788)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 17:05:51 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.7ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2251)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2980)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 17:06:07 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.9ms | Allocations: 1656)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 5915)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 8592)
+Completed 200 OK in 50ms (Views: 17.8ms | ActiveRecord: 5.3ms | Allocations: 38357)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 17:06:56 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizantanveer5597@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.8ms | Allocations: 3638)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.5ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1587)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2216)
+Completed 200 OK in 219ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 3834)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-08 17:07:01 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizantanveer5597@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.4ms | Allocations: 1413)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.5ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2207)
+Completed 200 OK in 220ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2827)
+
+
+Started GET "/users/password/new" for ::1 at 2023-08-08 17:07:05 +0500
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/passwords/new.html.erb within layouts/application
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 254)
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/shared/_links.html.erb (Duration: 2.7ms | Allocations: 1070)
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/passwords/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 2617)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3358)
+Completed 200 OK in 17ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 4754)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 4]]
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/users/sign_up" for ::1 at 2023-08-08 17:07:41 +0500
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 246)
+  Rendered users/shared/_links.html.erb (Duration: 0.9ms | Allocations: 445)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 2619)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3368)
+Completed 200 OK in 13ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 4761)
+
+
+Started POST "/users" for ::1 at 2023-08-08 17:07:57 +0500
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "faizantanveer5597@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "full_name", "uid", "avatar_url", "provider", "reset_password_token", "reset_password_sent_at", "remember_created_at", "confirmation_token", "confirmed_at", "confirmation_sent_at", "unconfirmed_email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15) RETURNING "id"[0m  [["email", "faizantanveer5597@gmail.com"], ["encrypted_password", "[FILTERED]"], ["full_name", nil], ["uid", nil], ["avatar_url", nil], ["provider", nil], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["confirmation_token", "[FILTERED]"], ["confirmed_at", nil], ["confirmation_sent_at", "2023-08-08 12:07:57.248754"], ["unconfirmed_email", nil], ["created_at", "2023-08-08 12:07:57.248650"], ["updated_at", "2023-08-08 12:07:57.248650"]]
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[35mCOMMIT[0m
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 0.8ms | Allocations: 433)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 7.8ms
+Delivered mail 64d2301d62ad9_8d1d42904341a@faizanlinux-Latitude-7490.mail (22.9ms)
+Date: Tue, 08 Aug 2023 17:07:57 +0500
+From: support@ichat.pk
+Reply-To: support@ichat.pk
+To: faizantanveer5597@gmail.com
+Message-ID: <64d2301d62ad9_8d1d42904341a@faizanlinux-Latitude-7490.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome faizantanveer5597@gmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=VVhbhKTVboyQU6nZgD-J">Confirm my account</a></p>
+
+Redirected to http://localhost:3000/
+Completed 303 See Other in 414ms (ActiveRecord: 4.7ms | Allocations: 79482)
+
+
+Started GET "/" for ::1 at 2023-08-08 17:07:57 +0500
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 362)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-08 17:07:57 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.2ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1586)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2253)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 2992)
+
+

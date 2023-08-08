@@ -1,0 +1,14 @@
+<nav class="navbar" style="background-color: rgba(0, 0, 0, 0.2); color:white">
+  <div class="container-fluid">
+        <%= link_to root_path do %>
+    <%= image_tag 'logo.png', alt: "Logo", width: "50", height: "50", style: "margin-left: 15px;" %>
+    <span style="vertical-align: middle; margin-left: 10px; font-size: 24px;">iChat</span>
+    <% end %>
+  
+    <% if user_signed_in? %>
+    <div class="navbar-nav ms-auto">
+      <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-danger" %>
+    </div> 
+    <% end %>
+    </div>
+</nav>
