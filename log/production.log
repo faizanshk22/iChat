@@ -3199,3 +3199,829 @@ I, [2023-08-08T17:52:53.514879 #41527]  INFO -- : [d5a60797-80ad-4654-adcf-5a9c9
 I, [2023-08-08T17:52:53.516015 #41527]  INFO -- : [d5a60797-80ad-4654-adcf-5a9c957e353f]   Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 4211)
 I, [2023-08-08T17:52:53.516340 #41527]  INFO -- : [d5a60797-80ad-4654-adcf-5a9c957e353f] Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 5650)
 I, [2023-08-08T17:52:53.544512 #41527]  INFO -- : [ff68c25e-e4e7-47f3-8deb-3dd143162611] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 17:52:53 +0500
+I, [2023-08-08T17:57:59.534232 #41527]  INFO -- : [f47a4dc1-a994-457c-be4e-e02268a992fb] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 17:57:59 +0500
+I, [2023-08-08T17:57:59.535359 #41527]  INFO -- : [f47a4dc1-a994-457c-be4e-e02268a992fb] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T17:57:59.539827 #41527]  INFO -- : [f47a4dc1-a994-457c-be4e-e02268a992fb]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1646)
+I, [2023-08-08T17:57:59.541125 #41527]  INFO -- : [f47a4dc1-a994-457c-be4e-e02268a992fb]   Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2388)
+I, [2023-08-08T17:57:59.541609 #41527]  INFO -- : [f47a4dc1-a994-457c-be4e-e02268a992fb] Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3044)
+I, [2023-08-08T17:57:59.565745 #41527]  INFO -- : [f924dad6-fcb2-4168-b806-147ea6d467b8] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 17:57:59 +0500
+I, [2023-08-08T18:00:01.881238 #42320]  INFO -- : [7b2accd0-8598-489a-9e69-f35009a2b148] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:00:01 +0500
+I, [2023-08-08T18:00:01.883487 #42320]  INFO -- : [7b2accd0-8598-489a-9e69-f35009a2b148] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:00:01.936040 #42320]  INFO -- : [7b2accd0-8598-489a-9e69-f35009a2b148]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3771)
+I, [2023-08-08T18:00:01.939105 #42320]  INFO -- : [7b2accd0-8598-489a-9e69-f35009a2b148]   Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6715)
+I, [2023-08-08T18:00:01.939371 #42320]  INFO -- : [7b2accd0-8598-489a-9e69-f35009a2b148] Completed 200 OK in 56ms (Views: 12.3ms | ActiveRecord: 12.2ms | Allocations: 21632)
+I, [2023-08-08T18:00:01.957276 #42320]  INFO -- : [f578c417-cf63-4342-8e2d-8b7fe4924b56] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:00:01 +0500
+I, [2023-08-08T18:00:41.306679 #42320]  INFO -- : [2e81953d-1073-410c-9016-2500a7715500] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:00:41 +0500
+I, [2023-08-08T18:00:41.308032 #42320]  INFO -- : [2e81953d-1073-410c-9016-2500a7715500] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:00:41.312586 #42320]  INFO -- : [2e81953d-1073-410c-9016-2500a7715500]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1725)
+I, [2023-08-08T18:00:41.314147 #42320]  INFO -- : [2e81953d-1073-410c-9016-2500a7715500]   Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2479)
+I, [2023-08-08T18:00:41.314706 #42320]  INFO -- : [2e81953d-1073-410c-9016-2500a7715500] Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3169)
+I, [2023-08-08T18:00:41.339602 #42320]  INFO -- : [1043f4a0-58ed-4529-85b7-0dfe25545ece] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:00:41 +0500
+I, [2023-08-08T18:00:42.785000 #42320]  INFO -- : [3bed9eda-b68f-4d13-b545-00030980fca9] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:00:42 +0500
+I, [2023-08-08T18:00:42.786226 #42320]  INFO -- : [3bed9eda-b68f-4d13-b545-00030980fca9] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:00:42.790691 #42320]  INFO -- : [3bed9eda-b68f-4d13-b545-00030980fca9]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1725)
+I, [2023-08-08T18:00:42.792078 #42320]  INFO -- : [3bed9eda-b68f-4d13-b545-00030980fca9]   Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2467)
+I, [2023-08-08T18:00:42.792515 #42320]  INFO -- : [3bed9eda-b68f-4d13-b545-00030980fca9] Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3131)
+I, [2023-08-08T18:00:42.804589 #42320]  INFO -- : [6ee1aa90-2062-444a-9e7d-63f0f26418de] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:00:42 +0500
+I, [2023-08-08T18:00:43.476080 #42320]  INFO -- : [b4ed3de1-9eed-4733-ab28-3d241841365b] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:00:43 +0500
+I, [2023-08-08T18:00:43.478618 #42320]  INFO -- : [b4ed3de1-9eed-4733-ab28-3d241841365b] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:00:43.483750 #42320]  INFO -- : [b4ed3de1-9eed-4733-ab28-3d241841365b]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1725)
+I, [2023-08-08T18:00:43.485180 #42320]  INFO -- : [b4ed3de1-9eed-4733-ab28-3d241841365b]   Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2467)
+I, [2023-08-08T18:00:43.485428 #42320]  INFO -- : [b4ed3de1-9eed-4733-ab28-3d241841365b] Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3135)
+I, [2023-08-08T18:00:43.498857 #42320]  INFO -- : [f7b34013-c0ee-4b62-9ca0-a03f471427d1] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:00:43 +0500
+I, [2023-08-08T18:01:09.588724 #42493]  INFO -- : [b11711ae-21b0-4ce2-8543-b1ac55ba9695] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:01:09 +0500
+I, [2023-08-08T18:01:09.591268 #42493]  INFO -- : [b11711ae-21b0-4ce2-8543-b1ac55ba9695] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:01:09.639802 #42493]  INFO -- : [b11711ae-21b0-4ce2-8543-b1ac55ba9695]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 3768)
+I, [2023-08-08T18:01:09.642461 #42493]  INFO -- : [b11711ae-21b0-4ce2-8543-b1ac55ba9695]   Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 6712)
+I, [2023-08-08T18:01:09.642689 #42493]  INFO -- : [b11711ae-21b0-4ce2-8543-b1ac55ba9695] Completed 200 OK in 51ms (Views: 10.6ms | ActiveRecord: 12.4ms | Allocations: 21623)
+I, [2023-08-08T18:01:09.657175 #42493]  INFO -- : [f20c9035-a4a7-415d-a72f-af9e9862e8b9] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:01:09 +0500
+I, [2023-08-08T18:01:10.289898 #42493]  INFO -- : [79b4b4fc-c451-4af2-b136-60a48548484e] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:01:10 +0500
+I, [2023-08-08T18:01:10.293305 #42493]  INFO -- : [79b4b4fc-c451-4af2-b136-60a48548484e] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:01:10.306161 #42493]  INFO -- : [79b4b4fc-c451-4af2-b136-60a48548484e]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1725)
+I, [2023-08-08T18:01:10.309276 #42493]  INFO -- : [79b4b4fc-c451-4af2-b136-60a48548484e]   Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 2467)
+I, [2023-08-08T18:01:10.309913 #42493]  INFO -- : [79b4b4fc-c451-4af2-b136-60a48548484e] Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 3143)
+I, [2023-08-08T18:01:10.344467 #42493]  INFO -- : [16bc1feb-9449-4a71-a605-5420ce70de2b] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:01:10 +0500
+I, [2023-08-08T18:01:39.939845 #42588]  INFO -- : [e0309eb1-e2e1-4858-a5cb-31bfe215ad6b] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:01:39 +0500
+I, [2023-08-08T18:01:39.944202 #42588]  INFO -- : [e0309eb1-e2e1-4858-a5cb-31bfe215ad6b] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:01:40.011600 #42588]  INFO -- : [e0309eb1-e2e1-4858-a5cb-31bfe215ad6b]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3669)
+I, [2023-08-08T18:01:40.014156 #42588]  INFO -- : [e0309eb1-e2e1-4858-a5cb-31bfe215ad6b]   Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 6613)
+I, [2023-08-08T18:01:40.014394 #42588]  INFO -- : [e0309eb1-e2e1-4858-a5cb-31bfe215ad6b] Completed 200 OK in 70ms (Views: 8.9ms | ActiveRecord: 14.4ms | Allocations: 21548)
+I, [2023-08-08T18:01:40.037965 #42588]  INFO -- : [2ac11183-c7de-469c-9329-3f9a1aa8baa7] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:01:40 +0500
+I, [2023-08-08T18:01:43.851440 #42588]  INFO -- : [4a6fb430-61cd-4614-8c22-2dfbe92dd4de] Started GET "/" for 127.0.0.1 at 2023-08-08 18:01:43 +0500
+I, [2023-08-08T18:01:43.854312 #42588]  INFO -- : [4a6fb430-61cd-4614-8c22-2dfbe92dd4de] Processing by UsersController#index as HTML
+I, [2023-08-08T18:01:43.856412 #42588]  INFO -- : [4a6fb430-61cd-4614-8c22-2dfbe92dd4de] Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 325)
+I, [2023-08-08T18:01:43.867755 #42588]  INFO -- : [3e3b8e43-c986-4b54-ba8f-0532c8ae4eb0] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:01:43 +0500
+I, [2023-08-08T18:01:43.870765 #42588]  INFO -- : [3e3b8e43-c986-4b54-ba8f-0532c8ae4eb0] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:01:43.882859 #42588]  INFO -- : [3e3b8e43-c986-4b54-ba8f-0532c8ae4eb0]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1645)
+I, [2023-08-08T18:01:43.885972 #42588]  INFO -- : [3e3b8e43-c986-4b54-ba8f-0532c8ae4eb0]   Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 2390)
+I, [2023-08-08T18:01:43.886578 #42588]  INFO -- : [3e3b8e43-c986-4b54-ba8f-0532c8ae4eb0] Completed 200 OK in 15ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 3085)
+I, [2023-08-08T18:01:43.903105 #42588]  INFO -- : [34e2060b-d289-4b19-bdc8-a3a5224750a3] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:01:43 +0500
+I, [2023-08-08T18:01:46.273629 #42588]  INFO -- : [92526350-2670-4e88-8c42-14b678a6b44a] Started GET "/" for 127.0.0.1 at 2023-08-08 18:01:46 +0500
+I, [2023-08-08T18:01:46.274973 #42588]  INFO -- : [92526350-2670-4e88-8c42-14b678a6b44a] Processing by UsersController#index as HTML
+I, [2023-08-08T18:01:46.275846 #42588]  INFO -- : [92526350-2670-4e88-8c42-14b678a6b44a] Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 267)
+I, [2023-08-08T18:01:46.279957 #42588]  INFO -- : [6e90357b-9fb5-4112-a4f9-d796a1bf9578] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:01:46 +0500
+I, [2023-08-08T18:01:46.281173 #42588]  INFO -- : [6e90357b-9fb5-4112-a4f9-d796a1bf9578] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:01:46.285370 #42588]  INFO -- : [6e90357b-9fb5-4112-a4f9-d796a1bf9578]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1645)
+I, [2023-08-08T18:01:46.286514 #42588]  INFO -- : [6e90357b-9fb5-4112-a4f9-d796a1bf9578]   Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2389)
+I, [2023-08-08T18:01:46.286751 #42588]  INFO -- : [6e90357b-9fb5-4112-a4f9-d796a1bf9578] Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3082)
+I, [2023-08-08T18:01:46.300906 #42588]  INFO -- : [422a0752-0975-49dd-899c-3932cc93f53e] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:01:46 +0500
+I, [2023-08-08T18:01:48.028669 #42588]  INFO -- : [73ccaf19-8bb6-45cb-a4ba-54781c387402] Started GET "/" for 127.0.0.1 at 2023-08-08 18:01:48 +0500
+I, [2023-08-08T18:01:48.031143 #42588]  INFO -- : [73ccaf19-8bb6-45cb-a4ba-54781c387402] Processing by UsersController#index as HTML
+I, [2023-08-08T18:01:48.033312 #42588]  INFO -- : [73ccaf19-8bb6-45cb-a4ba-54781c387402] Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 263)
+I, [2023-08-08T18:01:48.043618 #42588]  INFO -- : [7ba5832b-1521-4c74-835a-9a26fb1445f2] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:01:48 +0500
+I, [2023-08-08T18:01:48.047839 #42588]  INFO -- : [7ba5832b-1521-4c74-835a-9a26fb1445f2] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:01:48.060480 #42588]  INFO -- : [7ba5832b-1521-4c74-835a-9a26fb1445f2]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1645)
+I, [2023-08-08T18:01:48.064443 #42588]  INFO -- : [7ba5832b-1521-4c74-835a-9a26fb1445f2]   Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 2389)
+I, [2023-08-08T18:01:48.065036 #42588]  INFO -- : [7ba5832b-1521-4c74-835a-9a26fb1445f2] Completed 200 OK in 17ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 3084)
+I, [2023-08-08T18:01:48.084040 #42588]  INFO -- : [4f161579-200d-4956-9240-f826c2aa96eb] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:01:48 +0500
+I, [2023-08-08T18:01:49.148881 #42588]  INFO -- : [c1f7da12-b0e7-46ce-99ad-49a6472b01a7] Started GET "/" for 127.0.0.1 at 2023-08-08 18:01:49 +0500
+I, [2023-08-08T18:01:49.151353 #42588]  INFO -- : [c1f7da12-b0e7-46ce-99ad-49a6472b01a7] Processing by UsersController#index as HTML
+I, [2023-08-08T18:01:49.186338 #42588]  INFO -- : [c1f7da12-b0e7-46ce-99ad-49a6472b01a7] Completed 401 Unauthorized in 35ms (ActiveRecord: 0.0ms | Allocations: 271)
+I, [2023-08-08T18:01:49.190232 #42588]  INFO -- : [d2317a80-c492-4ec0-82e5-a9ab73b60ba3] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:01:49 +0500
+I, [2023-08-08T18:01:49.191177 #42588]  INFO -- : [d2317a80-c492-4ec0-82e5-a9ab73b60ba3] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:01:49.194647 #42588]  INFO -- : [d2317a80-c492-4ec0-82e5-a9ab73b60ba3]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1645)
+I, [2023-08-08T18:01:49.196216 #42588]  INFO -- : [d2317a80-c492-4ec0-82e5-a9ab73b60ba3]   Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2389)
+I, [2023-08-08T18:01:49.196497 #42588]  INFO -- : [d2317a80-c492-4ec0-82e5-a9ab73b60ba3] Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3086)
+I, [2023-08-08T18:01:49.215196 #42588]  INFO -- : [7cb9702c-9495-466c-b101-9f81072c3303] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:01:49 +0500
+I, [2023-08-08T18:19:00.251688 #44939]  INFO -- : [98b0be2c-eefc-4bcd-ab53-b338dc050f88] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:19:00 +0500
+I, [2023-08-08T18:19:00.256291 #44939]  INFO -- : [98b0be2c-eefc-4bcd-ab53-b338dc050f88] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:19:00.332131 #44939]  INFO -- : [98b0be2c-eefc-4bcd-ab53-b338dc050f88]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 3669)
+I, [2023-08-08T18:19:00.335572 #44939]  INFO -- : [98b0be2c-eefc-4bcd-ab53-b338dc050f88]   Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 6626)
+I, [2023-08-08T18:19:00.335827 #44939]  INFO -- : [98b0be2c-eefc-4bcd-ab53-b338dc050f88] Completed 200 OK in 79ms (Views: 13.9ms | ActiveRecord: 18.5ms | Allocations: 21545)
+I, [2023-08-08T18:19:00.356700 #44939]  INFO -- : [bfb8297c-421d-4531-a688-2876dfbc035f] Started GET "/users/assets/slide1" for 127.0.0.1 at 2023-08-08 18:19:00 +0500
+F, [2023-08-08T18:19:00.358329 #44939] FATAL -- : [bfb8297c-421d-4531-a688-2876dfbc035f]   
+[bfb8297c-421d-4531-a688-2876dfbc035f] ActionController::RoutingError (No route matches [GET] "/users/assets/slide1"):
+[bfb8297c-421d-4531-a688-2876dfbc035f]   
+I, [2023-08-08T18:19:00.359648 #44939]  INFO -- : [c1305f30-f2d1-465c-b3b3-c0c4672a4d76] Started GET "/users/assets/slide2" for 127.0.0.1 at 2023-08-08 18:19:00 +0500
+F, [2023-08-08T18:19:00.360187 #44939] FATAL -- : [c1305f30-f2d1-465c-b3b3-c0c4672a4d76]   
+[c1305f30-f2d1-465c-b3b3-c0c4672a4d76] ActionController::RoutingError (No route matches [GET] "/users/assets/slide2"):
+[c1305f30-f2d1-465c-b3b3-c0c4672a4d76]   
+I, [2023-08-08T18:19:00.360898 #44939]  INFO -- : [b83bf349-4f16-4b6c-866b-d770900fa0ea] Started GET "/users/assets/slide3" for 127.0.0.1 at 2023-08-08 18:19:00 +0500
+F, [2023-08-08T18:19:00.361523 #44939] FATAL -- : [b83bf349-4f16-4b6c-866b-d770900fa0ea]   
+[b83bf349-4f16-4b6c-866b-d770900fa0ea] ActionController::RoutingError (No route matches [GET] "/users/assets/slide3"):
+[b83bf349-4f16-4b6c-866b-d770900fa0ea]   
+I, [2023-08-08T18:19:00.363111 #44939]  INFO -- : [87fe2a87-4126-4173-92d5-8ad78f67dec7] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:19:00 +0500
+I, [2023-08-08T18:19:01.533597 #44939]  INFO -- : [c0b6a644-d1af-4907-84be-113214de8d14] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-08 18:19:01 +0500
+I, [2023-08-08T18:19:01.534623 #44939]  INFO -- : [c0b6a644-d1af-4907-84be-113214de8d14] Processing by Users::SessionsController#new as HTML
+I, [2023-08-08T18:19:01.538303 #44939]  INFO -- : [c0b6a644-d1af-4907-84be-113214de8d14]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1646)
+I, [2023-08-08T18:19:01.540048 #44939]  INFO -- : [c0b6a644-d1af-4907-84be-113214de8d14]   Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2388)
+I, [2023-08-08T18:19:01.540470 #44939]  INFO -- : [c0b6a644-d1af-4907-84be-113214de8d14] Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3070)
+I, [2023-08-08T18:19:01.553900 #44939]  INFO -- : [411efd18-1043-41cc-abc9-e83997c13ca2] Started GET "/users/assets/slide1" for 127.0.0.1 at 2023-08-08 18:19:01 +0500
+F, [2023-08-08T18:19:01.554617 #44939] FATAL -- : [411efd18-1043-41cc-abc9-e83997c13ca2]   
+[411efd18-1043-41cc-abc9-e83997c13ca2] ActionController::RoutingError (No route matches [GET] "/users/assets/slide1"):
+[411efd18-1043-41cc-abc9-e83997c13ca2]   
+I, [2023-08-08T18:19:01.555575 #44939]  INFO -- : [963c6e92-7714-4bef-a168-7a4d68892661] Started GET "/users/assets/slide2" for 127.0.0.1 at 2023-08-08 18:19:01 +0500
+F, [2023-08-08T18:19:01.556683 #44939] FATAL -- : [963c6e92-7714-4bef-a168-7a4d68892661]   
+[963c6e92-7714-4bef-a168-7a4d68892661] ActionController::RoutingError (No route matches [GET] "/users/assets/slide2"):
+[963c6e92-7714-4bef-a168-7a4d68892661]   
+I, [2023-08-08T18:19:01.566239 #44939]  INFO -- : [c0d45d55-d97b-4839-a00f-177f6946ef2a] Started GET "/users/assets/slide3" for 127.0.0.1 at 2023-08-08 18:19:01 +0500
+F, [2023-08-08T18:19:01.568388 #44939] FATAL -- : [c0d45d55-d97b-4839-a00f-177f6946ef2a]   
+[c0d45d55-d97b-4839-a00f-177f6946ef2a] ActionController::RoutingError (No route matches [GET] "/users/assets/slide3"):
+[c0d45d55-d97b-4839-a00f-177f6946ef2a]   
+I, [2023-08-08T18:19:01.567043 #44939]  INFO -- : [0f8f3f1d-88bf-42c9-8ed6-7be53c5b46be] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-08 18:19:01 +0500
+I, [2023-08-09T10:17:32.957975 #5728]  INFO -- : [93db8e92-1838-46bc-93cc-b81ccdf01299] Started GET "/" for 127.0.0.1 at 2023-08-09 10:17:32 +0500
+I, [2023-08-09T10:17:32.961932 #5728]  INFO -- : [93db8e92-1838-46bc-93cc-b81ccdf01299] Processing by UsersController#index as HTML
+I, [2023-08-09T10:17:32.967516 #5728]  INFO -- : [93db8e92-1838-46bc-93cc-b81ccdf01299] Completed 401 Unauthorized in 5ms (Allocations: 456)
+I, [2023-08-09T10:17:32.975136 #5728]  INFO -- : [7701b8a4-d21a-4ff5-8e85-9bc209dfeb5b] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 10:17:32 +0500
+I, [2023-08-09T10:17:32.976078 #5728]  INFO -- : [7701b8a4-d21a-4ff5-8e85-9bc209dfeb5b] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T10:17:33.032134 #5728]  INFO -- : [7701b8a4-d21a-4ff5-8e85-9bc209dfeb5b]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 3196)
+I, [2023-08-09T10:17:33.035155 #5728]  INFO -- : [7701b8a4-d21a-4ff5-8e85-9bc209dfeb5b]   Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 6103)
+I, [2023-08-09T10:17:33.035443 #5728]  INFO -- : [7701b8a4-d21a-4ff5-8e85-9bc209dfeb5b] Completed 200 OK in 59ms (Views: 9.3ms | ActiveRecord: 28.1ms | Allocations: 20726)
+I, [2023-08-09T10:17:33.042183 #5728]  INFO -- : [76c900bd-8b07-4762-a125-97c98ac66329] Started GET "/assets/application-c036de369ecf0224a472dcd69bf85b1bf58d6dcf2683dc38e72329416b04f7fd.css" for 127.0.0.1 at 2023-08-09 10:17:33 +0500
+I, [2023-08-09T10:17:33.043570 #5728]  INFO -- : [dca6ef4b-a1dc-44e7-b6e8-0de2a74d69c0] Started GET "/assets/application-621de4620b451c148718a05e109207472fc4ca31f1da70f77d50144d024e3f61.js" for 127.0.0.1 at 2023-08-09 10:17:33 +0500
+I, [2023-08-09T10:17:33.093348 #5728]  INFO -- : [5ba0025b-1243-421c-b14e-327eedcb396f] Started GET "/users/assets/slide1.png" for 127.0.0.1 at 2023-08-09 10:17:33 +0500
+F, [2023-08-09T10:17:33.093993 #5728] FATAL -- : [5ba0025b-1243-421c-b14e-327eedcb396f]   
+[5ba0025b-1243-421c-b14e-327eedcb396f] ActionController::RoutingError (No route matches [GET] "/users/assets/slide1.png"):
+[5ba0025b-1243-421c-b14e-327eedcb396f]   
+I, [2023-08-09T10:17:33.094642 #5728]  INFO -- : [9905deb5-1dc7-4770-95b4-b8019d500b4c] Started GET "/users/assets/slide2.png" for 127.0.0.1 at 2023-08-09 10:17:33 +0500
+F, [2023-08-09T10:17:33.095233 #5728] FATAL -- : [9905deb5-1dc7-4770-95b4-b8019d500b4c]   
+[9905deb5-1dc7-4770-95b4-b8019d500b4c] ActionController::RoutingError (No route matches [GET] "/users/assets/slide2.png"):
+[9905deb5-1dc7-4770-95b4-b8019d500b4c]   
+I, [2023-08-09T10:17:33.109519 #5728]  INFO -- : [957bc071-a920-4cb2-9221-4ef0dddd6f8a] Started GET "/users/assets/slide3.png" for 127.0.0.1 at 2023-08-09 10:17:33 +0500
+F, [2023-08-09T10:17:33.110576 #5728] FATAL -- : [957bc071-a920-4cb2-9221-4ef0dddd6f8a]   
+[957bc071-a920-4cb2-9221-4ef0dddd6f8a] ActionController::RoutingError (No route matches [GET] "/users/assets/slide3.png"):
+[957bc071-a920-4cb2-9221-4ef0dddd6f8a]   
+I, [2023-08-09T10:17:33.109756 #5728]  INFO -- : [25f6fb7f-dfc2-4786-b5a6-0994791a21a2] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 10:17:33 +0500
+I, [2023-08-09T10:17:35.663305 #5728]  INFO -- : [b124bdba-7d13-4851-91ac-be0f9aa17d40] Started GET "/favicon.ico" for 127.0.0.1 at 2023-08-09 10:17:35 +0500
+F, [2023-08-09T10:17:35.664219 #5728] FATAL -- : [b124bdba-7d13-4851-91ac-be0f9aa17d40]   
+[b124bdba-7d13-4851-91ac-be0f9aa17d40] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[b124bdba-7d13-4851-91ac-be0f9aa17d40]   
+I, [2023-08-09T10:18:07.773574 #5728]  INFO -- : [db655e5b-5fcc-4bf1-addf-4f5ed06eb846] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 10:18:07 +0500
+I, [2023-08-09T10:18:07.776312 #5728]  INFO -- : [db655e5b-5fcc-4bf1-addf-4f5ed06eb846] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T10:18:07.788644 #5728]  INFO -- : [db655e5b-5fcc-4bf1-addf-4f5ed06eb846]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1646)
+I, [2023-08-09T10:18:07.793627 #5728]  INFO -- : [db655e5b-5fcc-4bf1-addf-4f5ed06eb846]   Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 2388)
+I, [2023-08-09T10:18:07.794616 #5728]  INFO -- : [db655e5b-5fcc-4bf1-addf-4f5ed06eb846] Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 3059)
+I, [2023-08-09T10:18:07.838684 #5728]  INFO -- : [09fc50ec-1a02-4838-abf0-23bb24486e4d] Started GET "/users/assets/slide1.png" for 127.0.0.1 at 2023-08-09 10:18:07 +0500
+F, [2023-08-09T10:18:07.839839 #5728] FATAL -- : [09fc50ec-1a02-4838-abf0-23bb24486e4d]   
+[09fc50ec-1a02-4838-abf0-23bb24486e4d] ActionController::RoutingError (No route matches [GET] "/users/assets/slide1.png"):
+[09fc50ec-1a02-4838-abf0-23bb24486e4d]   
+I, [2023-08-09T10:18:07.841189 #5728]  INFO -- : [bdca7b82-39d6-4180-b876-5d2f76015ca2] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 10:18:07 +0500
+I, [2023-08-09T10:18:07.841665 #5728]  INFO -- : [c51f5960-bbe7-4702-88f0-2ec464277ac0] Started GET "/users/assets/slide3.png" for 127.0.0.1 at 2023-08-09 10:18:07 +0500
+I, [2023-08-09T10:18:07.842321 #5728]  INFO -- : [ad5335ef-3117-4f61-9e60-70aee21aec76] Started GET "/users/assets/slide2.png" for 127.0.0.1 at 2023-08-09 10:18:07 +0500
+F, [2023-08-09T10:18:07.845818 #5728] FATAL -- : [ad5335ef-3117-4f61-9e60-70aee21aec76]   
+[ad5335ef-3117-4f61-9e60-70aee21aec76] ActionController::RoutingError (No route matches [GET] "/users/assets/slide2.png"):
+[ad5335ef-3117-4f61-9e60-70aee21aec76]   
+F, [2023-08-09T10:18:07.844523 #5728] FATAL -- : [c51f5960-bbe7-4702-88f0-2ec464277ac0]   
+[c51f5960-bbe7-4702-88f0-2ec464277ac0] ActionController::RoutingError (No route matches [GET] "/users/assets/slide3.png"):
+[c51f5960-bbe7-4702-88f0-2ec464277ac0]   
+I, [2023-08-09T10:18:30.400394 #5905]  INFO -- : [abd46cb0-26ac-4a81-8ca4-b7f3db30e3c1] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 10:18:30 +0500
+I, [2023-08-09T10:18:30.404659 #5905]  INFO -- : [abd46cb0-26ac-4a81-8ca4-b7f3db30e3c1] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T10:18:30.462940 #5905]  INFO -- : [abd46cb0-26ac-4a81-8ca4-b7f3db30e3c1]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3674)
+I, [2023-08-09T10:18:30.465244 #5905]  INFO -- : [abd46cb0-26ac-4a81-8ca4-b7f3db30e3c1]   Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 6618)
+I, [2023-08-09T10:18:30.465474 #5905]  INFO -- : [abd46cb0-26ac-4a81-8ca4-b7f3db30e3c1] Completed 200 OK in 61ms (Views: 8.2ms | ActiveRecord: 10.5ms | Allocations: 21543)
+I, [2023-08-09T10:18:30.480197 #5905]  INFO -- : [6666451b-5289-4ccc-bc92-d8dcea222a7a] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 10:18:30 +0500
+I, [2023-08-09T10:18:39.491269 #5905]  INFO -- : [f1b1bd04-8154-4fd0-82e3-4108a7005b86] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 10:18:39 +0500
+I, [2023-08-09T10:18:39.494817 #5905]  INFO -- : [f1b1bd04-8154-4fd0-82e3-4108a7005b86] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T10:18:39.507511 #5905]  INFO -- : [f1b1bd04-8154-4fd0-82e3-4108a7005b86]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1646)
+I, [2023-08-09T10:18:39.511780 #5905]  INFO -- : [f1b1bd04-8154-4fd0-82e3-4108a7005b86]   Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 2388)
+I, [2023-08-09T10:18:39.512563 #5905]  INFO -- : [f1b1bd04-8154-4fd0-82e3-4108a7005b86] Completed 200 OK in 17ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 3050)
+I, [2023-08-09T10:18:39.540936 #5905]  INFO -- : [23c9be60-0294-46a6-b034-08c00fc978a6] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 10:18:39 +0500
+I, [2023-08-09T10:20:17.996775 #6178]  INFO -- : [0fb7231d-3d06-434d-b877-e7caa1d11d69] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 10:20:17 +0500
+I, [2023-08-09T10:20:18.003241 #6178]  INFO -- : [0fb7231d-3d06-434d-b877-e7caa1d11d69] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T10:20:18.063280 #6178]  INFO -- : [0fb7231d-3d06-434d-b877-e7caa1d11d69]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3674)
+I, [2023-08-09T10:20:18.065664 #6178]  INFO -- : [0fb7231d-3d06-434d-b877-e7caa1d11d69]   Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 6631)
+I, [2023-08-09T10:20:18.065892 #6178]  INFO -- : [0fb7231d-3d06-434d-b877-e7caa1d11d69] Completed 200 OK in 62ms (Views: 8.7ms | ActiveRecord: 11.7ms | Allocations: 21549)
+I, [2023-08-09T10:20:18.088408 #6178]  INFO -- : [5050f98c-f261-4d8f-8d22-57c48d5fcb61] Started GET "/users/assets/slide1.png" for 127.0.0.1 at 2023-08-09 10:20:18 +0500
+F, [2023-08-09T10:20:18.089708 #6178] FATAL -- : [5050f98c-f261-4d8f-8d22-57c48d5fcb61]   
+[5050f98c-f261-4d8f-8d22-57c48d5fcb61] ActionController::RoutingError (No route matches [GET] "/users/assets/slide1.png"):
+[5050f98c-f261-4d8f-8d22-57c48d5fcb61]   
+I, [2023-08-09T10:20:18.091992 #6178]  INFO -- : [ab753b8d-0c60-49a0-958a-610e796e3c7d] Started GET "/users/assets/slide3.png" for 127.0.0.1 at 2023-08-09 10:20:18 +0500
+F, [2023-08-09T10:20:18.093729 #6178] FATAL -- : [ab753b8d-0c60-49a0-958a-610e796e3c7d]   
+[ab753b8d-0c60-49a0-958a-610e796e3c7d] ActionController::RoutingError (No route matches [GET] "/users/assets/slide3.png"):
+[ab753b8d-0c60-49a0-958a-610e796e3c7d]   
+I, [2023-08-09T10:20:18.092982 #6178]  INFO -- : [443c13d0-d1bc-4967-b67b-5cf1fa800d3f] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 10:20:18 +0500
+I, [2023-08-09T10:20:18.092384 #6178]  INFO -- : [0f2b5059-09a8-4d69-a26f-d35853036528] Started GET "/users/assets/slide2.png" for 127.0.0.1 at 2023-08-09 10:20:18 +0500
+F, [2023-08-09T10:20:18.096406 #6178] FATAL -- : [0f2b5059-09a8-4d69-a26f-d35853036528]   
+[0f2b5059-09a8-4d69-a26f-d35853036528] ActionController::RoutingError (No route matches [GET] "/users/assets/slide2.png"):
+[0f2b5059-09a8-4d69-a26f-d35853036528]   
+I, [2023-08-09T10:21:22.566536 #6178]  INFO -- : [9e9c763a-8fa7-4d6f-bc4a-9f393aa94c24] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 10:21:22 +0500
+I, [2023-08-09T10:21:22.568204 #6178]  INFO -- : [9e9c763a-8fa7-4d6f-bc4a-9f393aa94c24] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T10:21:22.573837 #6178]  INFO -- : [9e9c763a-8fa7-4d6f-bc4a-9f393aa94c24]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1646)
+I, [2023-08-09T10:21:22.575169 #6178]  INFO -- : [9e9c763a-8fa7-4d6f-bc4a-9f393aa94c24]   Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2388)
+I, [2023-08-09T10:21:22.575493 #6178]  INFO -- : [9e9c763a-8fa7-4d6f-bc4a-9f393aa94c24] Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3052)
+I, [2023-08-09T10:21:22.601016 #6178]  INFO -- : [b33908f4-b1d7-4bf6-b5fb-e368d4ae74e3] Started GET "/users/assets/slide1.png" for 127.0.0.1 at 2023-08-09 10:21:22 +0500
+F, [2023-08-09T10:21:22.602804 #6178] FATAL -- : [b33908f4-b1d7-4bf6-b5fb-e368d4ae74e3]   
+[b33908f4-b1d7-4bf6-b5fb-e368d4ae74e3] ActionController::RoutingError (No route matches [GET] "/users/assets/slide1.png"):
+[b33908f4-b1d7-4bf6-b5fb-e368d4ae74e3]   
+I, [2023-08-09T10:21:22.603926 #6178]  INFO -- : [8078b0ba-3cf6-4d00-b0a7-40f7ee426f79] Started GET "/users/assets/slide2.png" for 127.0.0.1 at 2023-08-09 10:21:22 +0500
+F, [2023-08-09T10:21:22.605527 #6178] FATAL -- : [8078b0ba-3cf6-4d00-b0a7-40f7ee426f79]   
+[8078b0ba-3cf6-4d00-b0a7-40f7ee426f79] ActionController::RoutingError (No route matches [GET] "/users/assets/slide2.png"):
+[8078b0ba-3cf6-4d00-b0a7-40f7ee426f79]   
+I, [2023-08-09T10:21:22.604363 #6178]  INFO -- : [ea9bada7-e124-4b7b-99e7-3a848aafb683] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 10:21:22 +0500
+I, [2023-08-09T10:21:22.603278 #6178]  INFO -- : [c1f7a6a2-b432-4204-99b4-015b180ac517] Started GET "/users/assets/slide3.png" for 127.0.0.1 at 2023-08-09 10:21:22 +0500
+F, [2023-08-09T10:21:22.608734 #6178] FATAL -- : [c1f7a6a2-b432-4204-99b4-015b180ac517]   
+[c1f7a6a2-b432-4204-99b4-015b180ac517] ActionController::RoutingError (No route matches [GET] "/users/assets/slide3.png"):
+[c1f7a6a2-b432-4204-99b4-015b180ac517]   
+I, [2023-08-09T10:21:37.065351 #6333]  INFO -- : [7b3c2608-ae27-4f0e-824f-fba54749a6c5] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 10:21:37 +0500
+I, [2023-08-09T10:21:37.067144 #6333]  INFO -- : [7b3c2608-ae27-4f0e-824f-fba54749a6c5] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T10:21:37.114579 #6333]  INFO -- : [7b3c2608-ae27-4f0e-824f-fba54749a6c5]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 3674)
+I, [2023-08-09T10:21:37.117508 #6333]  INFO -- : [7b3c2608-ae27-4f0e-824f-fba54749a6c5]   Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6618)
+I, [2023-08-09T10:21:37.117751 #6333]  INFO -- : [7b3c2608-ae27-4f0e-824f-fba54749a6c5] Completed 200 OK in 50ms (Views: 11.9ms | ActiveRecord: 11.0ms | Allocations: 21567)
+I, [2023-08-09T10:21:37.127716 #6333]  INFO -- : [9f4d646c-53c4-448a-9848-cc69f9d8fb5e] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 10:21:37 +0500
+I, [2023-08-09T10:21:44.534579 #6333]  INFO -- : [918744ee-99fb-4417-9b8d-a40684e81f55] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-09 10:21:44 +0500
+I, [2023-08-09T10:21:44.536277 #6333]  INFO -- : [918744ee-99fb-4417-9b8d-a40684e81f55] Processing by Users::SessionsController#create as HTML
+I, [2023-08-09T10:21:44.536402 #6333]  INFO -- : [918744ee-99fb-4417-9b8d-a40684e81f55]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T10:21:44.760122 #6333]  INFO -- : [918744ee-99fb-4417-9b8d-a40684e81f55] Redirected to http://localhost:3000/
+I, [2023-08-09T10:21:44.760467 #6333]  INFO -- : [918744ee-99fb-4417-9b8d-a40684e81f55] Completed 303 See Other in 224ms (ActiveRecord: 2.1ms | Allocations: 3092)
+I, [2023-08-09T10:21:44.766329 #6333]  INFO -- : [4d3984ae-68a0-436d-a889-c11793aa326e] Started GET "/" for 127.0.0.1 at 2023-08-09 10:21:44 +0500
+I, [2023-08-09T10:21:44.767976 #6333]  INFO -- : [4d3984ae-68a0-436d-a889-c11793aa326e] Processing by UsersController#index as HTML
+I, [2023-08-09T10:21:44.773138 #6333]  INFO -- : [4d3984ae-68a0-436d-a889-c11793aa326e]   Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+I, [2023-08-09T10:21:44.774905 #6333]  INFO -- : [4d3984ae-68a0-436d-a889-c11793aa326e]   Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1199)
+I, [2023-08-09T10:21:44.775181 #6333]  INFO -- : [4d3984ae-68a0-436d-a889-c11793aa326e] Completed 200 OK in 7ms (Views: 3.5ms | ActiveRecord: 0.4ms | Allocations: 2292)
+I, [2023-08-09T10:21:44.793066 #6333]  INFO -- : [8c9d99c6-4feb-4890-b0ca-81f79918a811] Started GET "/assets/slide1.png" for 127.0.0.1 at 2023-08-09 10:21:44 +0500
+I, [2023-08-09T10:21:44.794590 #6333]  INFO -- : [a312e125-9b46-49ed-a159-bc0e7075bf7f] Started GET "/assets/slide2.png" for 127.0.0.1 at 2023-08-09 10:21:44 +0500
+I, [2023-08-09T10:21:44.796399 #6333]  INFO -- : [08c5f716-a8dd-41d4-9f70-dbd6cea821d9] Started GET "/assets/slide3.png" for 127.0.0.1 at 2023-08-09 10:21:44 +0500
+I, [2023-08-09T10:25:28.299025 #6675]  INFO -- : [eb3dd68d-9eef-4292-bf11-6a13b6e78c22] Started GET "/" for 127.0.0.1 at 2023-08-09 10:25:28 +0500
+I, [2023-08-09T10:25:28.301050 #6675]  INFO -- : [eb3dd68d-9eef-4292-bf11-6a13b6e78c22] Processing by UsersController#index as HTML
+I, [2023-08-09T10:25:28.342744 #6675]  INFO -- : [eb3dd68d-9eef-4292-bf11-6a13b6e78c22]   Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 170)
+I, [2023-08-09T10:25:28.346684 #6675]  INFO -- : [eb3dd68d-9eef-4292-bf11-6a13b6e78c22]   Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3507)
+I, [2023-08-09T10:25:28.346966 #6675]  INFO -- : [eb3dd68d-9eef-4292-bf11-6a13b6e78c22] Completed 200 OK in 46ms (Views: 5.6ms | ActiveRecord: 10.6ms | Allocations: 18676)
+I, [2023-08-09T10:25:28.368611 #6675]  INFO -- : [dcf23de2-b27f-4da4-82b8-ffe43bc11d0f] Started GET "/slide1.png" for 127.0.0.1 at 2023-08-09 10:25:28 +0500
+F, [2023-08-09T10:25:28.369379 #6675] FATAL -- : [dcf23de2-b27f-4da4-82b8-ffe43bc11d0f]   
+[dcf23de2-b27f-4da4-82b8-ffe43bc11d0f] ActionController::RoutingError (No route matches [GET] "/slide1.png"):
+[dcf23de2-b27f-4da4-82b8-ffe43bc11d0f]   
+I, [2023-08-09T10:25:28.370291 #6675]  INFO -- : [bb279db2-a87f-47d0-9aa1-f33e2f149547] Started GET "/slide2.png" for 127.0.0.1 at 2023-08-09 10:25:28 +0500
+F, [2023-08-09T10:25:28.371553 #6675] FATAL -- : [bb279db2-a87f-47d0-9aa1-f33e2f149547]   
+[bb279db2-a87f-47d0-9aa1-f33e2f149547] ActionController::RoutingError (No route matches [GET] "/slide2.png"):
+[bb279db2-a87f-47d0-9aa1-f33e2f149547]   
+I, [2023-08-09T10:25:28.370642 #6675]  INFO -- : [159efbd3-d3ef-43e5-a9e5-a9f30e4cd8ee] Started GET "/slide3.png" for 127.0.0.1 at 2023-08-09 10:25:28 +0500
+F, [2023-08-09T10:25:28.372269 #6675] FATAL -- : [159efbd3-d3ef-43e5-a9e5-a9f30e4cd8ee]   
+[159efbd3-d3ef-43e5-a9e5-a9f30e4cd8ee] ActionController::RoutingError (No route matches [GET] "/slide3.png"):
+[159efbd3-d3ef-43e5-a9e5-a9f30e4cd8ee]   
+I, [2023-08-09T10:25:52.246528 #6761]  INFO -- : [36986bf2-ffbb-4982-a477-4b35c0145a66] Started GET "/" for 127.0.0.1 at 2023-08-09 10:25:52 +0500
+I, [2023-08-09T10:25:52.248666 #6761]  INFO -- : [36986bf2-ffbb-4982-a477-4b35c0145a66] Processing by UsersController#index as HTML
+I, [2023-08-09T10:25:52.291405 #6761]  INFO -- : [36986bf2-ffbb-4982-a477-4b35c0145a66]   Rendered users/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+I, [2023-08-09T10:25:52.295946 #6761]  INFO -- : [36986bf2-ffbb-4982-a477-4b35c0145a66]   Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3484)
+I, [2023-08-09T10:25:52.296342 #6761]  INFO -- : [36986bf2-ffbb-4982-a477-4b35c0145a66] Completed 200 OK in 48ms (Views: 6.7ms | ActiveRecord: 11.5ms | Allocations: 18655)
+I, [2023-08-09T11:22:01.216716 #11157]  INFO -- : [2c457fc7-c90d-4dbc-ab09-b7831386d3ae] Started GET "/" for 127.0.0.1 at 2023-08-09 11:22:01 +0500
+I, [2023-08-09T11:22:01.219815 #11157]  INFO -- : [2c457fc7-c90d-4dbc-ab09-b7831386d3ae] Processing by UsersController#index as HTML
+I, [2023-08-09T11:22:01.260707 #11157]  INFO -- : [2c457fc7-c90d-4dbc-ab09-b7831386d3ae]   Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 148)
+I, [2023-08-09T11:22:01.264426 #11157]  INFO -- : [2c457fc7-c90d-4dbc-ab09-b7831386d3ae]   Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3472)
+I, [2023-08-09T11:22:01.264688 #11157]  INFO -- : [2c457fc7-c90d-4dbc-ab09-b7831386d3ae] Completed 200 OK in 45ms (Views: 5.2ms | ActiveRecord: 10.7ms | Allocations: 18673)
+I, [2023-08-09T11:22:03.412824 #11157]  INFO -- : [25c9f849-3121-4713-bbfc-f6bce08ac21a] Started DELETE "/users/sign_out" for 127.0.0.1 at 2023-08-09 11:22:03 +0500
+I, [2023-08-09T11:22:03.415815 #11157]  INFO -- : [25c9f849-3121-4713-bbfc-f6bce08ac21a] Processing by Users::SessionsController#destroy as HTML
+I, [2023-08-09T11:22:03.415995 #11157]  INFO -- : [25c9f849-3121-4713-bbfc-f6bce08ac21a]   Parameters: {"authenticity_token"=>"[FILTERED]"}
+I, [2023-08-09T11:22:03.424136 #11157]  INFO -- : [25c9f849-3121-4713-bbfc-f6bce08ac21a] Redirected to http://localhost:3000/users/sign_in
+I, [2023-08-09T11:22:03.424281 #11157]  INFO -- : [25c9f849-3121-4713-bbfc-f6bce08ac21a] Completed 303 See Other in 8ms (ActiveRecord: 0.4ms | Allocations: 2130)
+I, [2023-08-09T11:22:03.427197 #11157]  INFO -- : [c9500435-34b7-422f-8518-4c00a0968dbc] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 11:22:03 +0500
+I, [2023-08-09T11:22:03.428161 #11157]  INFO -- : [c9500435-34b7-422f-8518-4c00a0968dbc] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T11:22:03.440754 #11157]  INFO -- : [c9500435-34b7-422f-8518-4c00a0968dbc]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 3341)
+I, [2023-08-09T11:22:03.441874 #11157]  INFO -- : [c9500435-34b7-422f-8518-4c00a0968dbc]   Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 4206)
+I, [2023-08-09T11:22:03.442089 #11157]  INFO -- : [c9500435-34b7-422f-8518-4c00a0968dbc] Completed 200 OK in 14ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 5643)
+I, [2023-08-09T11:22:03.460271 #11157]  INFO -- : [2c415c2c-dfa4-46f6-ac61-6758373416c3] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:22:03 +0500
+I, [2023-08-09T11:22:05.431813 #11157]  INFO -- : [bcc3f179-f05f-4015-b3bb-2182553016ac] Started GET "/users/sign_up" for 127.0.0.1 at 2023-08-09 11:22:05 +0500
+I, [2023-08-09T11:22:05.435258 #11157]  INFO -- : [bcc3f179-f05f-4015-b3bb-2182553016ac] Processing by Users::RegistrationsController#new as HTML
+I, [2023-08-09T11:22:05.458321 #11157]  INFO -- : [bcc3f179-f05f-4015-b3bb-2182553016ac]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 14.1ms | Allocations: 2405)
+I, [2023-08-09T11:22:05.460613 #11157]  INFO -- : [bcc3f179-f05f-4015-b3bb-2182553016ac]   Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 3239)
+I, [2023-08-09T11:22:05.461100 #11157]  INFO -- : [bcc3f179-f05f-4015-b3bb-2182553016ac] Completed 200 OK in 26ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 4366)
+I, [2023-08-09T11:22:05.479157 #11157]  INFO -- : [3cd4e85a-b843-483f-9032-c2a4f1ddcb45] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:22:05 +0500
+I, [2023-08-09T11:23:32.214007 #11157]  INFO -- : [81c43b08-547d-4a65-9091-639a48baf38b] Started GET "/users/sign_up" for 127.0.0.1 at 2023-08-09 11:23:32 +0500
+I, [2023-08-09T11:23:32.215211 #11157]  INFO -- : [81c43b08-547d-4a65-9091-639a48baf38b] Processing by Users::RegistrationsController#new as HTML
+I, [2023-08-09T11:23:32.220225 #11157]  INFO -- : [81c43b08-547d-4a65-9091-639a48baf38b]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1624)
+I, [2023-08-09T11:23:32.222009 #11157]  INFO -- : [81c43b08-547d-4a65-9091-639a48baf38b]   Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2373)
+I, [2023-08-09T11:23:32.222463 #11157]  INFO -- : [81c43b08-547d-4a65-9091-639a48baf38b] Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 2982)
+I, [2023-08-09T11:23:32.245501 #11157]  INFO -- : [fdc1a7d0-95e6-4b77-99e6-70dff7bd8393] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:23:32 +0500
+I, [2023-08-09T11:23:32.918854 #11157]  INFO -- : [4f4ca047-b8fc-4b01-808a-b3fdb9b22c18] Started GET "/users/sign_up" for 127.0.0.1 at 2023-08-09 11:23:32 +0500
+I, [2023-08-09T11:23:32.919935 #11157]  INFO -- : [4f4ca047-b8fc-4b01-808a-b3fdb9b22c18] Processing by Users::RegistrationsController#new as HTML
+I, [2023-08-09T11:23:32.945730 #11157]  INFO -- : [4f4ca047-b8fc-4b01-808a-b3fdb9b22c18]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 24.4ms | Allocations: 1624)
+I, [2023-08-09T11:23:32.946898 #11157]  INFO -- : [4f4ca047-b8fc-4b01-808a-b3fdb9b22c18]   Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 2372)
+I, [2023-08-09T11:23:32.947168 #11157]  INFO -- : [4f4ca047-b8fc-4b01-808a-b3fdb9b22c18] Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 2971)
+I, [2023-08-09T11:23:32.960811 #11157]  INFO -- : [500c6f3b-91a7-4f8c-8257-410af5212fac] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:23:32 +0500
+I, [2023-08-09T11:23:48.906402 #11701]  INFO -- : [6fa79f0d-95fe-4871-a7a9-9cb7c297c475] Started GET "/users/sign_up" for 127.0.0.1 at 2023-08-09 11:23:48 +0500
+I, [2023-08-09T11:23:48.908433 #11701]  INFO -- : [6fa79f0d-95fe-4871-a7a9-9cb7c297c475] Processing by Users::RegistrationsController#new as HTML
+I, [2023-08-09T11:23:48.952077 #11701]  INFO -- : [6fa79f0d-95fe-4871-a7a9-9cb7c297c475]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 3911)
+I, [2023-08-09T11:23:48.955050 #11701]  INFO -- : [6fa79f0d-95fe-4871-a7a9-9cb7c297c475]   Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 6857)
+I, [2023-08-09T11:23:48.955351 #11701]  INFO -- : [6fa79f0d-95fe-4871-a7a9-9cb7c297c475] Completed 200 OK in 47ms (Views: 11.2ms | ActiveRecord: 9.8ms | Allocations: 21552)
+I, [2023-08-09T11:23:48.965592 #11701]  INFO -- : [5829ec3e-de4f-4254-85b2-b310f90b3516] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:23:48 +0500
+I, [2023-08-09T11:23:49.603716 #11701]  INFO -- : [70cea3cd-a667-44f2-90f8-8a07d47236be] Started GET "/users/sign_up" for 127.0.0.1 at 2023-08-09 11:23:49 +0500
+I, [2023-08-09T11:23:49.606654 #11701]  INFO -- : [70cea3cd-a667-44f2-90f8-8a07d47236be] Processing by Users::RegistrationsController#new as HTML
+I, [2023-08-09T11:23:49.617918 #11701]  INFO -- : [70cea3cd-a667-44f2-90f8-8a07d47236be]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1624)
+I, [2023-08-09T11:23:49.621395 #11701]  INFO -- : [70cea3cd-a667-44f2-90f8-8a07d47236be]   Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 2372)
+I, [2023-08-09T11:23:49.622142 #11701]  INFO -- : [70cea3cd-a667-44f2-90f8-8a07d47236be] Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 2972)
+I, [2023-08-09T11:23:49.651985 #11701]  INFO -- : [39ce911a-3776-4216-9650-d4ee8f756f45] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:23:49 +0500
+I, [2023-08-09T11:23:50.165347 #11701]  INFO -- : [af09ab11-4989-44a4-a7c5-d07723915828] Started GET "/users/sign_up" for 127.0.0.1 at 2023-08-09 11:23:50 +0500
+I, [2023-08-09T11:23:50.168023 #11701]  INFO -- : [af09ab11-4989-44a4-a7c5-d07723915828] Processing by Users::RegistrationsController#new as HTML
+I, [2023-08-09T11:23:50.171888 #11701]  INFO -- : [af09ab11-4989-44a4-a7c5-d07723915828]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1624)
+I, [2023-08-09T11:23:50.173795 #11701]  INFO -- : [af09ab11-4989-44a4-a7c5-d07723915828]   Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2372)
+I, [2023-08-09T11:23:50.174092 #11701]  INFO -- : [af09ab11-4989-44a4-a7c5-d07723915828] Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2984)
+I, [2023-08-09T11:23:50.188070 #11701]  INFO -- : [dbbf3c39-6632-4f5b-992d-519f958966e9] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:23:50 +0500
+I, [2023-08-09T11:23:55.381246 #11701]  INFO -- : [55a835fd-9b2a-4c34-b281-748681e6a2f9] Started GET "/users/sign_up" for 127.0.0.1 at 2023-08-09 11:23:55 +0500
+I, [2023-08-09T11:23:55.384070 #11701]  INFO -- : [55a835fd-9b2a-4c34-b281-748681e6a2f9] Processing by Users::RegistrationsController#new as HTML
+I, [2023-08-09T11:23:55.394202 #11701]  INFO -- : [55a835fd-9b2a-4c34-b281-748681e6a2f9]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1624)
+I, [2023-08-09T11:23:55.397613 #11701]  INFO -- : [55a835fd-9b2a-4c34-b281-748681e6a2f9]   Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 2372)
+I, [2023-08-09T11:23:55.398395 #11701]  INFO -- : [55a835fd-9b2a-4c34-b281-748681e6a2f9] Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 2988)
+I, [2023-08-09T11:23:55.437308 #11701]  INFO -- : [7fb02c63-85d4-486a-8901-3aa1eb7e42dd] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:23:55 +0500
+I, [2023-08-09T11:24:00.384408 #11701]  INFO -- : [97cc274a-a332-4ed6-ba6d-8345c2fad7ae] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 11:24:00 +0500
+I, [2023-08-09T11:24:00.387649 #11701]  INFO -- : [97cc274a-a332-4ed6-ba6d-8345c2fad7ae] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T11:24:00.410265 #11701]  INFO -- : [97cc274a-a332-4ed6-ba6d-8345c2fad7ae]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 13.4ms | Allocations: 2186)
+I, [2023-08-09T11:24:00.412962 #11701]  INFO -- : [97cc274a-a332-4ed6-ba6d-8345c2fad7ae]   Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 3022)
+I, [2023-08-09T11:24:00.413517 #11701]  INFO -- : [97cc274a-a332-4ed6-ba6d-8345c2fad7ae] Completed 200 OK in 26ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 4400)
+I, [2023-08-09T11:24:00.429370 #11701]  INFO -- : [4dabb402-cc17-48bb-8cb7-ee7608aa8a98] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:24:00 +0500
+I, [2023-08-09T11:24:19.915068 #11701]  INFO -- : [1ad2d4e2-70ef-4c55-86c2-dc7fcea17fbc] Started GET "/users/sign_up" for 127.0.0.1 at 2023-08-09 11:24:19 +0500
+I, [2023-08-09T11:24:19.917864 #11701]  INFO -- : [1ad2d4e2-70ef-4c55-86c2-dc7fcea17fbc] Processing by Users::RegistrationsController#new as HTML
+I, [2023-08-09T11:24:19.960641 #11701]  INFO -- : [1ad2d4e2-70ef-4c55-86c2-dc7fcea17fbc]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1623)
+I, [2023-08-09T11:24:19.962145 #11701]  INFO -- : [1ad2d4e2-70ef-4c55-86c2-dc7fcea17fbc]   Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2371)
+I, [2023-08-09T11:24:19.962371 #11701]  INFO -- : [1ad2d4e2-70ef-4c55-86c2-dc7fcea17fbc] Completed 200 OK in 44ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2971)
+I, [2023-08-09T11:24:19.984134 #11701]  INFO -- : [3566b0bf-d72a-4842-80cc-7b2f941dc87a] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:24:19 +0500
+I, [2023-08-09T11:24:53.111689 #11701]  INFO -- : [89053a82-c2cb-41f8-a2d2-83de6236cfe1] Started POST "/users" for 127.0.0.1 at 2023-08-09 11:24:53 +0500
+I, [2023-08-09T11:24:53.114313 #11701]  INFO -- : [89053a82-c2cb-41f8-a2d2-83de6236cfe1] Processing by Users::RegistrationsController#create as HTML
+I, [2023-08-09T11:24:53.114504 #11701]  INFO -- : [89053a82-c2cb-41f8-a2d2-83de6236cfe1]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+I, [2023-08-09T11:24:53.349325 #11701]  INFO -- : [89053a82-c2cb-41f8-a2d2-83de6236cfe1]   Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 1.1ms | Allocations: 273)
+I, [2023-08-09T11:24:57.809163 #11701]  INFO -- : [89053a82-c2cb-41f8-a2d2-83de6236cfe1] Delivered mail 64d3313555716_2db56db0139ee@faizanlinux-Latitude-7490.mail (4459.3ms)
+I, [2023-08-09T11:24:57.817294 #11701]  INFO -- : [89053a82-c2cb-41f8-a2d2-83de6236cfe1] Redirected to http://localhost:3000/
+I, [2023-08-09T11:24:57.817768 #11701]  INFO -- : [89053a82-c2cb-41f8-a2d2-83de6236cfe1] Completed 303 See Other in 4703ms (ActiveRecord: 3.8ms | Allocations: 8446)
+I, [2023-08-09T11:24:57.828199 #11701]  INFO -- : [cca76996-69f5-4c9f-83c2-1880a989a6f2] Started GET "/" for 127.0.0.1 at 2023-08-09 11:24:57 +0500
+I, [2023-08-09T11:24:57.830741 #11701]  INFO -- : [cca76996-69f5-4c9f-83c2-1880a989a6f2] Processing by UsersController#index as HTML
+I, [2023-08-09T11:24:57.832454 #11701]  INFO -- : [cca76996-69f5-4c9f-83c2-1880a989a6f2] Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 326)
+I, [2023-08-09T11:24:57.843997 #11701]  INFO -- : [5d10f199-122f-4f11-875b-868caa8c0ab9] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 11:24:57 +0500
+I, [2023-08-09T11:24:57.846850 #11701]  INFO -- : [5d10f199-122f-4f11-875b-868caa8c0ab9] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T11:24:57.858518 #11701]  INFO -- : [5d10f199-122f-4f11-875b-868caa8c0ab9]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 8.5ms | Allocations: 1645)
+I, [2023-08-09T11:24:57.861022 #11701]  INFO -- : [5d10f199-122f-4f11-875b-868caa8c0ab9]   Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 2388)
+I, [2023-08-09T11:24:57.861487 #11701]  INFO -- : [5d10f199-122f-4f11-875b-868caa8c0ab9] Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 3072)
+I, [2023-08-09T11:24:57.885588 #11701]  INFO -- : [877a78fb-d852-49c3-83b8-041159b6e55a] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:24:57 +0500
+I, [2023-08-09T11:40:27.938655 #11701]  INFO -- : [501234f6-ed96-4f6c-a584-5d3f90f9e33b] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 11:40:27 +0500
+I, [2023-08-09T11:40:27.942226 #11701]  INFO -- : [501234f6-ed96-4f6c-a584-5d3f90f9e33b] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T11:40:27.946418 #11701]  INFO -- : [501234f6-ed96-4f6c-a584-5d3f90f9e33b]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1645)
+I, [2023-08-09T11:40:27.948076 #11701]  INFO -- : [501234f6-ed96-4f6c-a584-5d3f90f9e33b]   Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2398)
+I, [2023-08-09T11:40:27.948498 #11701]  INFO -- : [501234f6-ed96-4f6c-a584-5d3f90f9e33b] Completed 200 OK in 6ms (Views: 5.1ms | Allocations: 3065)
+I, [2023-08-09T11:40:27.972563 #11701]  INFO -- : [03697015-e090-4945-bf51-ddcc3b3b3006] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:40:27 +0500
+I, [2023-08-09T11:40:37.252882 #11701]  INFO -- : [dedf1424-bd63-425c-9ad6-01c928fe0290] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-09 11:40:37 +0500
+I, [2023-08-09T11:40:37.253885 #11701]  INFO -- : [dedf1424-bd63-425c-9ad6-01c928fe0290] Processing by Users::SessionsController#create as HTML
+I, [2023-08-09T11:40:37.253961 #11701]  INFO -- : [dedf1424-bd63-425c-9ad6-01c928fe0290]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T11:40:37.489420 #11701]  INFO -- : [dedf1424-bd63-425c-9ad6-01c928fe0290] Completed 401 Unauthorized in 235ms (ActiveRecord: 7.6ms | Allocations: 4464)
+I, [2023-08-09T11:40:37.492568 #11701]  INFO -- : [af692b38-4f68-4816-9ffa-153b59c55044] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 11:40:37 +0500
+I, [2023-08-09T11:40:37.493429 #11701]  INFO -- : [af692b38-4f68-4816-9ffa-153b59c55044] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T11:40:37.496234 #11701]  INFO -- : [af692b38-4f68-4816-9ffa-153b59c55044]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1645)
+I, [2023-08-09T11:40:37.497041 #11701]  INFO -- : [af692b38-4f68-4816-9ffa-153b59c55044]   Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2388)
+I, [2023-08-09T11:40:37.497218 #11701]  INFO -- : [af692b38-4f68-4816-9ffa-153b59c55044] Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 3074)
+I, [2023-08-09T11:40:37.508937 #11701]  INFO -- : [233ba1f2-3e80-49ec-8052-ec007ff10567] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 11:40:37 +0500
+I, [2023-08-09T12:42:01.238497 #11701]  INFO -- : [3e081c8e-05cc-48fe-afc1-40ed9e662c1f] Started GET "/" for 127.0.0.1 at 2023-08-09 12:42:01 +0500
+I, [2023-08-09T12:42:01.239562 #11701]  INFO -- : [3e081c8e-05cc-48fe-afc1-40ed9e662c1f] Processing by UsersController#index as HTML
+I, [2023-08-09T12:42:01.240218 #11701]  INFO -- : [3e081c8e-05cc-48fe-afc1-40ed9e662c1f] Completed 401 Unauthorized in 1ms (Allocations: 255)
+I, [2023-08-09T12:42:01.244410 #11701]  INFO -- : [444efb57-1df6-47b3-82ec-796b489c918a] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 12:42:01 +0500
+I, [2023-08-09T12:42:01.245495 #11701]  INFO -- : [444efb57-1df6-47b3-82ec-796b489c918a] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T12:42:01.249402 #11701]  INFO -- : [444efb57-1df6-47b3-82ec-796b489c918a]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1645)
+I, [2023-08-09T12:42:01.250430 #11701]  INFO -- : [444efb57-1df6-47b3-82ec-796b489c918a]   Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2388)
+I, [2023-08-09T12:42:01.250635 #11701]  INFO -- : [444efb57-1df6-47b3-82ec-796b489c918a] Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 3079)
+I, [2023-08-09T12:42:01.272408 #11701]  INFO -- : [c7e3b894-a18d-4d55-aed0-90f2ca89badb] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 12:42:01 +0500
+I, [2023-08-09T17:02:28.634569 #29364]  INFO -- :   Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 3.2ms | Allocations: 687)
+I, [2023-08-09T17:02:32.549208 #29364]  INFO -- : Delivered mail 64d380549b45d_72b4d84-4c8@faizanlinux-Latitude-7490.mail (3913.5ms)
+I, [2023-08-09T17:02:52.116739 #29685]  INFO -- : [cb17a6f8-be77-4d31-8d00-be5490db6b67] Started GET "/" for 127.0.0.1 at 2023-08-09 17:02:52 +0500
+I, [2023-08-09T17:02:52.119578 #29685]  INFO -- : [cb17a6f8-be77-4d31-8d00-be5490db6b67] Processing by UsersController#index as HTML
+I, [2023-08-09T17:02:52.127793 #29685]  INFO -- : [cb17a6f8-be77-4d31-8d00-be5490db6b67] Completed 401 Unauthorized in 8ms (Allocations: 571)
+I, [2023-08-09T17:02:52.136006 #29685]  INFO -- : [57c814d9-5374-4d97-8a58-c41caff84ff4] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:02:52 +0500
+I, [2023-08-09T17:02:52.137013 #29685]  INFO -- : [57c814d9-5374-4d97-8a58-c41caff84ff4] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T17:02:52.178689 #29685]  INFO -- : [57c814d9-5374-4d97-8a58-c41caff84ff4]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 3188)
+I, [2023-08-09T17:02:52.181898 #29685]  INFO -- : [57c814d9-5374-4d97-8a58-c41caff84ff4]   Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 6089)
+I, [2023-08-09T17:02:52.182156 #29685]  INFO -- : [57c814d9-5374-4d97-8a58-c41caff84ff4] Completed 200 OK in 45ms (Views: 11.0ms | ActiveRecord: 12.3ms | Allocations: 20714)
+I, [2023-08-09T17:02:52.211202 #29685]  INFO -- : [9961bdfd-4949-4bda-b111-5c8b5ec034bb] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 17:02:52 +0500
+I, [2023-08-09T17:02:52.218033 #29685]  INFO -- : [a10afb57-9634-48bc-b8fe-a19f695227f3] Started GET "/assets/iChat-df1c190c6fbc28871ad69544b136f8e1fa0a5082d2e2dd640291a3533dbdbbd0.jpg" for 127.0.0.1 at 2023-08-09 17:02:52 +0500
+I, [2023-08-09T17:03:36.396330 #29685]  INFO -- : [26fa4fb4-177a-4990-8840-76b41890ec51] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:03:36 +0500
+I, [2023-08-09T17:03:36.397521 #29685]  INFO -- : [26fa4fb4-177a-4990-8840-76b41890ec51] Processing by Users::SessionsController#create as HTML
+I, [2023-08-09T17:03:36.397596 #29685]  INFO -- : [26fa4fb4-177a-4990-8840-76b41890ec51]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"info@ichat.pk", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:03:36.617902 #29685]  INFO -- : [26fa4fb4-177a-4990-8840-76b41890ec51] Completed 401 Unauthorized in 220ms (ActiveRecord: 0.8ms | Allocations: 3125)
+I, [2023-08-09T17:03:36.621455 #29685]  INFO -- : [328b311a-a965-42a1-b969-42196b06aa58] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:03:36 +0500
+I, [2023-08-09T17:03:36.622132 #29685]  INFO -- : [328b311a-a965-42a1-b969-42196b06aa58] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T17:03:36.624552 #29685]  INFO -- : [328b311a-a965-42a1-b969-42196b06aa58]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1645)
+I, [2023-08-09T17:03:36.625250 #29685]  INFO -- : [328b311a-a965-42a1-b969-42196b06aa58]   Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2389)
+I, [2023-08-09T17:03:36.625395 #29685]  INFO -- : [328b311a-a965-42a1-b969-42196b06aa58] Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 3064)
+I, [2023-08-09T17:03:36.654604 #29685]  INFO -- : [38e3e19f-e430-409e-85be-2ef31f5b5164] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 17:03:36 +0500
+I, [2023-08-09T17:03:59.623529 #29685]  INFO -- : [ee5ab528-c98a-460b-9c6e-d38fad22bea8] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-09 17:03:59 +0500
+I, [2023-08-09T17:04:03.366791 #29685]  INFO -- : [94d6bfb4-06f1-405e-bdbd-e3bc21e349a8] Started GET "/users/auth/google_oauth2/callback?state=495a20f324cd405646af3827745c54607143cfb322574d9b&code=4%2F0Adeu5BWJj7D-lyqu6T7UUTYNDrH_IPvWlY3HhofEtR__rB-bLMb_XtX-YMJEnhmuOe_7Dg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for 127.0.0.1 at 2023-08-09 17:04:03 +0500
+I, [2023-08-09T17:04:09.924969 #29685]  INFO -- : [94d6bfb4-06f1-405e-bdbd-e3bc21e349a8] Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+I, [2023-08-09T17:04:09.925662 #29685]  INFO -- : [94d6bfb4-06f1-405e-bdbd-e3bc21e349a8]   Parameters: {"state"=>"495a20f324cd405646af3827745c54607143cfb322574d9b", "code"=>"4/0Adeu5BWJj7D-lyqu6T7UUTYNDrH_IPvWlY3HhofEtR__rB-bLMb_XtX-YMJEnhmuOe_7Dg", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+I, [2023-08-09T17:04:10.168450 #29685]  INFO -- : [94d6bfb4-06f1-405e-bdbd-e3bc21e349a8]   Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 0.5ms | Allocations: 263)
+I, [2023-08-09T17:04:14.892735 #29685]  INFO -- : [94d6bfb4-06f1-405e-bdbd-e3bc21e349a8] Delivered mail 64d380ba2953f_73f56fe0-4a9@faizanlinux-Latitude-7490.mail (4723.8ms)
+I, [2023-08-09T17:04:14.898724 #29685]  INFO -- : [94d6bfb4-06f1-405e-bdbd-e3bc21e349a8] Completed 401 Unauthorized in 4973ms (ActiveRecord: 3.1ms | Allocations: 6585)
+I, [2023-08-09T17:04:14.911497 #29685]  INFO -- : [4c98ed98-04cd-406c-bc7d-75a8c00ac7ff] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:04:14 +0500
+I, [2023-08-09T17:04:14.916196 #29685]  INFO -- : [4c98ed98-04cd-406c-bc7d-75a8c00ac7ff] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T17:04:14.930169 #29685]  INFO -- : [4c98ed98-04cd-406c-bc7d-75a8c00ac7ff]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 9.7ms | Allocations: 1651)
+I, [2023-08-09T17:04:14.933679 #29685]  INFO -- : [4c98ed98-04cd-406c-bc7d-75a8c00ac7ff]   Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 2394)
+I, [2023-08-09T17:04:14.934132 #29685]  INFO -- : [4c98ed98-04cd-406c-bc7d-75a8c00ac7ff] Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 3107)
+I, [2023-08-09T17:04:14.986458 #29685]  INFO -- : [045918de-9804-4f75-8ed2-42bdb6659f74] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 17:04:14 +0500
+I, [2023-08-09T17:04:46.375125 #29685]  INFO -- : [fc63606b-8579-4ba6-9332-83a1d19dd0e7] Started GET "/users/confirmation?confirmation_token=[FILTERED]" for 127.0.0.1 at 2023-08-09 17:04:46 +0500
+I, [2023-08-09T17:04:46.377675 #29685]  INFO -- : [fc63606b-8579-4ba6-9332-83a1d19dd0e7] Processing by Users::ConfirmationsController#show as HTML
+I, [2023-08-09T17:04:46.377831 #29685]  INFO -- : [fc63606b-8579-4ba6-9332-83a1d19dd0e7]   Parameters: {"confirmation_token"=>"[FILTERED]"}
+I, [2023-08-09T17:04:46.392126 #29685]  INFO -- : [fc63606b-8579-4ba6-9332-83a1d19dd0e7] Redirected to http://localhost:3000/users/sign_in
+I, [2023-08-09T17:04:46.392520 #29685]  INFO -- : [fc63606b-8579-4ba6-9332-83a1d19dd0e7] Completed 302 Found in 14ms (ActiveRecord: 5.6ms | Allocations: 1475)
+I, [2023-08-09T17:04:46.402580 #29685]  INFO -- : [14c07461-1ef3-4037-94d0-82c357c3b537] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:04:46 +0500
+I, [2023-08-09T17:04:46.404195 #29685]  INFO -- : [14c07461-1ef3-4037-94d0-82c357c3b537] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T17:04:46.408472 #29685]  INFO -- : [14c07461-1ef3-4037-94d0-82c357c3b537]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1645)
+I, [2023-08-09T17:04:46.409718 #29685]  INFO -- : [14c07461-1ef3-4037-94d0-82c357c3b537]   Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2388)
+I, [2023-08-09T17:04:46.409967 #29685]  INFO -- : [14c07461-1ef3-4037-94d0-82c357c3b537] Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3113)
+I, [2023-08-09T17:04:46.435348 #29685]  INFO -- : [b426a255-04d3-4868-a84c-caa7b4f95dac] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 17:04:46 +0500
+I, [2023-08-09T17:34:43.446533 #32597]  INFO -- : [ebd00f58-80d1-4d1b-8737-906c24ed35a9] Started GET "/" for 127.0.0.1 at 2023-08-09 17:34:43 +0500
+I, [2023-08-09T17:34:43.451226 #32597]  INFO -- : [ebd00f58-80d1-4d1b-8737-906c24ed35a9] Processing by UsersController#index as HTML
+I, [2023-08-09T17:34:43.471457 #32597]  INFO -- : [ebd00f58-80d1-4d1b-8737-906c24ed35a9] Completed 401 Unauthorized in 20ms (Allocations: 1085)
+I, [2023-08-09T17:34:43.480956 #32597]  INFO -- : [bd911253-e8e3-4223-8c2f-c4b18791600b] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:34:43 +0500
+I, [2023-08-09T17:34:43.482408 #32597]  INFO -- : [bd911253-e8e3-4223-8c2f-c4b18791600b] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T17:34:43.523890 #32597]  INFO -- : [bd911253-e8e3-4223-8c2f-c4b18791600b]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 3196)
+I, [2023-08-09T17:34:43.527841 #32597]  INFO -- : [bd911253-e8e3-4223-8c2f-c4b18791600b]   Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 7446)
+I, [2023-08-09T17:34:43.528092 #32597]  INFO -- : [bd911253-e8e3-4223-8c2f-c4b18791600b] Completed 200 OK in 46ms (Views: 12.3ms | ActiveRecord: 11.3ms | Allocations: 22075)
+I, [2023-08-09T17:34:43.548133 #32597]  INFO -- : [eccace7a-21db-4e24-8d7f-997a6d501336] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 17:34:43 +0500
+I, [2023-08-09T17:34:43.808850 #32597]  INFO -- : [5eb9b3b2-9a8a-42e0-aaef-bc12b45dcf7b] Started GET "/cable" for 127.0.0.1 at 2023-08-09 17:34:43 +0500
+I, [2023-08-09T17:34:43.815734 #32597]  INFO -- : [5eb9b3b2-9a8a-42e0-aaef-bc12b45dcf7b] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-09 17:34:43 +0500
+I, [2023-08-09T17:34:43.816413 #32597]  INFO -- : [5eb9b3b2-9a8a-42e0-aaef-bc12b45dcf7b] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-09T17:34:54.989121 #32597]  INFO -- : [840b63e9-c41f-49d9-8d9a-4c0f3b6bd2e2] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:34:54 +0500
+I, [2023-08-09T17:34:54.992021 #32597]  INFO -- : [840b63e9-c41f-49d9-8d9a-4c0f3b6bd2e2] Processing by Users::SessionsController#create as TURBO_STREAM
+I, [2023-08-09T17:34:54.992234 #32597]  INFO -- : [840b63e9-c41f-49d9-8d9a-4c0f3b6bd2e2]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:34:55.231846 #32597]  INFO -- : [840b63e9-c41f-49d9-8d9a-4c0f3b6bd2e2] Completed 401 Unauthorized in 239ms (ActiveRecord: 0.7ms | Allocations: 2095)
+I, [2023-08-09T17:34:55.232531 #32597]  INFO -- : [840b63e9-c41f-49d9-8d9a-4c0f3b6bd2e2] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-09T17:34:55.232572 #32597]  INFO -- : [840b63e9-c41f-49d9-8d9a-4c0f3b6bd2e2]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:34:55.438485 #32597]  INFO -- : [840b63e9-c41f-49d9-8d9a-4c0f3b6bd2e2]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1646)
+I, [2023-08-09T17:34:55.439292 #32597]  INFO -- : [840b63e9-c41f-49d9-8d9a-4c0f3b6bd2e2]   Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2347)
+I, [2023-08-09T17:34:55.439446 #32597]  INFO -- : [840b63e9-c41f-49d9-8d9a-4c0f3b6bd2e2] Completed 200 OK in 207ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3110)
+I, [2023-08-09T17:35:04.334207 #32597]  INFO -- : [5808be1e-bef4-4498-b146-046119a91e57] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:35:04 +0500
+I, [2023-08-09T17:35:04.335526 #32597]  INFO -- : [5808be1e-bef4-4498-b146-046119a91e57] Processing by Users::SessionsController#create as TURBO_STREAM
+I, [2023-08-09T17:35:04.335601 #32597]  INFO -- : [5808be1e-bef4-4498-b146-046119a91e57]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:35:04.560817 #32597]  INFO -- : [5808be1e-bef4-4498-b146-046119a91e57] Completed 401 Unauthorized in 225ms (ActiveRecord: 0.6ms | Allocations: 794)
+I, [2023-08-09T17:35:04.561393 #32597]  INFO -- : [5808be1e-bef4-4498-b146-046119a91e57] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-09T17:35:04.561433 #32597]  INFO -- : [5808be1e-bef4-4498-b146-046119a91e57]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:35:04.767760 #32597]  INFO -- : [5808be1e-bef4-4498-b146-046119a91e57]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1638)
+I, [2023-08-09T17:35:04.768538 #32597]  INFO -- : [5808be1e-bef4-4498-b146-046119a91e57]   Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2339)
+I, [2023-08-09T17:35:04.768680 #32597]  INFO -- : [5808be1e-bef4-4498-b146-046119a91e57] Completed 200 OK in 207ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2905)
+I, [2023-08-09T17:35:12.758396 #32597]  INFO -- : [63e81042-71e9-4799-8458-bf53845a16a6] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:35:12 +0500
+I, [2023-08-09T17:35:12.762160 #32597]  INFO -- : [63e81042-71e9-4799-8458-bf53845a16a6] Processing by Users::SessionsController#create as TURBO_STREAM
+I, [2023-08-09T17:35:12.762425 #32597]  INFO -- : [63e81042-71e9-4799-8458-bf53845a16a6]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:35:12.999813 #32597]  INFO -- : [63e81042-71e9-4799-8458-bf53845a16a6] Completed 401 Unauthorized in 237ms (ActiveRecord: 1.0ms | Allocations: 646)
+I, [2023-08-09T17:35:13.000384 #32597]  INFO -- : [63e81042-71e9-4799-8458-bf53845a16a6] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-09T17:35:13.000424 #32597]  INFO -- : [63e81042-71e9-4799-8458-bf53845a16a6]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:35:13.207245 #32597]  INFO -- : [63e81042-71e9-4799-8458-bf53845a16a6]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1638)
+I, [2023-08-09T17:35:13.207853 #32597]  INFO -- : [63e81042-71e9-4799-8458-bf53845a16a6]   Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2338)
+I, [2023-08-09T17:35:13.208002 #32597]  INFO -- : [63e81042-71e9-4799-8458-bf53845a16a6] Completed 200 OK in 208ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 3028)
+I, [2023-08-09T17:35:30.608153 #32597]  INFO -- : [f3901718-59c6-4b3b-93eb-99334df73e46] Started GET "/users/sign_up" for 127.0.0.1 at 2023-08-09 17:35:30 +0500
+I, [2023-08-09T17:35:30.611119 #32597]  INFO -- : [f3901718-59c6-4b3b-93eb-99334df73e46] Processing by Users::RegistrationsController#new as HTML
+I, [2023-08-09T17:35:30.629007 #32597]  INFO -- : [f3901718-59c6-4b3b-93eb-99334df73e46]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 12.3ms | Allocations: 2406)
+I, [2023-08-09T17:35:30.634915 #32597]  INFO -- : [f3901718-59c6-4b3b-93eb-99334df73e46]   Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 3240)
+I, [2023-08-09T17:35:30.635627 #32597]  INFO -- : [f3901718-59c6-4b3b-93eb-99334df73e46] Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 4381)
+I, [2023-08-09T17:35:42.537197 #32597]  INFO -- : [3fdda6f4-711d-464b-822f-24c97dd5e995] Started POST "/users" for 127.0.0.1 at 2023-08-09 17:35:42 +0500
+I, [2023-08-09T17:35:42.541249 #32597]  INFO -- : [3fdda6f4-711d-464b-822f-24c97dd5e995] Processing by Users::RegistrationsController#create as TURBO_STREAM
+I, [2023-08-09T17:35:42.541549 #32597]  INFO -- : [3fdda6f4-711d-464b-822f-24c97dd5e995]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+I, [2023-08-09T17:35:42.781707 #32597]  INFO -- : [3fdda6f4-711d-464b-822f-24c97dd5e995]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2900)
+I, [2023-08-09T17:35:42.782439 #32597]  INFO -- : [3fdda6f4-711d-464b-822f-24c97dd5e995]   Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 3707)
+I, [2023-08-09T17:35:42.782581 #32597]  INFO -- : [3fdda6f4-711d-464b-822f-24c97dd5e995] Completed 422 Unprocessable Entity in 241ms (Views: 3.7ms | ActiveRecord: 0.6ms | Allocations: 5853)
+I, [2023-08-09T17:35:58.410514 #32597]  INFO -- : [f776dfa1-4423-44e6-aff0-3cfeecd6f7e4] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:35:58 +0500
+I, [2023-08-09T17:35:58.412793 #32597]  INFO -- : [f776dfa1-4423-44e6-aff0-3cfeecd6f7e4] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T17:35:58.420030 #32597]  INFO -- : [f776dfa1-4423-44e6-aff0-3cfeecd6f7e4]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1645)
+I, [2023-08-09T17:35:58.421989 #32597]  INFO -- : [f776dfa1-4423-44e6-aff0-3cfeecd6f7e4]   Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2423)
+I, [2023-08-09T17:35:58.422659 #32597]  INFO -- : [f776dfa1-4423-44e6-aff0-3cfeecd6f7e4] Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3164)
+I, [2023-08-09T17:36:05.199543 #32597]  INFO -- : [a02424b5-a116-4b9d-913f-602da0515d53] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:36:05 +0500
+I, [2023-08-09T17:36:05.200898 #32597]  INFO -- : [a02424b5-a116-4b9d-913f-602da0515d53] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T17:36:05.206055 #32597]  INFO -- : [a02424b5-a116-4b9d-913f-602da0515d53]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1645)
+I, [2023-08-09T17:36:05.207930 #32597]  INFO -- : [a02424b5-a116-4b9d-913f-602da0515d53]   Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2386)
+I, [2023-08-09T17:36:05.208216 #32597]  INFO -- : [a02424b5-a116-4b9d-913f-602da0515d53] Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3045)
+I, [2023-08-09T17:36:05.219536 #32597]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-09 17:36:05 +0500
+E, [2023-08-09T17:36:05.220939 #32597] ERROR -- : There was an exception - Gem::LoadError(Error loading the 'redis' Action Cable pubsub adapter. Missing a gem it depends on? redis is not part of the bundle. Add it to your Gemfile.)
+E, [2023-08-09T17:36:05.221142 #32597] ERROR -- : /home/faizanlinux/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/bundler/rubygems_integration.rb:334:in `block (2 levels) in replace_gem'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/subscription_adapter/redis.rb:5:in `<main>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/zeitwerk-2.6.11/lib/zeitwerk/kernel.rb:38:in `require'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/configuration.rb:35:in `pubsub_adapter'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/base.rb:83:in `block in pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/base.rb:83:in `synchronize'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/base.rb:83:in `pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/base.rb:53:in `pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:138:in `pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:122:in `block in stop_all_streams'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:121:in `each'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:121:in `stop_all_streams'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:400:in `block in make_lambda'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:271:in `block in simple'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:599:in `block in invoke_after'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:599:in `each'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:599:in `invoke_after'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:132:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/engine.rb:77:in `block (3 levels) in <class:Engine>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `instance_exec'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/base.rb:191:in `unsubscribe_from_channel'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:51:in `remove_subscription'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:64:in `block in unsubscribe_from_all'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:64:in `each'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:64:in `unsubscribe_from_all'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/base.rb:188:in `handle_close'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:59:in `block in invoke'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/tagged_logging.rb:37:in `tagged'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/tagged_logging.rb:99:in `tagged'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/engine.rb:71:in `block (4 levels) in <class:Engine>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/execution_wrapper.rb:92:in `wrap'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/engine.rb:66:in `block (3 levels) in <class:Engine>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `instance_exec'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:42:in `work'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:58:in `invoke'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+I, [2023-08-09T17:36:05.230437 #32597]  INFO -- : [6926dafb-64e6-4e13-bc90-4dc6d1c0e0eb] Started GET "/assets/application-ba0c29dcbb7761cff9fd1b995de3c0fc7039d93e9883012af1d58e65fae5b157.js" for 127.0.0.1 at 2023-08-09 17:36:05 +0500
+I, [2023-08-09T17:36:05.238817 #32597]  INFO -- : [15ce1ce5-7983-42cc-97f0-506cf632f72d] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 17:36:05 +0500
+I, [2023-08-09T17:36:05.431841 #32597]  INFO -- : [d14c69c6-d083-4a6e-bcd2-17bd7b6e0d87] Started GET "/assets/channels/index-c368d0d3bba037c5a17861fc6e9f70cf7681edb33eae42482e439a78544e90b6.js" for 127.0.0.1 at 2023-08-09 17:36:05 +0500
+I, [2023-08-09T17:36:05.439929 #32597]  INFO -- : [63ec55c6-6c79-46a8-b005-d7392b313244] Started GET "/assets/channels/room_channel-de7ee1365e8132049f02c4413ef191e9f323e692656bf3f70af4fa022d0f78f0.js" for 127.0.0.1 at 2023-08-09 17:36:05 +0500
+I, [2023-08-09T17:36:05.528926 #32597]  INFO -- : [2d8c5c31-8c36-4ceb-b86d-0e6753241d41] Started GET "/assets/channels/consumer-b0ce945e7ae055dba9cceb062a47080dd9c7794a600762c19d38dbde3ba8ff0d.js" for 127.0.0.1 at 2023-08-09 17:36:05 +0500
+I, [2023-08-09T17:36:05.550260 #32597]  INFO -- : [51220d89-c489-4b97-a81c-c7f3c38154ef] Started GET "/cable" for 127.0.0.1 at 2023-08-09 17:36:05 +0500
+I, [2023-08-09T17:36:05.551492 #32597]  INFO -- : [51220d89-c489-4b97-a81c-c7f3c38154ef] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-09 17:36:05 +0500
+I, [2023-08-09T17:36:05.551704 #32597]  INFO -- : [51220d89-c489-4b97-a81c-c7f3c38154ef] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-09T17:36:26.188719 #32742]  INFO -- : [e7449dde-4fca-4667-9a2f-201d3d6e8155] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:36:26 +0500
+I, [2023-08-09T17:36:26.195055 #32742]  INFO -- : [e7449dde-4fca-4667-9a2f-201d3d6e8155] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T17:36:26.255762 #32742]  INFO -- : [e7449dde-4fca-4667-9a2f-201d3d6e8155]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3669)
+I, [2023-08-09T17:36:26.258837 #32742]  INFO -- : [e7449dde-4fca-4667-9a2f-201d3d6e8155]   Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 7962)
+I, [2023-08-09T17:36:26.259062 #32742]  INFO -- : [e7449dde-4fca-4667-9a2f-201d3d6e8155] Completed 200 OK in 64ms (Views: 9.7ms | ActiveRecord: 11.5ms | Allocations: 22882)
+I, [2023-08-09T17:36:26.268780 #32742]  INFO -- : [02618149-4d66-4153-b850-9f31b62e4290] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 17:36:26 +0500
+I, [2023-08-09T17:36:26.430301 #32742]  INFO -- : [897a482c-7ce8-4281-8d91-6bd8f3a0e41c] Started GET "/cable" for 127.0.0.1 at 2023-08-09 17:36:26 +0500
+I, [2023-08-09T17:36:26.437155 #32742]  INFO -- : [897a482c-7ce8-4281-8d91-6bd8f3a0e41c] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-09 17:36:26 +0500
+I, [2023-08-09T17:36:26.438028 #32742]  INFO -- : [897a482c-7ce8-4281-8d91-6bd8f3a0e41c] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-09T17:36:32.415782 #32742]  INFO -- : [ca47f331-1f99-46d2-8b6e-1b669c60ee9a] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:36:32 +0500
+I, [2023-08-09T17:36:32.419039 #32742]  INFO -- : [ca47f331-1f99-46d2-8b6e-1b669c60ee9a] Processing by Users::SessionsController#create as TURBO_STREAM
+I, [2023-08-09T17:36:32.419277 #32742]  INFO -- : [ca47f331-1f99-46d2-8b6e-1b669c60ee9a]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:36:32.670842 #32742]  INFO -- : [ca47f331-1f99-46d2-8b6e-1b669c60ee9a] Completed 401 Unauthorized in 251ms (ActiveRecord: 2.4ms | Allocations: 2332)
+I, [2023-08-09T17:36:32.671561 #32742]  INFO -- : [ca47f331-1f99-46d2-8b6e-1b669c60ee9a] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-09T17:36:32.671601 #32742]  INFO -- : [ca47f331-1f99-46d2-8b6e-1b669c60ee9a]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:36:32.877561 #32742]  INFO -- : [ca47f331-1f99-46d2-8b6e-1b669c60ee9a]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1646)
+I, [2023-08-09T17:36:32.878309 #32742]  INFO -- : [ca47f331-1f99-46d2-8b6e-1b669c60ee9a]   Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2347)
+I, [2023-08-09T17:36:32.878652 #32742]  INFO -- : [ca47f331-1f99-46d2-8b6e-1b669c60ee9a] Completed 200 OK in 207ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2981)
+I, [2023-08-09T17:36:37.393170 #32742]  INFO -- : [e4641c6b-68ec-430f-99b9-8442c72bc217] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:36:37 +0500
+I, [2023-08-09T17:36:37.396860 #32742]  INFO -- : [e4641c6b-68ec-430f-99b9-8442c72bc217] Processing by Users::SessionsController#create as TURBO_STREAM
+I, [2023-08-09T17:36:37.397146 #32742]  INFO -- : [e4641c6b-68ec-430f-99b9-8442c72bc217]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:36:37.630952 #32742]  INFO -- : [e4641c6b-68ec-430f-99b9-8442c72bc217] Completed 401 Unauthorized in 233ms (ActiveRecord: 0.9ms | Allocations: 795)
+I, [2023-08-09T17:36:37.635478 #32742]  INFO -- : [e4641c6b-68ec-430f-99b9-8442c72bc217] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-09T17:36:37.636017 #32742]  INFO -- : [e4641c6b-68ec-430f-99b9-8442c72bc217]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:36:37.848218 #32742]  INFO -- : [e4641c6b-68ec-430f-99b9-8442c72bc217]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1638)
+I, [2023-08-09T17:36:37.849163 #32742]  INFO -- : [e4641c6b-68ec-430f-99b9-8442c72bc217]   Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2339)
+I, [2023-08-09T17:36:37.849349 #32742]  INFO -- : [e4641c6b-68ec-430f-99b9-8442c72bc217] Completed 200 OK in 213ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2905)
+I, [2023-08-09T17:36:40.678664 #32742]  INFO -- : [8a66a3cb-94a8-4a68-8cbb-18cf8f4b2378] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:36:40 +0500
+I, [2023-08-09T17:36:40.682531 #32742]  INFO -- : [8a66a3cb-94a8-4a68-8cbb-18cf8f4b2378] Processing by Users::SessionsController#create as TURBO_STREAM
+I, [2023-08-09T17:36:40.682827 #32742]  INFO -- : [8a66a3cb-94a8-4a68-8cbb-18cf8f4b2378]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:36:40.919089 #32742]  INFO -- : [8a66a3cb-94a8-4a68-8cbb-18cf8f4b2378] Completed 401 Unauthorized in 236ms (ActiveRecord: 0.8ms | Allocations: 675)
+I, [2023-08-09T17:36:40.919666 #32742]  INFO -- : [8a66a3cb-94a8-4a68-8cbb-18cf8f4b2378] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-09T17:36:40.919726 #32742]  INFO -- : [8a66a3cb-94a8-4a68-8cbb-18cf8f4b2378]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:36:41.125103 #32742]  INFO -- : [8a66a3cb-94a8-4a68-8cbb-18cf8f4b2378]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1638)
+I, [2023-08-09T17:36:41.125957 #32742]  INFO -- : [8a66a3cb-94a8-4a68-8cbb-18cf8f4b2378]   Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2339)
+I, [2023-08-09T17:36:41.126103 #32742]  INFO -- : [8a66a3cb-94a8-4a68-8cbb-18cf8f4b2378] Completed 200 OK in 206ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 3034)
+I, [2023-08-09T17:36:44.255416 #32742]  INFO -- : [22bb09b0-8c6a-4bc7-8a1d-89a120f70290] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:36:44 +0500
+I, [2023-08-09T17:36:44.258427 #32742]  INFO -- : [22bb09b0-8c6a-4bc7-8a1d-89a120f70290] Processing by Users::SessionsController#create as TURBO_STREAM
+I, [2023-08-09T17:36:44.258639 #32742]  INFO -- : [22bb09b0-8c6a-4bc7-8a1d-89a120f70290]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:36:44.499432 #32742]  INFO -- : [22bb09b0-8c6a-4bc7-8a1d-89a120f70290] Completed 401 Unauthorized in 241ms (ActiveRecord: 0.9ms | Allocations: 778)
+I, [2023-08-09T17:36:44.500009 #32742]  INFO -- : [22bb09b0-8c6a-4bc7-8a1d-89a120f70290] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-09T17:36:44.500059 #32742]  INFO -- : [22bb09b0-8c6a-4bc7-8a1d-89a120f70290]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:36:44.715981 #32742]  INFO -- : [22bb09b0-8c6a-4bc7-8a1d-89a120f70290]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1638)
+I, [2023-08-09T17:36:44.716561 #32742]  INFO -- : [22bb09b0-8c6a-4bc7-8a1d-89a120f70290]   Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2339)
+I, [2023-08-09T17:36:44.716705 #32742]  INFO -- : [22bb09b0-8c6a-4bc7-8a1d-89a120f70290] Completed 200 OK in 217ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 3034)
+I, [2023-08-09T17:36:46.655441 #32742]  INFO -- : [f12f5785-d22a-4263-a291-40f88976dc04] Started GET "/users/sign_up" for 127.0.0.1 at 2023-08-09 17:36:46 +0500
+I, [2023-08-09T17:36:46.658431 #32742]  INFO -- : [f12f5785-d22a-4263-a291-40f88976dc04] Processing by Users::RegistrationsController#new as HTML
+I, [2023-08-09T17:36:46.673905 #32742]  INFO -- : [f12f5785-d22a-4263-a291-40f88976dc04]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 9.4ms | Allocations: 2407)
+I, [2023-08-09T17:36:46.675526 #32742]  INFO -- : [f12f5785-d22a-4263-a291-40f88976dc04]   Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 3240)
+I, [2023-08-09T17:36:46.675855 #32742]  INFO -- : [f12f5785-d22a-4263-a291-40f88976dc04] Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 4360)
+I, [2023-08-09T17:36:53.202149 #32742]  INFO -- : [d03a2ed4-6c44-4832-a363-6a3695f259fa] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-09 17:36:53 +0500
+I, [2023-08-09T17:36:54.687210 #32742]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-09 17:36:54 +0500
+E, [2023-08-09T17:36:54.688095 #32742] ERROR -- : There was an exception - Gem::LoadError(Error loading the 'redis' Action Cable pubsub adapter. Missing a gem it depends on? redis is not part of the bundle. Add it to your Gemfile.)
+E, [2023-08-09T17:36:54.688166 #32742] ERROR -- : /home/faizanlinux/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/bundler/rubygems_integration.rb:334:in `block (2 levels) in replace_gem'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/subscription_adapter/redis.rb:5:in `<main>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/zeitwerk-2.6.11/lib/zeitwerk/kernel.rb:38:in `require'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/configuration.rb:35:in `pubsub_adapter'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/base.rb:83:in `block in pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/base.rb:83:in `synchronize'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/base.rb:83:in `pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/base.rb:53:in `pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:138:in `pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:122:in `block in stop_all_streams'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:121:in `each'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:121:in `stop_all_streams'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:400:in `block in make_lambda'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:271:in `block in simple'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:599:in `block in invoke_after'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:599:in `each'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:599:in `invoke_after'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:132:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/engine.rb:77:in `block (3 levels) in <class:Engine>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `instance_exec'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/base.rb:191:in `unsubscribe_from_channel'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:51:in `remove_subscription'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:64:in `block in unsubscribe_from_all'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:64:in `each'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:64:in `unsubscribe_from_all'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/base.rb:188:in `handle_close'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:59:in `block in invoke'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/tagged_logging.rb:37:in `tagged'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/tagged_logging.rb:99:in `tagged'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/engine.rb:71:in `block (4 levels) in <class:Engine>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/execution_wrapper.rb:92:in `wrap'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/engine.rb:66:in `block (3 levels) in <class:Engine>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `instance_exec'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:42:in `work'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:58:in `invoke'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+I, [2023-08-09T17:37:11.494732 #32742]  INFO -- : [975af0b8-7347-4e42-8f7f-d52f8d287c95] Started GET "/cable" for 127.0.0.1 at 2023-08-09 17:37:11 +0500
+I, [2023-08-09T17:37:11.495534 #32742]  INFO -- : [975af0b8-7347-4e42-8f7f-d52f8d287c95] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-09 17:37:11 +0500
+I, [2023-08-09T17:37:11.495611 #32742]  INFO -- : [975af0b8-7347-4e42-8f7f-d52f8d287c95] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-09T17:37:14.099478 #32742]  INFO -- : [8255850a-dcc5-4497-bbe4-cd44fcf4424c] Started GET "/users/sign_up" for 127.0.0.1 at 2023-08-09 17:37:14 +0500
+I, [2023-08-09T17:37:14.102657 #32742]  INFO -- : [8255850a-dcc5-4497-bbe4-cd44fcf4424c] Processing by Users::RegistrationsController#new as HTML
+I, [2023-08-09T17:37:14.113578 #32742]  INFO -- : [8255850a-dcc5-4497-bbe4-cd44fcf4424c]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1623)
+I, [2023-08-09T17:37:14.115862 #32742]  INFO -- : [8255850a-dcc5-4497-bbe4-cd44fcf4424c]   Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2370)
+I, [2023-08-09T17:37:14.116349 #32742]  INFO -- : [8255850a-dcc5-4497-bbe4-cd44fcf4424c] Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 2989)
+I, [2023-08-09T17:37:28.699510 #32742]  INFO -- : [1c72bae7-dc31-467b-879f-77427c90d637] Started POST "/users" for 127.0.0.1 at 2023-08-09 17:37:28 +0500
+I, [2023-08-09T17:37:28.702630 #32742]  INFO -- : [1c72bae7-dc31-467b-879f-77427c90d637] Processing by Users::RegistrationsController#create as TURBO_STREAM
+I, [2023-08-09T17:37:28.702856 #32742]  INFO -- : [1c72bae7-dc31-467b-879f-77427c90d637]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+I, [2023-08-09T17:37:28.941813 #32742]  INFO -- : [1c72bae7-dc31-467b-879f-77427c90d637]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2899)
+I, [2023-08-09T17:37:28.942529 #32742]  INFO -- : [1c72bae7-dc31-467b-879f-77427c90d637]   Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 3705)
+I, [2023-08-09T17:37:28.942679 #32742]  INFO -- : [1c72bae7-dc31-467b-879f-77427c90d637] Completed 422 Unprocessable Entity in 240ms (Views: 3.8ms | ActiveRecord: 0.5ms | Allocations: 5971)
+I, [2023-08-09T17:38:12.925140 #32878]  INFO -- : [dba27984-ea36-43b1-bfd7-64eb021241c2] Started GET "/users/sign_up" for 127.0.0.1 at 2023-08-09 17:38:12 +0500
+I, [2023-08-09T17:38:12.927705 #32878]  INFO -- : [dba27984-ea36-43b1-bfd7-64eb021241c2] Processing by Users::RegistrationsController#new as HTML
+I, [2023-08-09T17:38:12.995273 #32878]  INFO -- : [dba27984-ea36-43b1-bfd7-64eb021241c2]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 3917)
+I, [2023-08-09T17:38:12.999150 #32878]  INFO -- : [dba27984-ea36-43b1-bfd7-64eb021241c2]   Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 8213)
+I, [2023-08-09T17:38:12.999415 #32878]  INFO -- : [dba27984-ea36-43b1-bfd7-64eb021241c2] Completed 200 OK in 72ms (Views: 13.0ms | ActiveRecord: 11.3ms | Allocations: 22888)
+I, [2023-08-09T17:38:13.028406 #32878]  INFO -- : [b2cf0404-0612-4128-acad-c02acc1c6ae5] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 17:38:13 +0500
+I, [2023-08-09T17:38:13.334653 #32878]  INFO -- : [67cb83e7-9d41-4806-9dca-683f1bf22304] Started GET "/cable" for 127.0.0.1 at 2023-08-09 17:38:13 +0500
+I, [2023-08-09T17:38:13.343461 #32878]  INFO -- : [67cb83e7-9d41-4806-9dca-683f1bf22304] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-09 17:38:13 +0500
+I, [2023-08-09T17:38:13.344155 #32878]  INFO -- : [67cb83e7-9d41-4806-9dca-683f1bf22304] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-09T17:38:25.911998 #32878]  INFO -- : [3929e14e-8c99-4dea-afe2-714abb577698] Started POST "/users" for 127.0.0.1 at 2023-08-09 17:38:25 +0500
+I, [2023-08-09T17:38:25.915159 #32878]  INFO -- : [3929e14e-8c99-4dea-afe2-714abb577698] Processing by Users::RegistrationsController#create as TURBO_STREAM
+I, [2023-08-09T17:38:25.915420 #32878]  INFO -- : [3929e14e-8c99-4dea-afe2-714abb577698]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+I, [2023-08-09T17:38:26.158864 #32878]  INFO -- : [3929e14e-8c99-4dea-afe2-714abb577698]   Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 1.5ms | Allocations: 272)
+I, [2023-08-09T17:38:35.442477 #32878]  INFO -- : [3929e14e-8c99-4dea-afe2-714abb577698] Delivered mail 64d388c22715a_806e6e78414ce@faizanlinux-Latitude-7490.mail (9282.8ms)
+I, [2023-08-09T17:38:35.451771 #32878]  INFO -- : [3929e14e-8c99-4dea-afe2-714abb577698] Redirected to http://localhost:3000/
+I, [2023-08-09T17:38:35.452969 #32878]  INFO -- : [3929e14e-8c99-4dea-afe2-714abb577698] Completed 303 See Other in 9537ms (ActiveRecord: 4.9ms | Allocations: 11487)
+I, [2023-08-09T17:38:35.465708 #32878]  INFO -- : [667257b2-b984-4f8d-9355-4bb5b5ee230f] Started GET "/" for 127.0.0.1 at 2023-08-09 17:38:35 +0500
+I, [2023-08-09T17:38:35.469208 #32878]  INFO -- : [667257b2-b984-4f8d-9355-4bb5b5ee230f] Processing by UsersController#index as TURBO_STREAM
+I, [2023-08-09T17:38:35.471214 #32878]  INFO -- : [667257b2-b984-4f8d-9355-4bb5b5ee230f] Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 366)
+I, [2023-08-09T17:38:35.482960 #32878]  INFO -- : [a5d0561a-a643-4a5b-82d0-ed0fcace5ac5] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:38:35 +0500
+I, [2023-08-09T17:38:35.486024 #32878]  INFO -- : [a5d0561a-a643-4a5b-82d0-ed0fcace5ac5] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-09T17:38:35.505423 #32878]  INFO -- : [a5d0561a-a643-4a5b-82d0-ed0fcace5ac5]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 12.1ms | Allocations: 2185)
+I, [2023-08-09T17:38:35.511009 #32878]  INFO -- : [a5d0561a-a643-4a5b-82d0-ed0fcace5ac5]   Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 3022)
+I, [2023-08-09T17:38:35.512593 #32878]  INFO -- : [a5d0561a-a643-4a5b-82d0-ed0fcace5ac5] Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 4249)
+I, [2023-08-09T17:39:07.048739 #32878]  INFO -- : [960cf72c-df5c-4bff-995a-e0fe69a3d158] Started GET "/users/confirmation?confirmation_token=[FILTERED]" for 127.0.0.1 at 2023-08-09 17:39:07 +0500
+I, [2023-08-09T17:39:07.050083 #32878]  INFO -- : [960cf72c-df5c-4bff-995a-e0fe69a3d158] Processing by Users::ConfirmationsController#show as HTML
+I, [2023-08-09T17:39:07.050147 #32878]  INFO -- : [960cf72c-df5c-4bff-995a-e0fe69a3d158]   Parameters: {"confirmation_token"=>"[FILTERED]"}
+I, [2023-08-09T17:39:07.065980 #32878]  INFO -- : [960cf72c-df5c-4bff-995a-e0fe69a3d158] Redirected to http://localhost:3000/users/sign_in
+I, [2023-08-09T17:39:07.066463 #32878]  INFO -- : [960cf72c-df5c-4bff-995a-e0fe69a3d158] Completed 302 Found in 16ms (ActiveRecord: 10.2ms | Allocations: 1928)
+I, [2023-08-09T17:39:07.071377 #32878]  INFO -- : [6a176cbf-5e83-45a8-a3e7-3e5207264b4c] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:39:07 +0500
+I, [2023-08-09T17:39:07.072253 #32878]  INFO -- : [6a176cbf-5e83-45a8-a3e7-3e5207264b4c] Processing by Users::SessionsController#new as HTML
+I, [2023-08-09T17:39:07.076289 #32878]  INFO -- : [6a176cbf-5e83-45a8-a3e7-3e5207264b4c]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1645)
+I, [2023-08-09T17:39:07.077435 #32878]  INFO -- : [6a176cbf-5e83-45a8-a3e7-3e5207264b4c]   Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2389)
+I, [2023-08-09T17:39:07.077704 #32878]  INFO -- : [6a176cbf-5e83-45a8-a3e7-3e5207264b4c] Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3103)
+I, [2023-08-09T17:39:07.129440 #32878]  INFO -- : [49f600cb-51fa-487c-91a5-6b23421de1a9] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 17:39:07 +0500
+I, [2023-08-09T17:39:07.458274 #32878]  INFO -- : [7822ae00-4706-43d3-8e1d-d39448a51555] Started GET "/cable" for 127.0.0.1 at 2023-08-09 17:39:07 +0500
+I, [2023-08-09T17:39:07.459390 #32878]  INFO -- : [7822ae00-4706-43d3-8e1d-d39448a51555] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-09 17:39:07 +0500
+I, [2023-08-09T17:39:07.459521 #32878]  INFO -- : [7822ae00-4706-43d3-8e1d-d39448a51555] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-09T17:39:09.492252 #32878]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-09 17:39:09 +0500
+E, [2023-08-09T17:39:09.493593 #32878] ERROR -- : There was an exception - Gem::LoadError(Error loading the 'redis' Action Cable pubsub adapter. Missing a gem it depends on? redis is not part of the bundle. Add it to your Gemfile.)
+E, [2023-08-09T17:39:09.493751 #32878] ERROR -- : /home/faizanlinux/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/bundler/rubygems_integration.rb:334:in `block (2 levels) in replace_gem'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/subscription_adapter/redis.rb:5:in `<main>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/zeitwerk-2.6.11/lib/zeitwerk/kernel.rb:38:in `require'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/configuration.rb:35:in `pubsub_adapter'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/base.rb:83:in `block in pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/base.rb:83:in `synchronize'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/base.rb:83:in `pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/base.rb:53:in `pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:138:in `pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:122:in `block in stop_all_streams'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:121:in `each'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:121:in `stop_all_streams'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:400:in `block in make_lambda'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:271:in `block in simple'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:599:in `block in invoke_after'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:599:in `each'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:599:in `invoke_after'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:132:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/engine.rb:77:in `block (3 levels) in <class:Engine>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `instance_exec'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/base.rb:191:in `unsubscribe_from_channel'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:51:in `remove_subscription'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:64:in `block in unsubscribe_from_all'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:64:in `each'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:64:in `unsubscribe_from_all'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/base.rb:188:in `handle_close'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:59:in `block in invoke'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/tagged_logging.rb:37:in `tagged'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/tagged_logging.rb:99:in `tagged'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/engine.rb:71:in `block (4 levels) in <class:Engine>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/execution_wrapper.rb:92:in `wrap'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/engine.rb:66:in `block (3 levels) in <class:Engine>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `instance_exec'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:42:in `work'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:58:in `invoke'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+I, [2023-08-09T17:39:16.178723 #32878]  INFO -- : [b11a570e-84be-418b-9c6d-2e4729bcfcfe] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:39:16 +0500
+I, [2023-08-09T17:39:16.181983 #32878]  INFO -- : [b11a570e-84be-418b-9c6d-2e4729bcfcfe] Processing by Users::SessionsController#create as TURBO_STREAM
+I, [2023-08-09T17:39:16.183216 #32878]  INFO -- : [b11a570e-84be-418b-9c6d-2e4729bcfcfe]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-09T17:39:16.430832 #32878]  INFO -- : [b11a570e-84be-418b-9c6d-2e4729bcfcfe] Redirected to http://localhost:3000/
+I, [2023-08-09T17:39:16.430932 #32878]  INFO -- : [b11a570e-84be-418b-9c6d-2e4729bcfcfe] Completed 303 See Other in 247ms (ActiveRecord: 1.7ms | Allocations: 1553)
+I, [2023-08-09T17:39:16.432672 #32878]  INFO -- : [080cce51-f356-4eba-9e15-bbab965fbaab] Started GET "/" for 127.0.0.1 at 2023-08-09 17:39:16 +0500
+I, [2023-08-09T17:39:16.433236 #32878]  INFO -- : [080cce51-f356-4eba-9e15-bbab965fbaab] Processing by UsersController#index as TURBO_STREAM
+I, [2023-08-09T17:39:16.435773 #32878]  INFO -- : [080cce51-f356-4eba-9e15-bbab965fbaab]   Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+I, [2023-08-09T17:39:16.436863 #32878]  INFO -- : [080cce51-f356-4eba-9e15-bbab965fbaab]   Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1220)
+I, [2023-08-09T17:39:16.437027 #32878]  INFO -- : [080cce51-f356-4eba-9e15-bbab965fbaab] Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 2337)
+I, [2023-08-09T17:39:18.102771 #32878]  INFO -- : [cc57dbf0-6636-4b02-b693-c88171b39cd6] Started DELETE "/users/sign_out" for 127.0.0.1 at 2023-08-09 17:39:18 +0500
+I, [2023-08-09T17:39:18.104560 #32878]  INFO -- : [cc57dbf0-6636-4b02-b693-c88171b39cd6] Processing by Users::SessionsController#destroy as TURBO_STREAM
+I, [2023-08-09T17:39:18.104901 #32878]  INFO -- : [cc57dbf0-6636-4b02-b693-c88171b39cd6]   Parameters: {"authenticity_token"=>"[FILTERED]"}
+I, [2023-08-09T17:39:18.111912 #32878]  INFO -- : [cc57dbf0-6636-4b02-b693-c88171b39cd6] Redirected to http://localhost:3000/users/sign_in
+I, [2023-08-09T17:39:18.112116 #32878]  INFO -- : [cc57dbf0-6636-4b02-b693-c88171b39cd6] Completed 303 See Other in 7ms (ActiveRecord: 0.4ms | Allocations: 1376)
+I, [2023-08-09T17:39:18.116351 #32878]  INFO -- : [3cdc79f0-62de-46cc-8fd3-f2945218a306] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 17:39:18 +0500
+I, [2023-08-09T17:39:18.118063 #32878]  INFO -- : [3cdc79f0-62de-46cc-8fd3-f2945218a306] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-09T17:39:18.123026 #32878]  INFO -- : [3cdc79f0-62de-46cc-8fd3-f2945218a306]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1650)
+I, [2023-08-09T17:39:18.124098 #32878]  INFO -- : [3cdc79f0-62de-46cc-8fd3-f2945218a306]   Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2393)
+I, [2023-08-09T17:39:18.124389 #32878]  INFO -- : [3cdc79f0-62de-46cc-8fd3-f2945218a306] Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3064)
+I, [2023-08-09T17:39:20.752164 #32878]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-09 17:39:20 +0500
+E, [2023-08-09T17:39:20.753621 #32878] ERROR -- : There was an exception - Gem::LoadError(Error loading the 'redis' Action Cable pubsub adapter. Missing a gem it depends on? redis is not part of the bundle. Add it to your Gemfile.)
+E, [2023-08-09T17:39:20.753749 #32878] ERROR -- : /home/faizanlinux/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/bundler/rubygems_integration.rb:334:in `block (2 levels) in replace_gem'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/subscription_adapter/redis.rb:5:in `<main>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/zeitwerk-2.6.11/lib/zeitwerk/kernel.rb:38:in `require'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/configuration.rb:35:in `pubsub_adapter'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/base.rb:83:in `block in pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/base.rb:83:in `synchronize'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/base.rb:83:in `pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/base.rb:53:in `pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:138:in `pubsub'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:122:in `block in stop_all_streams'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:121:in `each'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/streams.rb:121:in `stop_all_streams'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:400:in `block in make_lambda'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:271:in `block in simple'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:599:in `block in invoke_after'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:599:in `each'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:599:in `invoke_after'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:132:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/engine.rb:77:in `block (3 levels) in <class:Engine>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `instance_exec'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/channel/base.rb:191:in `unsubscribe_from_channel'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:51:in `remove_subscription'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:64:in `block in unsubscribe_from_all'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:64:in `each'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/subscriptions.rb:64:in `unsubscribe_from_all'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/base.rb:188:in `handle_close'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:59:in `block in invoke'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/tagged_logging.rb:37:in `tagged'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/tagged_logging.rb:99:in `tagged'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/engine.rb:71:in `block (4 levels) in <class:Engine>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/execution_wrapper.rb:92:in `wrap'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/engine.rb:66:in `block (3 levels) in <class:Engine>'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `instance_exec'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/activesupport-7.0.6/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:42:in `work'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:58:in `invoke'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/actioncable-7.0.6/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+/home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'

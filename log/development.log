@@ -4823,3 +4823,365 @@ Processing by Users::SessionsController#new as HTML
 Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 2992)
 
 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7703757253968505380)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMessages (20230809120726)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (16.5ms)[0m  [1m[35mCREATE TABLE "messages" ("id" bigserial primary key, "content" text, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230809120726"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7703757253968505380)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-08-09 17:11:03 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 8001)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-09 17:11:03 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.3ms | Allocations: 1656)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 8.5ms | Allocations: 5128)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 469)
+  Rendered layout layouts/application.html.erb (Duration: 6133.5ms | Allocations: 97252)
+Completed 200 OK in 6162ms (Views: 6139.4ms | ActiveRecord: 4.5ms | Allocations: 122779)
+
+
+  [1m[36mUser Load (5.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started POST "/users/sign_in" for ::1 at 2023-08-09 17:12:00 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizantanveer5597@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 224ms (ActiveRecord: 0.6ms | Allocations: 5872)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-09 17:12:00 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.5ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1586)
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2425)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3191)
+
+
+Started GET "/users/confirmation/new" for ::1 at 2023-08-09 17:12:07 +0500
+Processing by Users::ConfirmationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/confirmations/new.html.erb within layouts/application
+  Rendered users/shared/_error_messages.html.erb (Duration: 2.1ms | Allocations: 254)
+  Rendered users/shared/_links.html.erb (Duration: 1.9ms | Allocations: 651)
+  Rendered users/confirmations/new.html.erb within layouts/application (Duration: 13.3ms | Allocations: 2295)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 3260)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 4405)
+
+
+Started POST "/users/confirmation" for ::1 at 2023-08-09 17:12:13 +0500
+Processing by Users::ConfirmationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."unconfirmed_email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["unconfirmed_email", "faizantanveer5597@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizantanveer5597@gmail.com"], ["LIMIT", 1]]
+  Rendering /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb
+  Rendered /home/faizanlinux/.rvm/gems/ruby-3.0.0/gems/devise-4.9.2/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 4.1ms | Allocations: 416)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 37.0ms
+Delivered mail 64d3829d74225_771c427c179c@faizanlinux-Latitude-7490.mail (30.5ms)
+Date: Wed, 09 Aug 2023 17:12:13 +0500
+From: support@ichat.pk
+Reply-To: support@ichat.pk
+To: faizantanveer5597@gmail.com
+Message-ID: <64d3829d74225_771c427c179c@faizanlinux-Latitude-7490.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome faizantanveer5597@gmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=VVhbhKTVboyQU6nZgD-J">Confirm my account</a></p>
+
+Redirected to http://localhost:3000/users/sign_in
+Completed 303 See Other in 202ms (ActiveRecord: 1.1ms | Allocations: 75462)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-09 17:12:13 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.9ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1589)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2427)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 3179)
+
+
+Started GET "/users/confirmation?confirmation_token=[FILTERED]" for ::1 at 2023-08-09 17:12:15 +0500
+Processing by Users::ConfirmationsController#show as HTML
+  Parameters: {"confirmation_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."confirmation_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["confirmation_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "confirmed_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["confirmed_at", "2023-08-09 12:12:15.586583"], ["updated_at", "2023-08-09 12:12:15.587488"], ["id", 5]]
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 21ms (ActiveRecord: 5.5ms | Allocations: 5093)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-09 17:12:15 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.5ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1586)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2424)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3177)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-09 17:12:24 +0500
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizantanveer5597@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 303 See Other in 221ms (ActiveRecord: 0.5ms | Allocations: 2592)
+
+
+Started GET "/" for ::1 at 2023-08-09 17:12:24 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 111)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 403)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1302)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.2ms | Allocations: 3401)
+
+
+Started GET "/" for ::1 at 2023-08-09 17:14:55 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 357)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 7492)
+Completed 200 OK in 13ms (Views: 8.3ms | ActiveRecord: 0.4ms | Allocations: 9035)
+
+
+Started GET "/" for ::1 at 2023-08-09 17:15:34 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 363)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 757)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 5264)
+Completed 200 OK in 54ms (Views: 7.7ms | ActiveRecord: 4.5ms | Allocations: 39236)
+
+
+Started GET "/" for ::1 at 2023-08-09 17:17:16 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 363)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 757)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 5265)
+Completed 200 OK in 55ms (Views: 8.9ms | ActiveRecord: 5.5ms | Allocations: 39241)
+
+
+Started GET "/" for ::1 at 2023-08-09 17:18:30 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 363)
+  Rendered shared/_header.html.erb (Duration: 1.7ms | Allocations: 757)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 5265)
+Completed 200 OK in 51ms (Views: 8.5ms | ActiveRecord: 4.4ms | Allocations: 39235)
+
+
+Started GET "/cable" for ::1 at 2023-08-09 17:18:31 +0500
+Started GET "/cable" [WebSocket] for ::1 at 2023-08-09 17:18:31 +0500
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room_channel
+Started GET "/" for ::1 at 2023-08-09 17:29:53 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 399)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 3977)
+Completed 200 OK in 22ms (Views: 4.5ms | ActiveRecord: 4.5ms | Allocations: 14952)
+
+
+Started GET "/cable" for ::1 at 2023-08-09 17:29:53 +0500
+Started GET "/cable" [WebSocket] for ::1 at 2023-08-09 17:29:53 +0500
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room_channel
+Started GET "/" for ::1 at 2023-08-09 17:33:24 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 357)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 1061)
+Completed 200 OK in 16ms (Views: 6.7ms | ActiveRecord: 0.9ms | Allocations: 2626)
+
+
+Started GET "/" for ::1 at 2023-08-09 17:33:25 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 357)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 1128)
+Completed 200 OK in 13ms (Views: 5.0ms | ActiveRecord: 0.5ms | Allocations: 2770)
+
+
+Started GET "/" for ::1 at 2023-08-09 17:33:27 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 357)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1060)
+Completed 200 OK in 7ms (Views: 2.9ms | ActiveRecord: 0.4ms | Allocations: 2612)
+
+
+Finished "/cable" [WebSocket] for ::1 at 2023-08-09 17:33:27 +0500
+RoomChannel stopped streaming from room_channel
+Started GET "/cable" for ::1 at 2023-08-09 17:33:27 +0500
+Started GET "/cable" [WebSocket] for ::1 at 2023-08-09 17:33:27 +0500
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room_channel
+Started GET "/" for ::1 at 2023-08-09 18:36:38 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 7951)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-09 18:36:38 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.9ms | Allocations: 1656)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 5128)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 465)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 9608)
+Completed 200 OK in 34ms (Views: 14.4ms | ActiveRecord: 2.9ms | Allocations: 35143)
+
+
+Started GET "/cable" for ::1 at 2023-08-09 18:36:38 +0500
+Started GET "/cable" [WebSocket] for ::1 at 2023-08-09 18:36:38 +0500
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room_channel
+Finished "/cable" [WebSocket] for ::1 at 2023-08-09 18:48:29 +0500
+RoomChannel stopped streaming from room_channel
+Started GET "/" for ::1 at 2023-08-10 10:26:33 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 5088)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-10 10:26:34 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 4.3ms | Allocations: 1656)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 14.6ms | Allocations: 5128)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 468)
+  Rendered layout layouts/application.html.erb (Duration: 32.8ms | Allocations: 9611)
+Completed 200 OK in 76ms (Views: 43.4ms | ActiveRecord: 7.4ms | Allocations: 35151)
+
+
+Started GET "/cable" for ::1 at 2023-08-10 10:26:34 +0500
+Started GET "/cable" [WebSocket] for ::1 at 2023-08-10 10:26:34 +0500
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room_channel
+Started POST "/users/sign_in" for ::1 at 2023-08-10 10:27:44 +0500
+Processing by Users::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizantanveer5597@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 227ms (ActiveRecord: 2.1ms | Allocations: 4646)
+
+
+Processing by Users::SessionsController#new as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.4ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1587)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2382)
+Completed 200 OK in 207ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 3080)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-08-10 10:27:50 +0500
+Processing by Users::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "faizantanveer5597@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 303 See Other in 247ms (ActiveRecord: 1.2ms | Allocations: 3659)
+
+
+Started GET "/" for ::1 at 2023-08-10 10:27:50 +0500
+Processing by UsersController#index as TURBO_STREAM
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 108)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 403)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1350)
+Completed 200 OK in 14ms (Views: 2.6ms | ActiveRecord: 2.0ms | Allocations: 16964)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2023-08-10 10:27:54 +0500
+Processing by Users::SessionsController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 303 See Other in 28ms (ActiveRecord: 1.1ms | Allocations: 2711)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-08-10 10:27:54 +0500
+Processing by Users::SessionsController#new as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.7ms | Allocations: 480)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1591)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 2431)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 3178)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7703757253968505380)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMessages (20230809120726)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.4ms)[0m  [1m[35mDROP TABLE "messages"[0m
+  [1m[36mActiveRecord::SchemaMigration Delete All (0.3ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20230809120726"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7703757253968505380)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
