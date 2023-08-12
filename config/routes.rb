@@ -3,7 +3,8 @@ Rails.application.routes.draw do
     sessions: 'users/sessions',
     registrations: 'users/registrations',
     confirmations: 'users/confirmations',
-    omniauth_callbacks: 'users/omniauth_callbacks'
+    omniauth_callbacks: 'users/omniauth_callbacks',
+    passwords: 'users/passwords'
   }
 
 
@@ -11,9 +12,8 @@ Rails.application.routes.draw do
   
   root to: 'users#index'
   resources :users
-
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  resources :conversations do
+  resources :messages
+  end
+ 
 end

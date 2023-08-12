@@ -1,1 +1,11 @@
-<h1> Index Page </h1>
+<div class='container'>
+<div class='bordered-div'>
+<h2 style='color:blue'> Chats </h2> </div>
+<br>
+<% @users.reverse.each do |user| %>
+<h3> <strong style="color:white;">
+<%= user.full_name %> </strong>
+</h3> 
+<% end %>
+</div>
+

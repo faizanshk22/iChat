@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
     before_action :authenticate_user!
     def index
-      @users = current_user
+      @users = User.where.not(id: current_user.id)
     end
 
     def show
@@ -39,6 +39,6 @@ class UsersController < ApplicationController
    
     private
     def user_params
-      params.require(:user).permit(:email, :password)
+      params.require(:user).permit(:full_name, :email, :password)
     end
 end

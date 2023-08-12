@@ -12,10 +12,19 @@
 
   <body>
   <%= render partial: "shared/header" %>
-    <p class="notice"><%= notice %></p>
+   <div style='padding:22px'> 
+    <p class="notice"><%= notice %></p> 
        <p class="alert"><%= alert %></p>
-      
+       </div>
+
+       
+       <div class="video-background">
+    <video autoplay muted loop poster="">
+    <source src="<%= video_url('videoBg.mp4') %>" type="video/mp4">
+    </video>
+  </div>
 
     <%= yield %>
+    <%= render partial: "shared/footer" %>
   </body>
 </html>

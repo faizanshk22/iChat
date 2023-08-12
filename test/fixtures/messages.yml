@@ -2,6 +2,10 @@
 
 one:
   content: MyText
+  conversation: one
+  user: one
 
 two:
   content: MyText
+  conversation: two
+  user: two
