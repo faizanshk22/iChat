@@ -6996,3 +6996,291 @@ LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
 [78946a68-0d93-4432-abba-e92873e7b763]   
 [78946a68-0d93-4432-abba-e92873e7b763] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
 [78946a68-0d93-4432-abba-e92873e7b763] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:58:09.423838 #24785]  INFO -- : [6efc1ae7-054a-4070-8342-6f56f8b64907] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:58:09 +0500
+I, [2023-08-16T12:58:09.430256 #24785]  INFO -- : [6efc1ae7-054a-4070-8342-6f56f8b64907] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:58:09.489159 #24785]  INFO -- : [6efc1ae7-054a-4070-8342-6f56f8b64907] Completed 500 Internal Server Error in 59ms (ActiveRecord: 16.1ms | Allocations: 14542)
+F, [2023-08-16T12:58:09.489987 #24785] FATAL -- : [6efc1ae7-054a-4070-8342-6f56f8b64907]   
+[6efc1ae7-054a-4070-8342-6f56f8b64907] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[6efc1ae7-054a-4070-8342-6f56f8b64907]   
+[6efc1ae7-054a-4070-8342-6f56f8b64907] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[6efc1ae7-054a-4070-8342-6f56f8b64907] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:58:12.688841 #24785]  INFO -- : [60156326-62d6-4a88-964b-e1b812172ad5] Started GET "/" for 127.0.0.1 at 2023-08-16 12:58:12 +0500
+I, [2023-08-16T12:58:12.693549 #24785]  INFO -- : [60156326-62d6-4a88-964b-e1b812172ad5] Processing by UsersController#index as HTML
+I, [2023-08-16T12:58:12.711389 #24785]  INFO -- : [60156326-62d6-4a88-964b-e1b812172ad5]   Rendered users/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 544)
+I, [2023-08-16T12:58:12.719335 #24785]  INFO -- : [60156326-62d6-4a88-964b-e1b812172ad5]   Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 5574)
+I, [2023-08-16T12:58:12.719957 #24785]  INFO -- : [60156326-62d6-4a88-964b-e1b812172ad5] Completed 200 OK in 26ms (Views: 18.2ms | ActiveRecord: 1.3ms | Allocations: 7247)
+I, [2023-08-16T13:41:59.920400 #26142]  INFO -- : [d86e2674-f3fe-4aae-ab85-9f68be65497e] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 13:41:59 +0500
+I, [2023-08-16T13:41:59.924098 #26142]  INFO -- : [d86e2674-f3fe-4aae-ab85-9f68be65497e] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T13:41:59.977890 #26142]  INFO -- : [d86e2674-f3fe-4aae-ab85-9f68be65497e] Completed 500 Internal Server Error in 54ms (ActiveRecord: 15.5ms | Allocations: 14565)
+F, [2023-08-16T13:41:59.978502 #26142] FATAL -- : [d86e2674-f3fe-4aae-ab85-9f68be65497e]   
+[d86e2674-f3fe-4aae-ab85-9f68be65497e] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[d86e2674-f3fe-4aae-ab85-9f68be65497e]   
+[d86e2674-f3fe-4aae-ab85-9f68be65497e] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[d86e2674-f3fe-4aae-ab85-9f68be65497e] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T13:42:04.749792 #26142]  INFO -- : [ac75c97d-30d8-4f7d-a085-47d04abb9da9] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 13:42:04 +0500
+I, [2023-08-16T13:42:04.756096 #26142]  INFO -- : [ac75c97d-30d8-4f7d-a085-47d04abb9da9] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T13:42:04.762374 #26142]  INFO -- : [ac75c97d-30d8-4f7d-a085-47d04abb9da9] Completed 500 Internal Server Error in 6ms (ActiveRecord: 2.3ms | Allocations: 700)
+F, [2023-08-16T13:42:04.763100 #26142] FATAL -- : [ac75c97d-30d8-4f7d-a085-47d04abb9da9]   
+[ac75c97d-30d8-4f7d-a085-47d04abb9da9] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[ac75c97d-30d8-4f7d-a085-47d04abb9da9]   
+[ac75c97d-30d8-4f7d-a085-47d04abb9da9] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[ac75c97d-30d8-4f7d-a085-47d04abb9da9] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T13:49:58.286934 #26784]  INFO -- : [0c44a59f-928e-4b77-9be5-7033c1cea6c9] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 13:49:58 +0500
+I, [2023-08-16T13:49:58.293376 #26784]  INFO -- : [0c44a59f-928e-4b77-9be5-7033c1cea6c9] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T13:49:58.398775 #26784]  INFO -- : [0c44a59f-928e-4b77-9be5-7033c1cea6c9] Completed 500 Internal Server Error in 105ms (ActiveRecord: 40.2ms | Allocations: 14565)
+F, [2023-08-16T13:49:58.399474 #26784] FATAL -- : [0c44a59f-928e-4b77-9be5-7033c1cea6c9]   
+[0c44a59f-928e-4b77-9be5-7033c1cea6c9] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[0c44a59f-928e-4b77-9be5-7033c1cea6c9]   
+[0c44a59f-928e-4b77-9be5-7033c1cea6c9] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[0c44a59f-928e-4b77-9be5-7033c1cea6c9] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T13:54:14.398205 #27077]  INFO -- : Migrating to CreateMessages (20230810090718)
+I, [2023-08-16T13:55:32.929661 #27358]  INFO -- : Migrating to CreateMessages (20230810090718)
+I, [2023-08-16T13:57:06.564845 #27465]  INFO -- : Migrating to CreateMessages (20230810090718)
+I, [2023-08-16T14:00:33.195214 #27685]  INFO -- : Migrating to CreateMessages (20230810090718)
+I, [2023-08-16T14:01:16.958744 #27718]  INFO -- : Migrating to CreateChatrooms (20230815074655)
+I, [2023-08-16T14:01:59.564489 #27752]  INFO -- : Migrating to CreateMessages (20230810090718)
+I, [2023-08-16T14:02:15.194283 #27769]  INFO -- : Migrating to CreateParticipants (20230816050516)
+I, [2023-08-16T14:02:43.201962 #27895]  INFO -- : [23c5dc00-1c7c-4232-802d-8b870afddd85] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 14:02:43 +0500
+I, [2023-08-16T14:02:43.213084 #27895]  INFO -- : [23c5dc00-1c7c-4232-802d-8b870afddd85] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T14:02:43.332320 #27895]  INFO -- : [23c5dc00-1c7c-4232-802d-8b870afddd85]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 3010)
+I, [2023-08-16T14:02:43.344212 #27895]  INFO -- : [23c5dc00-1c7c-4232-802d-8b870afddd85]   Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 7916)
+I, [2023-08-16T14:02:43.344849 #27895]  INFO -- : [23c5dc00-1c7c-4232-802d-8b870afddd85] Completed 200 OK in 131ms (Views: 25.5ms | ActiveRecord: 24.8ms | Allocations: 23711)
+I, [2023-08-16T14:02:43.758571 #27895]  INFO -- : [af90cbd4-d78b-44bd-905b-d7f1f18fe48e] Started GET "/cable" for 127.0.0.1 at 2023-08-16 14:02:43 +0500
+I, [2023-08-16T14:02:43.779319 #27895]  INFO -- : [af90cbd4-d78b-44bd-905b-d7f1f18fe48e] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:02:43 +0500
+I, [2023-08-16T14:02:43.781751 #27895]  INFO -- : [af90cbd4-d78b-44bd-905b-d7f1f18fe48e] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-16T14:02:43.832313 #27895]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:02:43.832767 #27895]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:03:08.895890 #27895]  INFO -- : [f00f21f9-8cb3-469f-b720-f43c58c3c4f6] Started GET "/users/9" for 127.0.0.1 at 2023-08-16 14:03:08 +0500
+I, [2023-08-16T14:03:08.898634 #27895]  INFO -- : [f00f21f9-8cb3-469f-b720-f43c58c3c4f6] Processing by UsersController#show as HTML
+I, [2023-08-16T14:03:08.898831 #27895]  INFO -- : [f00f21f9-8cb3-469f-b720-f43c58c3c4f6]   Parameters: {"id"=>"9"}
+I, [2023-08-16T14:03:09.000626 #27895]  INFO -- : [f00f21f9-8cb3-469f-b720-f43c58c3c4f6]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 17.0ms | Allocations: 2955)
+I, [2023-08-16T14:03:09.004228 #27895]  INFO -- : [f00f21f9-8cb3-469f-b720-f43c58c3c4f6]   Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 4101)
+I, [2023-08-16T14:03:09.005920 #27895]  INFO -- : [f00f21f9-8cb3-469f-b720-f43c58c3c4f6] Completed 200 OK in 107ms (Views: 22.1ms | ActiveRecord: 29.9ms | Allocations: 16940)
+I, [2023-08-16T14:03:09.060255 #27895]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"InVzZXJzIg==--c21ee49da20be3b2e15ef8d7ddc7eaf765afb9c7fb336f9b4fff17411f0a3c96"}
+I, [2023-08-16T14:03:09.060988 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-16T14:03:09.060557 #27895]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"ImNoYXRyb29tcyI=--0e44485a3e7c52dfce96633e23cdfb315a908f12d29df8e07396b82375f99152"}
+I, [2023-08-16T14:03:09.061755 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-16T14:03:09.075605 #27895]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:03:09.077129 #27895]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:03:09.077994 #27895]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzE
+I, [2023-08-16T14:03:26.125977 #27895]  INFO -- : [5041e576-8092-49a8-aba1-0959c823b304] Started GET "/" for 127.0.0.1 at 2023-08-16 14:03:26 +0500
+I, [2023-08-16T14:03:26.127497 #27895]  INFO -- : [5041e576-8092-49a8-aba1-0959c823b304] Processing by UsersController#index as HTML
+I, [2023-08-16T14:03:26.131614 #27895]  INFO -- : [5041e576-8092-49a8-aba1-0959c823b304] Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms | Allocations: 228)
+I, [2023-08-16T14:03:26.188744 #27895]  INFO -- : [bfc1c477-9881-4a1e-bb12-27b60e18b15a] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-16 14:03:26 +0500
+I, [2023-08-16T14:03:26.190445 #27895]  INFO -- : [bfc1c477-9881-4a1e-bb12-27b60e18b15a] Processing by Users::SessionsController#new as HTML
+I, [2023-08-16T14:03:26.212560 #27895]  INFO -- : [bfc1c477-9881-4a1e-bb12-27b60e18b15a]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 13.8ms | Allocations: 2963)
+I, [2023-08-16T14:03:26.216808 #27895]  INFO -- : [bfc1c477-9881-4a1e-bb12-27b60e18b15a]   Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 3929)
+I, [2023-08-16T14:03:26.217431 #27895]  INFO -- : [bfc1c477-9881-4a1e-bb12-27b60e18b15a] Completed 200 OK in 27ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 5433)
+I, [2023-08-16T14:03:26.734818 #27895]  INFO -- : [042ca932-5ef9-410f-a1e5-cedfd589537e] Started GET "/assets/application-eec3c08db3144e5a812b21184265fe8f980333cf7e94869a3ca45d0747f4a383.js" for 127.0.0.1 at 2023-08-16 14:03:26 +0500
+I, [2023-08-16T14:03:26.783542 #27895]  INFO -- : [f7325d0a-bd04-4423-8a43-94b0a9deab67] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-16 14:03:26 +0500
+I, [2023-08-16T14:03:38.354812 #27895]  INFO -- : [7e87e391-6650-4987-9f48-7b8f702951ea] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-16 14:03:38 +0500
+I, [2023-08-16T14:03:53.107615 #27895]  INFO -- : [c6d32f62-62b5-4c40-ac37-ff2193f01820] Started GET "/users/auth/google_oauth2/callback?state=cd7f42ead5a4229504643966fad7c31813ea0b6dc14f6ef1&code=4%2F0Adeu5BVFi5kxi0Ya6T_iQxAurbq9xU6PexXI0l8MMW_-3hZMaB_ZtgM_1GnsroluGbJcdA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent" for 127.0.0.1 at 2023-08-16 14:03:53 +0500
+I, [2023-08-16T14:03:55.222261 #27895]  INFO -- : [c6d32f62-62b5-4c40-ac37-ff2193f01820] Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+I, [2023-08-16T14:03:55.222361 #27895]  INFO -- : [c6d32f62-62b5-4c40-ac37-ff2193f01820]   Parameters: {"state"=>"cd7f42ead5a4229504643966fad7c31813ea0b6dc14f6ef1", "code"=>"4/0Adeu5BVFi5kxi0Ya6T_iQxAurbq9xU6PexXI0l8MMW_-3hZMaB_ZtgM_1GnsroluGbJcdA", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"0", "prompt"=>"consent"}
+I, [2023-08-16T14:03:55.593364 #27895]  INFO -- : [c6d32f62-62b5-4c40-ac37-ff2193f01820] Completed 401 Unauthorized in 371ms (ActiveRecord: 2.9ms | Allocations: 2246)
+I, [2023-08-16T14:03:55.665888 #27895]  INFO -- : [8d1f59a7-6a64-4f1f-b536-80105d1cfcfb] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-16 14:03:55 +0500
+I, [2023-08-16T14:03:55.670564 #27895]  INFO -- : [8d1f59a7-6a64-4f1f-b536-80105d1cfcfb] Processing by Users::SessionsController#new as HTML
+I, [2023-08-16T14:03:55.688695 #27895]  INFO -- : [8d1f59a7-6a64-4f1f-b536-80105d1cfcfb]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 14.4ms | Allocations: 1670)
+I, [2023-08-16T14:03:55.694884 #27895]  INFO -- : [8d1f59a7-6a64-4f1f-b536-80105d1cfcfb]   Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 2536)
+I, [2023-08-16T14:03:55.696230 #27895]  INFO -- : [8d1f59a7-6a64-4f1f-b536-80105d1cfcfb] Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 3262)
+I, [2023-08-16T14:03:56.227103 #27895]  INFO -- : [aa491487-ded6-4a7a-8765-9f8fed39278b] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-16 14:03:56 +0500
+I, [2023-08-16T14:03:57.089787 #27895]  INFO -- : [72eb27fc-b64a-48ec-bf40-3e2039341396] Started GET "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js" for 127.0.0.1 at 2023-08-16 14:03:57 +0500
+I, [2023-08-16T14:04:14.196141 #27895]  INFO -- : [d86469ff-79f1-4821-b8c8-1ad697da14f0] Started GET "/users/9" for 127.0.0.1 at 2023-08-16 14:04:14 +0500
+I, [2023-08-16T14:04:14.198094 #27895]  INFO -- : [d86469ff-79f1-4821-b8c8-1ad697da14f0] Processing by UsersController#show as HTML
+I, [2023-08-16T14:04:14.198288 #27895]  INFO -- : [d86469ff-79f1-4821-b8c8-1ad697da14f0]   Parameters: {"id"=>"9"}
+I, [2023-08-16T14:04:14.239414 #27895]  INFO -- : [d86469ff-79f1-4821-b8c8-1ad697da14f0]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 23.7ms | Allocations: 1925)
+I, [2023-08-16T14:04:14.251672 #27895]  INFO -- : [d86469ff-79f1-4821-b8c8-1ad697da14f0]   Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 2974)
+I, [2023-08-16T14:04:14.256344 #27895]  INFO -- : [d86469ff-79f1-4821-b8c8-1ad697da14f0] Completed 200 OK in 58ms (Views: 36.2ms | ActiveRecord: 5.5ms | Allocations: 4158)
+I, [2023-08-16T14:04:14.279239 #27895]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"InVzZXJzIg==--c21ee49da20be3b2e15ef8d7ddc7eaf765afb9c7fb336f9b4fff17411f0a3c96"}
+I, [2023-08-16T14:04:14.279896 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-16T14:04:14.282310 #27895]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"ImNoYXRyb29tcyI=--0e44485a3e7c52dfce96633e23cdfb315a908f12d29df8e07396b82375f99152"}
+I, [2023-08-16T14:04:14.288516 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-16T14:04:14.283666 #27895]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"IloybGtPaTh2YVMxamFHRjBMME5vWVhSeWIyOXRMekUi--3ad4db8a75317ece4614df7635d694f98a69323b7326afa3a1a76a3bbc0afa5d"}
+I, [2023-08-16T14:04:14.296116 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzE
+I, [2023-08-16T14:04:14.298325 #27895]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:04:14.793223 #27895]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:04:14.793621 #27895]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzE
+I, [2023-08-16T14:04:21.935222 #27895]  INFO -- : [fb315854-e3d0-458b-aef8-c977c46605ee] Started GET "/users/8" for 127.0.0.1 at 2023-08-16 14:04:21 +0500
+I, [2023-08-16T14:04:21.942539 #27895]  INFO -- : [fb315854-e3d0-458b-aef8-c977c46605ee] Processing by UsersController#show as HTML
+I, [2023-08-16T14:04:21.943666 #27895]  INFO -- : [fb315854-e3d0-458b-aef8-c977c46605ee]   Parameters: {"id"=>"8"}
+I, [2023-08-16T14:04:22.140479 #27895]  INFO -- : [fb315854-e3d0-458b-aef8-c977c46605ee]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 21.3ms | Allocations: 1926)
+I, [2023-08-16T14:04:22.143537 #27895]  INFO -- : [fb315854-e3d0-458b-aef8-c977c46605ee]   Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 2976)
+I, [2023-08-16T14:04:22.143986 #27895]  INFO -- : [fb315854-e3d0-458b-aef8-c977c46605ee] Completed 200 OK in 199ms (Views: 22.3ms | ActiveRecord: 34.0ms | Allocations: 6733)
+I, [2023-08-16T14:04:22.171554 #27895]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"InVzZXJzIg==--c21ee49da20be3b2e15ef8d7ddc7eaf765afb9c7fb336f9b4fff17411f0a3c96"}
+I, [2023-08-16T14:04:22.172122 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-16T14:04:22.172459 #27895]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"ImNoYXRyb29tcyI=--0e44485a3e7c52dfce96633e23cdfb315a908f12d29df8e07396b82375f99152"}
+I, [2023-08-16T14:04:22.175834 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-16T14:04:22.176631 #27895]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzI
+I, [2023-08-16T14:04:22.176935 #27895]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:04:22.172752 #27895]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"IloybGtPaTh2YVMxamFHRjBMME5vWVhSeWIyOXRMekUi--3ad4db8a75317ece4614df7635d694f98a69323b7326afa3a1a76a3bbc0afa5d"}
+I, [2023-08-16T14:04:22.178592 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzE
+I, [2023-08-16T14:04:22.679251 #27895]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:05:27.671052 #27895]  INFO -- : [e60565d2-1c7e-47fb-8f1b-27d1ca9a13c5] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-16 14:05:27 +0500
+I, [2023-08-16T14:05:27.678391 #27895]  INFO -- : [e60565d2-1c7e-47fb-8f1b-27d1ca9a13c5] Processing by Users::SessionsController#create as TURBO_STREAM
+I, [2023-08-16T14:05:27.679050 #27895]  INFO -- : [e60565d2-1c7e-47fb-8f1b-27d1ca9a13c5]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizanshk20@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-08-16T14:05:28.103992 #27895]  INFO -- : [e60565d2-1c7e-47fb-8f1b-27d1ca9a13c5] Redirected to http://localhost:3000/users/auth/google_oauth2/callback?state=cd7f42ead5a4229504643966fad7c31813ea0b6dc14f6ef1&code=4%2F0Adeu5BVFi5kxi0Ya6T_iQxAurbq9xU6PexXI0l8MMW_-3hZMaB_ZtgM_1GnsroluGbJcdA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+I, [2023-08-16T14:05:28.104160 #27895]  INFO -- : [e60565d2-1c7e-47fb-8f1b-27d1ca9a13c5] Completed 303 See Other in 425ms (ActiveRecord: 1.1ms | Allocations: 1727)
+I, [2023-08-16T14:05:28.110029 #27895]  INFO -- : [78a714c0-6156-42ff-a217-b0e557df87df] Started GET "/users/auth/google_oauth2/callback?state=cd7f42ead5a4229504643966fad7c31813ea0b6dc14f6ef1&code=4%2F0Adeu5BVFi5kxi0Ya6T_iQxAurbq9xU6PexXI0l8MMW_-3hZMaB_ZtgM_1GnsroluGbJcdA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent" for 127.0.0.1 at 2023-08-16 14:05:28 +0500
+I, [2023-08-16T14:05:28.111920 #27895]  INFO -- : [78a714c0-6156-42ff-a217-b0e557df87df] Processing by Users::OmniauthCallbacksController#failure as TURBO_STREAM
+I, [2023-08-16T14:05:28.112024 #27895]  INFO -- : [78a714c0-6156-42ff-a217-b0e557df87df]   Parameters: {"state"=>"cd7f42ead5a4229504643966fad7c31813ea0b6dc14f6ef1", "code"=>"4/0Adeu5BVFi5kxi0Ya6T_iQxAurbq9xU6PexXI0l8MMW_-3hZMaB_ZtgM_1GnsroluGbJcdA", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"0", "prompt"=>"consent"}
+I, [2023-08-16T14:05:28.113701 #27895]  INFO -- : [78a714c0-6156-42ff-a217-b0e557df87df] Redirected to http://localhost:3000/users/sign_in
+I, [2023-08-16T14:05:28.114192 #27895]  INFO -- : [78a714c0-6156-42ff-a217-b0e557df87df] Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 299)
+I, [2023-08-16T14:05:28.120175 #27895]  INFO -- : [90faec55-c45a-4d8a-99b4-287b7888fb03] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-16 14:05:28 +0500
+I, [2023-08-16T14:05:28.121103 #27895]  INFO -- : [90faec55-c45a-4d8a-99b4-287b7888fb03] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-16T14:05:28.123255 #27895]  INFO -- : [90faec55-c45a-4d8a-99b4-287b7888fb03] Redirected to http://localhost:3000/
+I, [2023-08-16T14:05:28.123361 #27895]  INFO -- : [90faec55-c45a-4d8a-99b4-287b7888fb03] Filter chain halted as :require_no_authentication rendered or redirected
+I, [2023-08-16T14:05:28.123479 #27895]  INFO -- : [90faec55-c45a-4d8a-99b4-287b7888fb03] Completed 302 Found in 2ms (ActiveRecord: 0.3ms | Allocations: 643)
+I, [2023-08-16T14:05:28.134763 #27895]  INFO -- : [b575548f-2bb6-4c9a-97ec-b1bf33721c22] Started GET "/" for 127.0.0.1 at 2023-08-16 14:05:28 +0500
+I, [2023-08-16T14:05:28.135719 #27895]  INFO -- : [b575548f-2bb6-4c9a-97ec-b1bf33721c22] Processing by UsersController#index as TURBO_STREAM
+I, [2023-08-16T14:05:28.139808 #27895]  INFO -- : [b575548f-2bb6-4c9a-97ec-b1bf33721c22]   Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 363)
+I, [2023-08-16T14:05:28.142358 #27895]  INFO -- : [b575548f-2bb6-4c9a-97ec-b1bf33721c22]   Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1494)
+I, [2023-08-16T14:05:28.142954 #27895]  INFO -- : [b575548f-2bb6-4c9a-97ec-b1bf33721c22] Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.6ms | Allocations: 2348)
+I, [2023-08-16T14:05:30.962593 #27895]  INFO -- : [a1b07d0a-47b3-442c-904b-ee9a971daaa6] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 14:05:30 +0500
+I, [2023-08-16T14:05:30.968250 #27895]  INFO -- : [a1b07d0a-47b3-442c-904b-ee9a971daaa6] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T14:05:31.008224 #27895]  INFO -- : [a1b07d0a-47b3-442c-904b-ee9a971daaa6]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 17.8ms | Allocations: 1018)
+I, [2023-08-16T14:05:31.024836 #27895]  INFO -- : [a1b07d0a-47b3-442c-904b-ee9a971daaa6]   Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 2075)
+I, [2023-08-16T14:05:31.026617 #27895]  INFO -- : [a1b07d0a-47b3-442c-904b-ee9a971daaa6] Completed 200 OK in 58ms (Views: 34.9ms | ActiveRecord: 6.0ms | Allocations: 2867)
+I, [2023-08-16T14:05:31.249830 #27895]  INFO -- : [e7333204-a9b8-4767-9dd5-acf561491ad6] Started GET "/cable" for 127.0.0.1 at 2023-08-16 14:05:31 +0500
+I, [2023-08-16T14:05:31.251273 #27895]  INFO -- : [e7333204-a9b8-4767-9dd5-acf561491ad6] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:05:31 +0500
+I, [2023-08-16T14:05:31.251498 #27895]  INFO -- : [e7333204-a9b8-4767-9dd5-acf561491ad6] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-16T14:05:31.346203 #27895]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:05:31.347325 #27895]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:05:34.999291 #27895]  INFO -- : [d44cce8d-3b33-4ead-9ca8-52890716e00f] Started GET "/users/8" for 127.0.0.1 at 2023-08-16 14:05:34 +0500
+I, [2023-08-16T14:05:35.005542 #27895]  INFO -- : [d44cce8d-3b33-4ead-9ca8-52890716e00f] Processing by UsersController#show as HTML
+I, [2023-08-16T14:05:35.006106 #27895]  INFO -- : [d44cce8d-3b33-4ead-9ca8-52890716e00f]   Parameters: {"id"=>"8"}
+I, [2023-08-16T14:05:35.063008 #27895]  INFO -- : [d44cce8d-3b33-4ead-9ca8-52890716e00f]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 29.6ms | Allocations: 1920)
+I, [2023-08-16T14:05:35.067875 #27895]  INFO -- : [d44cce8d-3b33-4ead-9ca8-52890716e00f]   Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 2970)
+I, [2023-08-16T14:05:35.068931 #27895]  INFO -- : [d44cce8d-3b33-4ead-9ca8-52890716e00f] Completed 200 OK in 62ms (Views: 32.3ms | ActiveRecord: 6.6ms | Allocations: 4141)
+I, [2023-08-16T14:05:35.232386 #27895]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"InVzZXJzIg==--c21ee49da20be3b2e15ef8d7ddc7eaf765afb9c7fb336f9b4fff17411f0a3c96"}
+I, [2023-08-16T14:05:35.233148 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-16T14:05:35.235541 #27895]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"ImNoYXRyb29tcyI=--0e44485a3e7c52dfce96633e23cdfb315a908f12d29df8e07396b82375f99152"}
+I, [2023-08-16T14:05:35.236044 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-16T14:05:35.240691 #27895]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:05:35.247920 #27895]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:05:35.253042 #27895]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzE
+I, [2023-08-16T14:05:44.736184 #27895]  INFO -- : [f3f1ed42-2fef-4b80-ab57-d185ecb68562] Started POST "/chatrooms/1/messages" for 127.0.0.1 at 2023-08-16 14:05:44 +0500
+I, [2023-08-16T14:05:44.742183 #27895]  INFO -- : [f3f1ed42-2fef-4b80-ab57-d185ecb68562] Processing by MessagesController#create as TURBO_STREAM
+I, [2023-08-16T14:05:44.742812 #27895]  INFO -- : [f3f1ed42-2fef-4b80-ab57-d185ecb68562]   Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"content"=>"Hello"}, "commit"=>"Create Message", "chatroom_id"=>"1"}
+I, [2023-08-16T14:05:44.826324 #27895]  INFO -- : [f3f1ed42-2fef-4b80-ab57-d185ecb68562] No template found for MessagesController#create, rendering head :no_content
+I, [2023-08-16T14:05:44.827314 #27895]  INFO -- : [f3f1ed42-2fef-4b80-ab57-d185ecb68562] Completed 204 No Content in 84ms (ActiveRecord: 14.6ms | Allocations: 3314)
+I, [2023-08-16T14:06:00.792777 #27895]  INFO -- : [48bcf2f7-b6f4-40f4-87f8-54235420f65b] Started GET "/users/8" for 127.0.0.1 at 2023-08-16 14:06:00 +0500
+I, [2023-08-16T14:06:00.800016 #27895]  INFO -- : [48bcf2f7-b6f4-40f4-87f8-54235420f65b] Processing by UsersController#show as HTML
+I, [2023-08-16T14:06:00.800293 #27895]  INFO -- : [48bcf2f7-b6f4-40f4-87f8-54235420f65b]   Parameters: {"id"=>"8"}
+I, [2023-08-16T14:06:00.866351 #27895]  INFO -- : [48bcf2f7-b6f4-40f4-87f8-54235420f65b]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 34.0ms | Allocations: 1917)
+I, [2023-08-16T14:06:00.874947 #27895]  INFO -- : [48bcf2f7-b6f4-40f4-87f8-54235420f65b]   Rendered layout layouts/application.html.erb (Duration: 42.7ms | Allocations: 2967)
+I, [2023-08-16T14:06:00.877246 #27895]  INFO -- : [48bcf2f7-b6f4-40f4-87f8-54235420f65b] Completed 200 OK in 76ms (Views: 42.0ms | ActiveRecord: 6.1ms | Allocations: 4162)
+I, [2023-08-16T14:06:00.940142 #27895]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:06:00 +0500
+I, [2023-08-16T14:06:00.940623 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzI
+I, [2023-08-16T14:06:00.940863 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-16T14:06:00.941026 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-16T14:06:01.811343 #27895]  INFO -- : [ef731f43-c641-48ed-a06f-e72c379b128a] Started GET "/cable" for 127.0.0.1 at 2023-08-16 14:06:01 +0500
+I, [2023-08-16T14:06:01.812755 #27895]  INFO -- : [ef731f43-c641-48ed-a06f-e72c379b128a] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:06:01 +0500
+I, [2023-08-16T14:06:01.812968 #27895]  INFO -- : [ef731f43-c641-48ed-a06f-e72c379b128a] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-16T14:06:02.166687 #27895]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:06:02.175729 #27895]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:06:02.179954 #27895]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzI
+I, [2023-08-16T14:06:11.352335 #27895]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:06:11 +0500
+I, [2023-08-16T14:06:11.353377 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-16T14:06:11.354058 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-16T14:06:11.354474 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzE
+I, [2023-08-16T14:06:11.449853 #27895]  INFO -- : [d4c5571a-7559-4f48-aaab-2dc9001dafaa] Started GET "/users/8" for 127.0.0.1 at 2023-08-16 14:06:11 +0500
+I, [2023-08-16T14:06:11.452740 #27895]  INFO -- : [d4c5571a-7559-4f48-aaab-2dc9001dafaa] Processing by UsersController#show as HTML
+I, [2023-08-16T14:06:11.452966 #27895]  INFO -- : [d4c5571a-7559-4f48-aaab-2dc9001dafaa]   Parameters: {"id"=>"8"}
+I, [2023-08-16T14:06:11.534654 #27895]  INFO -- : [d4c5571a-7559-4f48-aaab-2dc9001dafaa]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 57.1ms | Allocations: 2642)
+I, [2023-08-16T14:06:11.547559 #27895]  INFO -- : [d4c5571a-7559-4f48-aaab-2dc9001dafaa]   Rendered layout layouts/application.html.erb (Duration: 70.4ms | Allocations: 3691)
+I, [2023-08-16T14:06:11.549088 #27895]  INFO -- : [d4c5571a-7559-4f48-aaab-2dc9001dafaa] Completed 200 OK in 96ms (Views: 66.2ms | ActiveRecord: 11.8ms | Allocations: 4846)
+I, [2023-08-16T14:06:12.120272 #27895]  INFO -- : [3343177c-dc01-4c19-aa8d-eef542fa9a54] Started GET "/assets/es-module-shims.min-4ca9b3dd5e434131e3bb4b0c1d7dff3bfd4035672a5086deec6f73979a49be73.js" for 127.0.0.1 at 2023-08-16 14:06:12 +0500
+I, [2023-08-16T14:06:13.514412 #27895]  INFO -- : [11540969-2a9b-4d95-9635-748b2ab97597] Started GET "/cable" for 127.0.0.1 at 2023-08-16 14:06:13 +0500
+I, [2023-08-16T14:06:13.519015 #27895]  INFO -- : [11540969-2a9b-4d95-9635-748b2ab97597] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:06:13 +0500
+I, [2023-08-16T14:06:13.520342 #27895]  INFO -- : [11540969-2a9b-4d95-9635-748b2ab97597] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-16T14:06:13.683637 #27895]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:06:13.698487 #27895]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:06:13.699484 #27895]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzE
+I, [2023-08-16T14:06:17.674149 #27895]  INFO -- : [aa6579fe-e560-4b41-bb11-00424f68ff86] Started GET "/users/8" for 127.0.0.1 at 2023-08-16 14:06:17 +0500
+I, [2023-08-16T14:06:17.680594 #27895]  INFO -- : [aa6579fe-e560-4b41-bb11-00424f68ff86] Processing by UsersController#show as HTML
+I, [2023-08-16T14:06:17.680853 #27895]  INFO -- : [aa6579fe-e560-4b41-bb11-00424f68ff86]   Parameters: {"id"=>"8"}
+I, [2023-08-16T14:06:17.714946 #27895]  INFO -- : [aa6579fe-e560-4b41-bb11-00424f68ff86]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 1915)
+I, [2023-08-16T14:06:17.721854 #27895]  INFO -- : [aa6579fe-e560-4b41-bb11-00424f68ff86]   Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 2964)
+I, [2023-08-16T14:06:17.725426 #27895]  INFO -- : [aa6579fe-e560-4b41-bb11-00424f68ff86] Completed 200 OK in 44ms (Views: 28.8ms | ActiveRecord: 2.3ms | Allocations: 4143)
+I, [2023-08-16T14:06:17.750087 #27895]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:06:17 +0500
+I, [2023-08-16T14:06:17.750388 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-16T14:06:17.750620 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-16T14:06:17.750897 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzI
+I, [2023-08-16T14:06:18.215835 #27895]  INFO -- : [77493f2f-7b88-4cae-8a33-390950fe1ab4] Started GET "/cable" for 127.0.0.1 at 2023-08-16 14:06:18 +0500
+I, [2023-08-16T14:06:18.218169 #27895]  INFO -- : [77493f2f-7b88-4cae-8a33-390950fe1ab4] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:06:18 +0500
+I, [2023-08-16T14:06:18.218353 #27895]  INFO -- : [77493f2f-7b88-4cae-8a33-390950fe1ab4] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-16T14:06:18.265163 #27895]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:06:18.267490 #27895]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:06:18.268367 #27895]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzI
+I, [2023-08-16T14:06:46.495447 #27895]  INFO -- : [2bdea6c3-71cb-4a92-9251-f19bb972686a] Started POST "/chatrooms/2/messages" for 127.0.0.1 at 2023-08-16 14:06:46 +0500
+I, [2023-08-16T14:06:46.498906 #27895]  INFO -- : [2bdea6c3-71cb-4a92-9251-f19bb972686a] Processing by MessagesController#create as TURBO_STREAM
+I, [2023-08-16T14:06:46.499054 #27895]  INFO -- : [2bdea6c3-71cb-4a92-9251-f19bb972686a]   Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"content"=>"Hello"}, "commit"=>"Create Message", "chatroom_id"=>"2"}
+I, [2023-08-16T14:06:46.534022 #27895]  INFO -- : [2bdea6c3-71cb-4a92-9251-f19bb972686a] No template found for MessagesController#create, rendering head :no_content
+I, [2023-08-16T14:06:46.535946 #27895]  INFO -- : [2bdea6c3-71cb-4a92-9251-f19bb972686a] Completed 204 No Content in 36ms (ActiveRecord: 10.0ms | Allocations: 1976)
+I, [2023-08-16T14:06:49.252763 #27895]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:06:49 +0500
+I, [2023-08-16T14:06:49.253674 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-16T14:06:49.255111 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzE
+I, [2023-08-16T14:06:49.256066 #27895]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-16T14:06:49.298812 #27895]  INFO -- : [754b6a58-c3cb-4ef4-81fc-0f09883fea29] Started GET "/users/8" for 127.0.0.1 at 2023-08-16 14:06:49 +0500
+I, [2023-08-16T14:06:49.300340 #27895]  INFO -- : [754b6a58-c3cb-4ef4-81fc-0f09883fea29] Processing by UsersController#show as HTML
+I, [2023-08-16T14:06:49.300457 #27895]  INFO -- : [754b6a58-c3cb-4ef4-81fc-0f09883fea29]   Parameters: {"id"=>"8"}
+I, [2023-08-16T14:06:49.335362 #27895]  INFO -- : [754b6a58-c3cb-4ef4-81fc-0f09883fea29]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 23.3ms | Allocations: 2251)
+I, [2023-08-16T14:06:49.339297 #27895]  INFO -- : [754b6a58-c3cb-4ef4-81fc-0f09883fea29]   Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 3300)
+I, [2023-08-16T14:06:49.340147 #27895]  INFO -- : [754b6a58-c3cb-4ef4-81fc-0f09883fea29] Completed 200 OK in 40ms (Views: 23.7ms | ActiveRecord: 6.2ms | Allocations: 4458)
+I, [2023-08-16T14:06:51.095337 #27895]  INFO -- : [68fcb1d3-e02b-428d-a0a3-7a712d98cb80] Started GET "/cable" for 127.0.0.1 at 2023-08-16 14:06:51 +0500
+I, [2023-08-16T14:06:51.096842 #27895]  INFO -- : [68fcb1d3-e02b-428d-a0a3-7a712d98cb80] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:06:51 +0500
+I, [2023-08-16T14:06:51.096959 #27895]  INFO -- : [68fcb1d3-e02b-428d-a0a3-7a712d98cb80] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-16T14:06:51.104361 #27895]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:06:51.105384 #27895]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:06:51.105841 #27895]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzE
+I, [2023-08-16T14:07:45.717768 #28800]  INFO -- : [abf4d054-c5cb-4941-abef-9e2b9ad1c7d6] Started GET "/users/8" for 127.0.0.1 at 2023-08-16 14:07:45 +0500
+I, [2023-08-16T14:07:45.725235 #28800]  INFO -- : [abf4d054-c5cb-4941-abef-9e2b9ad1c7d6] Processing by UsersController#show as HTML
+I, [2023-08-16T14:07:45.725601 #28800]  INFO -- : [abf4d054-c5cb-4941-abef-9e2b9ad1c7d6]   Parameters: {"id"=>"8"}
+I, [2023-08-16T14:07:45.927104 #28800]  INFO -- : [abf4d054-c5cb-4941-abef-9e2b9ad1c7d6]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 27.8ms | Allocations: 5387)
+I, [2023-08-16T14:07:45.935842 #28800]  INFO -- : [abf4d054-c5cb-4941-abef-9e2b9ad1c7d6]   Rendered layout layouts/application.html.erb (Duration: 36.4ms | Allocations: 10275)
+I, [2023-08-16T14:07:45.936555 #28800]  INFO -- : [abf4d054-c5cb-4941-abef-9e2b9ad1c7d6] Completed 200 OK in 211ms (Views: 38.8ms | ActiveRecord: 59.7ms | Allocations: 31635)
+I, [2023-08-16T14:07:46.288564 #28800]  INFO -- : [06bcfa8f-4cde-4113-8800-7164428ea150] Started GET "/cable" for 127.0.0.1 at 2023-08-16 14:07:46 +0500
+I, [2023-08-16T14:07:46.309258 #28800]  INFO -- : [06bcfa8f-4cde-4113-8800-7164428ea150] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:07:46 +0500
+I, [2023-08-16T14:07:46.311437 #28800]  INFO -- : [06bcfa8f-4cde-4113-8800-7164428ea150] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-16T14:07:46.508008 #28800]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:07:46.512343 #28800]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzI
+I, [2023-08-16T14:07:46.508411 #28800]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:07:50.584577 #28800]  INFO -- : [166a834d-92f2-459c-9965-7437b720554e] Started POST "/chatrooms/2/messages" for 127.0.0.1 at 2023-08-16 14:07:50 +0500
+I, [2023-08-16T14:07:50.594433 #28800]  INFO -- : [166a834d-92f2-459c-9965-7437b720554e] Processing by MessagesController#create as TURBO_STREAM
+I, [2023-08-16T14:07:50.594785 #28800]  INFO -- : [166a834d-92f2-459c-9965-7437b720554e]   Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"content"=>"Sir"}, "commit"=>"Create Message", "chatroom_id"=>"2"}
+I, [2023-08-16T14:07:50.698836 #28800]  INFO -- : [166a834d-92f2-459c-9965-7437b720554e] No template found for MessagesController#create, rendering head :no_content
+I, [2023-08-16T14:07:50.699866 #28800]  INFO -- : [166a834d-92f2-459c-9965-7437b720554e] Completed 204 No Content in 105ms (ActiveRecord: 25.9ms | Allocations: 5543)
+I, [2023-08-16T14:07:53.319003 #28800]  INFO -- : [b12d3ad1-c6de-4939-a0d0-c1932a8f0921] Started GET "/cable" for 127.0.0.1 at 2023-08-16 14:07:53 +0500
+I, [2023-08-16T14:07:53.320157 #28800]  INFO -- : [b12d3ad1-c6de-4939-a0d0-c1932a8f0921] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:07:53 +0500
+I, [2023-08-16T14:07:53.320347 #28800]  INFO -- : [b12d3ad1-c6de-4939-a0d0-c1932a8f0921] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-16T14:07:53.326440 #28800]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:07:53.329508 #28800]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:07:53.330194 #28800]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzE
+I, [2023-08-16T14:07:55.170222 #28800]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:07:55 +0500
+I, [2023-08-16T14:07:55.170586 #28800]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-16T14:07:55.170758 #28800]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-16T14:07:55.170962 #28800]  INFO -- : Turbo::StreamsChannel stopped streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzE
+I, [2023-08-16T14:07:55.205485 #28800]  INFO -- : [e6c3da2a-fb52-436c-a21c-0b2af2409f26] Started GET "/users/8" for 127.0.0.1 at 2023-08-16 14:07:55 +0500
+I, [2023-08-16T14:07:55.209266 #28800]  INFO -- : [e6c3da2a-fb52-436c-a21c-0b2af2409f26] Processing by UsersController#show as HTML
+I, [2023-08-16T14:07:55.209771 #28800]  INFO -- : [e6c3da2a-fb52-436c-a21c-0b2af2409f26]   Parameters: {"id"=>"8"}
+I, [2023-08-16T14:07:55.264605 #28800]  INFO -- : [e6c3da2a-fb52-436c-a21c-0b2af2409f26]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 30.9ms | Allocations: 2253)
+I, [2023-08-16T14:07:55.270198 #28800]  INFO -- : [e6c3da2a-fb52-436c-a21c-0b2af2409f26]   Rendered layout layouts/application.html.erb (Duration: 36.7ms | Allocations: 3303)
+I, [2023-08-16T14:07:55.271438 #28800]  INFO -- : [e6c3da2a-fb52-436c-a21c-0b2af2409f26] Completed 200 OK in 61ms (Views: 33.9ms | ActiveRecord: 9.7ms | Allocations: 4476)
+I, [2023-08-16T14:07:56.471418 #28800]  INFO -- : [47b04461-188e-415e-b8e2-acc4f06b3d7b] Started GET "/cable" for 127.0.0.1 at 2023-08-16 14:07:56 +0500
+I, [2023-08-16T14:07:56.476246 #28800]  INFO -- : [47b04461-188e-415e-b8e2-acc4f06b3d7b] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 14:07:56 +0500
+I, [2023-08-16T14:07:56.476590 #28800]  INFO -- : [47b04461-188e-415e-b8e2-acc4f06b3d7b] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-16T14:07:56.493512 #28800]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-16T14:07:56.495210 #28800]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-16T14:07:56.496395 #28800]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzE
