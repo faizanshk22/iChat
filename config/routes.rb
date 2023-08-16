@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   devise_for :users, controllers: {
     sessions: 'users/sessions',
     registrations: 'users/registrations',
@@ -12,8 +13,8 @@ Rails.application.routes.draw do
   
   root to: 'users#index'
   resources :users
-  resources :conversations do
+  resources :chatrooms do
   resources :messages
-  end
+  end  
  
 end

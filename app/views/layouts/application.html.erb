@@ -23,7 +23,16 @@
     <source src="<%= video_url('videoBg.mp4') %>" type="video/mp4">
     </video>
   </div>
-
+<style>
+  <%= ".msg-#{current_user&.id}" %> {
+  background-color: #007bff !important;
+  padding: 10px;
+  }
+  <%= ".cont-#{current_user&.id}" %> {
+  display: flex;
+  justify-content: flex-end
+  }
+</style>
     <%= yield %>
     <%= render partial: "shared/footer" %>
   </body>

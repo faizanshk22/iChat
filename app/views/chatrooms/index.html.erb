@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class='bordered-div'>
+        <h3> Chats </h3>
+      </div>
+      <br>
+      <div>
+        <%= turbo_stream_from "users" %>
+        <div id="users">
+          <%= render @users %>
+        </div>
+      </div>
+      <br>
+      <div class='bordered-div'>
+        <h3> Groups </h3>
+      </div>
+      <br>
+      <div class="col-md-12">
+        <%= render partial: "layouts/new_room_form" %>
+        <div>
+          <br>
+          <%= turbo_stream_from "chatrooms" %>
+          <div id="chatrooms">
+            <%= render @chatrooms %>
+          </div>
+        </div>
+        <%= link_to "Back", root_path, class: "btn btn-secondary" %>
+        <br><br>
+      </div>
+      <br><br>
+    </div>
+
+    <div class="col-md-9 text-light" style="background-color: rgba(0, 0, 0, 0.2);border:2px">
+      <% if @single_room %>
+      <div class='bordered-div'>
+       <h4 class="text-center" style='font-weight:bold'> <%= @user&.full_name || @single_room.name %> </h4>
+       </div>
+       <br>
+         <%= turbo_stream_from @single_room %>
+        <div id="messages">
+          <%= render @messages %>
+        </div>
+        <%= render partial: 'layouts/new_message_form' %>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -3419,7 +3419,9 @@ I, [2023-08-09T10:21:37.117508 #6333]  INFO -- : [7b3c2608-ae27-4f0e-824f-fba547
 I, [2023-08-09T10:21:37.117751 #6333]  INFO -- : [7b3c2608-ae27-4f0e-824f-fba54749a6c5] Completed 200 OK in 50ms (Views: 11.9ms | ActiveRecord: 11.0ms | Allocations: 21567)
 I, [2023-08-09T10:21:37.127716 #6333]  INFO -- : [9f4d646c-53c4-448a-9848-cc69f9d8fb5e] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-09 10:21:37 +0500
 I, [2023-08-09T10:21:44.534579 #6333]  INFO -- : [918744ee-99fb-4417-9b8d-a40684e81f55] Started POST "/users/sign_in" for 127.0.0.1 at 2023-08-09 10:21:44 +0500
-I, [2023-08-09T10:21:44.536277 #6333]  INFO -- : [918744ee-99fb-4417-9b8d-a40684e81f55] Processing by Users::SessionsController#create as HTML
+I, [2023-08-09T10:21:44.536277 #6333]  INFO -- : [918744ee-99fb-4417-9b8d-a40684e81
+I, [2023-08-09T10:21:37.065351 #6333]  INFO -- : [7b3c2608-ae27-4f0e-824f-fba54749a6c5] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-09 10:21:37 +0500
+I, [2023-08-09T10:21:37.067144 #6333]  INFO -- : [7b3c2608-ae27-4f0e-824f-fba54f55] Processing by Users::SessionsController#create as HTML
 I, [2023-08-09T10:21:44.536402 #6333]  INFO -- : [918744ee-99fb-4417-9b8d-a40684e81f55]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"faizantanveer5597@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
 I, [2023-08-09T10:21:44.760122 #6333]  INFO -- : [918744ee-99fb-4417-9b8d-a40684e81f55] Redirected to http://localhost:3000/
 I, [2023-08-09T10:21:44.760467 #6333]  INFO -- : [918744ee-99fb-4417-9b8d-a40684e81f55] Completed 303 See Other in 224ms (ActiveRecord: 2.1ms | Allocations: 3092)
@@ -6295,3 +6297,702 @@ E, [2023-08-11T16:54:24.893204 #35029] ERROR -- : /home/faizanlinux/.rvm/rubies/
 I, [2023-08-11T16:54:25.085727 #35029]  INFO -- : [b9392c37-0d92-4769-bc77-7469f3e6d459] Started GET "/cable" for 127.0.0.1 at 2023-08-11 16:54:25 +0500
 I, [2023-08-11T16:54:25.086630 #35029]  INFO -- : [b9392c37-0d92-4769-bc77-7469f3e6d459] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-11 16:54:25 +0500
 I, [2023-08-11T16:54:25.086750 #35029]  INFO -- : [b9392c37-0d92-4769-bc77-7469f3e6d459] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-13T15:22:22.816531 #8348]  INFO -- : [66e87158-278c-4186-a08f-5a9acd17562c] Started GET "/" for 127.0.0.1 at 2023-08-13 15:22:22 +0500
+I, [2023-08-13T15:22:22.819176 #8348]  INFO -- : [66e87158-278c-4186-a08f-5a9acd17562c] Processing by UsersController#index as HTML
+I, [2023-08-13T15:22:22.831006 #8348]  INFO -- : [66e87158-278c-4186-a08f-5a9acd17562c] Completed 401 Unauthorized in 12ms (Allocations: 1093)
+I, [2023-08-13T15:22:22.837951 #8348]  INFO -- : [267a61a9-7989-4d75-b1ab-bac7cabce752] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-13 15:22:22 +0500
+I, [2023-08-13T15:22:22.843546 #8348]  INFO -- : [267a61a9-7989-4d75-b1ab-bac7cabce752] Processing by Users::SessionsController#new as HTML
+I, [2023-08-13T15:22:22.961184 #8348]  INFO -- : [267a61a9-7989-4d75-b1ab-bac7cabce752]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 10.4ms | Allocations: 3230)
+I, [2023-08-13T15:22:22.974642 #8348]  INFO -- : [267a61a9-7989-4d75-b1ab-bac7cabce752]   Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 7440)
+I, [2023-08-13T15:22:22.976202 #8348]  INFO -- : [267a61a9-7989-4d75-b1ab-bac7cabce752] Completed 200 OK in 132ms (Views: 28.6ms | ActiveRecord: 40.0ms | Allocations: 22184)
+I, [2023-08-13T15:22:23.001015 #8348]  INFO -- : [e1161775-a463-49dc-be66-a45f33b72c69] Started GET "/assets/application-637ded105f4dd6f775c7f42a46bcb45c53cfe3b8c94c9a466afc0b7492969982.css" for 127.0.0.1 at 2023-08-13 15:22:23 +0500
+I, [2023-08-13T15:22:23.011642 #8348]  INFO -- : [9c76c91c-523a-444c-9d0a-b73bdbed89e9] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-13 15:22:23 +0500
+I, [2023-08-13T15:22:30.104882 #8348]  INFO -- : [b4d84cd2-91f3-4ae1-a6b7-dc1220965d49] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-13 15:22:30 +0500
+I, [2023-08-13T15:22:34.943830 #8348]  INFO -- : [07034f64-d024-4831-9eee-4112bda9e956] Started GET "/users/auth/google_oauth2/callback?state=008e4131ad1d745b00e2dd41718ee497a616cfe52e138b2c&code=4%2F0Adeu5BUnpbR2mD6zZzUXnRCeKZduKk73A4VBHmFga4vYTQgj2VknG405Fi6z8cjHIhIjow&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for 127.0.0.1 at 2023-08-13 15:22:34 +0500
+I, [2023-08-13T15:22:36.587352 #8348]  INFO -- : [07034f64-d024-4831-9eee-4112bda9e956] Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+I, [2023-08-13T15:22:36.587636 #8348]  INFO -- : [07034f64-d024-4831-9eee-4112bda9e956]   Parameters: {"state"=>"008e4131ad1d745b00e2dd41718ee497a616cfe52e138b2c", "code"=>"4/0Adeu5BUnpbR2mD6zZzUXnRCeKZduKk73A4VBHmFga4vYTQgj2VknG405Fi6z8cjHIhIjow", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+I, [2023-08-13T15:22:36.603784 #8348]  INFO -- : [07034f64-d024-4831-9eee-4112bda9e956] Redirected to http://localhost:3000/
+I, [2023-08-13T15:22:36.604313 #8348]  INFO -- : [07034f64-d024-4831-9eee-4112bda9e956] Completed 302 Found in 16ms (ActiveRecord: 5.3ms | Allocations: 1540)
+I, [2023-08-13T15:22:36.613873 #8348]  INFO -- : [6822bb24-11a1-44a3-9386-5301cfd1d7ff] Started GET "/" for 127.0.0.1 at 2023-08-13 15:22:36 +0500
+I, [2023-08-13T15:22:36.616847 #8348]  INFO -- : [6822bb24-11a1-44a3-9386-5301cfd1d7ff] Processing by UsersController#index as HTML
+I, [2023-08-13T15:22:36.633422 #8348]  INFO -- : [6822bb24-11a1-44a3-9386-5301cfd1d7ff]   Rendered users/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 421)
+I, [2023-08-13T15:22:36.636753 #8348]  INFO -- : [6822bb24-11a1-44a3-9386-5301cfd1d7ff]   Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 1609)
+I, [2023-08-13T15:22:36.637106 #8348]  INFO -- : [6822bb24-11a1-44a3-9386-5301cfd1d7ff] Completed 200 OK in 20ms (Views: 12.3ms | ActiveRecord: 1.8ms | Allocations: 2724)
+I, [2023-08-13T15:24:58.187945 #8348]  INFO -- : [710b5494-d5cd-47fb-ada1-22bf185a4e6e] Started GET "/" for 127.0.0.1 at 2023-08-13 15:24:58 +0500
+I, [2023-08-13T15:24:58.196253 #8348]  INFO -- : [710b5494-d5cd-47fb-ada1-22bf185a4e6e] Processing by UsersController#index as HTML
+I, [2023-08-13T15:24:58.207899 #8348]  INFO -- : [710b5494-d5cd-47fb-ada1-22bf185a4e6e]   Rendered users/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 192)
+I, [2023-08-13T15:24:58.216268 #8348]  INFO -- : [710b5494-d5cd-47fb-ada1-22bf185a4e6e]   Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 1256)
+I, [2023-08-13T15:24:58.217264 #8348]  INFO -- : [710b5494-d5cd-47fb-ada1-22bf185a4e6e] Completed 200 OK in 20ms (Views: 11.6ms | ActiveRecord: 1.7ms | Allocations: 2017)
+I, [2023-08-15T12:01:43.331163 #18293]  INFO -- : [ae9c232c-ead2-4976-a0ad-e55b30a3a306] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-15 12:01:43 +0500
+I, [2023-08-15T12:01:43.337248 #18293]  INFO -- : [ae9c232c-ead2-4976-a0ad-e55b30a3a306] Processing by Users::SessionsController#new as HTML
+I, [2023-08-15T12:01:43.412941 #18293]  INFO -- : [ae9c232c-ead2-4976-a0ad-e55b30a3a306]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 3729)
+I, [2023-08-15T12:01:43.417413 #18293]  INFO -- : [ae9c232c-ead2-4976-a0ad-e55b30a3a306]   Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 8003)
+I, [2023-08-15T12:01:43.417679 #18293]  INFO -- : [ae9c232c-ead2-4976-a0ad-e55b30a3a306] Completed 200 OK in 80ms (Views: 13.7ms | ActiveRecord: 27.7ms | Allocations: 23449)
+I, [2023-08-15T12:01:43.442795 #18293]  INFO -- : [4795e7d9-f50f-415d-97bb-f41b501f06a0] Started GET "/assets/videoBg-78bbf2d93351b70a731ab64b5144f2799c639286da6e992a3d7c4adf51b89dd8.mp4" for 127.0.0.1 at 2023-08-15 12:01:43 +0500
+I, [2023-08-15T12:01:43.445633 #18293]  INFO -- : [9111244c-5553-44d3-8c2e-e4670ca46a9f] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-15 12:01:43 +0500
+I, [2023-08-15T12:01:45.364333 #18293]  INFO -- : [fc73fd76-d9f8-44f4-933a-fcfc15d351aa] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-15 12:01:45 +0500
+I, [2023-08-15T12:01:50.401696 #18293]  INFO -- : [26f5b453-2c1f-4227-9b84-f17a5b0a7295] Started GET "/users/auth/google_oauth2/callback?state=d8848e14e70a61ef028a9ba2ceb74839df3e212a02a41472&code=4%2F0Adeu5BWXLK_zgIXrjg2PSeX2WK893b0gUpB-ZEQn_Wk6XixpPrzIVqo9c9ODjAtSy0yhMw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for 127.0.0.1 at 2023-08-15 12:01:50 +0500
+I, [2023-08-15T12:01:52.068595 #18293]  INFO -- : [26f5b453-2c1f-4227-9b84-f17a5b0a7295] Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+I, [2023-08-15T12:01:52.068846 #18293]  INFO -- : [26f5b453-2c1f-4227-9b84-f17a5b0a7295]   Parameters: {"state"=>"d8848e14e70a61ef028a9ba2ceb74839df3e212a02a41472", "code"=>"4/0Adeu5BWXLK_zgIXrjg2PSeX2WK893b0gUpB-ZEQn_Wk6XixpPrzIVqo9c9ODjAtSy0yhMw", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+I, [2023-08-15T12:01:52.088158 #18293]  INFO -- : [26f5b453-2c1f-4227-9b84-f17a5b0a7295] Redirected to http://localhost:3000/
+I, [2023-08-15T12:01:52.088634 #18293]  INFO -- : [26f5b453-2c1f-4227-9b84-f17a5b0a7295] Completed 302 Found in 20ms (ActiveRecord: 7.7ms | Allocations: 1551)
+I, [2023-08-15T12:01:52.099297 #18293]  INFO -- : [13f2ae70-13e2-4352-a3ea-613c8b8fa27b] Started GET "/" for 127.0.0.1 at 2023-08-15 12:01:52 +0500
+I, [2023-08-15T12:01:52.101862 #18293]  INFO -- : [13f2ae70-13e2-4352-a3ea-613c8b8fa27b] Processing by UsersController#index as HTML
+I, [2023-08-15T12:01:52.118577 #18293]  INFO -- : [13f2ae70-13e2-4352-a3ea-613c8b8fa27b]   Rendered users/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 364)
+I, [2023-08-15T12:01:52.121580 #18293]  INFO -- : [13f2ae70-13e2-4352-a3ea-613c8b8fa27b]   Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 1811)
+I, [2023-08-15T12:01:52.121919 #18293]  INFO -- : [13f2ae70-13e2-4352-a3ea-613c8b8fa27b] Completed 200 OK in 20ms (Views: 11.0ms | ActiveRecord: 1.8ms | Allocations: 2986)
+I, [2023-08-15T12:02:05.343841 #18293]  INFO -- : [cea287f7-e865-4220-8374-92af171e4d50] Started DELETE "/users/sign_out" for 127.0.0.1 at 2023-08-15 12:02:05 +0500
+I, [2023-08-15T12:02:05.346591 #18293]  INFO -- : [cea287f7-e865-4220-8374-92af171e4d50] Processing by Users::SessionsController#destroy as HTML
+I, [2023-08-15T12:02:05.346800 #18293]  INFO -- : [cea287f7-e865-4220-8374-92af171e4d50]   Parameters: {"authenticity_token"=>"[FILTERED]"}
+I, [2023-08-15T12:02:05.358496 #18293]  INFO -- : [cea287f7-e865-4220-8374-92af171e4d50] Redirected to http://localhost:3000/users/sign_in
+I, [2023-08-15T12:02:05.358947 #18293]  INFO -- : [cea287f7-e865-4220-8374-92af171e4d50] Completed 303 See Other in 12ms (ActiveRecord: 0.3ms | Allocations: 1770)
+I, [2023-08-15T12:02:05.365592 #18293]  INFO -- : [5eaf6fc6-f33a-4d85-b1e2-ce5502f84009] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-15 12:02:05 +0500
+I, [2023-08-15T12:02:05.366860 #18293]  INFO -- : [5eaf6fc6-f33a-4d85-b1e2-ce5502f84009] Processing by Users::SessionsController#new as HTML
+I, [2023-08-15T12:02:05.371632 #18293]  INFO -- : [5eaf6fc6-f33a-4d85-b1e2-ce5502f84009]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1670)
+I, [2023-08-15T12:02:05.377029 #18293]  INFO -- : [5eaf6fc6-f33a-4d85-b1e2-ce5502f84009]   Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 2490)
+I, [2023-08-15T12:02:05.378306 #18293]  INFO -- : [5eaf6fc6-f33a-4d85-b1e2-ce5502f84009] Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 3157)
+I, [2023-08-15T12:02:05.419893 #18293]  INFO -- : [4272bef1-1126-4cb6-928e-c8ebd13f04cd] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-15 12:02:05 +0500
+I, [2023-08-15T12:02:13.119519 #18293]  INFO -- : [2a48ba94-1ec4-4e57-ab66-1a6821f8d181] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-15 12:02:13 +0500
+I, [2023-08-15T12:02:13.120402 #18293]  INFO -- : [2a48ba94-1ec4-4e57-ab66-1a6821f8d181] Processing by Users::SessionsController#new as HTML
+I, [2023-08-15T12:02:13.125174 #18293]  INFO -- : [2a48ba94-1ec4-4e57-ab66-1a6821f8d181]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1665)
+I, [2023-08-15T12:02:13.128466 #18293]  INFO -- : [2a48ba94-1ec4-4e57-ab66-1a6821f8d181]   Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2479)
+I, [2023-08-15T12:02:13.128930 #18293]  INFO -- : [2a48ba94-1ec4-4e57-ab66-1a6821f8d181] Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3136)
+I, [2023-08-15T12:02:13.160453 #18293]  INFO -- : [11474163-faee-41b0-bdc1-c31d418d64ad] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-15 12:02:13 +0500
+I, [2023-08-16T11:55:45.062740 #18356]  INFO -- : [25afd867-2806-46c1-8694-856256a1de96] Started GET "/cable" for 127.0.0.1 at 2023-08-16 11:55:45 +0500
+I, [2023-08-16T11:55:45.070668 #18356]  INFO -- : [25afd867-2806-46c1-8694-856256a1de96] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 11:55:45 +0500
+I, [2023-08-16T11:55:45.071351 #18356]  INFO -- : [25afd867-2806-46c1-8694-856256a1de96] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-16T11:55:46.484220 #18356]  INFO -- : [0ac75062-4e1b-4cf8-aacb-2eb60fd6bb9d] Started GET "/users/3" for 127.0.0.1 at 2023-08-16 11:55:46 +0500
+I, [2023-08-16T11:55:46.488126 #18356]  INFO -- : [0ac75062-4e1b-4cf8-aacb-2eb60fd6bb9d] Processing by UsersController#show as HTML
+I, [2023-08-16T11:55:46.488696 #18356]  INFO -- : [0ac75062-4e1b-4cf8-aacb-2eb60fd6bb9d]   Parameters: {"id"=>"3"}
+I, [2023-08-16T11:55:46.516835 #18356]  INFO -- : [0ac75062-4e1b-4cf8-aacb-2eb60fd6bb9d] Completed 401 Unauthorized in 28ms (Allocations: 1056)
+I, [2023-08-16T11:55:46.548479 #18356]  INFO -- : [955b9528-5ac0-4248-b93c-c1700ca9fe75] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-16 11:55:46 +0500
+I, [2023-08-16T11:55:46.558273 #18356]  INFO -- : [955b9528-5ac0-4248-b93c-c1700ca9fe75] Processing by Users::SessionsController#new as HTML
+I, [2023-08-16T11:55:46.767132 #18356]  INFO -- : [955b9528-5ac0-4248-b93c-c1700ca9fe75]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 39.0ms | Allocations: 3227)
+I, [2023-08-16T11:55:46.797197 #18356]  INFO -- : [955b9528-5ac0-4248-b93c-c1700ca9fe75]   Rendered layout layouts/application.html.erb (Duration: 69.3ms | Allocations: 7924)
+I, [2023-08-16T11:55:46.801238 #18356]  INFO -- : [955b9528-5ac0-4248-b93c-c1700ca9fe75] Completed 200 OK in 242ms (Views: 83.5ms | ActiveRecord: 82.0ms | Allocations: 22563)
+I, [2023-08-16T11:55:46.823332 #18356]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 11:55:46 +0500
+I, [2023-08-16T11:55:46.868711 #18356]  INFO -- : [3c285e57-f501-4f6f-8aa3-ee9ab3f3abf4] Started GET "/assets/application-34ab121adccf1572f3edcda4d8adff65ae24f772d7167bd5486babe607ed91a3.css" for 127.0.0.1 at 2023-08-16 11:55:46 +0500
+I, [2023-08-16T11:55:46.889685 #18356]  INFO -- : [a219767d-ae0f-4a89-85fc-ffc70249a99d] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-16 11:55:46 +0500
+I, [2023-08-16T11:55:51.459929 #18356]  INFO -- : [7de2fcd8-4ff2-444f-817b-a25cc36ec14d] Started GET "/users/1" for 127.0.0.1 at 2023-08-16 11:55:51 +0500
+I, [2023-08-16T11:55:51.461303 #18356]  INFO -- : [7de2fcd8-4ff2-444f-817b-a25cc36ec14d] Processing by UsersController#show as HTML
+I, [2023-08-16T11:55:51.461434 #18356]  INFO -- : [7de2fcd8-4ff2-444f-817b-a25cc36ec14d]   Parameters: {"id"=>"1"}
+I, [2023-08-16T11:55:51.464400 #18356]  INFO -- : [7de2fcd8-4ff2-444f-817b-a25cc36ec14d] Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 765)
+I, [2023-08-16T11:55:51.474973 #18356]  INFO -- : [9e581675-5280-4196-94ab-f786e68fd91b] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-16 11:55:51 +0500
+I, [2023-08-16T11:55:51.476309 #18356]  INFO -- : [9e581675-5280-4196-94ab-f786e68fd91b] Processing by Users::SessionsController#new as HTML
+I, [2023-08-16T11:55:51.485786 #18356]  INFO -- : [9e581675-5280-4196-94ab-f786e68fd91b]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1670)
+I, [2023-08-16T11:55:51.488956 #18356]  INFO -- : [9e581675-5280-4196-94ab-f786e68fd91b]   Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 2543)
+I, [2023-08-16T11:55:51.489519 #18356]  INFO -- : [9e581675-5280-4196-94ab-f786e68fd91b] Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 3234)
+I, [2023-08-16T11:55:51.537128 #18356]  INFO -- : [ecda4802-e3d5-4c94-9a13-1fe26c914fea] Started GET "/assets/controllers/reset_form_controller-232a594cc559b006e5e0d2fbb3181e679503bb70e881d56faec405d9be61e46b.js" for 127.0.0.1 at 2023-08-16 11:55:51 +0500
+I, [2023-08-16T11:55:51.596382 #18356]  INFO -- : [7821196e-7a0d-4c92-a4d0-fa2481372003] Started GET "/assets/application-34ab121adccf1572f3edcda4d8adff65ae24f772d7167bd5486babe607ed91a3.css" for 127.0.0.1 at 2023-08-16 11:55:51 +0500
+I, [2023-08-16T11:55:51.604533 #18356]  INFO -- : [f68860ca-15c4-4836-a125-dd42f0098638] Started GET "/assets/application-eec3c08db3144e5a812b21184265fe8f980333cf7e94869a3ca45d0747f4a383.js" for 127.0.0.1 at 2023-08-16 11:55:51 +0500
+I, [2023-08-16T11:55:51.620334 #18356]  INFO -- : [34bfff0d-c890-4548-b90b-b7519f3f96a8] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-16 11:55:51 +0500
+I, [2023-08-16T11:55:51.688384 #18356]  INFO -- : [58b316bf-96db-4d40-bb24-23ae7b274b46] Started GET "/assets/channels/index-d59f99cbc2c7ec0450692d154e92f715b3f7f25e154385dc67cd4155d04d57cd.js" for 127.0.0.1 at 2023-08-16 11:55:51 +0500
+I, [2023-08-16T11:55:52.231522 #18356]  INFO -- : [0c325702-e66a-406a-9e10-234ae83333ee] Started GET "/assets/controllers/reset_form_controller-232a594cc559b006e5e0d2fbb3181e679503bb70e881d56faec405d9be61e46b.js" for 127.0.0.1 at 2023-08-16 11:55:52 +0500
+I, [2023-08-16T11:55:52.263862 #18356]  INFO -- : [5ab7c760-cfbf-485f-b356-2cf8d5fc6aa9] Started GET "/favicon.ico" for 127.0.0.1 at 2023-08-16 11:55:52 +0500
+F, [2023-08-16T11:55:52.267102 #18356] FATAL -- : [5ab7c760-cfbf-485f-b356-2cf8d5fc6aa9]   
+[5ab7c760-cfbf-485f-b356-2cf8d5fc6aa9] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[5ab7c760-cfbf-485f-b356-2cf8d5fc6aa9]   
+I, [2023-08-16T11:55:58.344414 #18356]  INFO -- : [b3f87a96-32cb-4383-a029-8794fd8c376f] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-16 11:55:58 +0500
+I, [2023-08-16T11:56:02.126560 #18356]  INFO -- : [7171b479-2269-4149-b346-ac1e1f37b79f] Started GET "/users/auth/google_oauth2/callback?state=3927a33e6b1a06dd622ed148728e9da0d3c9bcd5763e4515&code=4%2F0Adeu5BUUJ2mXZZWBYkTBYF2zT9XMH7AODBqlPklELr-lTMKbUXIHtLmg7hYPFNLxVP46GQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for 127.0.0.1 at 2023-08-16 11:56:02 +0500
+I, [2023-08-16T11:56:04.766946 #18356]  INFO -- : [7171b479-2269-4149-b346-ac1e1f37b79f] Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+I, [2023-08-16T11:56:04.767428 #18356]  INFO -- : [7171b479-2269-4149-b346-ac1e1f37b79f]   Parameters: {"state"=>"3927a33e6b1a06dd622ed148728e9da0d3c9bcd5763e4515", "code"=>"4/0Adeu5BUUJ2mXZZWBYkTBYF2zT9XMH7AODBqlPklELr-lTMKbUXIHtLmg7hYPFNLxVP46GQ", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+I, [2023-08-16T11:56:04.788671 #18356]  INFO -- : [7171b479-2269-4149-b346-ac1e1f37b79f] Redirected to http://localhost:3000/
+I, [2023-08-16T11:56:04.789274 #18356]  INFO -- : [7171b479-2269-4149-b346-ac1e1f37b79f] Completed 302 Found in 21ms (ActiveRecord: 8.5ms | Allocations: 1527)
+I, [2023-08-16T11:56:04.802771 #18356]  INFO -- : [c3701537-8689-4e84-b846-66638b942e00] Started GET "/" for 127.0.0.1 at 2023-08-16 11:56:04 +0500
+I, [2023-08-16T11:56:04.804995 #18356]  INFO -- : [c3701537-8689-4e84-b846-66638b942e00] Processing by UsersController#index as HTML
+I, [2023-08-16T11:56:04.822404 #18356]  INFO -- : [c3701537-8689-4e84-b846-66638b942e00]   Rendered users/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 396)
+I, [2023-08-16T11:56:04.829725 #18356]  INFO -- : [c3701537-8689-4e84-b846-66638b942e00]   Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 1605)
+I, [2023-08-16T11:56:04.830661 #18356]  INFO -- : [c3701537-8689-4e84-b846-66638b942e00] Completed 200 OK in 25ms (Views: 17.1ms | ActiveRecord: 1.8ms | Allocations: 2715)
+I, [2023-08-16T11:56:04.983394 #18356]  INFO -- : [9de96ee8-3618-434a-8b0e-8757395a0dbc] Started GET "/assets/channels/index-d59f99cbc2c7ec0450692d154e92f715b3f7f25e154385dc67cd4155d04d57cd.js" for 127.0.0.1 at 2023-08-16 11:56:04 +0500
+I, [2023-08-16T11:56:07.309872 #18356]  INFO -- : [cd3d927b-84f1-4c95-b336-6e876386f85b] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 11:56:07 +0500
+I, [2023-08-16T11:56:07.311089 #18356]  INFO -- : [cd3d927b-84f1-4c95-b336-6e876386f85b] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T11:56:07.319395 #18356]  INFO -- : [cd3d927b-84f1-4c95-b336-6e876386f85b] Completed 500 Internal Server Error in 8ms (ActiveRecord: 4.5ms | Allocations: 936)
+F, [2023-08-16T11:56:07.320117 #18356] FATAL -- : [cd3d927b-84f1-4c95-b336-6e876386f85b]   
+[cd3d927b-84f1-4c95-b336-6e876386f85b] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[cd3d927b-84f1-4c95-b336-6e876386f85b]   
+[cd3d927b-84f1-4c95-b336-6e876386f85b] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[cd3d927b-84f1-4c95-b336-6e876386f85b] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T11:56:13.536453 #18356]  INFO -- : [57973703-f28a-4b0e-869e-4130e5d7d206] Started GET "/" for 127.0.0.1 at 2023-08-16 11:56:13 +0500
+I, [2023-08-16T11:56:13.538744 #18356]  INFO -- : [57973703-f28a-4b0e-869e-4130e5d7d206] Processing by UsersController#index as HTML
+I, [2023-08-16T11:56:13.544961 #18356]  INFO -- : [57973703-f28a-4b0e-869e-4130e5d7d206]   Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 190)
+I, [2023-08-16T11:56:13.546846 #18356]  INFO -- : [57973703-f28a-4b0e-869e-4130e5d7d206]   Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1265)
+I, [2023-08-16T11:56:13.547481 #18356]  INFO -- : [57973703-f28a-4b0e-869e-4130e5d7d206] Completed 200 OK in 8ms (Views: 4.1ms | ActiveRecord: 0.7ms | Allocations: 2034)
+I, [2023-08-16T11:56:15.305669 #18356]  INFO -- : [0d237232-2aba-47d0-873f-563f59925af4] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 11:56:15 +0500
+I, [2023-08-16T11:56:15.306638 #18356]  INFO -- : [0d237232-2aba-47d0-873f-563f59925af4] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T11:56:15.310087 #18356]  INFO -- : [0d237232-2aba-47d0-873f-563f59925af4] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.0ms | Allocations: 682)
+F, [2023-08-16T11:56:15.310809 #18356] FATAL -- : [0d237232-2aba-47d0-873f-563f59925af4]   
+[0d237232-2aba-47d0-873f-563f59925af4] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[0d237232-2aba-47d0-873f-563f59925af4]   
+[0d237232-2aba-47d0-873f-563f59925af4] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[0d237232-2aba-47d0-873f-563f59925af4] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T11:56:17.567844 #18356]  INFO -- : [875a44bc-aae5-4f7c-b227-2480cd5cf099] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 11:56:17 +0500
+I, [2023-08-16T11:56:17.571173 #18356]  INFO -- : [875a44bc-aae5-4f7c-b227-2480cd5cf099] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T11:56:17.583320 #18356]  INFO -- : [875a44bc-aae5-4f7c-b227-2480cd5cf099] Completed 500 Internal Server Error in 11ms (ActiveRecord: 4.3ms | Allocations: 667)
+F, [2023-08-16T11:56:17.585576 #18356] FATAL -- : [875a44bc-aae5-4f7c-b227-2480cd5cf099]   
+[875a44bc-aae5-4f7c-b227-2480cd5cf099] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[875a44bc-aae5-4f7c-b227-2480cd5cf099]   
+[875a44bc-aae5-4f7c-b227-2480cd5cf099] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[875a44bc-aae5-4f7c-b227-2480cd5cf099] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T11:56:30.453834 #18356]  INFO -- : [2d592b0f-6f14-444e-b0cd-d09694b07e8e] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 11:56:30 +0500
+I, [2023-08-16T11:56:30.455071 #18356]  INFO -- : [2d592b0f-6f14-444e-b0cd-d09694b07e8e] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T11:56:30.458511 #18356]  INFO -- : [2d592b0f-6f14-444e-b0cd-d09694b07e8e] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.2ms | Allocations: 667)
+F, [2023-08-16T11:56:30.459314 #18356] FATAL -- : [2d592b0f-6f14-444e-b0cd-d09694b07e8e]   
+[2d592b0f-6f14-444e-b0cd-d09694b07e8e] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[2d592b0f-6f14-444e-b0cd-d09694b07e8e]   
+[2d592b0f-6f14-444e-b0cd-d09694b07e8e] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[2d592b0f-6f14-444e-b0cd-d09694b07e8e] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T11:56:33.129271 #18356]  INFO -- : [21b8e034-fc3c-4e2a-8a90-ff61d3fddd2c] Started GET "/" for 127.0.0.1 at 2023-08-16 11:56:33 +0500
+I, [2023-08-16T11:56:33.130735 #18356]  INFO -- : [21b8e034-fc3c-4e2a-8a90-ff61d3fddd2c] Processing by UsersController#index as HTML
+I, [2023-08-16T11:56:33.135901 #18356]  INFO -- : [21b8e034-fc3c-4e2a-8a90-ff61d3fddd2c]   Rendered users/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 190)
+I, [2023-08-16T11:56:33.137368 #18356]  INFO -- : [21b8e034-fc3c-4e2a-8a90-ff61d3fddd2c]   Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1265)
+I, [2023-08-16T11:56:33.137609 #18356]  INFO -- : [21b8e034-fc3c-4e2a-8a90-ff61d3fddd2c] Completed 200 OK in 7ms (Views: 2.4ms | ActiveRecord: 0.5ms | Allocations: 2018)
+I, [2023-08-16T11:57:05.136740 #18356]  INFO -- : [1a1e2275-f971-47f6-8802-faac500508d9] Started DELETE "/users/sign_out" for 127.0.0.1 at 2023-08-16 11:57:05 +0500
+I, [2023-08-16T11:57:05.138749 #18356]  INFO -- : [1a1e2275-f971-47f6-8802-faac500508d9] Processing by Users::SessionsController#destroy as TURBO_STREAM
+I, [2023-08-16T11:57:05.138894 #18356]  INFO -- : [1a1e2275-f971-47f6-8802-faac500508d9]   Parameters: {"authenticity_token"=>"[FILTERED]"}
+I, [2023-08-16T11:57:05.148692 #18356]  INFO -- : [1a1e2275-f971-47f6-8802-faac500508d9] Redirected to http://localhost:3000/users/sign_in
+I, [2023-08-16T11:57:05.148939 #18356]  INFO -- : [1a1e2275-f971-47f6-8802-faac500508d9] Completed 303 See Other in 10ms (ActiveRecord: 0.3ms | Allocations: 1762)
+I, [2023-08-16T11:57:05.156362 #18356]  INFO -- : [8b5ea80d-475f-48f5-baf1-78517fc6c5a2] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-16 11:57:05 +0500
+I, [2023-08-16T11:57:05.158096 #18356]  INFO -- : [8b5ea80d-475f-48f5-baf1-78517fc6c5a2] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-16T11:57:05.168436 #18356]  INFO -- : [8b5ea80d-475f-48f5-baf1-78517fc6c5a2]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1670)
+I, [2023-08-16T11:57:05.171022 #18356]  INFO -- : [8b5ea80d-475f-48f5-baf1-78517fc6c5a2]   Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2536)
+I, [2023-08-16T11:57:05.171523 #18356]  INFO -- : [8b5ea80d-475f-48f5-baf1-78517fc6c5a2] Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 3218)
+I, [2023-08-16T11:57:05.212193 #18356]  INFO -- : [961b14d8-8ec2-4457-8461-d3efbb7d9832] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-16 11:57:05 +0500
+I, [2023-08-16T11:59:17.297177 #18356]  INFO -- : [cc27f16b-ef9a-41d5-9fe7-7cfef0a32319] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-16 11:59:17 +0500
+I, [2023-08-16T11:59:27.169414 #18356]  INFO -- : [092fb873-70ef-4384-a3dc-19b6ef24967c] Started GET "/users/auth/google_oauth2/callback?state=4eea5e874b63fb399e145d3aa51651cc53f989e941a222d1&code=4%2F0Adeu5BXgHvmFq4I-fouDzzaWaKRAFP2d5o5yQj9rSlhBqDvZWtJT-1gcwShfjwNzNtWDuA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for 127.0.0.1 at 2023-08-16 11:59:27 +0500
+I, [2023-08-16T11:59:28.992085 #18356]  INFO -- : [092fb873-70ef-4384-a3dc-19b6ef24967c] Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+I, [2023-08-16T11:59:28.992202 #18356]  INFO -- : [092fb873-70ef-4384-a3dc-19b6ef24967c]   Parameters: {"state"=>"4eea5e874b63fb399e145d3aa51651cc53f989e941a222d1", "code"=>"4/0Adeu5BXgHvmFq4I-fouDzzaWaKRAFP2d5o5yQj9rSlhBqDvZWtJT-1gcwShfjwNzNtWDuA", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+I, [2023-08-16T11:59:28.998708 #18356]  INFO -- : [092fb873-70ef-4384-a3dc-19b6ef24967c] Redirected to http://localhost:3000/
+I, [2023-08-16T11:59:28.998865 #18356]  INFO -- : [092fb873-70ef-4384-a3dc-19b6ef24967c] Completed 302 Found in 7ms (ActiveRecord: 0.5ms | Allocations: 550)
+I, [2023-08-16T11:59:29.010754 #18356]  INFO -- : [ec1df6af-28a0-42f9-9e51-37403c417ecf] Started GET "/" for 127.0.0.1 at 2023-08-16 11:59:29 +0500
+I, [2023-08-16T11:59:29.015487 #18356]  INFO -- : [ec1df6af-28a0-42f9-9e51-37403c417ecf] Processing by UsersController#index as HTML
+I, [2023-08-16T11:59:29.026698 #18356]  INFO -- : [ec1df6af-28a0-42f9-9e51-37403c417ecf]   Rendered users/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 190)
+I, [2023-08-16T11:59:29.054553 #18356]  INFO -- : [ec1df6af-28a0-42f9-9e51-37403c417ecf]   Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 1269)
+I, [2023-08-16T11:59:29.054977 #18356]  INFO -- : [ec1df6af-28a0-42f9-9e51-37403c417ecf] Completed 200 OK in 39ms (Views: 35.8ms | ActiveRecord: 1.1ms | Allocations: 2025)
+I, [2023-08-16T11:59:31.434452 #18356]  INFO -- : [512088c9-8461-419f-aa62-0528382d7c1d] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 11:59:31 +0500
+I, [2023-08-16T11:59:31.437128 #18356]  INFO -- : [512088c9-8461-419f-aa62-0528382d7c1d] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T11:59:31.446098 #18356]  INFO -- : [512088c9-8461-419f-aa62-0528382d7c1d] Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.8ms | Allocations: 677)
+F, [2023-08-16T11:59:31.446751 #18356] FATAL -- : [512088c9-8461-419f-aa62-0528382d7c1d]   
+[512088c9-8461-419f-aa62-0528382d7c1d] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[512088c9-8461-419f-aa62-0528382d7c1d]   
+[512088c9-8461-419f-aa62-0528382d7c1d] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[512088c9-8461-419f-aa62-0528382d7c1d] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T11:59:34.785382 #18356]  INFO -- : [7857f156-85ad-4325-b8af-6e7a30ff1194] Started GET "/" for 127.0.0.1 at 2023-08-16 11:59:34 +0500
+I, [2023-08-16T11:59:34.787045 #18356]  INFO -- : [7857f156-85ad-4325-b8af-6e7a30ff1194] Processing by UsersController#index as HTML
+I, [2023-08-16T11:59:34.793238 #18356]  INFO -- : [7857f156-85ad-4325-b8af-6e7a30ff1194]   Rendered users/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 190)
+I, [2023-08-16T11:59:34.796025 #18356]  INFO -- : [7857f156-85ad-4325-b8af-6e7a30ff1194]   Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1264)
+I, [2023-08-16T11:59:34.796379 #18356]  INFO -- : [7857f156-85ad-4325-b8af-6e7a30ff1194] Completed 200 OK in 9ms (Views: 4.5ms | ActiveRecord: 0.7ms | Allocations: 2010)
+I, [2023-08-16T12:00:16.909277 #18356]  INFO -- : [2f1d4748-79bd-427d-976a-76ff95fcfc37] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:00:16 +0500
+I, [2023-08-16T12:00:16.910521 #18356]  INFO -- : [2f1d4748-79bd-427d-976a-76ff95fcfc37] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:00:16.920288 #18356]  INFO -- : [2f1d4748-79bd-427d-976a-76ff95fcfc37] Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.2ms | Allocations: 677)
+F, [2023-08-16T12:00:16.921307 #18356] FATAL -- : [2f1d4748-79bd-427d-976a-76ff95fcfc37]   
+[2f1d4748-79bd-427d-976a-76ff95fcfc37] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[2f1d4748-79bd-427d-976a-76ff95fcfc37]   
+[2f1d4748-79bd-427d-976a-76ff95fcfc37] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[2f1d4748-79bd-427d-976a-76ff95fcfc37] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:00:20.749571 #18356]  INFO -- : [277b4b21-51a5-417d-85a9-68cedc0b8647] Started GET "/" for 127.0.0.1 at 2023-08-16 12:00:20 +0500
+I, [2023-08-16T12:00:20.751571 #18356]  INFO -- : [277b4b21-51a5-417d-85a9-68cedc0b8647] Processing by UsersController#index as HTML
+I, [2023-08-16T12:00:20.761227 #18356]  INFO -- : [277b4b21-51a5-417d-85a9-68cedc0b8647]   Rendered users/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 190)
+I, [2023-08-16T12:00:20.765262 #18356]  INFO -- : [277b4b21-51a5-417d-85a9-68cedc0b8647]   Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 1264)
+I, [2023-08-16T12:00:20.765896 #18356]  INFO -- : [277b4b21-51a5-417d-85a9-68cedc0b8647] Completed 200 OK in 14ms (Views: 7.8ms | ActiveRecord: 1.5ms | Allocations: 2010)
+I, [2023-08-16T12:02:20.333103 #19347]  INFO -- : [6e5b8e1e-9ada-40ed-a509-80a6a0cafca3] Started GET "/" for 127.0.0.1 at 2023-08-16 12:02:20 +0500
+I, [2023-08-16T12:02:20.339749 #19347]  INFO -- : [6e5b8e1e-9ada-40ed-a509-80a6a0cafca3] Processing by UsersController#index as HTML
+I, [2023-08-16T12:02:20.415181 #19347]  INFO -- : [6e5b8e1e-9ada-40ed-a509-80a6a0cafca3]   Rendered users/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 544)
+I, [2023-08-16T12:02:20.420960 #19347]  INFO -- : [6e5b8e1e-9ada-40ed-a509-80a6a0cafca3]   Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 5577)
+I, [2023-08-16T12:02:20.421505 #19347]  INFO -- : [6e5b8e1e-9ada-40ed-a509-80a6a0cafca3] Completed 200 OK in 81ms (Views: 9.9ms | ActiveRecord: 13.9ms | Allocations: 20836)
+I, [2023-08-16T12:02:20.447966 #19347]  INFO -- : [95f6cd1c-6273-4db3-9267-1fdad3449cdf] Started GET "/assets/application-f3eac3b7a60fedaaeff37fb110bdf47b1bbe8c438f55c9c1b10ffd19d11520f6.js" for 127.0.0.1 at 2023-08-16 12:02:20 +0500
+I, [2023-08-16T12:02:22.416271 #19347]  INFO -- : [0d4d797c-a9ed-468c-8a6a-fa9383190d5c] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:02:22 +0500
+I, [2023-08-16T12:02:22.418392 #19347]  INFO -- : [0d4d797c-a9ed-468c-8a6a-fa9383190d5c] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:02:22.421747 #19347]  INFO -- : [0d4d797c-a9ed-468c-8a6a-fa9383190d5c] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.1ms | Allocations: 937)
+F, [2023-08-16T12:02:22.422568 #19347] FATAL -- : [0d4d797c-a9ed-468c-8a6a-fa9383190d5c]   
+[0d4d797c-a9ed-468c-8a6a-fa9383190d5c] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[0d4d797c-a9ed-468c-8a6a-fa9383190d5c]   
+[0d4d797c-a9ed-468c-8a6a-fa9383190d5c] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[0d4d797c-a9ed-468c-8a6a-fa9383190d5c] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:02:24.167651 #19347]  INFO -- : [4ead5014-3a17-412f-b4f5-3737df7181d1] Started GET "/" for 127.0.0.1 at 2023-08-16 12:02:24 +0500
+I, [2023-08-16T12:02:24.170293 #19347]  INFO -- : [4ead5014-3a17-412f-b4f5-3737df7181d1] Processing by UsersController#index as HTML
+I, [2023-08-16T12:02:24.179654 #19347]  INFO -- : [4ead5014-3a17-412f-b4f5-3737df7181d1]   Rendered users/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 190)
+I, [2023-08-16T12:02:24.181529 #19347]  INFO -- : [4ead5014-3a17-412f-b4f5-3737df7181d1]   Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1265)
+I, [2023-08-16T12:02:24.181809 #19347]  INFO -- : [4ead5014-3a17-412f-b4f5-3737df7181d1] Completed 200 OK in 11ms (Views: 4.6ms | ActiveRecord: 0.8ms | Allocations: 2025)
+I, [2023-08-16T12:02:52.608714 #19501]  INFO -- : [2dd90726-7eb1-43e5-932f-41b3e43b0f03] Started GET "/" for 127.0.0.1 at 2023-08-16 12:02:52 +0500
+I, [2023-08-16T12:02:52.614283 #19501]  INFO -- : [2dd90726-7eb1-43e5-932f-41b3e43b0f03] Processing by UsersController#index as HTML
+I, [2023-08-16T12:02:52.745181 #19501]  INFO -- : [2dd90726-7eb1-43e5-932f-41b3e43b0f03]   Rendered users/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 544)
+I, [2023-08-16T12:02:52.771322 #19501]  INFO -- : [2dd90726-7eb1-43e5-932f-41b3e43b0f03]   Rendered layout layouts/application.html.erb (Duration: 42.2ms | Allocations: 5576)
+I, [2023-08-16T12:02:52.772344 #19501]  INFO -- : [2dd90726-7eb1-43e5-932f-41b3e43b0f03] Completed 200 OK in 158ms (Views: 46.1ms | ActiveRecord: 39.2ms | Allocations: 20818)
+I, [2023-08-16T12:02:52.835013 #19501]  INFO -- : [394a97d9-d488-4c26-a67d-19afcc15042b] Started GET "/assets/application-eec3c08db3144e5a812b21184265fe8f980333cf7e94869a3ca45d0747f4a383.js" for 127.0.0.1 at 2023-08-16 12:02:52 +0500
+I, [2023-08-16T12:02:57.187267 #19501]  INFO -- : [a45ae187-530e-45ef-ba3d-5e26571b3160] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:02:57 +0500
+I, [2023-08-16T12:02:57.188479 #19501]  INFO -- : [a45ae187-530e-45ef-ba3d-5e26571b3160] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:02:57.192723 #19501]  INFO -- : [a45ae187-530e-45ef-ba3d-5e26571b3160] Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.2ms | Allocations: 933)
+F, [2023-08-16T12:02:57.193568 #19501] FATAL -- : [a45ae187-530e-45ef-ba3d-5e26571b3160]   
+[a45ae187-530e-45ef-ba3d-5e26571b3160] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[a45ae187-530e-45ef-ba3d-5e26571b3160]   
+[a45ae187-530e-45ef-ba3d-5e26571b3160] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[a45ae187-530e-45ef-ba3d-5e26571b3160] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:08:03.714904 #19969]  INFO -- : [391d68bc-1512-4b8c-9433-aea0e98a40f4] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:08:03 +0500
+I, [2023-08-16T12:08:03.716616 #19969]  INFO -- : [391d68bc-1512-4b8c-9433-aea0e98a40f4] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:08:03.772362 #19969]  INFO -- : [391d68bc-1512-4b8c-9433-aea0e98a40f4] Completed 500 Internal Server Error in 56ms (ActiveRecord: 12.7ms | Allocations: 14539)
+F, [2023-08-16T12:08:03.772990 #19969] FATAL -- : [391d68bc-1512-4b8c-9433-aea0e98a40f4]   
+[391d68bc-1512-4b8c-9433-aea0e98a40f4] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[391d68bc-1512-4b8c-9433-aea0e98a40f4]   
+[391d68bc-1512-4b8c-9433-aea0e98a40f4] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[391d68bc-1512-4b8c-9433-aea0e98a40f4] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:08:04.513287 #19969]  INFO -- : [7ba441a7-5c22-4940-b168-a9a09b8b3b63] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:08:04 +0500
+I, [2023-08-16T12:08:04.515268 #19969]  INFO -- : [7ba441a7-5c22-4940-b168-a9a09b8b3b63] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:08:04.518668 #19969]  INFO -- : [7ba441a7-5c22-4940-b168-a9a09b8b3b63] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.1ms | Allocations: 686)
+F, [2023-08-16T12:08:04.519440 #19969] FATAL -- : [7ba441a7-5c22-4940-b168-a9a09b8b3b63]   
+[7ba441a7-5c22-4940-b168-a9a09b8b3b63] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[7ba441a7-5c22-4940-b168-a9a09b8b3b63]   
+[7ba441a7-5c22-4940-b168-a9a09b8b3b63] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[7ba441a7-5c22-4940-b168-a9a09b8b3b63] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:08:16.887764 #19969]  INFO -- : [6e6e0847-5e1c-4c33-93ff-1d6225498826] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:08:16 +0500
+I, [2023-08-16T12:08:16.889803 #19969]  INFO -- : [6e6e0847-5e1c-4c33-93ff-1d6225498826] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:08:16.893867 #19969]  INFO -- : [6e6e0847-5e1c-4c33-93ff-1d6225498826] Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.4ms | Allocations: 685)
+F, [2023-08-16T12:08:16.894513 #19969] FATAL -- : [6e6e0847-5e1c-4c33-93ff-1d6225498826]   
+[6e6e0847-5e1c-4c33-93ff-1d6225498826] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[6e6e0847-5e1c-4c33-93ff-1d6225498826]   
+[6e6e0847-5e1c-4c33-93ff-1d6225498826] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[6e6e0847-5e1c-4c33-93ff-1d6225498826] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:09:15.871209 #19969]  INFO -- : [dfdb0173-558e-47bb-ae5a-f5991288e3e2] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:09:15 +0500
+I, [2023-08-16T12:09:15.875286 #19969]  INFO -- : [dfdb0173-558e-47bb-ae5a-f5991288e3e2] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:09:15.881911 #19969]  INFO -- : [dfdb0173-558e-47bb-ae5a-f5991288e3e2] Completed 500 Internal Server Error in 6ms (ActiveRecord: 2.1ms | Allocations: 697)
+F, [2023-08-16T12:09:15.884923 #19969] FATAL -- : [dfdb0173-558e-47bb-ae5a-f5991288e3e2]   
+[dfdb0173-558e-47bb-ae5a-f5991288e3e2] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[dfdb0173-558e-47bb-ae5a-f5991288e3e2]   
+[dfdb0173-558e-47bb-ae5a-f5991288e3e2] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[dfdb0173-558e-47bb-ae5a-f5991288e3e2] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:09:15.964395 #19969]  INFO -- : [333c3593-b87c-42c0-8175-1b87f6608da4] Started GET "/favicon.ico" for 127.0.0.1 at 2023-08-16 12:09:15 +0500
+F, [2023-08-16T12:09:15.965407 #19969] FATAL -- : [333c3593-b87c-42c0-8175-1b87f6608da4]   
+[333c3593-b87c-42c0-8175-1b87f6608da4] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[333c3593-b87c-42c0-8175-1b87f6608da4]   
+I, [2023-08-16T12:09:48.391270 #19969]  INFO -- : [117c19a1-c14c-4f3f-9dce-304b6b7e76f0] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:09:48 +0500
+I, [2023-08-16T12:09:48.392426 #19969]  INFO -- : [117c19a1-c14c-4f3f-9dce-304b6b7e76f0] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:09:48.399287 #19969]  INFO -- : [117c19a1-c14c-4f3f-9dce-304b6b7e76f0] Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.9ms | Allocations: 685)
+F, [2023-08-16T12:09:48.401505 #19969] FATAL -- : [117c19a1-c14c-4f3f-9dce-304b6b7e76f0]   
+[117c19a1-c14c-4f3f-9dce-304b6b7e76f0] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[117c19a1-c14c-4f3f-9dce-304b6b7e76f0]   
+[117c19a1-c14c-4f3f-9dce-304b6b7e76f0] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[117c19a1-c14c-4f3f-9dce-304b6b7e76f0] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:09:49.977450 #19969]  INFO -- : [4af326d0-5484-4e94-a6ff-84fa40f5fdd5] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:09:49 +0500
+I, [2023-08-16T12:09:49.978748 #19969]  INFO -- : [4af326d0-5484-4e94-a6ff-84fa40f5fdd5] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:09:49.982898 #19969]  INFO -- : [4af326d0-5484-4e94-a6ff-84fa40f5fdd5] Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.3ms | Allocations: 669)
+F, [2023-08-16T12:09:49.983736 #19969] FATAL -- : [4af326d0-5484-4e94-a6ff-84fa40f5fdd5]   
+[4af326d0-5484-4e94-a6ff-84fa40f5fdd5] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[4af326d0-5484-4e94-a6ff-84fa40f5fdd5]   
+[4af326d0-5484-4e94-a6ff-84fa40f5fdd5] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[4af326d0-5484-4e94-a6ff-84fa40f5fdd5] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:10:26.545039 #19969]  INFO -- : [3053ecb4-f5b0-45c6-a7ee-5ba79def255f] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:10:26 +0500
+I, [2023-08-16T12:10:26.548023 #19969]  INFO -- : [3053ecb4-f5b0-45c6-a7ee-5ba79def255f] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:10:26.554143 #19969]  INFO -- : [3053ecb4-f5b0-45c6-a7ee-5ba79def255f] Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.5ms | Allocations: 691)
+F, [2023-08-16T12:10:26.555957 #19969] FATAL -- : [3053ecb4-f5b0-45c6-a7ee-5ba79def255f]   
+[3053ecb4-f5b0-45c6-a7ee-5ba79def255f] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[3053ecb4-f5b0-45c6-a7ee-5ba79def255f]   
+[3053ecb4-f5b0-45c6-a7ee-5ba79def255f] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[3053ecb4-f5b0-45c6-a7ee-5ba79def255f] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:12:40.530985 #19969]  INFO -- : [f7d9f647-22c0-4aac-805a-a0228b44cb18] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:12:40 +0500
+I, [2023-08-16T12:12:40.532399 #19969]  INFO -- : [f7d9f647-22c0-4aac-805a-a0228b44cb18] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:12:40.538429 #19969]  INFO -- : [f7d9f647-22c0-4aac-805a-a0228b44cb18] Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.5ms | Allocations: 669)
+F, [2023-08-16T12:12:40.539217 #19969] FATAL -- : [f7d9f647-22c0-4aac-805a-a0228b44cb18]   
+[f7d9f647-22c0-4aac-805a-a0228b44cb18] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[f7d9f647-22c0-4aac-805a-a0228b44cb18]   
+[f7d9f647-22c0-4aac-805a-a0228b44cb18] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[f7d9f647-22c0-4aac-805a-a0228b44cb18] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:13:34.331897 #19969]  INFO -- : [87571c7f-f57c-4935-9d6a-4d428ba31d01] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:13:34 +0500
+I, [2023-08-16T12:13:34.334511 #19969]  INFO -- : [87571c7f-f57c-4935-9d6a-4d428ba31d01] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:13:34.339960 #19969]  INFO -- : [87571c7f-f57c-4935-9d6a-4d428ba31d01] Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.4ms | Allocations: 681)
+F, [2023-08-16T12:13:34.342245 #19969] FATAL -- : [87571c7f-f57c-4935-9d6a-4d428ba31d01]   
+[87571c7f-f57c-4935-9d6a-4d428ba31d01] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[87571c7f-f57c-4935-9d6a-4d428ba31d01]   
+[87571c7f-f57c-4935-9d6a-4d428ba31d01] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[87571c7f-f57c-4935-9d6a-4d428ba31d01] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:16:19.743958 #19969]  INFO -- : [a63a5c28-9b1e-4b66-8361-5869a916f40c] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:16:19 +0500
+I, [2023-08-16T12:16:19.746088 #19969]  INFO -- : [a63a5c28-9b1e-4b66-8361-5869a916f40c] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:16:19.751665 #19969]  INFO -- : [a63a5c28-9b1e-4b66-8361-5869a916f40c] Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.9ms | Allocations: 669)
+F, [2023-08-16T12:16:19.752786 #19969] FATAL -- : [a63a5c28-9b1e-4b66-8361-5869a916f40c]   
+[a63a5c28-9b1e-4b66-8361-5869a916f40c] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[a63a5c28-9b1e-4b66-8361-5869a916f40c]   
+[a63a5c28-9b1e-4b66-8361-5869a916f40c] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[a63a5c28-9b1e-4b66-8361-5869a916f40c] app/controllers/chatrooms_controller.rb:4:in `index'
+I, [2023-08-16T12:21:42.984161 #21038]  INFO -- : [f25ef3fa-6d31-4238-83ab-a242365650ad] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:21:42 +0500
+I, [2023-08-16T12:21:42.987260 #21038]  INFO -- : [f25ef3fa-6d31-4238-83ab-a242365650ad] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:21:43.047582 #21038]  INFO -- : [f25ef3fa-6d31-4238-83ab-a242365650ad] Completed 500 Internal Server Error in 60ms (ActiveRecord: 13.1ms | Allocations: 14563)
+F, [2023-08-16T12:21:43.048392 #21038] FATAL -- : [f25ef3fa-6d31-4238-83ab-a242365650ad]   
+[f25ef3fa-6d31-4238-83ab-a242365650ad] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[f25ef3fa-6d31-4238-83ab-a242365650ad]   
+[f25ef3fa-6d31-4238-83ab-a242365650ad] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[f25ef3fa-6d31-4238-83ab-a242365650ad] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:21:43.649033 #21038]  INFO -- : [e561ea11-60a2-40b2-837c-6c1d641b0284] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:21:43 +0500
+I, [2023-08-16T12:21:43.651964 #21038]  INFO -- : [e561ea11-60a2-40b2-837c-6c1d641b0284] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:21:43.663269 #21038]  INFO -- : [e561ea11-60a2-40b2-837c-6c1d641b0284] Completed 500 Internal Server Error in 11ms (ActiveRecord: 3.3ms | Allocations: 703)
+F, [2023-08-16T12:21:43.666836 #21038] FATAL -- : [e561ea11-60a2-40b2-837c-6c1d641b0284]   
+[e561ea11-60a2-40b2-837c-6c1d641b0284] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[e561ea11-60a2-40b2-837c-6c1d641b0284]   
+[e561ea11-60a2-40b2-837c-6c1d641b0284] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[e561ea11-60a2-40b2-837c-6c1d641b0284] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:21:44.245590 #21038]  INFO -- : [4006a4a8-3fda-40eb-b871-2aafefce3789] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:21:44 +0500
+I, [2023-08-16T12:21:44.248317 #21038]  INFO -- : [4006a4a8-3fda-40eb-b871-2aafefce3789] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:21:44.257234 #21038]  INFO -- : [4006a4a8-3fda-40eb-b871-2aafefce3789] Completed 500 Internal Server Error in 9ms (ActiveRecord: 2.7ms | Allocations: 702)
+F, [2023-08-16T12:21:44.259255 #21038] FATAL -- : [4006a4a8-3fda-40eb-b871-2aafefce3789]   
+[4006a4a8-3fda-40eb-b871-2aafefce3789] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[4006a4a8-3fda-40eb-b871-2aafefce3789]   
+[4006a4a8-3fda-40eb-b871-2aafefce3789] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[4006a4a8-3fda-40eb-b871-2aafefce3789] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:22:49.779129 #21038]  INFO -- : [2aa6e545-9388-4f45-9280-4e438c577ea3] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:22:49 +0500
+I, [2023-08-16T12:22:49.780355 #21038]  INFO -- : [2aa6e545-9388-4f45-9280-4e438c577ea3] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:22:49.784453 #21038]  INFO -- : [2aa6e545-9388-4f45-9280-4e438c577ea3] Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.2ms | Allocations: 715)
+F, [2023-08-16T12:22:49.785133 #21038] FATAL -- : [2aa6e545-9388-4f45-9280-4e438c577ea3]   
+[2aa6e545-9388-4f45-9280-4e438c577ea3] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[2aa6e545-9388-4f45-9280-4e438c577ea3]   
+[2aa6e545-9388-4f45-9280-4e438c577ea3] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[2aa6e545-9388-4f45-9280-4e438c577ea3] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:23:04.717721 #21205]  INFO -- : [07ca1728-64ed-42da-a902-77752ab28242] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:23:04 +0500
+I, [2023-08-16T12:23:04.721863 #21205]  INFO -- : [07ca1728-64ed-42da-a902-77752ab28242] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:23:04.765757 #21205]  INFO -- : [07ca1728-64ed-42da-a902-77752ab28242] Completed 500 Internal Server Error in 43ms (ActiveRecord: 11.5ms | Allocations: 14567)
+F, [2023-08-16T12:23:04.766313 #21205] FATAL -- : [07ca1728-64ed-42da-a902-77752ab28242]   
+[07ca1728-64ed-42da-a902-77752ab28242] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[07ca1728-64ed-42da-a902-77752ab28242]   
+[07ca1728-64ed-42da-a902-77752ab28242] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[07ca1728-64ed-42da-a902-77752ab28242] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:23:05.759253 #21205]  INFO -- : [39725a09-b537-45e7-8ca3-9275a17cbdaf] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:23:05 +0500
+I, [2023-08-16T12:23:05.760363 #21205]  INFO -- : [39725a09-b537-45e7-8ca3-9275a17cbdaf] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:23:05.764335 #21205]  INFO -- : [39725a09-b537-45e7-8ca3-9275a17cbdaf] Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.0ms | Allocations: 703)
+F, [2023-08-16T12:23:05.764969 #21205] FATAL -- : [39725a09-b537-45e7-8ca3-9275a17cbdaf]   
+[39725a09-b537-45e7-8ca3-9275a17cbdaf] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[39725a09-b537-45e7-8ca3-9275a17cbdaf]   
+[39725a09-b537-45e7-8ca3-9275a17cbdaf] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[39725a09-b537-45e7-8ca3-9275a17cbdaf] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:23:06.291412 #21205]  INFO -- : [eca847b0-6556-4824-8799-0e1d3200adf3] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:23:06 +0500
+I, [2023-08-16T12:23:06.295751 #21205]  INFO -- : [eca847b0-6556-4824-8799-0e1d3200adf3] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:23:06.303582 #21205]  INFO -- : [eca847b0-6556-4824-8799-0e1d3200adf3] Completed 500 Internal Server Error in 7ms (ActiveRecord: 2.1ms | Allocations: 702)
+F, [2023-08-16T12:23:06.304822 #21205] FATAL -- : [eca847b0-6556-4824-8799-0e1d3200adf3]   
+[eca847b0-6556-4824-8799-0e1d3200adf3] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[eca847b0-6556-4824-8799-0e1d3200adf3]   
+[eca847b0-6556-4824-8799-0e1d3200adf3] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[eca847b0-6556-4824-8799-0e1d3200adf3] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:23:09.460267 #21205]  INFO -- : [e5310f4a-3ebc-4d33-a91b-ae495f48b9be] Started GET "/" for 127.0.0.1 at 2023-08-16 12:23:09 +0500
+I, [2023-08-16T12:23:09.462147 #21205]  INFO -- : [e5310f4a-3ebc-4d33-a91b-ae495f48b9be] Processing by UsersController#index as HTML
+I, [2023-08-16T12:23:09.471427 #21205]  INFO -- : [e5310f4a-3ebc-4d33-a91b-ae495f48b9be]   Rendered users/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 544)
+I, [2023-08-16T12:23:09.479947 #21205]  INFO -- : [e5310f4a-3ebc-4d33-a91b-ae495f48b9be]   Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 5575)
+I, [2023-08-16T12:23:09.480713 #21205]  INFO -- : [e5310f4a-3ebc-4d33-a91b-ae495f48b9be] Completed 200 OK in 18ms (Views: 13.1ms | ActiveRecord: 0.6ms | Allocations: 7239)
+I, [2023-08-16T12:23:11.865624 #21205]  INFO -- : [f0ab09c8-9817-4bae-b8ac-ff49dda59745] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:23:11 +0500
+I, [2023-08-16T12:23:11.866582 #21205]  INFO -- : [f0ab09c8-9817-4bae-b8ac-ff49dda59745] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:23:11.869589 #21205]  INFO -- : [f0ab09c8-9817-4bae-b8ac-ff49dda59745] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.0ms | Allocations: 697)
+F, [2023-08-16T12:23:11.870346 #21205] FATAL -- : [f0ab09c8-9817-4bae-b8ac-ff49dda59745]   
+[f0ab09c8-9817-4bae-b8ac-ff49dda59745] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[f0ab09c8-9817-4bae-b8ac-ff49dda59745]   
+[f0ab09c8-9817-4bae-b8ac-ff49dda59745] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[f0ab09c8-9817-4bae-b8ac-ff49dda59745] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:23:23.773832 #21205]  INFO -- : [8e26eb3d-b84a-4078-9a16-0ca4c51192c8] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:23:23 +0500
+I, [2023-08-16T12:23:23.774660 #21205]  INFO -- : [8e26eb3d-b84a-4078-9a16-0ca4c51192c8] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:23:23.781153 #21205]  INFO -- : [8e26eb3d-b84a-4078-9a16-0ca4c51192c8] Completed 500 Internal Server Error in 6ms (ActiveRecord: 2.3ms | Allocations: 682)
+F, [2023-08-16T12:23:23.782155 #21205] FATAL -- : [8e26eb3d-b84a-4078-9a16-0ca4c51192c8]   
+[8e26eb3d-b84a-4078-9a16-0ca4c51192c8] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[8e26eb3d-b84a-4078-9a16-0ca4c51192c8]   
+[8e26eb3d-b84a-4078-9a16-0ca4c51192c8] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[8e26eb3d-b84a-4078-9a16-0ca4c51192c8] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:23:24.704286 #21205]  INFO -- : [bc7a9262-dbab-45fb-a36d-4de78be27781] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:23:24 +0500
+I, [2023-08-16T12:23:24.706033 #21205]  INFO -- : [bc7a9262-dbab-45fb-a36d-4de78be27781] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:23:24.710487 #21205]  INFO -- : [bc7a9262-dbab-45fb-a36d-4de78be27781] Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.2ms | Allocations: 682)
+F, [2023-08-16T12:23:24.711700 #21205] FATAL -- : [bc7a9262-dbab-45fb-a36d-4de78be27781]   
+[bc7a9262-dbab-45fb-a36d-4de78be27781] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[bc7a9262-dbab-45fb-a36d-4de78be27781]   
+[bc7a9262-dbab-45fb-a36d-4de78be27781] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[bc7a9262-dbab-45fb-a36d-4de78be27781] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:23:34.302765 #21205]  INFO -- : [07dfb68e-63b6-4c98-8222-8c2b5adfa58b] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:23:34 +0500
+I, [2023-08-16T12:23:34.305217 #21205]  INFO -- : [07dfb68e-63b6-4c98-8222-8c2b5adfa58b] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:23:34.312410 #21205]  INFO -- : [07dfb68e-63b6-4c98-8222-8c2b5adfa58b] Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.8ms | Allocations: 682)
+F, [2023-08-16T12:23:34.314173 #21205] FATAL -- : [07dfb68e-63b6-4c98-8222-8c2b5adfa58b]   
+[07dfb68e-63b6-4c98-8222-8c2b5adfa58b] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[07dfb68e-63b6-4c98-8222-8c2b5adfa58b]   
+[07dfb68e-63b6-4c98-8222-8c2b5adfa58b] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[07dfb68e-63b6-4c98-8222-8c2b5adfa58b] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:25:43.857719 #21475]  INFO -- : [5b561693-ae62-42b1-b282-76d0945be63e] Started GET "/cable" for 127.0.0.1 at 2023-08-16 12:25:43 +0500
+I, [2023-08-16T12:25:43.863965 #21475]  INFO -- : [5b561693-ae62-42b1-b282-76d0945be63e] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 12:25:43 +0500
+I, [2023-08-16T12:25:43.864778 #21475]  INFO -- : [5b561693-ae62-42b1-b282-76d0945be63e] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-16T12:25:49.843047 #21475]  INFO -- : [a65cb669-41a7-4297-b084-0a9f20111528] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:25:49 +0500
+I, [2023-08-16T12:25:49.846490 #21475]  INFO -- : [a65cb669-41a7-4297-b084-0a9f20111528] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:25:49.857512 #21475]  INFO -- : [a65cb669-41a7-4297-b084-0a9f20111528] Completed 401 Unauthorized in 11ms (Allocations: 1060)
+I, [2023-08-16T12:25:49.869899 #21475]  INFO -- : [babe1141-cc40-40f9-9dab-56f19d58bc3a] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-16 12:25:49 +0500
+I, [2023-08-16T12:25:49.872465 #21475]  INFO -- : [babe1141-cc40-40f9-9dab-56f19d58bc3a] Processing by Users::SessionsController#new as HTML
+I, [2023-08-16T12:25:49.944412 #21475]  INFO -- : [babe1141-cc40-40f9-9dab-56f19d58bc3a]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 3227)
+I, [2023-08-16T12:25:49.954861 #21475]  INFO -- : [babe1141-cc40-40f9-9dab-56f19d58bc3a]   Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 7924)
+I, [2023-08-16T12:25:49.955220 #21475]  INFO -- : [babe1141-cc40-40f9-9dab-56f19d58bc3a] Completed 200 OK in 82ms (Views: 26.6ms | ActiveRecord: 18.0ms | Allocations: 22551)
+I, [2023-08-16T12:25:49.969149 #21475]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 12:25:49 +0500
+I, [2023-08-16T12:25:50.002577 #21475]  INFO -- : [73c8a088-c89d-462d-9567-e1964ff59f3b] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-16 12:25:50 +0500
+I, [2023-08-16T12:25:53.207513 #21475]  INFO -- : [d9647eb8-6273-40aa-847f-dd00d95732ff] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-16 12:25:53 +0500
+I, [2023-08-16T12:25:57.378360 #21475]  INFO -- : [6a601972-f4fd-423d-a7b3-380473a65bfb] Started GET "/users/auth/google_oauth2/callback?state=64152307ea9dab5c40cf057fa1b899679f8d4bce932e0aa9&code=4%2F0Adeu5BX9c46qpjQ7zSlr4nx-urKh-ZUyxhCnoo2eALYSADkNEvTrQoaYyhYw9OSBQgOXag&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for 127.0.0.1 at 2023-08-16 12:25:57 +0500
+I, [2023-08-16T12:26:00.518158 #21475]  INFO -- : [6a601972-f4fd-423d-a7b3-380473a65bfb] Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+I, [2023-08-16T12:26:00.518523 #21475]  INFO -- : [6a601972-f4fd-423d-a7b3-380473a65bfb]   Parameters: {"state"=>"64152307ea9dab5c40cf057fa1b899679f8d4bce932e0aa9", "code"=>"4/0Adeu5BX9c46qpjQ7zSlr4nx-urKh-ZUyxhCnoo2eALYSADkNEvTrQoaYyhYw9OSBQgOXag", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+I, [2023-08-16T12:26:00.532421 #21475]  INFO -- : [6a601972-f4fd-423d-a7b3-380473a65bfb] Redirected to http://localhost:3000/
+I, [2023-08-16T12:26:00.533007 #21475]  INFO -- : [6a601972-f4fd-423d-a7b3-380473a65bfb] Completed 302 Found in 14ms (ActiveRecord: 2.2ms | Allocations: 1542)
+I, [2023-08-16T12:26:00.542962 #21475]  INFO -- : [b1d46b76-73d2-414f-aff1-6fb45024901a] Started GET "/" for 127.0.0.1 at 2023-08-16 12:26:00 +0500
+I, [2023-08-16T12:26:00.544703 #21475]  INFO -- : [b1d46b76-73d2-414f-aff1-6fb45024901a] Processing by UsersController#index as HTML
+I, [2023-08-16T12:26:00.554276 #21475]  INFO -- : [b1d46b76-73d2-414f-aff1-6fb45024901a]   Rendered users/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 393)
+I, [2023-08-16T12:26:00.557431 #21475]  INFO -- : [b1d46b76-73d2-414f-aff1-6fb45024901a]   Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 1603)
+I, [2023-08-16T12:26:00.557742 #21475]  INFO -- : [b1d46b76-73d2-414f-aff1-6fb45024901a] Completed 200 OK in 13ms (Views: 8.3ms | ActiveRecord: 0.9ms | Allocations: 2774)
+I, [2023-08-16T12:26:24.567641 #21475]  INFO -- : [749d0b2a-7c3e-49c5-aab3-c8ebfc0c71d1] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:26:24 +0500
+I, [2023-08-16T12:26:24.571575 #21475]  INFO -- : [749d0b2a-7c3e-49c5-aab3-c8ebfc0c71d1] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:26:24.576295 #21475]  INFO -- : [749d0b2a-7c3e-49c5-aab3-c8ebfc0c71d1] Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.4ms | Allocations: 913)
+F, [2023-08-16T12:26:24.576951 #21475] FATAL -- : [749d0b2a-7c3e-49c5-aab3-c8ebfc0c71d1]   
+[749d0b2a-7c3e-49c5-aab3-c8ebfc0c71d1] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[749d0b2a-7c3e-49c5-aab3-c8ebfc0c71d1]   
+[749d0b2a-7c3e-49c5-aab3-c8ebfc0c71d1] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[749d0b2a-7c3e-49c5-aab3-c8ebfc0c71d1] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:32:38.671172 #22416]  INFO -- : [99280a61-e1ff-4f51-8ac6-b4c4474aba4d] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:32:38 +0500
+I, [2023-08-16T12:32:38.673330 #22416]  INFO -- : [99280a61-e1ff-4f51-8ac6-b4c4474aba4d] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:32:38.718071 #22416]  INFO -- : [99280a61-e1ff-4f51-8ac6-b4c4474aba4d] Completed 500 Internal Server Error in 44ms (ActiveRecord: 13.6ms | Allocations: 14579)
+F, [2023-08-16T12:32:38.718734 #22416] FATAL -- : [99280a61-e1ff-4f51-8ac6-b4c4474aba4d]   
+[99280a61-e1ff-4f51-8ac6-b4c4474aba4d] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[99280a61-e1ff-4f51-8ac6-b4c4474aba4d]   
+[99280a61-e1ff-4f51-8ac6-b4c4474aba4d] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[99280a61-e1ff-4f51-8ac6-b4c4474aba4d] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:32:39.357464 #22416]  INFO -- : [2bd3257e-2132-4862-8511-9ba8a252f856] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:32:39 +0500
+I, [2023-08-16T12:32:39.358448 #22416]  INFO -- : [2bd3257e-2132-4862-8511-9ba8a252f856] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:32:39.361310 #22416]  INFO -- : [2bd3257e-2132-4862-8511-9ba8a252f856] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.9ms | Allocations: 715)
+F, [2023-08-16T12:32:39.361955 #22416] FATAL -- : [2bd3257e-2132-4862-8511-9ba8a252f856]   
+[2bd3257e-2132-4862-8511-9ba8a252f856] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[2bd3257e-2132-4862-8511-9ba8a252f856]   
+[2bd3257e-2132-4862-8511-9ba8a252f856] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[2bd3257e-2132-4862-8511-9ba8a252f856] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:32:39.752980 #22416]  INFO -- : [95c6ac3c-4df8-4ef9-bca5-13812e99df5d] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:32:39 +0500
+I, [2023-08-16T12:32:39.753933 #22416]  INFO -- : [95c6ac3c-4df8-4ef9-bca5-13812e99df5d] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:32:39.757031 #22416]  INFO -- : [95c6ac3c-4df8-4ef9-bca5-13812e99df5d] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.1ms | Allocations: 714)
+F, [2023-08-16T12:32:39.758338 #22416] FATAL -- : [95c6ac3c-4df8-4ef9-bca5-13812e99df5d]   
+[95c6ac3c-4df8-4ef9-bca5-13812e99df5d] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[95c6ac3c-4df8-4ef9-bca5-13812e99df5d]   
+[95c6ac3c-4df8-4ef9-bca5-13812e99df5d] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[95c6ac3c-4df8-4ef9-bca5-13812e99df5d] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:32:40.046253 #22416]  INFO -- : [dd5c3b9f-d2b0-49e8-a390-d32907fd2fd3] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:32:40 +0500
+I, [2023-08-16T12:32:40.049384 #22416]  INFO -- : [dd5c3b9f-d2b0-49e8-a390-d32907fd2fd3] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:32:40.053336 #22416]  INFO -- : [dd5c3b9f-d2b0-49e8-a390-d32907fd2fd3] Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.0ms | Allocations: 714)
+F, [2023-08-16T12:32:40.053944 #22416] FATAL -- : [dd5c3b9f-d2b0-49e8-a390-d32907fd2fd3]   
+[dd5c3b9f-d2b0-49e8-a390-d32907fd2fd3] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[dd5c3b9f-d2b0-49e8-a390-d32907fd2fd3]   
+[dd5c3b9f-d2b0-49e8-a390-d32907fd2fd3] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[dd5c3b9f-d2b0-49e8-a390-d32907fd2fd3] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:32:40.967378 #22416]  INFO -- : [4d09d47f-2c36-4121-8a2a-043a93418a0a] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:32:40 +0500
+I, [2023-08-16T12:32:40.970513 #22416]  INFO -- : [4d09d47f-2c36-4121-8a2a-043a93418a0a] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:32:40.980440 #22416]  INFO -- : [4d09d47f-2c36-4121-8a2a-043a93418a0a] Completed 500 Internal Server Error in 10ms (ActiveRecord: 3.2ms | Allocations: 714)
+F, [2023-08-16T12:32:40.982831 #22416] FATAL -- : [4d09d47f-2c36-4121-8a2a-043a93418a0a]   
+[4d09d47f-2c36-4121-8a2a-043a93418a0a] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[4d09d47f-2c36-4121-8a2a-043a93418a0a]   
+[4d09d47f-2c36-4121-8a2a-043a93418a0a] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[4d09d47f-2c36-4121-8a2a-043a93418a0a] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:32:41.222970 #22416]  INFO -- : [7f481642-58dd-48ea-91ce-a6dfe20c62d2] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:32:41 +0500
+I, [2023-08-16T12:32:41.225871 #22416]  INFO -- : [7f481642-58dd-48ea-91ce-a6dfe20c62d2] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:32:41.235036 #22416]  INFO -- : [7f481642-58dd-48ea-91ce-a6dfe20c62d2] Completed 500 Internal Server Error in 9ms (ActiveRecord: 3.1ms | Allocations: 698)
+F, [2023-08-16T12:32:41.237928 #22416] FATAL -- : [7f481642-58dd-48ea-91ce-a6dfe20c62d2]   
+[7f481642-58dd-48ea-91ce-a6dfe20c62d2] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[7f481642-58dd-48ea-91ce-a6dfe20c62d2]   
+[7f481642-58dd-48ea-91ce-a6dfe20c62d2] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[7f481642-58dd-48ea-91ce-a6dfe20c62d2] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:32:51.047918 #22416]  INFO -- : [e2245bfa-071b-4037-81a0-c8e127399833] Started GET "/" for 127.0.0.1 at 2023-08-16 12:32:51 +0500
+I, [2023-08-16T12:32:51.050539 #22416]  INFO -- : [e2245bfa-071b-4037-81a0-c8e127399833] Processing by UsersController#index as HTML
+I, [2023-08-16T12:32:51.070777 #22416]  INFO -- : [e2245bfa-071b-4037-81a0-c8e127399833]   Rendered users/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 544)
+I, [2023-08-16T12:32:51.084705 #22416]  INFO -- : [e2245bfa-071b-4037-81a0-c8e127399833]   Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 5574)
+I, [2023-08-16T12:32:51.085306 #22416]  INFO -- : [e2245bfa-071b-4037-81a0-c8e127399833] Completed 200 OK in 34ms (Views: 25.4ms | ActiveRecord: 1.7ms | Allocations: 7233)
+I, [2023-08-16T12:34:23.977673 #22579]  INFO -- : [ab011465-5d69-4ea0-87bc-906b2d6891ff] Started GET "/" for 127.0.0.1 at 2023-08-16 12:34:23 +0500
+I, [2023-08-16T12:34:23.981408 #22579]  INFO -- : [ab011465-5d69-4ea0-87bc-906b2d6891ff] Processing by UsersController#index as HTML
+I, [2023-08-16T12:34:24.115092 #22579]  INFO -- : [ab011465-5d69-4ea0-87bc-906b2d6891ff]   Rendered users/index.html.erb within layouts/application (Duration: 14.1ms | Allocations: 544)
+I, [2023-08-16T12:34:41.275635 #22579]  INFO -- : [ab011465-5d69-4ea0-87bc-906b2d6891ff]   Rendered layout layouts/application.html.erb (Duration: 17175.0ms | Allocations: 145630)
+I, [2023-08-16T12:34:41.276141 #22579]  INFO -- : [ab011465-5d69-4ea0-87bc-906b2d6891ff] Completed 200 OK in 17294ms (Views: 17181.5ms | ActiveRecord: 26.7ms | Allocations: 160917)
+I, [2023-08-16T12:34:43.242630 #22579]  INFO -- : [0a831e22-006b-4e34-91f6-04f58ac57ab4] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:34:43 +0500
+I, [2023-08-16T12:34:43.243686 #22579]  INFO -- : [0a831e22-006b-4e34-91f6-04f58ac57ab4] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:34:43.247068 #22579]  INFO -- : [0a831e22-006b-4e34-91f6-04f58ac57ab4] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.0ms | Allocations: 970)
+F, [2023-08-16T12:34:43.247759 #22579] FATAL -- : [0a831e22-006b-4e34-91f6-04f58ac57ab4]   
+[0a831e22-006b-4e34-91f6-04f58ac57ab4] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[0a831e22-006b-4e34-91f6-04f58ac57ab4]   
+[0a831e22-006b-4e34-91f6-04f58ac57ab4] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[0a831e22-006b-4e34-91f6-04f58ac57ab4] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:36:11.575824 #22784]  INFO -- : [5c252ebf-1623-4ec4-9a1f-ddf520426cac] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:36:11 +0500
+I, [2023-08-16T12:36:11.577678 #22784]  INFO -- : [5c252ebf-1623-4ec4-9a1f-ddf520426cac] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:36:11.626128 #22784]  INFO -- : [5c252ebf-1623-4ec4-9a1f-ddf520426cac] Completed 500 Internal Server Error in 48ms (ActiveRecord: 13.6ms | Allocations: 14580)
+F, [2023-08-16T12:36:11.627061 #22784] FATAL -- : [5c252ebf-1623-4ec4-9a1f-ddf520426cac]   
+[5c252ebf-1623-4ec4-9a1f-ddf520426cac] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[5c252ebf-1623-4ec4-9a1f-ddf520426cac]   
+[5c252ebf-1623-4ec4-9a1f-ddf520426cac] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[5c252ebf-1623-4ec4-9a1f-ddf520426cac] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:36:14.539304 #22784]  INFO -- : [047b653f-cafa-451a-bb8b-451c0055bed2] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:36:14 +0500
+I, [2023-08-16T12:36:14.542542 #22784]  INFO -- : [047b653f-cafa-451a-bb8b-451c0055bed2] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:36:14.550454 #22784]  INFO -- : [047b653f-cafa-451a-bb8b-451c0055bed2] Completed 500 Internal Server Error in 8ms (ActiveRecord: 2.5ms | Allocations: 715)
+F, [2023-08-16T12:36:14.553773 #22784] FATAL -- : [047b653f-cafa-451a-bb8b-451c0055bed2]   
+[047b653f-cafa-451a-bb8b-451c0055bed2] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[047b653f-cafa-451a-bb8b-451c0055bed2]   
+[047b653f-cafa-451a-bb8b-451c0055bed2] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[047b653f-cafa-451a-bb8b-451c0055bed2] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:36:29.134580 #22784]  INFO -- : [b629a2fa-0a6c-4048-8ef6-058f12a16265] Started GET "/users/auth/google_oauth2/callback?state=64152307ea9dab5c40cf057fa1b899679f8d4bce932e0aa9&code=4%2F0Adeu5BVhJ1D_opLAgY3ose7JhnMQaA_8MnAvyNXuXSwyqzJidwODrN4NwBqFVN1r7HzIXQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for 127.0.0.1 at 2023-08-16 12:36:29 +0500
+I, [2023-08-16T12:36:29.140356 #22784]  INFO -- : [b629a2fa-0a6c-4048-8ef6-058f12a16265] Processing by Users::OmniauthCallbacksController#failure as HTML
+I, [2023-08-16T12:36:29.140618 #22784]  INFO -- : [b629a2fa-0a6c-4048-8ef6-058f12a16265]   Parameters: {"state"=>"64152307ea9dab5c40cf057fa1b899679f8d4bce932e0aa9", "code"=>"4/0Adeu5BVhJ1D_opLAgY3ose7JhnMQaA_8MnAvyNXuXSwyqzJidwODrN4NwBqFVN1r7HzIXQ", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+I, [2023-08-16T12:36:29.144980 #22784]  INFO -- : [b629a2fa-0a6c-4048-8ef6-058f12a16265] Redirected to http://localhost:3000/users/sign_in
+I, [2023-08-16T12:36:29.145887 #22784]  INFO -- : [b629a2fa-0a6c-4048-8ef6-058f12a16265] Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 613)
+I, [2023-08-16T12:36:29.156902 #22784]  INFO -- : [7fd32368-daf4-489c-82f0-e9abe2531075] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-16 12:36:29 +0500
+I, [2023-08-16T12:36:29.158970 #22784]  INFO -- : [7fd32368-daf4-489c-82f0-e9abe2531075] Processing by Users::SessionsController#new as HTML
+I, [2023-08-16T12:36:29.168486 #22784]  INFO -- : [7fd32368-daf4-489c-82f0-e9abe2531075] Redirected to http://localhost:3000/
+I, [2023-08-16T12:36:29.168881 #22784]  INFO -- : [7fd32368-daf4-489c-82f0-e9abe2531075] Filter chain halted as :require_no_authentication rendered or redirected
+I, [2023-08-16T12:36:29.169282 #22784]  INFO -- : [7fd32368-daf4-489c-82f0-e9abe2531075] Completed 302 Found in 10ms (ActiveRecord: 1.2ms | Allocations: 865)
+I, [2023-08-16T12:36:29.177497 #22784]  INFO -- : [16ad6ede-0ee3-4399-bdf9-373a45ac9426] Started GET "/" for 127.0.0.1 at 2023-08-16 12:36:29 +0500
+I, [2023-08-16T12:36:29.180335 #22784]  INFO -- : [16ad6ede-0ee3-4399-bdf9-373a45ac9426] Processing by UsersController#index as HTML
+I, [2023-08-16T12:36:29.200169 #22784]  INFO -- : [16ad6ede-0ee3-4399-bdf9-373a45ac9426]   Rendered users/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 492)
+I, [2023-08-16T12:36:38.551707 #22784]  INFO -- : [16ad6ede-0ee3-4399-bdf9-373a45ac9426]   Rendered layout layouts/application.html.erb (Duration: 9359.7ms | Allocations: 146100)
+I, [2023-08-16T12:36:38.551977 #22784]  INFO -- : [16ad6ede-0ee3-4399-bdf9-373a45ac9426] Completed 200 OK in 9371ms (Views: 9361.8ms | ActiveRecord: 2.3ms | Allocations: 147747)
+I, [2023-08-16T12:36:47.004366 #22784]  INFO -- : [9728f5ca-8c0a-40b7-bec3-78124bad478c] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:36:47 +0500
+I, [2023-08-16T12:36:47.005372 #22784]  INFO -- : [9728f5ca-8c0a-40b7-bec3-78124bad478c] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:36:47.008666 #22784]  INFO -- : [9728f5ca-8c0a-40b7-bec3-78124bad478c] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.2ms | Allocations: 703)
+F, [2023-08-16T12:36:47.010204 #22784] FATAL -- : [9728f5ca-8c0a-40b7-bec3-78124bad478c]   
+[9728f5ca-8c0a-40b7-bec3-78124bad478c] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[9728f5ca-8c0a-40b7-bec3-78124bad478c]   
+[9728f5ca-8c0a-40b7-bec3-78124bad478c] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[9728f5ca-8c0a-40b7-bec3-78124bad478c] app/controllers/chatrooms_controller.rb:5:in `index'
+I, [2023-08-16T12:45:25.151173 #23684]  INFO -- : [904147a2-f5fb-41be-bfbc-10a882e9e19e] Started GET "/cable" for 127.0.0.1 at 2023-08-16 12:45:25 +0500
+I, [2023-08-16T12:45:25.166981 #23684]  INFO -- : [904147a2-f5fb-41be-bfbc-10a882e9e19e] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 12:45:25 +0500
+I, [2023-08-16T12:45:25.168845 #23684]  INFO -- : [904147a2-f5fb-41be-bfbc-10a882e9e19e] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-16T12:45:26.759465 #23684]  INFO -- : [530f5d0f-1363-4aaf-9b2a-6eba9e4a357d] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:45:26 +0500
+I, [2023-08-16T12:45:26.761658 #23684]  INFO -- : [530f5d0f-1363-4aaf-9b2a-6eba9e4a357d] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:45:26.770497 #23684]  INFO -- : [530f5d0f-1363-4aaf-9b2a-6eba9e4a357d] Completed 401 Unauthorized in 8ms (Allocations: 1050)
+I, [2023-08-16T12:45:26.786885 #23684]  INFO -- : [9e022505-00ae-4caa-ba25-e7c5a07c0efb] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-16 12:45:26 +0500
+I, [2023-08-16T12:45:26.789215 #23684]  INFO -- : [9e022505-00ae-4caa-ba25-e7c5a07c0efb] Processing by Users::SessionsController#new as HTML
+I, [2023-08-16T12:45:26.903325 #23684]  INFO -- : [9e022505-00ae-4caa-ba25-e7c5a07c0efb]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 13.7ms | Allocations: 3227)
+I, [2023-08-16T12:45:34.966689 #23684]  INFO -- : [9e022505-00ae-4caa-ba25-e7c5a07c0efb]   Rendered layout layouts/application.html.erb (Duration: 8077.0ms | Allocations: 66789)
+I, [2023-08-16T12:45:34.968762 #23684]  INFO -- : [9e022505-00ae-4caa-ba25-e7c5a07c0efb] Completed 200 OK in 8179ms (Views: 8081.9ms | ActiveRecord: 25.5ms | Allocations: 81413)
+I, [2023-08-16T12:45:35.007135 #23684]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-16 12:45:35 +0500
+I, [2023-08-16T12:45:35.050544 #23684]  INFO -- : [4bbc5569-fa3b-4036-a317-e9000644415b] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-16 12:45:35 +0500
+I, [2023-08-16T12:45:37.613295 #23684]  INFO -- : [f6282225-115a-4c4a-8265-5c985af021a0] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-16 12:45:37 +0500
+I, [2023-08-16T12:45:44.104822 #23684]  INFO -- : [eeb0e4eb-46e5-4a62-ad18-12444c103414] Started GET "/users/auth/google_oauth2/callback?state=bfa812192dd47c13960871fa52eff39ed8283b2abd1623b8&code=4%2F0Adeu5BXuADp9rKmgeYzJopF0X4wzZscq21-8FJ74mrGvS7fxa7sdqNJWxldFJjW8unwHeQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for 127.0.0.1 at 2023-08-16 12:45:44 +0500
+I, [2023-08-16T12:45:57.491855 #23684]  INFO -- : [eeb0e4eb-46e5-4a62-ad18-12444c103414] Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+I, [2023-08-16T12:45:57.492186 #23684]  INFO -- : [eeb0e4eb-46e5-4a62-ad18-12444c103414]   Parameters: {"state"=>"bfa812192dd47c13960871fa52eff39ed8283b2abd1623b8", "code"=>"4/0Adeu5BXuADp9rKmgeYzJopF0X4wzZscq21-8FJ74mrGvS7fxa7sdqNJWxldFJjW8unwHeQ", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+I, [2023-08-16T12:45:57.508848 #23684]  INFO -- : [eeb0e4eb-46e5-4a62-ad18-12444c103414] Redirected to http://localhost:3000/
+I, [2023-08-16T12:45:57.509423 #23684]  INFO -- : [eeb0e4eb-46e5-4a62-ad18-12444c103414] Completed 302 Found in 17ms (ActiveRecord: 2.8ms | Allocations: 1540)
+I, [2023-08-16T12:45:57.521324 #23684]  INFO -- : [cee1a77e-88dc-4fda-83de-d7160eff8f8c] Started GET "/" for 127.0.0.1 at 2023-08-16 12:45:57 +0500
+I, [2023-08-16T12:45:57.524427 #23684]  INFO -- : [cee1a77e-88dc-4fda-83de-d7160eff8f8c] Processing by UsersController#index as HTML
+I, [2023-08-16T12:45:57.541913 #23684]  INFO -- : [cee1a77e-88dc-4fda-83de-d7160eff8f8c]   Rendered users/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 393)
+I, [2023-08-16T12:45:57.554386 #23684]  INFO -- : [cee1a77e-88dc-4fda-83de-d7160eff8f8c]   Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 3105)
+I, [2023-08-16T12:45:57.555184 #23684]  INFO -- : [cee1a77e-88dc-4fda-83de-d7160eff8f8c] Completed 200 OK in 30ms (Views: 21.1ms | ActiveRecord: 1.5ms | Allocations: 4278)
+I, [2023-08-16T12:46:02.167579 #23684]  INFO -- : [78946a68-0d93-4432-abba-e92873e7b763] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-16 12:46:02 +0500
+I, [2023-08-16T12:46:02.170155 #23684]  INFO -- : [78946a68-0d93-4432-abba-e92873e7b763] Processing by ChatroomsController#index as HTML
+I, [2023-08-16T12:46:02.176017 #23684]  INFO -- : [78946a68-0d93-4432-abba-e92873e7b763] Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.6ms | Allocations: 905)
+F, [2023-08-16T12:46:02.178309 #23684] FATAL -- : [78946a68-0d93-4432-abba-e92873e7b763]   
+[78946a68-0d93-4432-abba-e92873e7b763] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "chatrooms" does not exist
+LINE 9:  WHERE a.attrelid = '"chatrooms"'::regclass
+                            ^
+):
+[78946a68-0d93-4432-abba-e92873e7b763]   
+[78946a68-0d93-4432-abba-e92873e7b763] app/models/chatroom.rb:6:in `block in <class:Chatroom>'
+[78946a68-0d93-4432-abba-e92873e7b763] app/controllers/chatrooms_controller.rb:5:in `index'

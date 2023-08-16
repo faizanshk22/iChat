@@ -5,7 +5,17 @@ class UsersController < ApplicationController
     end
 
     def show
-      @user = User.find(params[:id])  
+      @user = User.find(params[:id])
+      @current_user = current_user
+      @chatrooms = Chatroom.public_rooms
+      @users = User.all_except(@current_user)
+      @chatroom = Chatroom.new
+      @message = Message.new
+      @chatroom_name = get_name(@user, @current_user)
+      @single_room = Chatroom.where(name: @chatroom_name).first || Chatroom.create_private_room([@user, @current_user], @chatroom_name)
+      @messages = @single_room.messages
+  
+      render "chatrooms/index"  
     end
 
     def new
@@ -38,6 +48,10 @@ class UsersController < ApplicationController
     end
    
     private
+    def get_name(user1, user2)
+      users = [user1, user2].sort
+      "private_#{users[0].id}_#{users[1].id}"
+    end
     def user_params
       params.require(:user).permit(:full_name, :email, :password)
     end

@@ -1,11 +1,14 @@
 <div class='container'>
 <div class='bordered-div'>
-<h2 style='color:blue'> Chats </h2> </div>
+<h2 style='color:white'> Chats </h2> </div>
 <br>
+<!--
+<h4> Available Users </h4>
 <% @users.reverse.each do |user| %>
-<h3> <strong style="color:white;">
+<h3> <strong style="color:blue;">
 <%= user.full_name %> </strong>
 </h3> 
-<% end %>
+<% end %> -->
+<h4><%= link_to 'Start Chatting', chatrooms_path, style:'text-decoration:none'%></h4>
 </div>
 
