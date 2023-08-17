@@ -1,5 +1,5 @@
 class Chatroom < ApplicationRecord
-    has_many :messages
+    has_many :messages, dependent: :destroy
     has_many :participants, dependent: :destroy
     after_create_commit { broadcast_if_public }
     validates_uniqueness_of :name
