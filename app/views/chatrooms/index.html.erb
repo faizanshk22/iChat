@@ -17,7 +17,9 @@
       </div>
       <br>
       <div class="col-md-12">
+     <% unless params[:controller] == 'users' && params[:action] == 'show' || 'chatrooms' && params[:action] == 'show' %>
         <%= render partial: "layouts/new_room_form" %>
+        <% end %>
         <div>
           <br>
           <%= turbo_stream_from "chatrooms" %>
@@ -31,9 +33,10 @@
       <br><br>
     </div>
 
-    <div class="col-md-9 text-light" style="background-color: rgba(0, 0, 0, 0.2);border:2px">
+    <div class="col-md-9 text-light" style="background-color: rgba(0, 0, 0, 0.2);border:2px" id="chatbox" data-controller="scroll">
       <% if @single_room %>
       <div class='bordered-div'>
+      
        <h4 class="text-center" style='font-weight:bold'> <%= @user&.full_name || @single_room.name %> </h4>
        </div>
        <br>

@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   has_many :messages
+  has_one :avatar_url
   validates :full_name, presence: true
   scope :all_except, ->(user) { where.not(id: user) }
   after_create_commit { broadcast_append_to "users" }
