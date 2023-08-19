@@ -7,9 +7,20 @@
       <br>
       <div>
         <%= turbo_stream_from "users" %>
-        <div id="users">
-          <%= render @users %>
-        </div>
+               <div id="users">
+  <% @users.each do |user| %><br>
+  <div class='row'>
+  <div class='col-9'>
+     <%= render user %> 
+  </div>
+   <div class='col-2'>
+      <%= image_tag user.avatar_url, class: "img-fluid rounded-circle", 
+    style: "width: 30px; height: 30px; border-radius: 100px;" if user.avatar_url? %>
+  </div>
+  
+    </div>
+  <% end %>
+</div>
       </div>
       <br>
       <div class='bordered-div'>
@@ -35,9 +46,10 @@
 
     <div class="col-md-9 text-light" style="background-color: rgba(0, 0, 0, 0.2);border:2px" id="chatbox" data-controller="scroll">
       <% if @single_room %>
-      <div class='bordered-div'>
-      
-       <h4 class="text-center" style='font-weight:bold'> <%= @user&.full_name || @single_room.name %> </h4>
+      <div class='bordered-div' id='bord'>
+        <a href="<%= profile_user_path(@user) %>" style='text-decoration:none'>
+       <h4 class="text-center" style='font-weight:bold'> <%= image_tag @user.avatar_url, class: "img-fluid rounded-circle", 
+    style: "width: 35px; height: 35px; border-radius: 100px;" if @user.avatar_url? %> <%= @user&.full_name || @single_room.name %></h4></a>
        </div>
        <br>
          <%= turbo_stream_from @single_room %>

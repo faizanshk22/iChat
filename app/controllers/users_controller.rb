@@ -46,7 +46,9 @@ class UsersController < ApplicationController
 
     def destroy
     end
-   
+    def profile
+      @user = User.find(params[:id])
+    end
     private
     def get_name(user1, user2)
       users = [user1, user2].sort

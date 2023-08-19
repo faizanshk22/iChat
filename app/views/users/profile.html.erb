@@ -1,0 +1,9 @@
+<div class='container'>
+<div class="user-profile">
+  <h2><%= @user.full_name %></h2>
+  <p>Email: <%= @user.email %></p>
+  <% if @user.avatar_url.present? %>
+    <%= image_tag @user.avatar_url, class: "img-fluid ", style: "width: 250px; height: 250px;" %>
+  <% end %>
+</div>
+</div>

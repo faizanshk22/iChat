@@ -10042,3 +10042,235 @@ I, [2023-08-17T18:40:38.213724 #34785]  INFO -- : [1e9a60c5-05e2-41fe-85fe-a663c
 I, [2023-08-17T18:40:41.787079 #34785]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-17 18:40:41 +0500
 I, [2023-08-17T18:40:41.787336 #34785]  INFO -- : Turbo::StreamsChannel stopped streaming from users
 I, [2023-08-17T18:40:41.787455 #34785]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-18T17:14:35.052389 #9314]  INFO -- : Migrating to CreateActiveStorageTables (20230818095846)
+I, [2023-08-18T17:15:16.638425 #9386]  INFO -- : [28b0d3ed-3eeb-4a77-8df6-b77117fc8495] Started GET "/cable" for 127.0.0.1 at 2023-08-18 17:15:16 +0500
+I, [2023-08-18T17:15:16.656292 #9386]  INFO -- : [28b0d3ed-3eeb-4a77-8df6-b77117fc8495] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-18 17:15:16 +0500
+I, [2023-08-18T17:15:16.658693 #9386]  INFO -- : [28b0d3ed-3eeb-4a77-8df6-b77117fc8495] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-18T17:15:17.888500 #9386]  INFO -- : [ba8ae1dc-21cb-42a2-bda1-62d614d12741] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-18 17:15:17 +0500
+I, [2023-08-18T17:15:17.895217 #9386]  INFO -- : [ba8ae1dc-21cb-42a2-bda1-62d614d12741] Processing by ChatroomsController#index as HTML
+I, [2023-08-18T17:15:17.910117 #9386]  INFO -- : [ba8ae1dc-21cb-42a2-bda1-62d614d12741] Completed 401 Unauthorized in 14ms (Allocations: 1066)
+I, [2023-08-18T17:15:17.929867 #9386]  INFO -- : [d929b74f-4a0c-43fd-ba9d-b37fc8512183] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-18 17:15:17 +0500
+I, [2023-08-18T17:15:17.933684 #9386]  INFO -- : [d929b74f-4a0c-43fd-ba9d-b37fc8512183] Processing by Users::SessionsController#new as HTML
+I, [2023-08-18T17:15:18.003216 #9386]  INFO -- : [d929b74f-4a0c-43fd-ba9d-b37fc8512183]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 15.4ms | Allocations: 3226)
+I, [2023-08-18T17:15:18.014045 #9386]  INFO -- : [d929b74f-4a0c-43fd-ba9d-b37fc8512183]   Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 8733)
+I, [2023-08-18T17:15:18.014911 #9386]  INFO -- : [d929b74f-4a0c-43fd-ba9d-b37fc8512183] Completed 200 OK in 81ms (Views: 33.0ms | ActiveRecord: 14.4ms | Allocations: 23349)
+I, [2023-08-18T17:15:18.026615 #9386]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-18 17:15:18 +0500
+I, [2023-08-18T17:15:18.040064 #9386]  INFO -- : [8e2f713b-8400-4f37-947b-d09a657b54da] Started GET "/assets/application-aeb627b77a7b0656ac30f13534b762f136b23d5dbc0ed78d8aa8525f73a38497.css" for 127.0.0.1 at 2023-08-18 17:15:18 +0500
+I, [2023-08-18T17:15:18.054873 #9386]  INFO -- : [f384a4ee-da9a-427e-b208-c0be24095082] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-18 17:15:18 +0500
+I, [2023-08-18T17:15:20.938086 #9386]  INFO -- : [c6204f84-c777-44b8-943a-d9e679fa5ad0] Started GET "/assets/controllers/scroll_controller-6dd014d8040e20c046f91594a15f694220f05b23da596d3bc7e1af7a53b180f8.js" for 127.0.0.1 at 2023-08-18 17:15:20 +0500
+I, [2023-08-18T17:15:22.680560 #9386]  INFO -- : [513849b0-4f62-4848-80e6-cf223546453b] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-18 17:15:22 +0500
+I, [2023-08-18T17:15:27.590277 #9386]  INFO -- : [cbddcf09-43d2-4812-bf24-0308ce706b3d] Started GET "/users/auth/google_oauth2/callback?state=73fa581e6767d74898179b2e4363cd8ead54afda0a6704f2&code=4%2F0Adeu5BVOJnIeEmx7nkiLkpR0R0fFSNG0EmCaXdMcYNImHh182kPQISSCR6Ij_CewHuPWzA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for 127.0.0.1 at 2023-08-18 17:15:27 +0500
+I, [2023-08-18T17:15:30.399550 #9386]  INFO -- : [cbddcf09-43d2-4812-bf24-0308ce706b3d] Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+I, [2023-08-18T17:15:30.399859 #9386]  INFO -- : [cbddcf09-43d2-4812-bf24-0308ce706b3d]   Parameters: {"state"=>"73fa581e6767d74898179b2e4363cd8ead54afda0a6704f2", "code"=>"4/0Adeu5BVOJnIeEmx7nkiLkpR0R0fFSNG0EmCaXdMcYNImHh182kPQISSCR6Ij_CewHuPWzA", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+I, [2023-08-18T17:15:30.417746 #9386]  INFO -- : [cbddcf09-43d2-4812-bf24-0308ce706b3d] Redirected to http://localhost:3000/
+I, [2023-08-18T17:15:30.418344 #9386]  INFO -- : [cbddcf09-43d2-4812-bf24-0308ce706b3d] Completed 302 Found in 18ms (ActiveRecord: 7.7ms | Allocations: 1541)
+I, [2023-08-18T17:15:30.428714 #9386]  INFO -- : [43028bd7-7b18-409e-8830-2e2584f7c19f] Started GET "/" for 127.0.0.1 at 2023-08-18 17:15:30 +0500
+I, [2023-08-18T17:15:30.432318 #9386]  INFO -- : [43028bd7-7b18-409e-8830-2e2584f7c19f] Processing by UsersController#index as HTML
+I, [2023-08-18T17:15:30.447758 #9386]  INFO -- : [43028bd7-7b18-409e-8830-2e2584f7c19f]   Rendered users/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 542)
+I, [2023-08-18T17:15:30.452627 #9386]  INFO -- : [43028bd7-7b18-409e-8830-2e2584f7c19f]   Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 1753)
+I, [2023-08-18T17:15:30.453126 #9386]  INFO -- : [43028bd7-7b18-409e-8830-2e2584f7c19f] Completed 200 OK in 21ms (Views: 13.8ms | ActiveRecord: 0.9ms | Allocations: 2927)
+I, [2023-08-18T17:15:30.513393 #9386]  INFO -- : [175d5262-63cf-4a0c-8f0c-4d1b32ba71ee] Started GET "/assets/bg2" for 127.0.0.1 at 2023-08-18 17:15:30 +0500
+I, [2023-08-18T17:15:30.514269 #9386]  INFO -- : [5318a19b-5f07-477d-8a7c-7a6e10d97ab7] Started GET "/assets/bg1" for 127.0.0.1 at 2023-08-18 17:15:30 +0500
+I, [2023-08-18T17:15:30.516973 #9386]  INFO -- : [180dbda0-a7cd-499b-93a3-5f6cf3b53e32] Started GET "/assets/bg3" for 127.0.0.1 at 2023-08-18 17:15:30 +0500
+I, [2023-08-18T17:15:30.518722 #9386]  INFO -- : [914c4b07-c3d5-415e-935d-0ba9e8279239] Started GET "/assets/videoBg-78bbf2d93351b70a731ab64b5144f2799c639286da6e992a3d7c4adf51b89dd8.mp4" for 127.0.0.1 at 2023-08-18 17:15:30 +0500
+I, [2023-08-18T17:15:33.377229 #9386]  INFO -- : [961e1ac8-fa69-4f5c-9f28-645bdfe2c350] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-18 17:15:33 +0500
+I, [2023-08-18T17:15:33.380740 #9386]  INFO -- : [961e1ac8-fa69-4f5c-9f28-645bdfe2c350] Processing by ChatroomsController#index as HTML
+I, [2023-08-18T17:15:33.404244 #9386]  INFO -- : [961e1ac8-fa69-4f5c-9f28-645bdfe2c350]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 5106)
+I, [2023-08-18T17:15:33.405664 #9386]  INFO -- : [961e1ac8-fa69-4f5c-9f28-645bdfe2c350]   Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 6269)
+I, [2023-08-18T17:15:33.405875 #9386]  INFO -- : [961e1ac8-fa69-4f5c-9f28-645bdfe2c350] Completed 200 OK in 25ms (Views: 11.1ms | ActiveRecord: 10.0ms | Allocations: 7887)
+I, [2023-08-18T17:15:33.442064 #9386]  INFO -- : [1f567e14-3a6d-466a-8d2a-274e4654ebf8] Started GET "/cable" for 127.0.0.1 at 2023-08-18 17:15:33 +0500
+I, [2023-08-18T17:15:33.443591 #9386]  INFO -- : [1f567e14-3a6d-466a-8d2a-274e4654ebf8] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-18 17:15:33 +0500
+I, [2023-08-18T17:15:33.443753 #9386]  INFO -- : [1f567e14-3a6d-466a-8d2a-274e4654ebf8] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-18T17:15:33.476419 #9386]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-18T17:15:33.476887 #9386]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-18T17:15:33.497149 #9386]  INFO -- : [b22dd020-0c59-4986-9674-5423ed38f115] Started GET "/assets/videoBg-78bbf2d93351b70a731ab64b5144f2799c639286da6e992a3d7c4adf51b89dd8.mp4" for 127.0.0.1 at 2023-08-18 17:15:33 +0500
+I, [2023-08-18T17:15:35.670808 #9386]  INFO -- : [a35556d2-6192-46c5-85f0-931930bbc820] Started GET "/users/2" for 127.0.0.1 at 2023-08-18 17:15:35 +0500
+I, [2023-08-18T17:15:35.671848 #9386]  INFO -- : [a35556d2-6192-46c5-85f0-931930bbc820] Processing by UsersController#show as HTML
+I, [2023-08-18T17:15:35.671905 #9386]  INFO -- : [a35556d2-6192-46c5-85f0-931930bbc820]   Parameters: {"id"=>"2"}
+I, [2023-08-18T17:15:35.820306 #9386]  INFO -- : [a35556d2-6192-46c5-85f0-931930bbc820]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 117.5ms | Allocations: 9583)
+I, [2023-08-18T17:15:35.822320 #9386]  INFO -- : [a35556d2-6192-46c5-85f0-931930bbc820]   Rendered layout layouts/application.html.erb (Duration: 119.5ms | Allocations: 10657)
+I, [2023-08-18T17:15:35.822748 #9386]  INFO -- : [a35556d2-6192-46c5-85f0-931930bbc820] Completed 200 OK in 151ms (Views: 109.0ms | ActiveRecord: 14.9ms | Allocations: 15092)
+I, [2023-08-18T17:15:35.838852 #9386]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"InVzZXJzIg==--c21ee49da20be3b2e15ef8d7ddc7eaf765afb9c7fb336f9b4fff17411f0a3c96"}
+I, [2023-08-18T17:15:35.839394 #9386]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-18T17:15:35.839127 #9386]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"ImNoYXRyb29tcyI=--0e44485a3e7c52dfce96633e23cdfb315a908f12d29df8e07396b82375f99152"}
+I, [2023-08-18T17:15:35.839987 #9386]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-18T17:15:35.857156 #9386]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-18T17:15:35.859188 #9386]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-18T17:15:35.859550 #9386]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzc
+I, [2023-08-18T17:15:54.031068 #9386]  INFO -- : [5cfbc51d-f7fc-49dd-a70c-cfd1d3b759d0] Started POST "/chatrooms/7/messages" for 127.0.0.1 at 2023-08-18 17:15:54 +0500
+I, [2023-08-18T17:15:54.033555 #9386]  INFO -- : [5cfbc51d-f7fc-49dd-a70c-cfd1d3b759d0] Processing by MessagesController#create as TURBO_STREAM
+I, [2023-08-18T17:15:54.033845 #9386]  INFO -- : [5cfbc51d-f7fc-49dd-a70c-cfd1d3b759d0]   Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"attachments"=>["", #<ActionDispatch::Http::UploadedFile:0x000055966806a0f0 @tempfile=#<Tempfile:/tmp/RackMultipart20230818-9386-f68ugy.jpg>, @content_type="image/jpeg", @original_filename="koksal.jpg", @headers="Content-Disposition: form-data; name=\"message[attachments][]\"; filename=\"koksal.jpg\"\r\nContent-Type: image/jpeg\r\n">], "content"=>""}, "commit"=>"Send", "chatroom_id"=>"7"}
+I, [2023-08-18T17:15:54.116009 #9386]  INFO -- : [5cfbc51d-f7fc-49dd-a70c-cfd1d3b759d0] [36m  Disk Storage (2.3ms) [0m[32mUploaded file to key: t6gnch4gvckoow81vv3nxr7zls6k (checksum: iWCoTncgDYJu4+V8iURksA==)[0m
+I, [2023-08-18T17:15:54.117973 #9386]  INFO -- : [5cfbc51d-f7fc-49dd-a70c-cfd1d3b759d0] [ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: d8cecab5-28f4-491d-a06e-613f288a4b9b) to Async(default) with arguments: #<GlobalID:0x00005596690a5dc0 @uri=#<URI::GID gid://i-chat/ActiveStorage::Blob/1>>
+I, [2023-08-18T17:15:54.122663 #9386]  INFO -- : [5cfbc51d-f7fc-49dd-a70c-cfd1d3b759d0] No template found for MessagesController#create, rendering head :no_content
+I, [2023-08-18T17:15:54.123562 #9386]  INFO -- : [5cfbc51d-f7fc-49dd-a70c-cfd1d3b759d0] Completed 204 No Content in 89ms (ActiveRecord: 20.8ms | Allocations: 18094)
+I, [2023-08-18T17:15:54.148071 #9386]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [d8cecab5-28f4-491d-a06e-613f288a4b9b] Performing ActiveStorage::AnalyzeJob (Job ID: d8cecab5-28f4-491d-a06e-613f288a4b9b) from Async(default) enqueued at 2023-08-18T12:15:54Z with arguments: #<GlobalID:0x0000559669219878 @uri=#<URI::GID gid://i-chat/ActiveStorage::Blob/1>>
+I, [2023-08-18T17:15:54.148821 #9386]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [d8cecab5-28f4-491d-a06e-613f288a4b9b] Skipping image analysis because the ruby-vips gem isn't installed
+I, [2023-08-18T17:15:54.155015 #9386]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [d8cecab5-28f4-491d-a06e-613f288a4b9b] Performed ActiveStorage::AnalyzeJob (Job ID: d8cecab5-28f4-491d-a06e-613f288a4b9b) from Async(default) in 35.55ms
+I, [2023-08-18T17:16:26.323383 #9386]  INFO -- : [0329cd8f-c0bf-4249-9166-aadad699049c] Started GET "/users/2" for 127.0.0.1 at 2023-08-18 17:16:26 +0500
+I, [2023-08-18T17:16:26.324650 #9386]  INFO -- : [0329cd8f-c0bf-4249-9166-aadad699049c] Processing by UsersController#show as HTML
+I, [2023-08-18T17:16:26.324964 #9386]  INFO -- : [0329cd8f-c0bf-4249-9166-aadad699049c]   Parameters: {"id"=>"2"}
+I, [2023-08-18T17:16:26.395465 #9386]  INFO -- : [0329cd8f-c0bf-4249-9166-aadad699049c]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 59.6ms | Allocations: 9152)
+I, [2023-08-18T17:16:26.397999 #9386]  INFO -- : [0329cd8f-c0bf-4249-9166-aadad699049c]   Rendered layout layouts/application.html.erb (Duration: 62.3ms | Allocations: 10298)
+I, [2023-08-18T17:16:26.398358 #9386]  INFO -- : [0329cd8f-c0bf-4249-9166-aadad699049c] Completed 200 OK in 73ms (Views: 53.2ms | ActiveRecord: 13.0ms | Allocations: 11498)
+I, [2023-08-18T17:16:26.414453 #9386]  INFO -- : Finished "/cable" [WebSocket] for 127.0.0.1 at 2023-08-18 17:16:26 +0500
+I, [2023-08-18T17:16:26.414737 #9386]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-18T17:16:26.414955 #9386]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-18T17:16:26.415131 #9386]  INFO -- : Turbo::StreamsChannel stopped streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzc
+I, [2023-08-18T17:16:26.443985 #9386]  INFO -- : [e5206096-922d-44f1-bab3-e67b4a10c22e] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2d08fe956d11cd8fc055b2c947f15a14e34d0f7d/koksal.jpg" for 127.0.0.1 at 2023-08-18 17:16:26 +0500
+I, [2023-08-18T17:16:26.446069 #9386]  INFO -- : [e5206096-922d-44f1-bab3-e67b4a10c22e] Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+I, [2023-08-18T17:16:26.446198 #9386]  INFO -- : [e5206096-922d-44f1-bab3-e67b4a10c22e]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2d08fe956d11cd8fc055b2c947f15a14e34d0f7d", "filename"=>"koksal"}
+I, [2023-08-18T17:16:26.451976 #9386]  INFO -- : [e5206096-922d-44f1-bab3-e67b4a10c22e] Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkRFpuYm1Ob05HZDJZMnR2YjNjNE1YWjJNMjU0Y2pkNmJITTJhd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW10dmEzTmhiQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoydHZhM05oYkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wOC0xOFQxMjoyMToyNi40NTBaIiwicHVyIjoiYmxvYl9rZXkifX0=--5ed2549d1dcc136d4853af400f50888cee8d3e00/koksal.jpg
+I, [2023-08-18T17:16:26.452204 #9386]  INFO -- : [e5206096-922d-44f1-bab3-e67b4a10c22e] Completed 302 Found in 6ms (ActiveRecord: 0.5ms | Allocations: 862)
+I, [2023-08-18T17:16:26.482586 #9386]  INFO -- : [8e2d1671-5fd9-485a-a4a2-dd524ffe988f] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkRFpuYm1Ob05HZDJZMnR2YjNjNE1YWjJNMjU0Y2pkNmJITTJhd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW10dmEzTmhiQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoydHZhM05oYkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wOC0xOFQxMjoyMToyNi40NTBaIiwicHVyIjoiYmxvYl9rZXkifX0=--5ed2549d1dcc136d4853af400f50888cee8d3e00/koksal.jpg" for 127.0.0.1 at 2023-08-18 17:16:26 +0500
+I, [2023-08-18T17:16:26.483784 #9386]  INFO -- : [8e2d1671-5fd9-485a-a4a2-dd524ffe988f] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-08-18T17:16:26.483855 #9386]  INFO -- : [8e2d1671-5fd9-485a-a4a2-dd524ffe988f]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"koksal"}
+I, [2023-08-18T17:16:26.485646 #9386]  INFO -- : [8e2d1671-5fd9-485a-a4a2-dd524ffe988f] Completed 200 OK in 2ms (ActiveRecord: 0.0ms | Allocations: 2865)
+I, [2023-08-18T17:16:26.613379 #9386]  INFO -- : [3b85253b-0249-42c1-a13e-99d0a5e70533] Started GET "/cable" for 127.0.0.1 at 2023-08-18 17:16:26 +0500
+I, [2023-08-18T17:16:26.614710 #9386]  INFO -- : [3b85253b-0249-42c1-a13e-99d0a5e70533] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-18 17:16:26 +0500
+I, [2023-08-18T17:16:26.615448 #9386]  INFO -- : [3b85253b-0249-42c1-a13e-99d0a5e70533] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-18T17:16:26.718370 #9386]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-18T17:16:26.719370 #9386]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-18T17:16:26.718759 #9386]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzc
+I, [2023-08-18T17:17:09.950153 #9386]  INFO -- : [6453caef-e0f2-4f57-87c3-0eeaae71ccfb] Started DELETE "/users/sign_out" for 127.0.0.1 at 2023-08-18 17:17:09 +0500
+I, [2023-08-18T17:17:09.951236 #9386]  INFO -- : [6453caef-e0f2-4f57-87c3-0eeaae71ccfb] Processing by Users::SessionsController#destroy as TURBO_STREAM
+I, [2023-08-18T17:17:09.951300 #9386]  INFO -- : [6453caef-e0f2-4f57-87c3-0eeaae71ccfb]   Parameters: {"authenticity_token"=>"[FILTERED]"}
+I, [2023-08-18T17:17:09.961632 #9386]  INFO -- : [6453caef-e0f2-4f57-87c3-0eeaae71ccfb] Redirected to http://localhost:3000/users/sign_in
+I, [2023-08-18T17:17:09.961869 #9386]  INFO -- : [6453caef-e0f2-4f57-87c3-0eeaae71ccfb] Completed 303 See Other in 10ms (ActiveRecord: 1.3ms | Allocations: 1588)
+I, [2023-08-18T17:17:09.965901 #9386]  INFO -- : [41dca111-3047-41ee-9c3a-090ab681f449] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-18 17:17:09 +0500
+I, [2023-08-18T17:17:09.968053 #9386]  INFO -- : [41dca111-3047-41ee-9c3a-090ab681f449] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-18T17:17:09.977282 #9386]  INFO -- : [41dca111-3047-41ee-9c3a-090ab681f449]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1670)
+I, [2023-08-18T17:17:09.979484 #9386]  INFO -- : [41dca111-3047-41ee-9c3a-090ab681f449]   Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 2537)
+I, [2023-08-18T17:17:09.979863 #9386]  INFO -- : [41dca111-3047-41ee-9c3a-090ab681f449] Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 3208)
+I, [2023-08-18T17:17:09.998346 #9386]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"InVzZXJzIg==--c21ee49da20be3b2e15ef8d7ddc7eaf765afb9c7fb336f9b4fff17411f0a3c96"}
+I, [2023-08-18T17:17:10.000174 #9386]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-18T17:17:09.999587 #9386]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"IloybGtPaTh2YVMxamFHRjBMME5vWVhSeWIyOXRMemMi--e274da362d1372cabb3f5a463d9c91484be1def12285617bdbbf285b1d79d40a"}
+I, [2023-08-18T17:17:10.000912 #9386]  INFO -- : Turbo::StreamsChannel stopped streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzc
+I, [2023-08-18T17:17:09.998627 #9386]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"ImNoYXRyb29tcyI=--0e44485a3e7c52dfce96633e23cdfb315a908f12d29df8e07396b82375f99152"}
+I, [2023-08-18T17:17:10.001366 #9386]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-18T17:17:10.006482 #9386]  INFO -- : [e5ba3760-72c9-4fbf-a024-8d4395553bf1] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-18 17:17:10 +0500
+I, [2023-08-18T17:29:37.400257 #10723]  INFO -- : [f94aa45c-c6b5-482b-ae0b-fb5f4be3a894] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-18 17:29:37 +0500
+I, [2023-08-18T17:29:37.402463 #10723]  INFO -- : [f94aa45c-c6b5-482b-ae0b-fb5f4be3a894] Processing by Users::SessionsController#new as HTML
+I, [2023-08-18T17:29:37.458506 #10723]  INFO -- : [f94aa45c-c6b5-482b-ae0b-fb5f4be3a894]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 3728)
+I, [2023-08-18T17:29:37.466541 #10723]  INFO -- : [f94aa45c-c6b5-482b-ae0b-fb5f4be3a894]   Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 9278)
+I, [2023-08-18T17:29:37.466905 #10723]  INFO -- : [f94aa45c-c6b5-482b-ae0b-fb5f4be3a894] Completed 200 OK in 64ms (Views: 19.4ms | ActiveRecord: 13.6ms | Allocations: 24723)
+I, [2023-08-18T17:29:37.506232 #10723]  INFO -- : [39b58ce7-0499-47c8-8c67-56f2cd47773b] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-18 17:29:37 +0500
+I, [2023-08-18T17:30:14.082672 #10723]  INFO -- : [126ef37b-2449-4106-9b86-1e608260ff3b] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-18 17:30:14 +0500
+I, [2023-08-18T17:30:18.811700 #10723]  INFO -- : [001ae5c3-0842-4398-8a1e-a5ab8afcea2e] Started GET "/users/auth/google_oauth2/callback?state=3ac1ffa54f061a225d72a8dc8ff4844f6e3455df9a5ed3bf&code=4%2F0Adeu5BXgR8Z-YXPm4XnKetxh58eoZcReKpsGhNkdq1H7n_nn6-CgDta5ztZU9PGtKU72BQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for 127.0.0.1 at 2023-08-18 17:30:18 +0500
+I, [2023-08-18T17:30:20.996220 #10723]  INFO -- : [001ae5c3-0842-4398-8a1e-a5ab8afcea2e] Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+I, [2023-08-18T17:30:20.996316 #10723]  INFO -- : [001ae5c3-0842-4398-8a1e-a5ab8afcea2e]   Parameters: {"state"=>"3ac1ffa54f061a225d72a8dc8ff4844f6e3455df9a5ed3bf", "code"=>"4/0Adeu5BXgR8Z-YXPm4XnKetxh58eoZcReKpsGhNkdq1H7n_nn6-CgDta5ztZU9PGtKU72BQ", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+I, [2023-08-18T17:30:21.002394 #10723]  INFO -- : [001ae5c3-0842-4398-8a1e-a5ab8afcea2e] Redirected to http://localhost:3000/
+I, [2023-08-18T17:30:21.002775 #10723]  INFO -- : [001ae5c3-0842-4398-8a1e-a5ab8afcea2e] Completed 302 Found in 6ms (ActiveRecord: 0.8ms | Allocations: 1551)
+I, [2023-08-18T17:30:21.007479 #10723]  INFO -- : [4158594b-6b8e-46b8-9826-b75613dddba9] Started GET "/" for 127.0.0.1 at 2023-08-18 17:30:21 +0500
+I, [2023-08-18T17:30:21.008307 #10723]  INFO -- : [4158594b-6b8e-46b8-9826-b75613dddba9] Processing by UsersController#index as HTML
+I, [2023-08-18T17:30:21.012973 #10723]  INFO -- : [4158594b-6b8e-46b8-9826-b75613dddba9]   Rendered users/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 540)
+I, [2023-08-18T17:30:21.014543 #10723]  INFO -- : [4158594b-6b8e-46b8-9826-b75613dddba9]   Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1752)
+I, [2023-08-18T17:30:21.014769 #10723]  INFO -- : [4158594b-6b8e-46b8-9826-b75613dddba9] Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 2930)
+I, [2023-08-18T17:30:21.066895 #10723]  INFO -- : [743f6f13-dcb0-4873-af80-d4a683209ef6] Started GET "/assets/bg2" for 127.0.0.1 at 2023-08-18 17:30:21 +0500
+I, [2023-08-18T17:30:21.068658 #10723]  INFO -- : [edd9ff51-e0ef-460c-a154-c6e3b86a8874] Started GET "/assets/bg1" for 127.0.0.1 at 2023-08-18 17:30:21 +0500
+I, [2023-08-18T17:30:21.069024 #10723]  INFO -- : [108fbc8d-8eaf-40cf-afc7-cc3cee7bc598] Started GET "/assets/bg3" for 127.0.0.1 at 2023-08-18 17:30:21 +0500
+I, [2023-08-18T17:30:21.076700 #10723]  INFO -- : [da1c08a5-dd76-4b6a-90d3-aeaf73ae21f1] Started GET "/assets/videoBg-78bbf2d93351b70a731ab64b5144f2799c639286da6e992a3d7c4adf51b89dd8.mp4" for 127.0.0.1 at 2023-08-18 17:30:21 +0500
+I, [2023-08-18T17:30:23.488767 #10723]  INFO -- : [0b68d7c1-da60-4ba5-a7ba-0da64cf3c0c5] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-18 17:30:23 +0500
+I, [2023-08-18T17:30:23.490260 #10723]  INFO -- : [0b68d7c1-da60-4ba5-a7ba-0da64cf3c0c5] Processing by ChatroomsController#index as HTML
+I, [2023-08-18T17:30:23.510377 #10723]  INFO -- : [0b68d7c1-da60-4ba5-a7ba-0da64cf3c0c5]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 13.9ms | Allocations: 5106)
+I, [2023-08-18T17:30:23.512261 #10723]  INFO -- : [0b68d7c1-da60-4ba5-a7ba-0da64cf3c0c5]   Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 6269)
+I, [2023-08-18T17:30:23.512528 #10723]  INFO -- : [0b68d7c1-da60-4ba5-a7ba-0da64cf3c0c5] Completed 200 OK in 22ms (Views: 14.9ms | ActiveRecord: 3.9ms | Allocations: 7933)
+I, [2023-08-18T17:30:23.534433 #10723]  INFO -- : [43c18333-01d1-480b-89c2-ac870f6ab1c5] Started GET "/cable" for 127.0.0.1 at 2023-08-18 17:30:23 +0500
+I, [2023-08-18T17:30:23.545460 #10723]  INFO -- : [43c18333-01d1-480b-89c2-ac870f6ab1c5] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-18 17:30:23 +0500
+I, [2023-08-18T17:30:23.545660 #10723]  INFO -- : [43c18333-01d1-480b-89c2-ac870f6ab1c5] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-18T17:30:23.585724 #10723]  INFO -- : [059e3b90-896a-45b1-8263-bdfcba54bd20] Started GET "/assets/videoBg-78bbf2d93351b70a731ab64b5144f2799c639286da6e992a3d7c4adf51b89dd8.mp4" for 127.0.0.1 at 2023-08-18 17:30:23 +0500
+I, [2023-08-18T17:30:23.615224 #10723]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-18T17:30:23.615533 #10723]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-18T17:30:26.197252 #10723]  INFO -- : [1d19db0f-ec39-4a7a-9957-76e163927e51] Started GET "/users/2" for 127.0.0.1 at 2023-08-18 17:30:26 +0500
+I, [2023-08-18T17:30:26.198091 #10723]  INFO -- : [1d19db0f-ec39-4a7a-9957-76e163927e51] Processing by UsersController#show as HTML
+I, [2023-08-18T17:30:26.198137 #10723]  INFO -- : [1d19db0f-ec39-4a7a-9957-76e163927e51]   Parameters: {"id"=>"2"}
+I, [2023-08-18T17:30:26.271926 #10723]  INFO -- : [1d19db0f-ec39-4a7a-9957-76e163927e51]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 58.3ms | Allocations: 18568)
+I, [2023-08-18T17:30:26.275062 #10723]  INFO -- : [1d19db0f-ec39-4a7a-9957-76e163927e51]   Rendered layout layouts/application.html.erb (Duration: 61.6ms | Allocations: 19715)
+I, [2023-08-18T17:30:26.275471 #10723]  INFO -- : [1d19db0f-ec39-4a7a-9957-76e163927e51] Completed 200 OK in 77ms (Views: 50.9ms | ActiveRecord: 17.2ms | Allocations: 24156)
+I, [2023-08-18T17:30:26.292507 #10723]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"InVzZXJzIg==--c21ee49da20be3b2e15ef8d7ddc7eaf765afb9c7fb336f9b4fff17411f0a3c96"}
+I, [2023-08-18T17:30:26.293037 #10723]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-18T17:30:26.292750 #10723]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"ImNoYXRyb29tcyI=--0e44485a3e7c52dfce96633e23cdfb315a908f12d29df8e07396b82375f99152"}
+I, [2023-08-18T17:30:26.293606 #10723]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-18T17:30:26.296696 #10723]  INFO -- : [652352b0-1345-4e36-a0de-66de4b21edd5] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2d08fe956d11cd8fc055b2c947f15a14e34d0f7d/koksal.jpg" for 127.0.0.1 at 2023-08-18 17:30:26 +0500
+I, [2023-08-18T17:30:26.298404 #10723]  INFO -- : [652352b0-1345-4e36-a0de-66de4b21edd5] Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+I, [2023-08-18T17:30:26.298514 #10723]  INFO -- : [652352b0-1345-4e36-a0de-66de4b21edd5]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2d08fe956d11cd8fc055b2c947f15a14e34d0f7d", "filename"=>"koksal"}
+I, [2023-08-18T17:30:26.303448 #10723]  INFO -- : [652352b0-1345-4e36-a0de-66de4b21edd5] Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkRFpuYm1Ob05HZDJZMnR2YjNjNE1YWjJNMjU0Y2pkNmJITTJhd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW10dmEzTmhiQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoydHZhM05oYkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wOC0xOFQxMjozNToyNi4zMDJaIiwicHVyIjoiYmxvYl9rZXkifX0=--c14270e90c12be5b99f474021de3ccb42e8c3a13/koksal.jpg
+I, [2023-08-18T17:30:26.303764 #10723]  INFO -- : [652352b0-1345-4e36-a0de-66de4b21edd5] Completed 302 Found in 5ms (ActiveRecord: 0.4ms | Allocations: 933)
+I, [2023-08-18T17:30:26.314793 #10723]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-18T17:30:26.315453 #10723]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzc
+I, [2023-08-18T17:30:26.315938 #10723]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-18T17:30:26.317260 #10723]  INFO -- : [ce3608da-c611-4a15-a4b2-4276f54d8d8f] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkRFpuYm1Ob05HZDJZMnR2YjNjNE1YWjJNMjU0Y2pkNmJITTJhd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW10dmEzTmhiQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoydHZhM05oYkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wOC0xOFQxMjozNToyNi4zMDJaIiwicHVyIjoiYmxvYl9rZXkifX0=--c14270e90c12be5b99f474021de3ccb42e8c3a13/koksal.jpg" for 127.0.0.1 at 2023-08-18 17:30:26 +0500
+I, [2023-08-18T17:30:26.321685 #10723]  INFO -- : [ce3608da-c611-4a15-a4b2-4276f54d8d8f] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-08-18T17:30:26.321838 #10723]  INFO -- : [ce3608da-c611-4a15-a4b2-4276f54d8d8f]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"koksal"}
+I, [2023-08-18T17:30:26.327243 #10723]  INFO -- : [ce3608da-c611-4a15-a4b2-4276f54d8d8f] Completed 200 OK in 5ms (ActiveRecord: 0.0ms | Allocations: 2868)
+I, [2023-08-18T17:30:40.931375 #10723]  INFO -- : [def53240-e99e-48c9-b662-24c53580f652] Started POST "/chatrooms/7/messages" for 127.0.0.1 at 2023-08-18 17:30:40 +0500
+I, [2023-08-18T17:30:40.932731 #10723]  INFO -- : [def53240-e99e-48c9-b662-24c53580f652] Processing by MessagesController#create as TURBO_STREAM
+I, [2023-08-18T17:30:40.932911 #10723]  INFO -- : [def53240-e99e-48c9-b662-24c53580f652]   Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"attachments"=>[""], "content"=>"Excuse me"}, "commit"=>"Send", "chatroom_id"=>"7"}
+I, [2023-08-18T17:30:40.968942 #10723]  INFO -- : [def53240-e99e-48c9-b662-24c53580f652] No template found for MessagesController#create, rendering head :no_content
+I, [2023-08-18T17:30:40.969796 #10723]  INFO -- : [def53240-e99e-48c9-b662-24c53580f652] Completed 204 No Content in 37ms (ActiveRecord: 9.0ms | Allocations: 6739)
+I, [2023-08-18T17:30:49.672670 #10723]  INFO -- : [8fc4496f-e948-471a-8fce-029aa1274029] Started GET "/" for 127.0.0.1 at 2023-08-18 17:30:49 +0500
+I, [2023-08-18T17:30:49.675306 #10723]  INFO -- : [8fc4496f-e948-471a-8fce-029aa1274029] Processing by UsersController#index as HTML
+I, [2023-08-18T17:30:49.675949 #10723]  INFO -- : [8fc4496f-e948-471a-8fce-029aa1274029] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 160)
+I, [2023-08-18T17:30:49.689960 #10723]  INFO -- : [93358be8-c57b-4d73-88ff-bab06590c03d] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-18 17:30:49 +0500
+I, [2023-08-18T17:30:49.692924 #10723]  INFO -- : [93358be8-c57b-4d73-88ff-bab06590c03d] Processing by Users::SessionsController#new as HTML
+I, [2023-08-18T17:30:49.697682 #10723]  INFO -- : [93358be8-c57b-4d73-88ff-bab06590c03d]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1670)
+I, [2023-08-18T17:30:49.699998 #10723]  INFO -- : [93358be8-c57b-4d73-88ff-bab06590c03d]   Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2537)
+I, [2023-08-18T17:30:49.700599 #10723]  INFO -- : [93358be8-c57b-4d73-88ff-bab06590c03d] Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 3225)
+I, [2023-08-18T17:30:49.928626 #10723]  INFO -- : [375c3d32-d094-4eb2-8db2-6e0b92ecf986] Started GET "/assets/application-aeb627b77a7b0656ac30f13534b762f136b23d5dbc0ed78d8aa8525f73a38497.css" for 127.0.0.1 at 2023-08-18 17:30:49 +0500
+I, [2023-08-18T17:30:50.293574 #10723]  INFO -- : [1cdd55a2-0666-4917-b191-f723f60721fe] Started GET "/assets/controllers/application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e.js" for 127.0.0.1 at 2023-08-18 17:30:50 +0500
+I, [2023-08-18T17:30:55.615037 #10723]  INFO -- : [d65b791d-2676-470d-8269-3e1b15e76323] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-18 17:30:55 +0500
+I, [2023-08-18T17:30:55.680081 #10723]  INFO -- : [f76a968c-2e77-4072-a52d-c4643f1da3a4] Started GET "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js" for 127.0.0.1 at 2023-08-18 17:30:55 +0500
+I, [2023-08-18T17:30:55.683735 #10723]  INFO -- : [cc725b24-29ff-4bcc-879d-81124bdb28bb] Started GET "/assets/controllers/message_preview_controller-5a7dc52185a57114ef3eb7aea16265495727b32857339992d8b2d352d027278a.js" for 127.0.0.1 at 2023-08-18 17:30:55 +0500
+I, [2023-08-18T17:30:55.688261 #10723]  INFO -- : [dc5fabef-9472-4fd3-b5e8-6f9063a7341f] Started GET "/assets/controllers/scroll_controller-6dd014d8040e20c046f91594a15f694220f05b23da596d3bc7e1af7a53b180f8.js" for 127.0.0.1 at 2023-08-18 17:30:55 +0500
+I, [2023-08-18T17:30:58.685952 #10723]  INFO -- : [eff4d9e8-9152-4e42-b025-152636bc8daf] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-18 17:30:58 +0500
+I, [2023-08-18T17:30:59.664666 #10723]  INFO -- : [cfe6d980-a13d-4885-9189-7ef4bc616c9b] Started GET "/users/auth/google_oauth2/callback?state=0cb6242bf6927d9c95d3a892615381384f2eeeb104ac9113&code=4%2F0Adeu5BUhcfjQlTfqG4j5QbSKNnDCbO1EhhSodq_NOs9JjqQ37hTdnSZG-0z4T1X8Afr2RQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none" for 127.0.0.1 at 2023-08-18 17:30:59 +0500
+I, [2023-08-18T17:31:01.009134 #10723]  INFO -- : [cfe6d980-a13d-4885-9189-7ef4bc616c9b] Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+I, [2023-08-18T17:31:01.009265 #10723]  INFO -- : [cfe6d980-a13d-4885-9189-7ef4bc616c9b]   Parameters: {"state"=>"0cb6242bf6927d9c95d3a892615381384f2eeeb104ac9113", "code"=>"4/0Adeu5BUhcfjQlTfqG4j5QbSKNnDCbO1EhhSodq_NOs9JjqQ37hTdnSZG-0z4T1X8Afr2RQ", "scope"=>"email profile openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile", "authuser"=>"0", "prompt"=>"none"}
+I, [2023-08-18T17:31:01.012075 #10723]  INFO -- : [cfe6d980-a13d-4885-9189-7ef4bc616c9b] Redirected to http://localhost:3000/
+I, [2023-08-18T17:31:01.012242 #10723]  INFO -- : [cfe6d980-a13d-4885-9189-7ef4bc616c9b] Completed 302 Found in 3ms (ActiveRecord: 0.4ms | Allocations: 548)
+I, [2023-08-18T17:31:01.020354 #10723]  INFO -- : [d00e801b-5e56-4b8c-92eb-0db4d5f0d054] Started GET "/" for 127.0.0.1 at 2023-08-18 17:31:01 +0500
+I, [2023-08-18T17:31:01.022595 #10723]  INFO -- : [d00e801b-5e56-4b8c-92eb-0db4d5f0d054] Processing by UsersController#index as HTML
+I, [2023-08-18T17:31:01.031986 #10723]  INFO -- : [d00e801b-5e56-4b8c-92eb-0db4d5f0d054]   Rendered users/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 278)
+I, [2023-08-18T17:31:01.039543 #10723]  INFO -- : [d00e801b-5e56-4b8c-92eb-0db4d5f0d054]   Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 1378)
+I, [2023-08-18T17:31:01.040632 #10723]  INFO -- : [d00e801b-5e56-4b8c-92eb-0db4d5f0d054] Completed 200 OK in 18ms (Views: 11.2ms | ActiveRecord: 0.7ms | Allocations: 2117)
+I, [2023-08-18T17:31:01.188620 #10723]  INFO -- : [748f35da-a206-4459-b76f-e908ee99c659] Started GET "/assets/chatIcon-c2e629b2733306716a68d49ed7e712e11be9564f4c9c1ce3e18049041dff0cda.png" for 127.0.0.1 at 2023-08-18 17:31:01 +0500
+I, [2023-08-18T17:31:01.198246 #10723]  INFO -- : [a6c801a3-6b5b-4478-94c5-c34614788aba] Started GET "/assets/bg2" for 127.0.0.1 at 2023-08-18 17:31:01 +0500
+I, [2023-08-18T17:31:01.202598 #10723]  INFO -- : [4cf29b28-bdcd-40f3-81d4-122d62aded3f] Started GET "/assets/bg1" for 127.0.0.1 at 2023-08-18 17:31:01 +0500
+I, [2023-08-18T17:31:01.209387 #10723]  INFO -- : [7e2c9979-c5e3-41db-a17c-0f98c3ff498c] Started GET "/assets/bg3" for 127.0.0.1 at 2023-08-18 17:31:01 +0500
+I, [2023-08-18T17:31:38.386905 #10723]  INFO -- : [7202af45-792d-4e8f-81d0-109baae86e6e] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-18 17:31:38 +0500
+I, [2023-08-18T17:31:38.389602 #10723]  INFO -- : [7202af45-792d-4e8f-81d0-109baae86e6e] Processing by ChatroomsController#index as HTML
+I, [2023-08-18T17:31:38.396564 #10723]  INFO -- : [7202af45-792d-4e8f-81d0-109baae86e6e]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1289)
+I, [2023-08-18T17:31:38.398431 #10723]  INFO -- : [7202af45-792d-4e8f-81d0-109baae86e6e]   Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2361)
+I, [2023-08-18T17:31:38.398964 #10723]  INFO -- : [7202af45-792d-4e8f-81d0-109baae86e6e] Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.9ms | Allocations: 3171)
+I, [2023-08-18T17:31:38.479948 #10723]  INFO -- : [3ec01c7a-1491-48cb-8656-9d0c36efb7aa] Started GET "/cable" for 127.0.0.1 at 2023-08-18 17:31:38 +0500
+I, [2023-08-18T17:31:38.481635 #10723]  INFO -- : [3ec01c7a-1491-48cb-8656-9d0c36efb7aa] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-18 17:31:38 +0500
+I, [2023-08-18T17:31:38.481885 #10723]  INFO -- : [3ec01c7a-1491-48cb-8656-9d0c36efb7aa] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-18T17:31:38.492252 #10723]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-18T17:31:38.493989 #10723]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-18T17:31:40.295815 #10723]  INFO -- : [363cbf3a-5ada-4618-b3d7-b3db59501c83] Started GET "/users/1" for 127.0.0.1 at 2023-08-18 17:31:40 +0500
+I, [2023-08-18T17:31:40.297487 #10723]  INFO -- : [363cbf3a-5ada-4618-b3d7-b3db59501c83] Processing by UsersController#show as HTML
+I, [2023-08-18T17:31:40.297697 #10723]  INFO -- : [363cbf3a-5ada-4618-b3d7-b3db59501c83]   Parameters: {"id"=>"1"}
+I, [2023-08-18T17:31:40.424864 #10723]  INFO -- : [363cbf3a-5ada-4618-b3d7-b3db59501c83]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 113.9ms | Allocations: 9717)
+I, [2023-08-18T17:31:40.444696 #10723]  INFO -- : [363cbf3a-5ada-4618-b3d7-b3db59501c83]   Rendered layout layouts/application.html.erb (Duration: 133.7ms | Allocations: 10864)
+I, [2023-08-18T17:31:40.445014 #10723]  INFO -- : [363cbf3a-5ada-4618-b3d7-b3db59501c83] Completed 200 OK in 147ms (Views: 116.5ms | ActiveRecord: 19.4ms | Allocations: 12021)
+I, [2023-08-18T17:31:40.493846 #10723]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"InVzZXJzIg==--c21ee49da20be3b2e15ef8d7ddc7eaf765afb9c7fb336f9b4fff17411f0a3c96"}
+I, [2023-08-18T17:31:40.495619 #10723]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-18T17:31:40.494879 #10723]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"ImNoYXRyb29tcyI=--0e44485a3e7c52dfce96633e23cdfb315a908f12d29df8e07396b82375f99152"}
+I, [2023-08-18T17:31:40.497933 #10723]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-18T17:31:40.516272 #10723]  INFO -- : [e64d903c-c468-4fa7-a074-53178fefa445] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2d08fe956d11cd8fc055b2c947f15a14e34d0f7d/koksal.jpg" for 127.0.0.1 at 2023-08-18 17:31:40 +0500
+I, [2023-08-18T17:31:40.545648 #10723]  INFO -- : [e64d903c-c468-4fa7-a074-53178fefa445] Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+I, [2023-08-18T17:31:40.545812 #10723]  INFO -- : [e64d903c-c468-4fa7-a074-53178fefa445]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2d08fe956d11cd8fc055b2c947f15a14e34d0f7d", "filename"=>"koksal"}
+I, [2023-08-18T17:31:40.549159 #10723]  INFO -- : [e64d903c-c468-4fa7-a074-53178fefa445] Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkRFpuYm1Ob05HZDJZMnR2YjNjNE1YWjJNMjU0Y2pkNmJITTJhd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW10dmEzTmhiQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoydHZhM05oYkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wOC0xOFQxMjozNjo0MC41NDdaIiwicHVyIjoiYmxvYl9rZXkifX0=--7996434af4884d8a65108cfeade49b3546e50b55/koksal.jpg
+I, [2023-08-18T17:31:40.560593 #10723]  INFO -- : [e64d903c-c468-4fa7-a074-53178fefa445] Completed 302 Found in 15ms (ActiveRecord: 0.3ms | Allocations: 651)
+I, [2023-08-18T17:31:40.579531 #10723]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-18T17:31:40.581785 #10723]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-18T17:31:40.582266 #10723]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzc
+I, [2023-08-18T17:31:40.631018 #10723]  INFO -- : [012d7b1d-8025-42a4-b2f2-7ae2f1dba084] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkRFpuYm1Ob05HZDJZMnR2YjNjNE1YWjJNMjU0Y2pkNmJITTJhd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW10dmEzTmhiQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoydHZhM05oYkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wOC0xOFQxMjozNjo0MC41NDdaIiwicHVyIjoiYmxvYl9rZXkifX0=--7996434af4884d8a65108cfeade49b3546e50b55/koksal.jpg" for 127.0.0.1 at 2023-08-18 17:31:40 +0500
+I, [2023-08-18T17:31:40.656848 #10723]  INFO -- : [012d7b1d-8025-42a4-b2f2-7ae2f1dba084] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-08-18T17:31:40.657942 #10723]  INFO -- : [012d7b1d-8025-42a4-b2f2-7ae2f1dba084]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"koksal"}
+I, [2023-08-18T17:31:40.662958 #10723]  INFO -- : [012d7b1d-8025-42a4-b2f2-7ae2f1dba084] Completed 200 OK in 4ms (ActiveRecord: 0.0ms | Allocations: 167)
+I, [2023-08-18T17:31:50.985099 #10723]  INFO -- : [acd96fa3-aa22-49d9-a932-7d2f5d966c2c] Started POST "/chatrooms/7/messages" for 127.0.0.1 at 2023-08-18 17:31:50 +0500
+I, [2023-08-18T17:31:50.988712 #10723]  INFO -- : [acd96fa3-aa22-49d9-a932-7d2f5d966c2c] Processing by MessagesController#create as TURBO_STREAM
+I, [2023-08-18T17:31:50.988874 #10723]  INFO -- : [acd96fa3-aa22-49d9-a932-7d2f5d966c2c]   Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"attachments"=>[""], "content"=>"Ok"}, "commit"=>"Send", "chatroom_id"=>"7"}
+I, [2023-08-18T17:31:51.033400 #10723]  INFO -- : [acd96fa3-aa22-49d9-a932-7d2f5d966c2c] No template found for MessagesController#create, rendering head :no_content
+I, [2023-08-18T17:31:51.036758 #10723]  INFO -- : [acd96fa3-aa22-49d9-a932-7d2f5d966c2c] Completed 204 No Content in 48ms (ActiveRecord: 9.2ms | Allocations: 2607)

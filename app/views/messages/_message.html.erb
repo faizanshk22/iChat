@@ -16,7 +16,6 @@
           <%= audio_tag attachment, controls: '' %>
         <% else %>
           <%= link_to attachment.filename, url_for(attachment), style: "text-decoration:none; color: blue" %>
-            <%= image_tag attachment, class: "img-fluid", style: "max-width: 250px; height: auto;" %> 
           <p>File Size: <%= number_to_human_size(attachment.byte_size) %></p>
         <% end %>
       <% end %>
