@@ -5,7 +5,8 @@ class User < ApplicationRecord
   after_create_commit { broadcast_append_to "users" }
   # Include default devise modules. Others available are:
    #:lockable, :timeoutable, :trackable and :omniauthable
-  devise :database_authenticatable, :registerable, :confirmable,
+  scope :online, -> {where("last_seen_at > ?", 30.seconds.ago)}
+   devise :database_authenticatable, :registerable, :confirmable,
          :recoverable, :rememberable, :validatable,
          :omniauthable, omniauth_providers: [:google_oauth2]
          def self.from_omniauth(auth)

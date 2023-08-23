@@ -40,10 +40,10 @@
     text-decoration: none; 
   }
   .bordered-div {
-    border: 2px solid white;
+    border: 1px solid black; 
     font-family: Monospace;
     text-align: center;
-    padding: 12px;
+    padding: 10px;
     background-color: grey;
   }
   .footer {
@@ -58,7 +58,7 @@
   }
   .msg-form {
     position: fixed;
-    bottom: 106px;
+    bottom: 114px;
     width: 53%
   }
 
@@ -68,7 +68,7 @@
   }
 
   .msg-content {
-    width: 100%;
+    width: 85%;
     margin-right: 5px;
   }
   .message-box {
@@ -85,6 +85,7 @@
     font-weight: bold;
   }
   .col-md-9 {
+    background-image: url('wa2.png');
     height: 65vh;
     overflow-y: auto;
   }
@@ -100,7 +101,10 @@
     position: sticky;
     top: 0;
   }
-
+  .ctr-sc{
+    position: sticky;
+    top: 0;
+  }
 
   .image-upload > input {
     display: none;

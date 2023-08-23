@@ -10274,3 +10274,4 @@ I, [2023-08-18T17:31:50.988712 #10723]  INFO -- : [acd96fa3-aa22-49d9-a932-7d2f5
 I, [2023-08-18T17:31:50.988874 #10723]  INFO -- : [acd96fa3-aa22-49d9-a932-7d2f5d966c2c]   Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"attachments"=>[""], "content"=>"Ok"}, "commit"=>"Send", "chatroom_id"=>"7"}
 I, [2023-08-18T17:31:51.033400 #10723]  INFO -- : [acd96fa3-aa22-49d9-a932-7d2f5d966c2c] No template found for MessagesController#create, rendering head :no_content
 I, [2023-08-18T17:31:51.036758 #10723]  INFO -- : [acd96fa3-aa22-49d9-a932-7d2f5d966c2c] Completed 204 No Content in 48ms (ActiveRecord: 9.2ms | Allocations: 2607)
+I, [2023-08-21T16:16:13.428949 #46151]  INFO -- : Migrating to AddLastSeenAtToUsers (20230821092213)

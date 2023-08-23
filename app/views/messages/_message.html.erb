@@ -10,10 +10,14 @@
       <% message.attachments.each_with_index do |attachment, index| %>
         <% if attachment.image? %>
         <%= link_to url_for(attachment), style: "text-decoration:none; color: blue", target: "_blank" do %>
-        <%= image_tag attachment, class: "img-fluid", style: "max-width: 250px; height: auto;" %> 
+        <%= image_tag(url_for(attachment), class: "img-fluid", style: "max-width: 250px; height: auto;") %> 
       <% end %>
+        <% elsif attachment.video? %>
+       <%= link_to url_for(attachment), style: "text-decoration:none; color: blue", target: "_blank" do %>
+          <%= video_tag(url_for(attachment), style:'height:auto; width:100%', controls:'') %>
+          <% end %>
         <% elsif attachment.audio? %>
-          <%= audio_tag attachment, controls: '' %>
+          <%= audio_tag(url_for(attachment), controls: '') %>
         <% else %>
           <%= link_to attachment.filename, url_for(attachment), style: "text-decoration:none; color: blue" %>
           <p>File Size: <%= number_to_human_size(attachment.byte_size) %></p>
