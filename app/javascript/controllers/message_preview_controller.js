@@ -1,11 +1,13 @@
 import { Controller } from "@hotwired/stimulus";
-
+import { DirectUpload } from "@rails/activestorage";
 /**
  * This controller is responsible for displaying the message preview(s).
  * @class MessagePreviewController
  */
 export default class extends Controller {
-    connect() {}
+    connect() {
+      this.audio();
+    }
     /**
      * Creates the preview panel displayed above the message input.
      * This panel is used to display the file(s) that is/are being uploaded.
@@ -214,4 +216,71 @@ export default class extends Controller {
       let preview = document.getElementById("attachment-previews");
       preview.classList.add("d-none");
     }
+    audio(){
+      let record = document.getElementById("audio-record-button");
+      let messageAttachments = document.getElementById("message_attachments");
+      let recording = false;
+      if (navigator.mediaDevices.getUserMedia){
+        const constraints = { audio: true };
+        let chunks = [];
+        let onSucces = function (stream) {
+          const mediaRecorder = new MediaRecorder(stream)
+
+          record.onclick = function (event) {
+            event.preventDefault();
+            if (recording) {
+              mediaRecorder.stop();
+              record.style.color = "";
+            } else {
+              mediaRecorder.start();
+              record.style.color = "red";
+            }
+            recording = !recording;
+
+          }
+          mediaRecorder.onstop = function (event){
+            const audioType = 'audio/ogg; codecs=opus';
+            const blob = new Blob(chunks, { type: audioType });
+            chunks = [];
+            let file = new File([blob], "audio-message.ogg",{               
+            type: audioType, lastModified: new Date().getTime(),
+            })
+            let container = new DataTransfer();
+            container.items.add(file);
+            uploadFile(file);
+            messageAttachments.files = container.files;
+            messageAttachments.dispatchEvent(new Event("change"));
+          }
+          mediaRecorder.ondataavailable = function (e){
+            chunks.push(e.data);
+          }
+        }
+        let onError = function(err){
+          console.log("The following error occured:" + err);
+        }
+        navigator.mediaDevices.getUserMedia(constraints).then(onSucces, onError);
+      } else {
+        console.log("getUserMedia not supported on your browser!");
+      }
+    }
+  }
+
+  const uploadFile = (file) => {
+
+    const input = document.getElementById("message_attachments");
+    const url = input.dataset.DirectUploadUrl;
+    const upload = new DirectUpload(file, url);
+
+    upload.create((error, blob) => {
+      if (error) {
+        
+      } else {
+        const hiddenField = document.createElement("input");
+        hiddenField.setAttribute("type", "hidden");
+        hiddenField.setAttribute("value", blob.signed_id);
+        hiddenField.name = input.name;
+        let messageForm = document.getElementById("message-form");
+        messageForm.appendChild(hiddenField);
+      }
+    })
   }
