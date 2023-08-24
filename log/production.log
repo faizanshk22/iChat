@@ -10275,3 +10275,137 @@ I, [2023-08-18T17:31:50.988874 #10723]  INFO -- : [acd96fa3-aa22-49d9-a932-7d2f5
 I, [2023-08-18T17:31:51.033400 #10723]  INFO -- : [acd96fa3-aa22-49d9-a932-7d2f5d966c2c] No template found for MessagesController#create, rendering head :no_content
 I, [2023-08-18T17:31:51.036758 #10723]  INFO -- : [acd96fa3-aa22-49d9-a932-7d2f5d966c2c] Completed 204 No Content in 48ms (ActiveRecord: 9.2ms | Allocations: 2607)
 I, [2023-08-21T16:16:13.428949 #46151]  INFO -- : Migrating to AddLastSeenAtToUsers (20230821092213)
+I, [2023-08-23T17:48:47.336008 #52223]  INFO -- : [e5df0e83-a610-4e11-b057-c952fe699c22] Started GET "/users/2" for 127.0.0.1 at 2023-08-23 17:48:47 +0500
+I, [2023-08-23T17:48:47.344420 #52223]  INFO -- : [e5df0e83-a610-4e11-b057-c952fe699c22] Processing by UsersController#show as HTML
+I, [2023-08-23T17:48:47.346082 #52223]  INFO -- : [e5df0e83-a610-4e11-b057-c952fe699c22]   Parameters: {"id"=>"2"}
+I, [2023-08-23T17:48:47.378757 #52223]  INFO -- : [e5df0e83-a610-4e11-b057-c952fe699c22] Completed 401 Unauthorized in 31ms (Allocations: 1162)
+I, [2023-08-23T17:48:47.398770 #52223]  INFO -- : [c23535a8-9cd4-4ef7-bcce-8fe56819cdfd] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-23 17:48:47 +0500
+I, [2023-08-23T17:48:47.400614 #52223]  INFO -- : [c23535a8-9cd4-4ef7-bcce-8fe56819cdfd] Processing by Users::SessionsController#new as HTML
+I, [2023-08-23T17:48:47.559922 #52223]  INFO -- : [c23535a8-9cd4-4ef7-bcce-8fe56819cdfd]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 12.7ms | Allocations: 3230)
+I, [2023-08-23T17:48:47.572654 #52223]  INFO -- : [c23535a8-9cd4-4ef7-bcce-8fe56819cdfd]   Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 8723)
+I, [2023-08-23T17:48:47.573188 #52223]  INFO -- : [c23535a8-9cd4-4ef7-bcce-8fe56819cdfd] Completed 200 OK in 172ms (Views: 34.2ms | ActiveRecord: 72.2ms | Allocations: 23949)
+I, [2023-08-23T17:48:47.633694 #52223]  INFO -- : [0edd882c-d619-487b-9626-985a023ee41f] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-23 17:48:47 +0500
+I, [2023-08-23T17:48:47.653185 #52223]  INFO -- : [c57ac3f4-a7a5-44f5-8a9a-de7eb991c142] Started GET "/assets/videoBg-78bbf2d93351b70a731ab64b5144f2799c639286da6e992a3d7c4adf51b89dd8.mp4" for 127.0.0.1 at 2023-08-23 17:48:47 +0500
+I, [2023-08-23T17:48:47.892369 #52223]  INFO -- : [0695479f-5235-4510-8874-f9cf0fc662c3] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-23 17:48:47 +0500
+I, [2023-08-23T17:48:47.894453 #52223]  INFO -- : [0695479f-5235-4510-8874-f9cf0fc662c3] Processing by Users::SessionsController#new as HTML
+I, [2023-08-23T17:48:47.903471 #52223]  INFO -- : [0695479f-5235-4510-8874-f9cf0fc662c3]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1666)
+I, [2023-08-23T17:48:47.907499 #52223]  INFO -- : [0695479f-5235-4510-8874-f9cf0fc662c3]   Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 2509)
+I, [2023-08-23T17:48:47.909260 #52223]  INFO -- : [0695479f-5235-4510-8874-f9cf0fc662c3] Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 3266)
+I, [2023-08-23T17:48:47.969026 #52223]  INFO -- : [76c5448a-1a98-4f91-ad73-c90ccd388de0] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-23 17:48:47 +0500
+I, [2023-08-23T17:48:48.001285 #52223]  INFO -- : [41f52a58-3575-4961-9783-b6bb2da59ba0] Started GET "/assets/videoBg-78bbf2d93351b70a731ab64b5144f2799c639286da6e992a3d7c4adf51b89dd8.mp4" for 127.0.0.1 at 2023-08-23 17:48:48 +0500
+I, [2023-08-23T17:48:50.559187 #52223]  INFO -- : [de08371b-66b7-48c2-aaef-a8a217e673bd] Started POST "/users/auth/google_oauth2" for 127.0.0.1 at 2023-08-23 17:48:50 +0500
+I, [2023-08-23T17:48:52.144264 #52223]  INFO -- : [73a184c3-eaf6-4ecc-a97f-30eaae0774ad] Started GET "/cable" for 127.0.0.1 at 2023-08-23 17:48:52 +0500
+I, [2023-08-23T17:48:52.155399 #52223]  INFO -- : [73a184c3-eaf6-4ecc-a97f-30eaae0774ad] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-23 17:48:52 +0500
+I, [2023-08-23T17:48:52.156420 #52223]  INFO -- : [73a184c3-eaf6-4ecc-a97f-30eaae0774ad] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-23T17:48:58.128310 #52223]  INFO -- : [8e8afe53-cce5-489a-a876-ea066ab1089f] Started GET "/users/auth/google_oauth2/callback?state=346b425721251794724f5a42c3d42f561dcd8e82c9110b3f&code=4%2F0Adeu5BXOfm1bRFKD9W5aX-ASZYKDzHz0hM1GJP_4YJNJLBU-z123xfUDyEQdeDMrHu2QKQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent" for 127.0.0.1 at 2023-08-23 17:48:58 +0500
+I, [2023-08-23T17:49:08.116156 #52223]  INFO -- : [8e8afe53-cce5-489a-a876-ea066ab1089f] Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+I, [2023-08-23T17:49:08.116437 #52223]  INFO -- : [8e8afe53-cce5-489a-a876-ea066ab1089f]   Parameters: {"state"=>"346b425721251794724f5a42c3d42f561dcd8e82c9110b3f", "code"=>"4/0Adeu5BXOfm1bRFKD9W5aX-ASZYKDzHz0hM1GJP_4YJNJLBU-z123xfUDyEQdeDMrHu2QKQ", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "prompt"=>"consent"}
+I, [2023-08-23T17:49:08.138191 #52223]  INFO -- : [8e8afe53-cce5-489a-a876-ea066ab1089f] Redirected to http://localhost:3000/
+I, [2023-08-23T17:49:08.138706 #52223]  INFO -- : [8e8afe53-cce5-489a-a876-ea066ab1089f] Completed 302 Found in 22ms (ActiveRecord: 9.1ms | Allocations: 1606)
+I, [2023-08-23T17:49:08.150273 #52223]  INFO -- : [0a942f20-16de-41df-9058-055dd531d056] Started GET "/" for 127.0.0.1 at 2023-08-23 17:49:08 +0500
+I, [2023-08-23T17:49:08.152756 #52223]  INFO -- : [0a942f20-16de-41df-9058-055dd531d056] Processing by UsersController#index as HTML
+I, [2023-08-23T17:49:08.183729 #52223]  INFO -- : [0a942f20-16de-41df-9058-055dd531d056]   Rendered users/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 537)
+I, [2023-08-23T17:49:08.188997 #52223]  INFO -- : [0a942f20-16de-41df-9058-055dd531d056]   Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 1748)
+I, [2023-08-23T17:49:08.189744 #52223]  INFO -- : [0a942f20-16de-41df-9058-055dd531d056] Completed 200 OK in 37ms (Views: 15.7ms | ActiveRecord: 6.3ms | Allocations: 3699)
+I, [2023-08-23T17:49:08.311744 #52223]  INFO -- : [15b22a63-69be-4d5a-8470-da7f630122a2] Started GET "/assets/bg3" for 127.0.0.1 at 2023-08-23 17:49:08 +0500
+I, [2023-08-23T17:49:08.335205 #52223]  INFO -- : [c7a6ea39-dde4-4241-b6f2-9d3748f61abd] Started GET "/assets/bg2" for 127.0.0.1 at 2023-08-23 17:49:08 +0500
+I, [2023-08-23T17:49:08.336121 #52223]  INFO -- : [338487b9-8072-4278-9a35-8e108c58da19] Started GET "/assets/bg1" for 127.0.0.1 at 2023-08-23 17:49:08 +0500
+I, [2023-08-23T17:49:49.981180 #52405]  INFO -- : [5acea4f3-0b58-4266-9194-4b4c312906e5] Started GET "/cable" for 127.0.0.1 at 2023-08-23 17:49:49 +0500
+I, [2023-08-23T17:49:50.002468 #52405]  INFO -- : [5acea4f3-0b58-4266-9194-4b4c312906e5] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-23 17:49:50 +0500
+I, [2023-08-23T17:49:50.003539 #52405]  INFO -- : [5acea4f3-0b58-4266-9194-4b4c312906e5] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-23T17:49:56.228700 #52405]  INFO -- : [742bd55f-5f89-479d-a0b7-6cd9b981e4f0] Started GET "/" for 127.0.0.1 at 2023-08-23 17:49:56 +0500
+I, [2023-08-23T17:49:56.231468 #52405]  INFO -- : [742bd55f-5f89-479d-a0b7-6cd9b981e4f0] Processing by UsersController#index as HTML
+I, [2023-08-23T17:49:56.407660 #52405]  INFO -- : [742bd55f-5f89-479d-a0b7-6cd9b981e4f0]   Rendered users/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 720)
+I, [2023-08-23T17:49:56.445330 #52405]  INFO -- : [742bd55f-5f89-479d-a0b7-6cd9b981e4f0]   Rendered layout layouts/application.html.erb (Duration: 52.1ms | Allocations: 6535)
+I, [2023-08-23T17:49:56.446313 #52405]  INFO -- : [742bd55f-5f89-479d-a0b7-6cd9b981e4f0] Completed 200 OK in 215ms (Views: 63.7ms | ActiveRecord: 46.7ms | Allocations: 23154)
+I, [2023-08-23T17:49:56.521530 #52405]  INFO -- : [b91bfccd-0ed0-4ba0-ac68-3ee1687fb3c2] Started GET "/assets/application-9cea0b8e9a2ecb834a6c7040ba920d158acaccb986822ad0de674cd9b7b86f67.css" for 127.0.0.1 at 2023-08-23 17:49:56 +0500
+I, [2023-08-23T17:49:56.537996 #52405]  INFO -- : [7ff214c7-1974-420c-a079-babbe5895ee3] Started GET "/assets/bg2" for 127.0.0.1 at 2023-08-23 17:49:56 +0500
+I, [2023-08-23T17:49:56.544829 #52405]  INFO -- : [2a829194-f84e-402f-bb19-1503306253a4] Started GET "/assets/bg3" for 127.0.0.1 at 2023-08-23 17:49:56 +0500
+I, [2023-08-23T17:49:56.545543 #52405]  INFO -- : [322bbee8-8961-4efb-b302-5e92f1d874ff] Started GET "/assets/bg1" for 127.0.0.1 at 2023-08-23 17:49:56 +0500
+I, [2023-08-23T17:50:02.690760 #52405]  INFO -- : [c3bc8cc7-bf73-4b41-8cee-434224e71fe9] Started GET "/chatrooms" for 127.0.0.1 at 2023-08-23 17:50:02 +0500
+I, [2023-08-23T17:50:02.694107 #52405]  INFO -- : [c3bc8cc7-bf73-4b41-8cee-434224e71fe9] Processing by ChatroomsController#index as HTML
+I, [2023-08-23T17:50:02.738392 #52405]  INFO -- : [c3bc8cc7-bf73-4b41-8cee-434224e71fe9]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 24.4ms | Allocations: 5762)
+I, [2023-08-23T17:50:02.741192 #52405]  INFO -- : [c3bc8cc7-bf73-4b41-8cee-434224e71fe9]   Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 6933)
+I, [2023-08-23T17:50:02.741616 #52405]  INFO -- : [c3bc8cc7-bf73-4b41-8cee-434224e71fe9] Completed 200 OK in 47ms (Views: 26.4ms | ActiveRecord: 10.5ms | Allocations: 9026)
+I, [2023-08-23T17:50:02.821261 #52405]  INFO -- : [67514ee5-4bf2-48e3-b607-312e20e926ef] Started GET "/cable" for 127.0.0.1 at 2023-08-23 17:50:02 +0500
+I, [2023-08-23T17:50:02.823473 #52405]  INFO -- : [67514ee5-4bf2-48e3-b607-312e20e926ef] Started GET "/cable" [WebSocket] for 127.0.0.1 at 2023-08-23 17:50:02 +0500
+I, [2023-08-23T17:50:02.824900 #52405]  INFO -- : [67514ee5-4bf2-48e3-b607-312e20e926ef] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2023-08-23T17:50:02.891651 #52405]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-23T17:50:02.892413 #52405]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-23T17:50:05.140813 #52405]  INFO -- : [5574ca64-e344-45f4-af72-8ba09495d749] Started GET "/users/2" for 127.0.0.1 at 2023-08-23 17:50:05 +0500
+I, [2023-08-23T17:50:05.142863 #52405]  INFO -- : [5574ca64-e344-45f4-af72-8ba09495d749] Processing by UsersController#show as HTML
+I, [2023-08-23T17:50:05.143115 #52405]  INFO -- : [5574ca64-e344-45f4-af72-8ba09495d749]   Parameters: {"id"=>"2"}
+I, [2023-08-23T17:50:05.381552 #52405]  INFO -- : [5574ca64-e344-45f4-af72-8ba09495d749]   Rendered chatrooms/index.html.erb within layouts/application (Duration: 212.1ms | Allocations: 20756)
+I, [2023-08-23T17:50:05.420495 #52405]  INFO -- : [5574ca64-e344-45f4-af72-8ba09495d749]   Rendered layout layouts/application.html.erb (Duration: 251.1ms | Allocations: 21908)
+I, [2023-08-23T17:50:05.421212 #52405]  INFO -- : [5574ca64-e344-45f4-af72-8ba09495d749] Completed 200 OK in 278ms (Views: 218.0ms | ActiveRecord: 42.0ms | Allocations: 26768)
+I, [2023-08-23T17:50:05.507726 #52405]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"InVzZXJzIg==--c21ee49da20be3b2e15ef8d7ddc7eaf765afb9c7fb336f9b4fff17411f0a3c96"}
+I, [2023-08-23T17:50:05.513418 #52405]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-23T17:50:05.524596 #52405]  INFO -- : Turbo::StreamsChannel is streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzc
+I, [2023-08-23T17:50:05.508149 #52405]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"ImNoYXRyb29tcyI=--0e44485a3e7c52dfce96633e23cdfb315a908f12d29df8e07396b82375f99152"}
+I, [2023-08-23T17:50:05.527683 #52405]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-23T17:50:05.509203 #52405]  INFO -- : [e5756c58-d3db-49cc-9fad-5eae83889e24] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2d08fe956d11cd8fc055b2c947f15a14e34d0f7d/koksal.jpg" for 127.0.0.1 at 2023-08-23 17:50:05 +0500
+I, [2023-08-23T17:50:05.531790 #52405]  INFO -- : [e5756c58-d3db-49cc-9fad-5eae83889e24] Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+I, [2023-08-23T17:50:05.531956 #52405]  INFO -- : [e5756c58-d3db-49cc-9fad-5eae83889e24]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2d08fe956d11cd8fc055b2c947f15a14e34d0f7d", "filename"=>"koksal"}
+I, [2023-08-23T17:50:05.545849 #52405]  INFO -- : [e5756c58-d3db-49cc-9fad-5eae83889e24] Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkRFpuYm1Ob05HZDJZMnR2YjNjNE1YWjJNMjU0Y2pkNmJITTJhd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW10dmEzTmhiQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoydHZhM05oYkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wOC0yM1QxMjo1NTowNS41NDNaIiwicHVyIjoiYmxvYl9rZXkifX0=--a2c0edac6f00d302586ea525191f4e9ec0f26aa1/koksal.jpg
+I, [2023-08-23T17:50:05.547597 #52405]  INFO -- : [e5756c58-d3db-49cc-9fad-5eae83889e24] Completed 302 Found in 15ms (ActiveRecord: 0.6ms | Allocations: 956)
+I, [2023-08-23T17:50:05.558638 #52405]  INFO -- : [ac93a979-05d3-4486-bc62-a0c3d190a9f6] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkRFpuYm1Ob05HZDJZMnR2YjNjNE1YWjJNMjU0Y2pkNmJITTJhd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW10dmEzTmhiQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoydHZhM05oYkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wOC0yM1QxMjo1NTowNS41NDNaIiwicHVyIjoiYmxvYl9rZXkifX0=--a2c0edac6f00d302586ea525191f4e9ec0f26aa1/koksal.jpg" for 127.0.0.1 at 2023-08-23 17:50:05 +0500
+I, [2023-08-23T17:50:05.562502 #52405]  INFO -- : [ac93a979-05d3-4486-bc62-a0c3d190a9f6] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-08-23T17:50:05.564557 #52405]  INFO -- : [ac93a979-05d3-4486-bc62-a0c3d190a9f6]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"koksal"}
+I, [2023-08-23T17:50:05.577541 #52405]  INFO -- : [ac93a979-05d3-4486-bc62-a0c3d190a9f6] Completed 200 OK in 12ms (ActiveRecord: 0.0ms | Allocations: 2869)
+I, [2023-08-23T17:50:05.995838 #52405]  INFO -- : Turbo::StreamsChannel is streaming from chatrooms
+I, [2023-08-23T17:50:05.996810 #52405]  INFO -- : Turbo::StreamsChannel is streaming from users
+I, [2023-08-23T17:50:12.325852 #52405]  INFO -- : [32a22117-843e-4013-84c3-a73c16ab7aea] Started POST "/users/undefined" for 127.0.0.1 at 2023-08-23 17:50:12 +0500
+F, [2023-08-23T17:50:12.331481 #52405] FATAL -- : [32a22117-843e-4013-84c3-a73c16ab7aea]   
+[32a22117-843e-4013-84c3-a73c16ab7aea] ActionController::RoutingError (No route matches [POST] "/users/undefined"):
+[32a22117-843e-4013-84c3-a73c16ab7aea]   
+I, [2023-08-23T17:50:14.627738 #52405]  INFO -- : [f0591e2f-5cd7-4484-83cf-4f78be293db2] Started POST "/chatrooms/7/messages" for 127.0.0.1 at 2023-08-23 17:50:14 +0500
+I, [2023-08-23T17:50:14.634992 #52405]  INFO -- : [f0591e2f-5cd7-4484-83cf-4f78be293db2] Processing by MessagesController#create as TURBO_STREAM
+I, [2023-08-23T17:50:14.635974 #52405]  INFO -- : [f0591e2f-5cd7-4484-83cf-4f78be293db2]   Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"attachments"=>["", #<ActionDispatch::Http::UploadedFile:0x000055c6b8247870 @tempfile=#<Tempfile:/tmp/RackMultipart20230823-52405-495qov.ogg>, @content_type="audio/ogg; codecs=opus", @original_filename="audio-message.ogg", @headers="Content-Disposition: form-data; name=\"message[attachments][]\"; filename=\"audio-message.ogg\"\r\nContent-Type: audio/ogg; codecs=opus\r\n">], "content"=>""}, "commit"=>"Send", "chatroom_id"=>"7"}
+I, [2023-08-23T17:50:14.788530 #52405]  INFO -- : [f0591e2f-5cd7-4484-83cf-4f78be293db2] [36m  Disk Storage (1.4ms) [0m[32mUploaded file to key: aahmbfjz0wvgg2r4a9y3h9z5nmwq (checksum: reosC2FwWIBiXPC9y638yw==)[0m
+I, [2023-08-23T17:50:14.791320 #52405]  INFO -- : [f0591e2f-5cd7-4484-83cf-4f78be293db2] [ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: 24b31d74-911b-4edd-ae99-32ba95887df5) to Async(default) with arguments: #<GlobalID:0x000055c6b85f1ac0 @uri=#<URI::GID gid://i-chat/ActiveStorage::Blob/2>>
+I, [2023-08-23T17:50:14.796879 #52405]  INFO -- : [f0591e2f-5cd7-4484-83cf-4f78be293db2] No template found for MessagesController#create, rendering head :no_content
+I, [2023-08-23T17:50:14.797512 #52405]  INFO -- : [f0591e2f-5cd7-4484-83cf-4f78be293db2] Completed 204 No Content in 161ms (ActiveRecord: 27.3ms | Allocations: 9826)
+I, [2023-08-23T17:50:14.819904 #52405]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [24b31d74-911b-4edd-ae99-32ba95887df5] Performing ActiveStorage::AnalyzeJob (Job ID: 24b31d74-911b-4edd-ae99-32ba95887df5) from Async(default) enqueued at 2023-08-23T12:50:14Z with arguments: #<GlobalID:0x000055c6b8f4b6c0 @uri=#<URI::GID gid://i-chat/ActiveStorage::Blob/2>>
+I, [2023-08-23T17:50:14.824196 #52405]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [24b31d74-911b-4edd-ae99-32ba95887df5] [36m  Disk Storage (1.1ms) [0m[34mDownloaded file from key: aahmbfjz0wvgg2r4a9y3h9z5nmwq[0m
+I, [2023-08-23T17:50:14.828898 #52405]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [24b31d74-911b-4edd-ae99-32ba95887df5] Skipping audio analysis because ffprobe isn't installed
+I, [2023-08-23T17:50:14.846771 #52405]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [24b31d74-911b-4edd-ae99-32ba95887df5] Performed ActiveStorage::AnalyzeJob (Job ID: 24b31d74-911b-4edd-ae99-32ba95887df5) from Async(default) in 39.17ms
+I, [2023-08-23T17:50:14.888665 #52405]  INFO -- : [fbd9baee-d8f2-417d-b8f8-29ea71780be0] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7d63a58872467710d97f884341f0db0682a34c63/audio-message.ogg" for 127.0.0.1 at 2023-08-23 17:50:14 +0500
+I, [2023-08-23T17:50:14.894027 #52405]  INFO -- : [fbd9baee-d8f2-417d-b8f8-29ea71780be0] Processing by ActiveStorage::Blobs::RedirectController#show as OGG
+I, [2023-08-23T17:50:14.894215 #52405]  INFO -- : [fbd9baee-d8f2-417d-b8f8-29ea71780be0]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7d63a58872467710d97f884341f0db0682a34c63", "filename"=>"audio-message"}
+I, [2023-08-23T17:50:14.907921 #52405]  INFO -- : [fbd9baee-d8f2-417d-b8f8-29ea71780be0] Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhZV0ZvYldKbWFub3dkM1puWnpKeU5HRTVlVE5vT1hvMWJtMTNjUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpVVdGMGRHRmphRzFsYm5RN0lHWnBiR1Z1WVcxbFBTSmhkV1JwYnkxdFpYTnpZV2RsTG05blp5STdJR1pwYkdWdVlXMWxLajFWVkVZdE9DY25ZWFZrYVc4dGJXVnpjMkZuWlM1dloyY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzloZFdScGJ5OTNaV0p0QmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wOC0yM1QxMjo1NToxNC45MDNaIiwicHVyIjoiYmxvYl9rZXkifX0=--052af7cd05047ab5dea1d08f0b1bd20bdc6d1604/audio-message.ogg
+I, [2023-08-23T17:50:14.908797 #52405]  INFO -- : [fbd9baee-d8f2-417d-b8f8-29ea71780be0] Completed 302 Found in 14ms (ActiveRecord: 1.3ms | Allocations: 537)
+I, [2023-08-23T17:50:14.922077 #52405]  INFO -- : [3e69627f-ad91-41c6-ad21-74302364312b] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhZV0ZvYldKbWFub3dkM1puWnpKeU5HRTVlVE5vT1hvMWJtMTNjUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpVVdGMGRHRmphRzFsYm5RN0lHWnBiR1Z1WVcxbFBTSmhkV1JwYnkxdFpYTnpZV2RsTG05blp5STdJR1pwYkdWdVlXMWxLajFWVkVZdE9DY25ZWFZrYVc4dGJXVnpjMkZuWlM1dloyY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzloZFdScGJ5OTNaV0p0QmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wOC0yM1QxMjo1NToxNC45MDNaIiwicHVyIjoiYmxvYl9rZXkifX0=--052af7cd05047ab5dea1d08f0b1bd20bdc6d1604/audio-message.ogg" for 127.0.0.1 at 2023-08-23 17:50:14 +0500
+I, [2023-08-23T17:50:14.924483 #52405]  INFO -- : [3e69627f-ad91-41c6-ad21-74302364312b] Processing by ActiveStorage::DiskController#show as OGG
+I, [2023-08-23T17:50:14.924744 #52405]  INFO -- : [3e69627f-ad91-41c6-ad21-74302364312b]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"audio-message"}
+I, [2023-08-23T17:50:14.927738 #52405]  INFO -- : [3e69627f-ad91-41c6-ad21-74302364312b] Completed 206 Partial Content in 3ms (ActiveRecord: 0.0ms | Allocations: 189)
+I, [2023-08-23T17:51:07.101358 #52405]  INFO -- : [70c0b66d-c7c4-4d3a-8ba4-ac3288da8cff] Started POST "/chatrooms/7/messages" for 127.0.0.1 at 2023-08-23 17:51:07 +0500
+I, [2023-08-23T17:51:07.104726 #52405]  INFO -- : [70c0b66d-c7c4-4d3a-8ba4-ac3288da8cff] Processing by MessagesController#create as TURBO_STREAM
+I, [2023-08-23T17:51:07.104896 #52405]  INFO -- : [70c0b66d-c7c4-4d3a-8ba4-ac3288da8cff]   Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"attachments"=>[""], "content"=>"Hello"}, "commit"=>"Send", "chatroom_id"=>"7"}
+I, [2023-08-23T17:51:07.147790 #52405]  INFO -- : [70c0b66d-c7c4-4d3a-8ba4-ac3288da8cff] No template found for MessagesController#create, rendering head :no_content
+I, [2023-08-23T17:51:07.148468 #52405]  INFO -- : [70c0b66d-c7c4-4d3a-8ba4-ac3288da8cff] Completed 204 No Content in 43ms (ActiveRecord: 12.5ms | Allocations: 3125)
+I, [2023-08-23T17:51:12.873399 #52405]  INFO -- : [3a20e9b0-a8a7-4d02-87a0-d32f34f7d38a] Started GET "/" for 127.0.0.1 at 2023-08-23 17:51:12 +0500
+I, [2023-08-23T17:51:12.876304 #52405]  INFO -- : [3a20e9b0-a8a7-4d02-87a0-d32f34f7d38a] Processing by UsersController#index as HTML
+I, [2023-08-23T17:51:12.881934 #52405]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"IloybGtPaTh2YVMxamFHRjBMME5vWVhSeWIyOXRMemMi--e274da362d1372cabb3f5a463d9c91484be1def12285617bdbbf285b1d79d40a"}
+I, [2023-08-23T17:51:12.886485 #52405]  INFO -- : Turbo::StreamsChannel stopped streaming from Z2lkOi8vaS1jaGF0L0NoYXRyb29tLzc
+I, [2023-08-23T17:51:12.884542 #52405]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"ImNoYXRyb29tcyI=--0e44485a3e7c52dfce96633e23cdfb315a908f12d29df8e07396b82375f99152"}
+I, [2023-08-23T17:51:12.882303 #52405]  INFO -- : Unsubscribing from channel: {"channel":"Turbo::StreamsChannel","signed_stream_name":"InVzZXJzIg==--c21ee49da20be3b2e15ef8d7ddc7eaf765afb9c7fb336f9b4fff17411f0a3c96"}
+I, [2023-08-23T17:51:12.888793 #52405]  INFO -- : Turbo::StreamsChannel stopped streaming from users
+I, [2023-08-23T17:51:12.888348 #52405]  INFO -- : Turbo::StreamsChannel stopped streaming from chatrooms
+I, [2023-08-23T17:51:12.897129 #52405]  INFO -- : [3a20e9b0-a8a7-4d02-87a0-d32f34f7d38a]   Rendered users/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 278)
+I, [2023-08-23T17:51:12.908382 #52405]  INFO -- : [3a20e9b0-a8a7-4d02-87a0-d32f34f7d38a]   Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 1382)
+I, [2023-08-23T17:51:12.909716 #52405]  INFO -- : [3a20e9b0-a8a7-4d02-87a0-d32f34f7d38a] Completed 200 OK in 33ms (Views: 14.8ms | ActiveRecord: 11.5ms | Allocations: 3237)
+I, [2023-08-23T17:51:12.953392 #52405]  INFO -- : [2d38c8c2-9aff-4a63-8055-4ca4cec1dfff] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhZV0ZvYldKbWFub3dkM1puWnpKeU5HRTVlVE5vT1hvMWJtMTNjUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpVVdGMGRHRmphRzFsYm5RN0lHWnBiR1Z1WVcxbFBTSmhkV1JwYnkxdFpYTnpZV2RsTG05blp5STdJR1pwYkdWdVlXMWxLajFWVkVZdE9DY25ZWFZrYVc4dGJXVnpjMkZuWlM1dloyY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzloZFdScGJ5OTNaV0p0QmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wOC0yM1QxMjo1NToxNC45MDNaIiwicHVyIjoiYmxvYl9rZXkifX0=--052af7cd05047ab5dea1d08f0b1bd20bdc6d1604/audio-message.ogg" for 127.0.0.1 at 2023-08-23 17:51:12 +0500
+I, [2023-08-23T17:51:12.957596 #52405]  INFO -- : [2d38c8c2-9aff-4a63-8055-4ca4cec1dfff] Processing by ActiveStorage::DiskController#show as OGG
+I, [2023-08-23T17:51:12.957756 #52405]  INFO -- : [2d38c8c2-9aff-4a63-8055-4ca4cec1dfff]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"audio-message"}
+I, [2023-08-23T17:51:12.958796 #52405]  INFO -- : [2d38c8c2-9aff-4a63-8055-4ca4cec1dfff] Completed 206 Partial Content in 1ms (ActiveRecord: 0.0ms | Allocations: 184)
+I, [2023-08-23T17:51:16.481890 #52405]  INFO -- : [f7e4d666-b3cd-407b-a858-479d2ba033b0] Started DELETE "/users/sign_out" for 127.0.0.1 at 2023-08-23 17:51:16 +0500
+I, [2023-08-23T17:51:16.484726 #52405]  INFO -- : [f7e4d666-b3cd-407b-a858-479d2ba033b0] Processing by Users::SessionsController#destroy as TURBO_STREAM
+I, [2023-08-23T17:51:16.484858 #52405]  INFO -- : [f7e4d666-b3cd-407b-a858-479d2ba033b0]   Parameters: {"authenticity_token"=>"[FILTERED]"}
+I, [2023-08-23T17:51:16.514097 #52405]  INFO -- : [f7e4d666-b3cd-407b-a858-479d2ba033b0] Redirected to http://localhost:3000/users/sign_in
+I, [2023-08-23T17:51:16.514367 #52405]  INFO -- : [f7e4d666-b3cd-407b-a858-479d2ba033b0] Completed 303 See Other in 29ms (ActiveRecord: 7.4ms | Allocations: 2124)
+I, [2023-08-23T17:51:16.522075 #52405]  INFO -- : [ac99525a-f8a8-4717-a789-05e65869d90f] Started GET "/users/sign_in" for 127.0.0.1 at 2023-08-23 17:51:16 +0500
+I, [2023-08-23T17:51:16.526076 #52405]  INFO -- : [ac99525a-f8a8-4717-a789-05e65869d90f] Processing by Users::SessionsController#new as TURBO_STREAM
+I, [2023-08-23T17:51:16.549230 #52405]  INFO -- : [ac99525a-f8a8-4717-a789-05e65869d90f]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 3001)
+I, [2023-08-23T17:51:16.553809 #52405]  INFO -- : [ac99525a-f8a8-4717-a789-05e65869d90f]   Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 3945)
+I, [2023-08-23T17:51:16.554492 #52405]  INFO -- : [ac99525a-f8a8-4717-a789-05e65869d90f] Completed 200 OK in 28ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 5460)
+I, [2023-08-23T17:51:16.582207 #52405]  INFO -- : [e332e6de-4fd4-4949-b291-85996b56fd73] Started GET "/assets/btn_google_signin_dark_normal_web.png" for 127.0.0.1 at 2023-08-23 17:51:16 +0500

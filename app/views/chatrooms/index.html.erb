@@ -60,6 +60,10 @@
     <div class="col-md-9 text-light" style="background-color: rgba(0, 0, 0, 0.2);border:2px;padding:0" id="chatbox" data-controller="scroll">
       <% if @single_room %>
         <div class='bordered-div' id='bord'>
+        <%= link_to chatrooms_path, class: 'btn btn-danger' do %>
+  <i class="bi bi-x"></i>
+<% end %>
+        
       <h4 class="text-center" style='font-weight:bold'>
         <%= image_tag @user.avatar_url, class: "img-fluid rounded-circle",
           style: "width: 35px; height: 35px; border-radius: 100px;" if @user&.avatar_url? %>
@@ -68,6 +72,7 @@
     </div>
        <br>
          <%= turbo_stream_from @single_room %>
+        <%= audio_tag "msgAudio.m4r", id:'audio-tag' %>
         <div id="messages">
           <%= render @messages %>
         </div>
@@ -77,6 +82,7 @@
   </div>
 </div>
 <div>
+<br>
 <div class='container'>
   <%= link_to "Back", root_path, class: "btn btn-secondary" %>
 </div>  

@@ -92,7 +92,6 @@
     font-weight: bold;
   }
   .col-md-9 {
-    background-image: url('wa2.png');
     height: 65vh;
     overflow-y: auto;
   }
@@ -211,4 +210,7 @@
 }
 .microphone-icon:hover {
   opacity: 0.75;
+}
+.btn-danger {
+  float: right;
 }
