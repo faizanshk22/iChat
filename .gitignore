@@ -22,6 +22,7 @@
 !/tmp/storage/.keep
 /public/assets
 /.env
+/development/.log
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 /config/credentials/development.key
