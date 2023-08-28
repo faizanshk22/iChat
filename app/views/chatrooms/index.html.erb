@@ -1,0 +1,87 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class='bordered-div ctr-sc'>
+        <h3> Chats </h3>
+      </div>
+      <br>
+      <div>
+      
+      <div>
+      <h3> ONLINE USERS</h3>
+        <% @users.online.each do |user|%>
+          <h4> <%= link_to user.full_name, user, style:'text-decoration:none; color:orange' %> </h4> 
+          <%= image_tag user.avatar_url, class: "img-fluid rounded-circle", 
+          style: "width: 30px; height: 30px; border-radius: 100px;" if user.avatar_url? %>
+        <% end %>
+      </div>
+      </div>
+     <br>
+      <h3> USERS </h3>
+       <div>
+        <%= turbo_stream_from "users" %>
+               <div id="users">
+  <% @users.each do |user| %>
+  <div class='row'>
+  <div class='col-9'>
+     <%= render user %> 
+  </div>
+   <div class='col-2'>
+     <a href="<%= profile_user_path(user) %>">
+      <%= image_tag user.avatar_url, class: "img-fluid rounded-circle", 
+    style: "width: 30px; height: 30px; border-radius: 100px;" if user.avatar_url? %> </a>
+  </div>
+  
+    </div>
+  <% end %>
+</div>
+      </div>
+      <br>
+      <div class='bordered-div'>
+        <h3> Groups </h3>
+      </div>
+      
+      <div class="col-md-12">
+     <% unless params[:controller] == 'users' && params[:action] == 'show' || 'chatrooms' && params[:action] == 'show' %>
+        <%= render partial: "layouts/new_room_form" %>
+        <% end %>
+        <div>
+          <br>
+          <%= turbo_stream_from "chatrooms" %>
+          <div id="chatrooms">
+            <%= render @chatrooms %>
+          </div>
+        </div>
+        <br><br>
+      </div>
+      <br><br>
+    </div>
+
+    <div class="col-md-9 text-light" style="background-color: rgba(0, 0, 0, 0.2);border:2px;padding:0" id="chatbox" data-controller="scroll">
+      <% if @single_room %>
+        <div class='bordered-div' id='bord'>
+        <%= link_to chatrooms_path, class: 'btn btn-danger' do %>
+  <i class="bi bi-x"></i>
+<% end %>
+        
+      <h4 class="text-center" style='font-weight:bold'>
+        <%= image_tag @user.avatar_url, class: "img-fluid rounded-circle",
+          style: "width: 35px; height: 35px; border-radius: 100px;" if @user&.avatar_url? %>
+        <%= @user&.full_name || @single_room.name %>
+      </h4>
+    </div>
+       <br>
+         <%= turbo_stream_from @single_room %>
+        <div id="messages">
+          <%= render @messages %>
+        </div>
+        <%= render partial: 'layouts/new_message_form' %>
+      <% end %>
+    </div>
+  </div>
+</div>
+<div>
+<br>
+<div class='container'>
+  <%= link_to "Back", root_path, class: "btn btn-secondary" %>
+</div>  
