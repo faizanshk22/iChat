@@ -11,7 +11,5 @@ export default class extends Controller {
   }
   resetScroll(){
     chatbox.scrollTop = chatbox.scrollHeight - chatbox.clientHeight;
-    const audio_tag = document.getElementById('audio-tag');
-    audio_tag.play();
   }
 }
