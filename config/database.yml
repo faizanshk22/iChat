@@ -82,5 +82,3 @@ test:
 production:
   <<: *default
   database: iChat_production
-  username: iChat
-  password: <%= ENV["ICHAT_DATABASE_PASSWORD"] %>

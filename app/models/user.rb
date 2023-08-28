@@ -1,7 +1,12 @@
 class User < ApplicationRecord
+  has_many :messages
+  validates :full_name, presence: true
+  scope :all_except, ->(user) { where.not(id: user) }
+  after_create_commit { broadcast_append_to "users" }
   # Include default devise modules. Others available are:
    #:lockable, :timeoutable, :trackable and :omniauthable
-  devise :database_authenticatable, :registerable, :confirmable,
+  scope :online, -> {where("last_seen_at > ?", 30.seconds.ago)}
+   devise :database_authenticatable, :registerable, :confirmable,
          :recoverable, :rememberable, :validatable,
          :omniauthable, omniauth_providers: [:google_oauth2]
          def self.from_omniauth(auth)

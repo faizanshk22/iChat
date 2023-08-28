@@ -7,16 +7,33 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-       <p class="alert"><%= alert %></p>
-        <% if user_signed_in? %>
-      <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-danger" %>
-        <% end %>
+  <%= render partial: "shared/header" %> 
+    <p class="notice" style='padding:22px'><%= notice %></p> 
+       <p class="alert" style='padding:22px'><%= alert %></p>
 
+       
+       <div class="video-background">
+    <video autoplay muted loop poster="">
+    <source src="<%= video_url('videoBg.mp4') %>" type="video/mp4">
+    </video>
+  </div>
+<style>
+  <%= ".msg-#{current_user&.id}" %> {
+  background-color: #007bff !important;
+  padding: 10px;
+  margin-left:
+  }
+  <%= ".cont-#{current_user&.id}" %> {
+  display: flex;
+  justify-content: flex-end
+  }
+</style>
     <%= yield %>
+    <%= render partial: "shared/footer" %>
   </body>
 </html>
